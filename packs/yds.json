@@ -1,0 +1,6482 @@
+[
+ {
+  "w": "abundant",
+  "m": "bol, çok",
+  "s": "The region has abundant natural resources that attract foreign investors.",
+  "z": 2
+ },
+ {
+  "w": "coherent",
+  "m": "tutarlı",
+  "s": "A coherent argument must connect its claims with solid evidence.",
+  "z": 2
+ },
+ {
+  "w": "deliberate",
+  "m": "kasıtlı, bilinçli",
+  "s": "The committee made a deliberate effort to include minority voices.",
+  "z": 2
+ },
+ {
+  "w": "feasible",
+  "m": "yapılabilir, uygulanabilir",
+  "s": "Experts doubt whether the proposed timeline is economically feasible.",
+  "z": 2
+ },
+ {
+  "w": "inherent",
+  "m": "doğasında olan",
+  "s": "There are inherent risks in any long-term financial investment.",
+  "z": 2
+ },
+ {
+  "w": "notion",
+  "m": "kavram, fikir",
+  "s": "The notion that intelligence is fixed has been widely challenged.",
+  "z": 2
+ },
+ {
+  "w": "prevalent",
+  "m": "yaygın",
+  "s": "Obesity has become increasingly prevalent among children in developed countries.",
+  "z": 2
+ },
+ {
+  "w": "scrutiny",
+  "m": "dikkatli inceleme",
+  "s": "The government's spending came under close scrutiny after the scandal.",
+  "z": 3
+ },
+ {
+  "w": "tangible",
+  "m": "somut, elle tutulur",
+  "s": "The reforms produced tangible benefits for low-income families within months.",
+  "z": 2
+ },
+ {
+  "w": "viable",
+  "m": "uygulanabilir, sürdürülebilir",
+  "s": "Solar power is now a viable alternative to fossil fuels.",
+  "z": 2
+ },
+ {
+  "w": "ambiguous",
+  "m": "belirsiz, iki anlamlı",
+  "s": "The treaty's ambiguous wording led to years of legal disputes.",
+  "z": 2
+ },
+ {
+  "w": "concise",
+  "m": "kısa ve öz",
+  "s": "Scientific abstracts should be concise yet informative for busy readers.",
+  "z": 2
+ },
+ {
+  "w": "diverse",
+  "m": "çeşitli",
+  "s": "The university attracts students from diverse cultural and economic backgrounds.",
+  "z": 1
+ },
+ {
+  "w": "eloquent",
+  "m": "etkileyici konuşan",
+  "s": "Her eloquent speech persuaded even the most skeptical committee members.",
+  "z": 3
+ },
+ {
+  "w": "fluctuate",
+  "m": "dalgalanmak",
+  "s": "Oil prices fluctuate sharply in response to political instability.",
+  "z": 2
+ },
+ {
+  "w": "hinder",
+  "m": "engellemek",
+  "s": "Poor infrastructure continues to hinder economic growth in rural areas.",
+  "z": 3
+ },
+ {
+  "w": "impartial",
+  "m": "tarafsız",
+  "s": "Judges must remain impartial regardless of public opinion or pressure.",
+  "z": 2
+ },
+ {
+  "w": "lucid",
+  "m": "açık, anlaşılır",
+  "s": "The professor gave a lucid explanation of a very complex theory.",
+  "z": 3
+ },
+ {
+  "w": "meticulous",
+  "m": "titiz",
+  "s": "The researcher kept meticulous records of every experiment she conducted.",
+  "z": 3
+ },
+ {
+  "w": "nurture",
+  "m": "beslemek, yetiştirmek",
+  "s": "Schools should nurture creativity as much as they teach facts.",
+  "z": 2
+ },
+ {
+  "w": "obsolete",
+  "m": "kullanımdan kalkmış",
+  "s": "Rapid technological change makes many skills obsolete within a decade.",
+  "z": 2
+ },
+ {
+  "w": "plausible",
+  "m": "akla yatkın",
+  "s": "The scientist offered a plausible explanation for the unexpected results.",
+  "z": 3
+ },
+ {
+  "w": "reluctant",
+  "m": "isteksiz",
+  "s": "Many patients are reluctant to discuss mental health with doctors.",
+  "z": 2
+ },
+ {
+  "w": "subtle",
+  "m": "ince, güç fark edilen",
+  "s": "The study revealed subtle differences between the two treatment groups.",
+  "z": 2
+ },
+ {
+  "w": "tedious",
+  "m": "sıkıcı, bıktırıcı",
+  "s": "Analyzing thousands of survey responses proved to be tedious work.",
+  "z": 2
+ },
+ {
+  "w": "utmost",
+  "m": "en üst düzey, azami",
+  "s": "Handling toxic chemicals requires the utmost care and attention.",
+  "z": 2
+ },
+ {
+  "w": "vivid",
+  "m": "canlı, parlak",
+  "s": "The witness gave a vivid account of the events that night.",
+  "z": 1
+ },
+ {
+  "w": "wary",
+  "m": "temkinli",
+  "s": "Consumers have grown wary of exaggerated claims in online advertising.",
+  "z": 2
+ },
+ {
+  "w": "yield",
+  "m": "ürün vermek; boyun eğmek",
+  "s": "The new farming methods yield twice as much grain per hectare.",
+  "z": 2
+ },
+ {
+  "w": "adverse",
+  "m": "olumsuz, ters",
+  "s": "The drug was withdrawn after reports of adverse side effects.",
+  "z": 2
+ },
+ {
+  "w": "candid",
+  "m": "açık sözlü, içten",
+  "s": "In a candid interview, the minister admitted the policy had failed.",
+  "z": 3
+ },
+ {
+  "w": "diligent",
+  "m": "çalışkan, gayretli",
+  "s": "Diligent students review their notes regularly rather than cramming before exams.",
+  "z": 2
+ },
+ {
+  "w": "explicit",
+  "m": "açık, net",
+  "s": "The contract contains explicit instructions about payment deadlines and penalties.",
+  "z": 2
+ },
+ {
+  "w": "gauge",
+  "m": "ölçmek; ölçü aleti",
+  "s": "Surveys help companies gauge public reaction to new products.",
+  "z": 3
+ },
+ {
+  "w": "intricate",
+  "m": "karmaşık, girift",
+  "s": "The human brain contains an intricate network of billions of neurons.",
+  "z": 3
+ },
+ {
+  "w": "profound",
+  "m": "derin, köklü",
+  "s": "The internet has had a profound impact on how we communicate.",
+  "z": 2
+ },
+ {
+  "w": "resilient",
+  "m": "çabuk toparlanan, dirençli",
+  "s": "Children are often more resilient than adults in coping with change.",
+  "z": 2
+ },
+ {
+  "w": "turmoil",
+  "m": "kargaşa",
+  "s": "The country fell into political turmoil after the disputed election.",
+  "z": 3
+ },
+ {
+  "w": "vast",
+  "m": "çok geniş, uçsuz bucaksız",
+  "s": "Researchers analyzed a vast amount of data collected over decades.",
+  "z": 1
+ },
+ {
+  "w": "nevertheless",
+  "m": "yine de, buna rağmen",
+  "s": "The evidence was weak; nevertheless, the jury found him guilty.",
+  "z": 2
+ },
+ {
+  "w": "nonetheless",
+  "m": "yine de",
+  "s": "The task was difficult; nonetheless, the team completed it on time.",
+  "z": 2
+ },
+ {
+  "w": "albeit",
+  "m": "gerçi, olsa da",
+  "s": "The economy grew, albeit at a much slower pace than expected.",
+  "z": 3
+ },
+ {
+  "w": "whereas",
+  "m": "oysa, halbuki",
+  "s": "Northern regions receive heavy rainfall, whereas the south remains dry.",
+  "z": 2
+ },
+ {
+  "w": "furthermore",
+  "m": "ayrıca, dahası",
+  "s": "The plan is costly; furthermore, it may harm the environment.",
+  "z": 1
+ },
+ {
+  "w": "moreover",
+  "m": "üstelik, ayrıca",
+  "s": "Exercise improves health; moreover, it reduces stress and anxiety.",
+  "z": 1
+ },
+ {
+  "w": "however",
+  "m": "ancak, bununla birlikte",
+  "s": "The theory sounds convincing; however, it lacks experimental support.",
+  "z": 1
+ },
+ {
+  "w": "therefore",
+  "m": "bu nedenle",
+  "s": "Demand exceeded supply; therefore, prices rose sharply last quarter.",
+  "z": 1
+ },
+ {
+  "w": "thus",
+  "m": "böylece, dolayısıyla",
+  "s": "The virus mutated rapidly, thus making the vaccine less effective.",
+  "z": 1
+ },
+ {
+  "w": "hence",
+  "m": "bu yüzden",
+  "s": "The region is prone to earthquakes, hence the strict building codes.",
+  "z": 2
+ },
+ {
+  "w": "consequently",
+  "m": "sonuç olarak",
+  "s": "Rainfall decreased for years; consequently, crop yields fell dramatically.",
+  "z": 2
+ },
+ {
+  "w": "accordingly",
+  "m": "buna göre, dolayısıyla",
+  "s": "Regulations changed last year, and companies adjusted their policies accordingly.",
+  "z": 2
+ },
+ {
+  "w": "otherwise",
+  "m": "aksi takdirde",
+  "s": "Wear protective equipment; otherwise, you risk serious injury at work.",
+  "z": 1
+ },
+ {
+  "w": "meanwhile",
+  "m": "bu arada, bu sırada",
+  "s": "Inflation kept rising; meanwhile, wages remained almost completely unchanged.",
+  "z": 1
+ },
+ {
+  "w": "whereby",
+  "m": "ki onunla, aracılığıyla",
+  "s": "They introduced a system whereby employees can work from home.",
+  "z": 3
+ },
+ {
+  "w": "notwithstanding",
+  "m": "rağmen",
+  "s": "Notwithstanding strong objections, the parliament passed the controversial law.",
+  "z": 3
+ },
+ {
+  "w": "despite",
+  "m": "rağmen",
+  "s": "Despite decades of research, no definitive cure has been found.",
+  "z": 1
+ },
+ {
+  "w": "although",
+  "m": "her ne kadar, -e rağmen",
+  "s": "Although the sample was small, the findings were statistically significant.",
+  "z": 1
+ },
+ {
+  "w": "unless",
+  "m": "-medikçe, olmazsa",
+  "s": "The species will vanish unless urgent conservation measures are taken.",
+  "z": 1
+ },
+ {
+  "w": "whilst",
+  "m": "iken, sırasında",
+  "s": "Whilst some praised the reform, others condemned it as inadequate.",
+  "z": 2
+ },
+ {
+  "w": "besides",
+  "m": "ayrıca, -in yanı sıra",
+  "s": "Besides reducing costs, automation also improves production speed and accuracy.",
+  "z": 1
+ },
+ {
+  "w": "likewise",
+  "m": "aynı şekilde, benzer biçimde",
+  "s": "Japan invested heavily in robotics; South Korea did likewise.",
+  "z": 2
+ },
+ {
+  "w": "similarly",
+  "m": "benzer şekilde",
+  "s": "Plants need sunlight to grow; similarly, humans need vitamin D.",
+  "z": 1
+ },
+ {
+  "w": "conversely",
+  "m": "tersine, aksine",
+  "s": "Exports rose sharply; conversely, imports declined for the third year.",
+  "z": 2
+ },
+ {
+  "w": "in contrast",
+  "m": "buna karşılık",
+  "s": "Urban schools are overcrowded; in contrast, rural ones face closure.",
+  "z": 1
+ },
+ {
+  "w": "on the contrary",
+  "m": "tam aksine",
+  "s": "He is not lazy; on the contrary, he works extremely hard.",
+  "z": 1
+ },
+ {
+  "w": "in addition",
+  "m": "ek olarak",
+  "s": "In addition to its speed, the new train offers greater comfort.",
+  "z": 1
+ },
+ {
+  "w": "as a result",
+  "m": "sonuç olarak",
+  "s": "Fuel taxes doubled; as a result, public transport use increased.",
+  "z": 1
+ },
+ {
+  "w": "in spite of",
+  "m": "-e rağmen",
+  "s": "In spite of the storm, rescue teams reached the stranded villagers.",
+  "z": 1
+ },
+ {
+  "w": "owing to",
+  "m": "-den dolayı",
+  "s": "The flight was cancelled owing to severe weather conditions over Europe.",
+  "z": 2
+ },
+ {
+  "w": "due to",
+  "m": "-den dolayı",
+  "s": "Many species are endangered due to the destruction of their habitats.",
+  "z": 1
+ },
+ {
+  "w": "regardless of",
+  "m": "-e bakılmaksızın",
+  "s": "Healthcare should be accessible to everyone regardless of their income.",
+  "z": 2
+ },
+ {
+  "w": "in terms of",
+  "m": "açısından, bakımından",
+  "s": "In terms of safety, rail travel outperforms almost every alternative.",
+  "z": 1
+ },
+ {
+  "w": "with regard to",
+  "m": "-e ilişkin, konusunda",
+  "s": "The report raises serious questions with regard to data privacy.",
+  "z": 2
+ },
+ {
+  "w": "on behalf of",
+  "m": "adına",
+  "s": "The lawyer signed the agreement on behalf of her absent client.",
+  "z": 2
+ },
+ {
+  "w": "in accordance with",
+  "m": "uyarınca, uygun olarak",
+  "s": "All experiments were conducted in accordance with strict ethical guidelines.",
+  "z": 2
+ },
+ {
+  "w": "provided that",
+  "m": "şartıyla, koşuluyla",
+  "s": "You may borrow the equipment provided that you return it undamaged.",
+  "z": 2
+ },
+ {
+  "w": "even though",
+  "m": "-e rağmen",
+  "s": "Even though the drug works, its side effects worry many doctors.",
+  "z": 1
+ },
+ {
+  "w": "as long as",
+  "m": "sürece, -dikçe",
+  "s": "The peace will hold as long as both sides respect the agreement.",
+  "z": 1
+ },
+ {
+  "w": "in case",
+  "m": "ihtimaline karşı",
+  "s": "Keep a copy of the documents in case the originals are lost.",
+  "z": 1
+ },
+ {
+  "w": "so that",
+  "m": "-mesi için, diye",
+  "s": "She spoke slowly so that everyone in the audience could follow.",
+  "z": 1
+ },
+ {
+  "w": "in order to",
+  "m": "-mek için, amacıyla",
+  "s": "Governments raise interest rates in order to control rising inflation.",
+  "z": 1
+ },
+ {
+  "w": "apart from",
+  "m": "-den başka, dışında",
+  "s": "Apart from minor delays, the construction project proceeded as planned.",
+  "z": 1
+ },
+ {
+  "w": "instead of",
+  "m": "yerine",
+  "s": "Many commuters now cycle to work instead of driving cars.",
+  "z": 1
+ },
+ {
+  "w": "rather than",
+  "m": "-mektense, yerine",
+  "s": "The company chose to retrain staff rather than hire new employees.",
+  "z": 1
+ },
+ {
+  "w": "as well as",
+  "m": "-in yanı sıra",
+  "s": "The museum attracts scholars as well as thousands of casual tourists.",
+  "z": 1
+ },
+ {
+  "w": "whether",
+  "m": "olup olmadığı",
+  "s": "Scientists still debate whether the treatment is safe for children.",
+  "z": 1
+ },
+ {
+  "w": "unlike",
+  "m": "-in aksine",
+  "s": "Unlike its competitors, the firm invests heavily in employee training.",
+  "z": 1
+ },
+ {
+  "w": "thereby",
+  "m": "böylece, bu yolla",
+  "s": "The factory recycled its waste, thereby cutting costs and pollution.",
+  "z": 2
+ },
+ {
+  "w": "hitherto",
+  "m": "şimdiye kadar",
+  "s": "The study revealed hitherto unknown effects of sleep deprivation on memory.",
+  "z": 3
+ },
+ {
+  "w": "henceforth",
+  "m": "bundan böyle",
+  "s": "The court ruled that henceforth all contracts must be written.",
+  "z": 3
+ },
+ {
+  "w": "insofar as",
+  "m": "-diği ölçüde",
+  "s": "The theory is useful insofar as it explains observed behavior.",
+  "z": 3
+ },
+ {
+  "w": "initially",
+  "m": "başlangıçta",
+  "s": "The project was initially rejected but later received full funding.",
+  "z": 1
+ },
+ {
+  "w": "subsequently",
+  "m": "daha sonra, ardından",
+  "s": "The suspect was arrested and subsequently charged with three offences.",
+  "z": 2
+ },
+ {
+  "w": "eventually",
+  "m": "sonunda, nihayetinde",
+  "s": "After years of negotiation, the two countries eventually signed a treaty.",
+  "z": 1
+ },
+ {
+  "w": "ultimately",
+  "m": "nihayetinde, en sonunda",
+  "s": "Ultimately, the success of any reform depends on public support.",
+  "z": 2
+ },
+ {
+  "w": "presumably",
+  "m": "muhtemelen, tahminen",
+  "s": "The manuscript was presumably written sometime in the twelfth century.",
+  "z": 2
+ },
+ {
+  "w": "allegedly",
+  "m": "iddiaya göre",
+  "s": "The company allegedly concealed evidence about the drug's harmful effects.",
+  "z": 3
+ },
+ {
+  "w": "arguably",
+  "m": "tartışmasız denebilecek şekilde",
+  "s": "This is arguably the most significant scientific discovery of the decade.",
+  "z": 3
+ },
+ {
+  "w": "admittedly",
+  "m": "kabul etmek gerekir ki",
+  "s": "Admittedly, the sample size was small, but the results remain striking.",
+  "z": 3
+ },
+ {
+  "w": "undoubtedly",
+  "m": "şüphesiz",
+  "s": "Climate change is undoubtedly one of the greatest challenges we face.",
+  "z": 2
+ },
+ {
+  "w": "approximately",
+  "m": "yaklaşık olarak",
+  "s": "The survey covered approximately five thousand households across the country.",
+  "z": 1
+ },
+ {
+  "w": "predominantly",
+  "m": "ağırlıklı olarak",
+  "s": "The workforce in the textile industry is predominantly female.",
+  "z": 2
+ },
+ {
+  "w": "increasingly",
+  "m": "giderek artan şekilde",
+  "s": "Employers increasingly value practical skills over formal academic qualifications.",
+  "z": 1
+ },
+ {
+  "w": "virtually",
+  "m": "neredeyse, hemen hemen",
+  "s": "The disease has been virtually eliminated in most developed countries.",
+  "z": 2
+ },
+ {
+  "w": "scarcely",
+  "m": "neredeyse hiç, güçlükle",
+  "s": "The refugees had scarcely enough food to survive the winter.",
+  "z": 2
+ },
+ {
+  "w": "barely",
+  "m": "ancak, zar zor",
+  "s": "The old bridge can barely support the weight of modern trucks.",
+  "z": 1
+ },
+ {
+  "w": "merely",
+  "m": "sadece, yalnızca",
+  "s": "The report is merely a summary, not a full analysis.",
+  "z": 2
+ },
+ {
+  "w": "solely",
+  "m": "yalnızca, sırf",
+  "s": "Admission decisions should not be based solely on test scores.",
+  "z": 2
+ },
+ {
+  "w": "largely",
+  "m": "büyük ölçüde",
+  "s": "The region's economy is largely dependent on tourism and agriculture.",
+  "z": 1
+ },
+ {
+  "w": "roughly",
+  "m": "kabaca, yaklaşık",
+  "s": "Roughly one third of the world's food is wasted annually.",
+  "z": 1
+ },
+ {
+  "w": "thoroughly",
+  "m": "baştan sona, iyice",
+  "s": "Each application is thoroughly reviewed by at least two independent experts.",
+  "z": 2
+ },
+ {
+  "w": "deliberately",
+  "m": "kasıtlı olarak",
+  "s": "The fire was started deliberately, according to the police investigation.",
+  "z": 2
+ },
+ {
+  "w": "inevitably",
+  "m": "kaçınılmaz olarak",
+  "s": "Rapid urbanization inevitably puts pressure on housing and public services.",
+  "z": 2
+ },
+ {
+  "w": "consistently",
+  "m": "tutarlı biçimde, sürekli",
+  "s": "The school has consistently ranked among the best in the country.",
+  "z": 2
+ },
+ {
+  "w": "respectively",
+  "m": "sırasıyla",
+  "s": "Gold and silver prices rose by five and three percent respectively.",
+  "z": 2
+ },
+ {
+  "w": "namely",
+  "m": "yani, şöyle ki",
+  "s": "Two countries opposed the deal, namely France and Germany.",
+  "z": 2
+ },
+ {
+  "w": "notably",
+  "m": "özellikle, bilhassa",
+  "s": "Several economists, notably Keynes, challenged the classical view of markets.",
+  "z": 2
+ },
+ {
+  "w": "assert",
+  "m": "ileri sürmek, iddia etmek",
+  "s": "The author asserts that education reform must begin with teachers.",
+  "z": 3
+ },
+ {
+  "w": "undermine",
+  "m": "baltalamak, zayıflatmak",
+  "s": "Constant criticism can undermine an employee's confidence and motivation.",
+  "z": 2
+ },
+ {
+  "w": "exacerbate",
+  "m": "kötüleştirmek, şiddetlendirmek",
+  "s": "Cutting public spending may exacerbate the effects of the recession.",
+  "z": 3
+ },
+ {
+  "w": "advocate",
+  "m": "savunmak; savunucu",
+  "s": "Many economists advocate higher taxes on carbon-intensive industries.",
+  "z": 3
+ },
+ {
+  "w": "allocate",
+  "m": "tahsis etmek, ayırmak",
+  "s": "The government will allocate additional funds to earthquake-prone regions.",
+  "z": 3
+ },
+ {
+  "w": "alleviate",
+  "m": "hafifletmek, azaltmak",
+  "s": "New painkillers can alleviate symptoms without causing serious side effects.",
+  "z": 3
+ },
+ {
+  "w": "accumulate",
+  "m": "birikmek, biriktirmek",
+  "s": "Toxic chemicals accumulate in the food chain over many years.",
+  "z": 3
+ },
+ {
+  "w": "accomplish",
+  "m": "başarmak, tamamlamak",
+  "s": "The team accomplished in months what others had attempted for years.",
+  "z": 2
+ },
+ {
+  "w": "acknowledge",
+  "m": "kabul etmek, teslim etmek",
+  "s": "The minister acknowledged that the reforms had failed to reduce poverty.",
+  "z": 3
+ },
+ {
+  "w": "acquire",
+  "m": "edinmek, kazanmak",
+  "s": "Children acquire language skills naturally through interaction with adults.",
+  "z": 2
+ },
+ {
+  "w": "adapt",
+  "m": "uyum sağlamak, uyarlamak",
+  "s": "Species must adapt quickly to survive in changing climate conditions.",
+  "z": 1
+ },
+ {
+  "w": "adopt",
+  "m": "benimsemek; evlat edinmek",
+  "s": "Several countries have adopted stricter regulations on plastic waste.",
+  "z": 1
+ },
+ {
+  "w": "adhere",
+  "m": "bağlı kalmak, uymak",
+  "s": "All laboratories must adhere to international safety standards.",
+  "z": 3
+ },
+ {
+  "w": "aggravate",
+  "m": "ağırlaştırmak, kötüleştirmek",
+  "s": "Heavy traffic aggravates air pollution in most major cities.",
+  "z": 3
+ },
+ {
+  "w": "amend",
+  "m": "değiştirmek, düzeltmek",
+  "s": "Parliament voted to amend the constitution after months of debate.",
+  "z": 3
+ },
+ {
+  "w": "anticipate",
+  "m": "öngörmek, beklemek",
+  "s": "Analysts anticipate a sharp rise in energy prices next winter.",
+  "z": 3
+ },
+ {
+  "w": "appoint",
+  "m": "atamak, tayin etmek",
+  "s": "The board appointed a new director to oversee the merger.",
+  "z": 2
+ },
+ {
+  "w": "assess",
+  "m": "değerlendirmek",
+  "s": "Researchers assessed the long-term effects of screen time on children.",
+  "z": 2
+ },
+ {
+  "w": "assume",
+  "m": "varsaymak; üstlenmek",
+  "s": "Economists often assume that consumers behave in rational ways.",
+  "z": 1
+ },
+ {
+  "w": "attain",
+  "m": "ulaşmak, elde etmek",
+  "s": "Few athletes attain world-class performance without years of disciplined training.",
+  "z": 3
+ },
+ {
+  "w": "attribute",
+  "m": "-e bağlamak, atfetmek",
+  "s": "Scientists attribute the rise in sea levels to global warming.",
+  "z": 2
+ },
+ {
+  "w": "cease",
+  "m": "durmak, son vermek",
+  "s": "The factory ceased production after demand collapsed last year.",
+  "z": 3
+ },
+ {
+  "w": "cite",
+  "m": "alıntılamak, örnek göstermek",
+  "s": "The report cites poverty as the main cause of school dropout.",
+  "z": 3
+ },
+ {
+  "w": "clarify",
+  "m": "açıklığa kavuşturmak",
+  "s": "The spokesperson refused to clarify the government's position on the issue.",
+  "z": 2
+ },
+ {
+  "w": "coincide",
+  "m": "denk gelmek, örtüşmek",
+  "s": "The festival coincides with the anniversary of the city's founding.",
+  "z": 2
+ },
+ {
+  "w": "collapse",
+  "m": "çökmek; çöküş",
+  "s": "The bridge collapsed under the weight of the flood waters.",
+  "z": 2
+ },
+ {
+  "w": "commence",
+  "m": "başlamak",
+  "s": "Construction of the new hospital will commence early next year.",
+  "z": 3
+ },
+ {
+  "w": "compensate",
+  "m": "telafi etmek, tazmin etmek",
+  "s": "The airline compensated passengers for the twelve-hour delay.",
+  "z": 2
+ },
+ {
+  "w": "compel",
+  "m": "zorlamak, mecbur etmek",
+  "s": "Financial pressure compelled the museum to sell part of its collection.",
+  "z": 3
+ },
+ {
+  "w": "compile",
+  "m": "derlemek",
+  "s": "The agency compiled data from over two hundred separate studies.",
+  "z": 3
+ },
+ {
+  "w": "comply",
+  "m": "uymak, riayet etmek",
+  "s": "Firms that fail to comply with the regulations face heavy fines.",
+  "z": 3
+ },
+ {
+  "w": "comprehend",
+  "m": "kavramak, anlamak",
+  "s": "Young children cannot fully comprehend the concept of death.",
+  "z": 3
+ },
+ {
+  "w": "comprise",
+  "m": "oluşmak, içermek",
+  "s": "The committee comprises experts from twelve different European countries.",
+  "z": 3
+ },
+ {
+  "w": "conceal",
+  "m": "gizlemek, saklamak",
+  "s": "The company concealed evidence of pollution from government inspectors.",
+  "z": 3
+ },
+ {
+  "w": "concede",
+  "m": "kabullenmek, teslim etmek",
+  "s": "The candidate conceded defeat after the final votes were counted.",
+  "z": 3
+ },
+ {
+  "w": "conceive",
+  "m": "tasarlamak, kavramak",
+  "s": "It is hard to conceive of life without the internet today.",
+  "z": 3
+ },
+ {
+  "w": "conclude",
+  "m": "sonucuna varmak; bitirmek",
+  "s": "The study concluded that moderate exercise significantly extends life expectancy.",
+  "z": 2
+ },
+ {
+  "w": "condemn",
+  "m": "kınamak, mahkûm etmek",
+  "s": "World leaders condemned the attack on the civilian hospital.",
+  "z": 3
+ },
+ {
+  "w": "conduct",
+  "m": "yürütmek, gerçekleştirmek",
+  "s": "The university conducted a nationwide survey on student mental health.",
+  "z": 2
+ },
+ {
+  "w": "confer",
+  "m": "görüşmek; vermek (unvan)",
+  "s": "The president conferred with military advisers before announcing the decision.",
+  "z": 3
+ },
+ {
+  "w": "confine",
+  "m": "sınırlamak, hapsetmek",
+  "s": "The outbreak was confined to a few villages near the border.",
+  "z": 3
+ },
+ {
+  "w": "confirm",
+  "m": "doğrulamak, teyit etmek",
+  "s": "Laboratory tests confirmed the presence of the virus in the samples.",
+  "z": 2
+ },
+ {
+  "w": "confront",
+  "m": "yüzleşmek, karşı karşıya gelmek",
+  "s": "Developing countries confront enormous challenges in providing basic healthcare.",
+  "z": 3
+ },
+ {
+  "w": "consolidate",
+  "m": "pekiştirmek, sağlamlaştırmak",
+  "s": "The party consolidated its power after winning the regional elections.",
+  "z": 3
+ },
+ {
+  "w": "constitute",
+  "m": "oluşturmak, teşkil etmek",
+  "s": "Women constitute nearly half of the country's total workforce.",
+  "z": 3
+ },
+ {
+  "w": "constrain",
+  "m": "kısıtlamak, sınırlamak",
+  "s": "Limited budgets constrain what public hospitals can offer their patients.",
+  "z": 3
+ },
+ {
+  "w": "contemplate",
+  "m": "düşünmek, tasarlamak",
+  "s": "The government is contemplating a complete ban on tobacco advertising.",
+  "z": 2
+ },
+ {
+  "w": "contend",
+  "m": "iddia etmek; mücadele etmek",
+  "s": "Critics contend that the policy benefits only the wealthy minority.",
+  "z": 3
+ },
+ {
+  "w": "contradict",
+  "m": "çelişmek, yalanlamak",
+  "s": "The new findings contradict earlier assumptions about human migration patterns.",
+  "z": 3
+ },
+ {
+  "w": "contribute",
+  "m": "katkıda bulunmak",
+  "s": "Poor diet and inactivity contribute to the rise in heart disease.",
+  "z": 2
+ },
+ {
+  "w": "convey",
+  "m": "iletmek, aktarmak",
+  "s": "Body language often conveys more information than spoken words.",
+  "z": 3
+ },
+ {
+  "w": "convert",
+  "m": "dönüştürmek",
+  "s": "Solar panels convert sunlight directly into usable electrical energy.",
+  "z": 2
+ },
+ {
+  "w": "convince",
+  "m": "ikna etmek",
+  "s": "The evidence failed to convince the jury of his innocence.",
+  "z": 2
+ },
+ {
+  "w": "cooperate",
+  "m": "iş birliği yapmak",
+  "s": "Neighboring countries must cooperate to manage shared water resources.",
+  "z": 2
+ },
+ {
+  "w": "correspond",
+  "m": "karşılık gelmek; yazışmak",
+  "s": "The fossil layers correspond to distinct periods of climate change.",
+  "z": 3
+ },
+ {
+  "w": "cultivate",
+  "m": "yetiştirmek, geliştirmek",
+  "s": "Farmers in the region cultivate rice, cotton, and various fruits.",
+  "z": 3
+ },
+ {
+  "w": "curb",
+  "m": "dizginlemek, frenlemek",
+  "s": "New measures aim to curb speculation in the housing market.",
+  "z": 3
+ },
+ {
+  "w": "curtail",
+  "m": "kısıtlamak, kısmak",
+  "s": "The emergency law curtailed press freedom and public gatherings.",
+  "z": 3
+ },
+ {
+  "w": "decline",
+  "m": "azalmak; reddetmek",
+  "s": "Birth rates have declined steadily across Europe since the 1970s.",
+  "z": 1
+ },
+ {
+  "w": "dedicate",
+  "m": "adamak",
+  "s": "She dedicated her entire career to the study of rare diseases.",
+  "z": 2
+ },
+ {
+  "w": "deduce",
+  "m": "sonuç çıkarmak",
+  "s": "From the fossil evidence, scientists deduced how the species moved.",
+  "z": 3
+ },
+ {
+  "w": "defer",
+  "m": "ertelemek",
+  "s": "The committee deferred its decision until more data became available.",
+  "z": 3
+ },
+ {
+  "w": "defy",
+  "m": "karşı gelmek, meydan okumak",
+  "s": "Thousands of protesters defied the ban and marched through the capital.",
+  "z": 3
+ },
+ {
+  "w": "demolish",
+  "m": "yıkmak",
+  "s": "The council decided to demolish the unsafe buildings near the river.",
+  "z": 2
+ },
+ {
+  "w": "demonstrate",
+  "m": "göstermek, kanıtlamak",
+  "s": "The experiment demonstrates how bacteria develop resistance to antibiotics.",
+  "z": 2
+ },
+ {
+  "w": "denote",
+  "m": "göstermek, belirtmek",
+  "s": "In the chart, red bars denote losses and green ones profits.",
+  "z": 3
+ },
+ {
+  "w": "depict",
+  "m": "tasvir etmek, betimlemek",
+  "s": "The documentary depicts daily life in a remote mountain village.",
+  "z": 2
+ },
+ {
+  "w": "deprive",
+  "m": "mahrum bırakmak",
+  "s": "The war deprived millions of children of a proper education.",
+  "z": 3
+ },
+ {
+  "w": "derive",
+  "m": "türetmek, elde etmek",
+  "s": "Many English medical terms derive from Latin and Greek roots.",
+  "z": 3
+ },
+ {
+  "w": "designate",
+  "m": "belirlemek, atamak",
+  "s": "The area was designated a national park to protect endangered species.",
+  "z": 3
+ },
+ {
+  "w": "deteriorate",
+  "m": "kötüleşmek, bozulmak",
+  "s": "The patient's condition deteriorated rapidly despite intensive medical treatment.",
+  "z": 2
+ },
+ {
+  "w": "detect",
+  "m": "tespit etmek, saptamak",
+  "s": "New scanners can detect tumors at a much earlier stage.",
+  "z": 2
+ },
+ {
+  "w": "deter",
+  "m": "caydırmak, vazgeçirmek",
+  "s": "Harsher penalties alone rarely deter criminals from repeating their offences.",
+  "z": 3
+ },
+ {
+  "w": "devastate",
+  "m": "harap etmek, yıkmak",
+  "s": "The earthquake devastated entire neighborhoods within a few terrifying seconds.",
+  "z": 3
+ },
+ {
+  "w": "devise",
+  "m": "tasarlamak, icat etmek",
+  "s": "Engineers devised a cheaper method for purifying contaminated water.",
+  "z": 3
+ },
+ {
+  "w": "diagnose",
+  "m": "teşhis etmek",
+  "s": "Doctors diagnosed the disease early thanks to routine blood tests.",
+  "z": 2
+ },
+ {
+  "w": "diminish",
+  "m": "azalmak, azaltmak",
+  "s": "The drug's effectiveness diminishes when patients skip regular doses.",
+  "z": 3
+ },
+ {
+  "w": "discard",
+  "m": "atmak, ıskartaya çıkarmak",
+  "s": "Consumers discard millions of tons of edible food every year.",
+  "z": 3
+ },
+ {
+  "w": "disclose",
+  "m": "ifşa etmek, açıklamak",
+  "s": "Companies must disclose all financial risks to potential investors.",
+  "z": 3
+ },
+ {
+  "w": "dismiss",
+  "m": "reddetmek; işten çıkarmak",
+  "s": "The court dismissed the case for lack of reliable evidence.",
+  "z": 2
+ },
+ {
+  "w": "dispose",
+  "m": "elden çıkarmak, atmak",
+  "s": "Hospitals must dispose of medical waste according to strict rules.",
+  "z": 3
+ },
+ {
+  "w": "disrupt",
+  "m": "aksatmak, sekteye uğratmak",
+  "s": "The strike disrupted rail services across the entire country.",
+  "z": 2
+ },
+ {
+  "w": "disseminate",
+  "m": "yaymak (bilgi)",
+  "s": "Social media can disseminate false information faster than corrections.",
+  "z": 3
+ },
+ {
+  "w": "dissolve",
+  "m": "çözünmek; feshetmek",
+  "s": "The president dissolved parliament and called for early elections.",
+  "z": 3
+ },
+ {
+  "w": "distort",
+  "m": "çarpıtmak, bozmak",
+  "s": "Sensational headlines often distort the actual findings of scientific studies.",
+  "z": 3
+ },
+ {
+  "w": "distinguish",
+  "m": "ayırt etmek",
+  "s": "Young readers must learn to distinguish facts from mere opinions.",
+  "z": 2
+ },
+ {
+  "w": "distribute",
+  "m": "dağıtmak",
+  "s": "Aid agencies distributed food and blankets to the flood victims.",
+  "z": 1
+ },
+ {
+  "w": "dominate",
+  "m": "hâkim olmak, egemen olmak",
+  "s": "A few large corporations dominate the global market for grain.",
+  "z": 2
+ },
+ {
+  "w": "donate",
+  "m": "bağışlamak",
+  "s": "Thousands of citizens donated blood after the appeal was broadcast.",
+  "z": 2
+ },
+ {
+  "w": "dwell",
+  "m": "ikamet etmek; üzerinde durmak",
+  "s": "Millions of people still dwell in slums without clean water.",
+  "z": 3
+ },
+ {
+  "w": "eliminate",
+  "m": "ortadan kaldırmak, elemek",
+  "s": "Vaccination programs have eliminated several deadly diseases in many regions.",
+  "z": 2
+ },
+ {
+  "w": "embark",
+  "m": "girişmek, başlamak",
+  "s": "The government embarked on an ambitious program of economic reform.",
+  "z": 3
+ },
+ {
+  "w": "embrace",
+  "m": "benimsemek; kucaklamak",
+  "s": "Older industries were slow to embrace digital technologies.",
+  "z": 3
+ },
+ {
+  "w": "emerge",
+  "m": "ortaya çıkmak",
+  "s": "New evidence emerged linking the chemical to several types of cancer.",
+  "z": 1
+ },
+ {
+  "w": "emphasize",
+  "m": "vurgulamak",
+  "s": "The report emphasizes the need for early intervention in education.",
+  "z": 2
+ },
+ {
+  "w": "emit",
+  "m": "yaymak, salmak",
+  "s": "Coal-fired power plants emit enormous quantities of carbon dioxide.",
+  "z": 2
+ },
+ {
+  "w": "enact",
+  "m": "yasalaştırmak, çıkarmak",
+  "s": "Congress enacted new legislation to protect consumers from online fraud.",
+  "z": 3
+ },
+ {
+  "w": "encompass",
+  "m": "kapsamak, içermek",
+  "s": "The study encompasses data from over forty different countries.",
+  "z": 3
+ },
+ {
+  "w": "encounter",
+  "m": "karşılaşmak",
+  "s": "Immigrants often encounter language barriers when seeking medical care.",
+  "z": 2
+ },
+ {
+  "w": "endorse",
+  "m": "desteklemek, onaylamak",
+  "s": "Several leading scientists endorsed the report's main conclusions.",
+  "z": 3
+ },
+ {
+  "w": "endure",
+  "m": "katlanmak, dayanmak",
+  "s": "The population endured years of hardship during the economic blockade.",
+  "z": 3
+ },
+ {
+  "w": "enforce",
+  "m": "uygulamak, yürürlüğe koymak",
+  "s": "Local police lack the resources to enforce the new traffic laws.",
+  "z": 3
+ },
+ {
+  "w": "enhance",
+  "m": "artırmak, iyileştirmek",
+  "s": "Regular exercise can enhance memory and overall cognitive function.",
+  "z": 2
+ },
+ {
+  "w": "enrich",
+  "m": "zenginleştirmek",
+  "s": "Cultural exchange programs enrich the educational experience of students.",
+  "z": 2
+ },
+ {
+  "w": "ensure",
+  "m": "sağlamak, garanti etmek",
+  "s": "Strict inspections ensure that food products meet safety standards.",
+  "z": 2
+ },
+ {
+  "w": "entail",
+  "m": "gerektirmek, beraberinde getirmek",
+  "s": "Starting a business entails considerable financial risk and hard work.",
+  "z": 3
+ },
+ {
+  "w": "enumerate",
+  "m": "sıralamak, saymak",
+  "s": "The article enumerates the main causes of urban air pollution.",
+  "z": 3
+ },
+ {
+  "w": "eradicate",
+  "m": "kökünü kazımak, yok etmek",
+  "s": "The campaign aims to eradicate malaria from the region by 2035.",
+  "z": 3
+ },
+ {
+  "w": "erode",
+  "m": "aşındırmak, zayıflatmak",
+  "s": "Repeated scandals have eroded public trust in political institutions.",
+  "z": 3
+ },
+ {
+  "w": "establish",
+  "m": "kurmak; saptamak",
+  "s": "The university was established in 1863 by a group of merchants.",
+  "z": 2
+ },
+ {
+  "w": "estimate",
+  "m": "tahmin etmek",
+  "s": "Experts estimate that the repairs will cost several million dollars.",
+  "z": 2
+ },
+ {
+  "w": "evaluate",
+  "m": "değerlendirmek",
+  "s": "Teachers evaluate students through projects rather than traditional exams.",
+  "z": 2
+ },
+ {
+  "w": "evoke",
+  "m": "uyandırmak, çağrıştırmak",
+  "s": "The old photographs evoke powerful memories of her childhood village.",
+  "z": 3
+ },
+ {
+  "w": "evolve",
+  "m": "evrilmek, gelişmek",
+  "s": "Languages evolve constantly as speakers borrow and invent new words.",
+  "z": 2
+ },
+ {
+  "w": "exceed",
+  "m": "aşmak, geçmek",
+  "s": "Demand for the vaccine far exceeded the available supply.",
+  "z": 3
+ },
+ {
+  "w": "exclude",
+  "m": "hariç tutmak, dışlamak",
+  "s": "The statistics exclude workers employed in the informal economy.",
+  "z": 2
+ },
+ {
+  "w": "execute",
+  "m": "uygulamak, infaz etmek",
+  "s": "The plan was brilliantly designed but poorly executed in practice.",
+  "z": 3
+ },
+ {
+  "w": "exert",
+  "m": "uygulamak (güç, baskı)",
+  "s": "Large donors can exert considerable influence over political parties.",
+  "z": 3
+ },
+ {
+  "w": "exhibit",
+  "m": "sergilemek, göstermek",
+  "s": "Patients with the disorder often exhibit sudden changes in mood.",
+  "z": 3
+ },
+ {
+  "w": "expand",
+  "m": "genişlemek, büyümek",
+  "s": "The company plans to expand its operations into Asian markets.",
+  "z": 2
+ },
+ {
+  "w": "exploit",
+  "m": "sömürmek; yararlanmak",
+  "s": "Some employers exploit migrant workers by paying below minimum wage.",
+  "z": 3
+ },
+ {
+  "w": "expose",
+  "m": "maruz bırakmak; ifşa etmek",
+  "s": "Journalists exposed widespread corruption in the awarding of public contracts.",
+  "z": 3
+ },
+ {
+  "w": "extract",
+  "m": "çıkarmak, elde etmek",
+  "s": "Engineers extract lithium from salt flats high in the mountains.",
+  "z": 2
+ },
+ {
+  "w": "facilitate",
+  "m": "kolaylaştırmak",
+  "s": "Modern technology facilitates communication between researchers across continents.",
+  "z": 3
+ },
+ {
+  "w": "flourish",
+  "m": "gelişmek, serpilmek",
+  "s": "Trade flourished along the Silk Road for many centuries.",
+  "z": 2
+ },
+ {
+  "w": "forbid",
+  "m": "yasaklamak",
+  "s": "The new regulations forbid smoking in all enclosed public spaces.",
+  "z": 2
+ },
+ {
+  "w": "foresee",
+  "m": "öngörmek",
+  "s": "Few economists foresaw the financial crisis that struck in 2008.",
+  "z": 2
+ },
+ {
+  "w": "formulate",
+  "m": "formüle etmek, oluşturmak",
+  "s": "The committee formulated a strategy to reduce youth unemployment.",
+  "z": 3
+ },
+ {
+  "w": "foster",
+  "m": "teşvik etmek, geliştirmek",
+  "s": "Small group discussions foster critical thinking among university students.",
+  "z": 3
+ },
+ {
+  "w": "fulfill",
+  "m": "yerine getirmek",
+  "s": "The charity struggled to fulfill its promises to the refugees.",
+  "z": 3
+ },
+ {
+  "w": "generate",
+  "m": "üretmek, yaratmak",
+  "s": "Wind farms now generate a fifth of the country's electricity.",
+  "z": 2
+ },
+ {
+  "w": "grasp",
+  "m": "kavramak; kavrayış",
+  "s": "Many students fail to grasp the underlying logic of calculus.",
+  "z": 2
+ },
+ {
+  "w": "halt",
+  "m": "durdurmak; duraklama",
+  "s": "Authorities halted construction after cracks appeared in the dam.",
+  "z": 3
+ },
+ {
+  "w": "hamper",
+  "m": "engellemek, güçleştirmek",
+  "s": "Heavy snowfall hampered rescue efforts in the mountain villages.",
+  "z": 3
+ },
+ {
+  "w": "harness",
+  "m": "yararlanmak, kontrol altına almak",
+  "s": "Engineers are learning to harness tidal energy for electricity production.",
+  "z": 3
+ },
+ {
+  "w": "highlight",
+  "m": "vurgulamak, öne çıkarmak",
+  "s": "The report highlights the growing gap between rich and poor.",
+  "z": 2
+ },
+ {
+  "w": "identify",
+  "m": "belirlemek, tanımlamak",
+  "s": "Researchers identified three genes linked to the rare disorder.",
+  "z": 1
+ },
+ {
+  "w": "illustrate",
+  "m": "örneklemek, göstermek",
+  "s": "The graph illustrates how unemployment varies with educational level.",
+  "z": 2
+ },
+ {
+  "w": "immerse",
+  "m": "daldırmak, gömülmek",
+  "s": "Exchange students immerse themselves in the language and local culture.",
+  "z": 3
+ },
+ {
+  "w": "impair",
+  "m": "bozmak, zayıflatmak",
+  "s": "Chronic sleep deprivation can seriously impair judgment and concentration.",
+  "z": 3
+ },
+ {
+  "w": "implement",
+  "m": "uygulamak, hayata geçirmek",
+  "s": "The ministry will implement the new curriculum starting next September.",
+  "z": 2
+ },
+ {
+  "w": "imply",
+  "m": "ima etmek, anlamına gelmek",
+  "s": "The findings imply that diet plays a larger role than genetics.",
+  "z": 3
+ },
+ {
+  "w": "impose",
+  "m": "dayatmak, koymak (vergi, yasak)",
+  "s": "The government imposed heavy tariffs on imported steel and aluminum.",
+  "z": 3
+ },
+ {
+  "w": "incorporate",
+  "m": "dahil etmek, bünyesine katmak",
+  "s": "The final design incorporates suggestions from hundreds of users.",
+  "z": 3
+ },
+ {
+  "w": "indicate",
+  "m": "göstermek, işaret etmek",
+  "s": "Recent surveys indicate a sharp decline in trust toward media.",
+  "z": 2
+ },
+ {
+  "w": "induce",
+  "m": "neden olmak, teşvik etmek",
+  "s": "Certain chemicals can induce allergic reactions in sensitive individuals.",
+  "z": 3
+ },
+ {
+  "w": "infer",
+  "m": "çıkarım yapmak",
+  "s": "Readers must infer the author's intent from subtle textual clues.",
+  "z": 3
+ },
+ {
+  "w": "inhabit",
+  "m": "yaşamak, ikamet etmek",
+  "s": "Rare species inhabit the wetlands along the river delta.",
+  "z": 2
+ },
+ {
+  "w": "inhibit",
+  "m": "engellemek, ket vurmak",
+  "s": "Fear of failure can inhibit creativity in the workplace.",
+  "z": 3
+ },
+ {
+  "w": "initiate",
+  "m": "başlatmak",
+  "s": "The university initiated a program to support first-generation students.",
+  "z": 3
+ },
+ {
+  "w": "inspect",
+  "m": "denetlemek, incelemek",
+  "s": "Officials inspect the factories twice a year for safety violations.",
+  "z": 2
+ },
+ {
+  "w": "integrate",
+  "m": "bütünleştirmek, entegre etmek",
+  "s": "The curriculum integrates technology into nearly every subject area.",
+  "z": 3
+ },
+ {
+  "w": "intervene",
+  "m": "müdahale etmek",
+  "s": "The central bank intervened to stop the currency from collapsing.",
+  "z": 3
+ },
+ {
+  "w": "invade",
+  "m": "istila etmek",
+  "s": "Invasive species invade new habitats and displace native wildlife.",
+  "z": 3
+ },
+ {
+  "w": "investigate",
+  "m": "araştırmak, soruşturmak",
+  "s": "Police are investigating the causes of the warehouse fire.",
+  "z": 2
+ },
+ {
+  "w": "invoke",
+  "m": "başvurmak, dayanak göstermek",
+  "s": "The president invoked emergency powers to deal with the crisis.",
+  "z": 3
+ },
+ {
+  "w": "isolate",
+  "m": "izole etmek, ayırmak",
+  "s": "Scientists isolated the virus within weeks of the first outbreak.",
+  "z": 3
+ },
+ {
+  "w": "justify",
+  "m": "haklı çıkarmak, gerekçelendirmek",
+  "s": "Nothing can justify the use of violence against peaceful protesters.",
+  "z": 3
+ },
+ {
+  "w": "launch",
+  "m": "başlatmak; fırlatmak",
+  "s": "The charity launched a campaign to provide clean drinking water.",
+  "z": 1
+ },
+ {
+  "w": "legislate",
+  "m": "yasa yapmak",
+  "s": "Parliament must legislate quickly to regulate artificial intelligence.",
+  "z": 3
+ },
+ {
+  "w": "maintain",
+  "m": "sürdürmek; ileri sürmek",
+  "s": "The author maintains that globalization has widened economic inequality.",
+  "z": 1
+ },
+ {
+  "w": "manipulate",
+  "m": "yönlendirmek, manipüle etmek",
+  "s": "Advertisers manipulate consumer emotions to boost sales of luxury goods.",
+  "z": 3
+ },
+ {
+  "w": "mediate",
+  "m": "arabuluculuk etmek",
+  "s": "The United Nations offered to mediate between the warring parties.",
+  "z": 3
+ },
+ {
+  "w": "mitigate",
+  "m": "hafifletmek, azaltmak",
+  "s": "Early warning systems can mitigate the impact of natural disasters.",
+  "z": 3
+ },
+ {
+  "w": "modify",
+  "m": "değiştirmek, düzenlemek",
+  "s": "Scientists modified the crop's genes to resist common pests.",
+  "z": 3
+ },
+ {
+  "w": "monitor",
+  "m": "izlemek, takip etmek",
+  "s": "Satellites monitor deforestation across the Amazon in real time.",
+  "z": 1
+ },
+ {
+  "w": "negotiate",
+  "m": "müzakere etmek",
+  "s": "The two countries negotiated a ceasefire after months of fighting.",
+  "z": 2
+ },
+ {
+  "w": "neglect",
+  "m": "ihmal etmek",
+  "s": "Policymakers often neglect the needs of rural communities.",
+  "z": 3
+ },
+ {
+  "w": "nourish",
+  "m": "beslemek",
+  "s": "Fertile river valleys nourished the world's earliest agricultural civilizations.",
+  "z": 2
+ },
+ {
+  "w": "obscure",
+  "m": "gizlemek; belirsiz",
+  "s": "Technical jargon often obscures the real meaning of scientific findings.",
+  "z": 3
+ },
+ {
+  "w": "obtain",
+  "m": "elde etmek, edinmek",
+  "s": "Researchers must obtain consent before collecting personal data.",
+  "z": 1
+ },
+ {
+  "w": "occupy",
+  "m": "işgal etmek; meşgul etmek",
+  "s": "Agriculture occupies nearly half of the country's total land area.",
+  "z": 1
+ },
+ {
+  "w": "occur",
+  "m": "meydana gelmek",
+  "s": "Most earthquakes occur along the boundaries of tectonic plates.",
+  "z": 1
+ },
+ {
+  "w": "omit",
+  "m": "atlamak, çıkarmak",
+  "s": "The published report omitted several crucial details about the accident.",
+  "z": 2
+ },
+ {
+  "w": "oppose",
+  "m": "karşı çıkmak",
+  "s": "Local residents strongly oppose the construction of the new airport.",
+  "z": 1
+ },
+ {
+  "w": "outweigh",
+  "m": "ağır basmak",
+  "s": "The benefits of vaccination far outweigh its rare side effects.",
+  "z": 3
+ },
+ {
+  "w": "overcome",
+  "m": "üstesinden gelmek",
+  "s": "She overcame numerous obstacles to become the first female surgeon.",
+  "z": 1
+ },
+ {
+  "w": "overlook",
+  "m": "gözden kaçırmak; göz yummak",
+  "s": "Auditors overlooked serious accounting errors for nearly five years.",
+  "z": 2
+ },
+ {
+  "w": "oversee",
+  "m": "denetlemek, gözetmek",
+  "s": "An independent agency will oversee the distribution of relief funds.",
+  "z": 3
+ },
+ {
+  "w": "overwhelm",
+  "m": "boğmak, alt etmek",
+  "s": "The sudden influx of patients overwhelmed the small rural hospital.",
+  "z": 3
+ },
+ {
+  "w": "perceive",
+  "m": "algılamak",
+  "s": "Different cultures perceive the concept of time in different ways.",
+  "z": 2
+ },
+ {
+  "w": "perform",
+  "m": "gerçekleştirmek, icra etmek",
+  "s": "Surgeons performed the delicate operation using robotic assistance.",
+  "z": 2
+ },
+ {
+  "w": "perpetuate",
+  "m": "sürdürmek, devam ettirmek",
+  "s": "Stereotypes in textbooks perpetuate outdated views about gender roles.",
+  "z": 3
+ },
+ {
+  "w": "persist",
+  "m": "sürmek, ısrar etmek",
+  "s": "Symptoms may persist for weeks even after successful treatment.",
+  "z": 2
+ },
+ {
+  "w": "persuade",
+  "m": "ikna etmek",
+  "s": "The campaign persuaded thousands of smokers to quit within a year.",
+  "z": 2
+ },
+ {
+  "w": "pinpoint",
+  "m": "tam olarak belirlemek",
+  "s": "New imaging techniques can pinpoint the exact source of seizures.",
+  "z": 3
+ },
+ {
+  "w": "plummet",
+  "m": "hızla düşmek",
+  "s": "Share prices plummeted after the company announced record losses.",
+  "z": 3
+ },
+ {
+  "w": "portray",
+  "m": "tasvir etmek, resmetmek",
+  "s": "The film portrays the struggles of immigrants in 1920s America.",
+  "z": 2
+ },
+ {
+  "w": "possess",
+  "m": "sahip olmak",
+  "s": "Dolphins possess remarkable problem-solving abilities and social intelligence.",
+  "z": 2
+ },
+ {
+  "w": "postpone",
+  "m": "ertelemek",
+  "s": "Organizers postponed the conference because of the airline strike.",
+  "z": 2
+ },
+ {
+  "w": "preclude",
+  "m": "engel olmak, imkânsız kılmak",
+  "s": "His criminal record precludes him from working in public office.",
+  "z": 3
+ },
+ {
+  "w": "predict",
+  "m": "tahmin etmek, öngörmek",
+  "s": "Meteorologists can now predict severe storms several days in advance.",
+  "z": 2
+ },
+ {
+  "w": "presume",
+  "m": "varsaymak, farz etmek",
+  "s": "The law presumes that defendants are innocent until proven guilty.",
+  "z": 2
+ },
+ {
+  "w": "prevail",
+  "m": "hâkim olmak, galip gelmek",
+  "s": "Despite fierce resistance, reason eventually prevailed in the debate.",
+  "z": 3
+ },
+ {
+  "w": "proceed",
+  "m": "devam etmek, ilerlemek",
+  "s": "The court decided to proceed with the trial despite the appeal.",
+  "z": 2
+ },
+ {
+  "w": "prohibit",
+  "m": "yasaklamak",
+  "s": "Federal law prohibits discrimination on the basis of religion.",
+  "z": 2
+ },
+ {
+  "w": "promote",
+  "m": "teşvik etmek; terfi ettirmek",
+  "s": "The campaign promotes healthy eating habits among school children.",
+  "z": 2
+ },
+ {
+  "w": "prompt",
+  "m": "harekete geçirmek; hızlı",
+  "s": "The scandal prompted calls for the minister's immediate resignation.",
+  "z": 2
+ },
+ {
+  "w": "propose",
+  "m": "önermek",
+  "s": "The senator proposed a bill to raise the national minimum wage.",
+  "z": 2
+ },
+ {
+  "w": "prosecute",
+  "m": "kovuşturmak, dava açmak",
+  "s": "Authorities will prosecute companies that dump waste into rivers.",
+  "z": 3
+ },
+ {
+  "w": "prosper",
+  "m": "refaha ermek, gelişmek",
+  "s": "Coastal cities prospered thanks to trade with distant colonies.",
+  "z": 2
+ },
+ {
+  "w": "provoke",
+  "m": "kışkırtmak, yol açmak",
+  "s": "The decision provoked angry protests in several major cities.",
+  "z": 2
+ },
+ {
+  "w": "pursue",
+  "m": "sürdürmek, peşinden gitmek",
+  "s": "More women are choosing to pursue careers in engineering.",
+  "z": 2
+ },
+ {
+  "w": "quote",
+  "m": "alıntı yapmak",
+  "s": "The article quotes several experts who question the official figures.",
+  "z": 1
+ },
+ {
+  "w": "ratify",
+  "m": "onaylamak (antlaşma)",
+  "s": "All member states must ratify the treaty before it takes effect.",
+  "z": 3
+ },
+ {
+  "w": "recall",
+  "m": "hatırlamak; geri çağırmak",
+  "s": "The manufacturer recalled thousands of cars over a braking fault.",
+  "z": 2
+ },
+ {
+  "w": "reconcile",
+  "m": "uzlaştırmak, bağdaştırmak",
+  "s": "It is difficult to reconcile economic growth with environmental protection.",
+  "z": 3
+ },
+ {
+  "w": "recruit",
+  "m": "işe almak, askere almak",
+  "s": "The hospital struggled to recruit qualified nurses from abroad.",
+  "z": 2
+ },
+ {
+  "w": "rectify",
+  "m": "düzeltmek",
+  "s": "The bank promised to rectify the errors in customers' accounts.",
+  "z": 3
+ },
+ {
+  "w": "refine",
+  "m": "arıtmak, geliştirmek",
+  "s": "Researchers refined their model until it matched the observed data.",
+  "z": 2
+ },
+ {
+  "w": "refrain",
+  "m": "kaçınmak, çekinmek",
+  "s": "Doctors advised patients to refrain from strenuous exercise after surgery.",
+  "z": 3
+ },
+ {
+  "w": "refute",
+  "m": "çürütmek",
+  "s": "The physicist published new data to refute her critics' claims.",
+  "z": 3
+ },
+ {
+  "w": "regulate",
+  "m": "düzenlemek, denetlemek",
+  "s": "The agency regulates the safety of food and pharmaceutical products.",
+  "z": 2
+ },
+ {
+  "w": "reinforce",
+  "m": "güçlendirmek, pekiştirmek",
+  "s": "Media coverage often reinforces existing prejudices rather than challenging them.",
+  "z": 2
+ },
+ {
+  "w": "reject",
+  "m": "reddetmek",
+  "s": "The board rejected the merger proposal by a narrow margin.",
+  "z": 1
+ },
+ {
+  "w": "relieve",
+  "m": "rahatlatmak, hafifletmek",
+  "s": "The new road will relieve congestion in the city center.",
+  "z": 2
+ },
+ {
+  "w": "rely",
+  "m": "güvenmek, bel bağlamak",
+  "s": "Island economies rely heavily on tourism for jobs and revenue.",
+  "z": 2
+ },
+ {
+  "w": "remedy",
+  "m": "çare bulmak; çare",
+  "s": "The reforms aim to remedy long-standing inequalities in the tax system.",
+  "z": 2
+ },
+ {
+  "w": "render",
+  "m": "hâline getirmek; sunmak",
+  "s": "The flood rendered thousands of homes uninhabitable within hours.",
+  "z": 3
+ },
+ {
+  "w": "repel",
+  "m": "püskürtmek, itmek",
+  "s": "The castle's defenders repelled three assaults before finally surrendering.",
+  "z": 3
+ },
+ {
+  "w": "reproach",
+  "m": "kınamak, sitem etmek",
+  "s": "The editorial reproached officials for ignoring repeated safety warnings.",
+  "z": 3
+ },
+ {
+  "w": "resemble",
+  "m": "benzemek",
+  "s": "The newly discovered planet closely resembles Earth in size and composition.",
+  "z": 2
+ },
+ {
+  "w": "resign",
+  "m": "istifa etmek",
+  "s": "The minister resigned after admitting he had misled parliament.",
+  "z": 2
+ },
+ {
+  "w": "resolve",
+  "m": "çözmek; karar vermek",
+  "s": "Diplomats worked around the clock to resolve the border dispute.",
+  "z": 2
+ },
+ {
+  "w": "restore",
+  "m": "eski hâline getirmek",
+  "s": "Conservationists restored the wetland to its original natural state.",
+  "z": 2
+ },
+ {
+  "w": "restrain",
+  "m": "dizginlemek, zapt etmek",
+  "s": "The central bank raised rates to restrain runaway inflation.",
+  "z": 3
+ },
+ {
+  "w": "restrict",
+  "m": "kısıtlamak, sınırlamak",
+  "s": "New laws restrict the sale of energy drinks to minors.",
+  "z": 2
+ },
+ {
+  "w": "resume",
+  "m": "yeniden başlamak",
+  "s": "Flights resumed once the volcanic ash cloud had cleared.",
+  "z": 2
+ },
+ {
+  "w": "retain",
+  "m": "korumak, elde tutmak",
+  "s": "Companies offer flexible hours to retain their most talented employees.",
+  "z": 2
+ },
+ {
+  "w": "retrieve",
+  "m": "geri almak, kurtarmak",
+  "s": "Divers retrieved the flight recorder from the ocean floor.",
+  "z": 2
+ },
+ {
+  "w": "reveal",
+  "m": "ortaya çıkarmak, açıklamak",
+  "s": "Leaked documents revealed the true scale of the environmental damage.",
+  "z": 1
+ },
+ {
+  "w": "revise",
+  "m": "gözden geçirmek, düzeltmek",
+  "s": "Economists revised their growth forecasts downward for the third time.",
+  "z": 2
+ },
+ {
+  "w": "revive",
+  "m": "canlandırmak, diriltmek",
+  "s": "The festival helped revive interest in traditional folk music.",
+  "z": 2
+ },
+ {
+  "w": "seek",
+  "m": "aramak, çabalamak",
+  "s": "Millions of refugees seek asylum in neighboring countries every year.",
+  "z": 2
+ },
+ {
+  "w": "segregate",
+  "m": "ayırmak, ayrıştırmak",
+  "s": "The law once segregated students by race in public schools.",
+  "z": 3
+ },
+ {
+  "w": "simulate",
+  "m": "benzetim yapmak, taklit etmek",
+  "s": "Computer models simulate how the climate might change by 2100.",
+  "z": 2
+ },
+ {
+  "w": "speculate",
+  "m": "tahmin yürütmek; spekülasyon yapmak",
+  "s": "Historians can only speculate about the causes of the city's decline.",
+  "z": 2
+ },
+ {
+  "w": "squander",
+  "m": "çarçur etmek",
+  "s": "The country squandered its oil wealth on prestige projects.",
+  "z": 3
+ },
+ {
+  "w": "stem",
+  "m": "kaynaklanmak; durdurmak",
+  "s": "Many health problems stem from poor diet and lack of exercise.",
+  "z": 3
+ },
+ {
+  "w": "stimulate",
+  "m": "canlandırmak, uyarmak",
+  "s": "Tax cuts were introduced to stimulate investment in small businesses.",
+  "z": 2
+ },
+ {
+  "w": "strive",
+  "m": "çabalamak",
+  "s": "Universities strive to attract the most talented international students.",
+  "z": 2
+ },
+ {
+  "w": "submit",
+  "m": "sunmak, teslim etmek",
+  "s": "Candidates must submit their applications before the end of March.",
+  "z": 2
+ },
+ {
+  "w": "subsidize",
+  "m": "sübvanse etmek, desteklemek",
+  "s": "The state subsidizes public transport to keep fares affordable.",
+  "z": 3
+ },
+ {
+  "w": "substantiate",
+  "m": "kanıtlarla desteklemek",
+  "s": "The researchers could not substantiate their claims with reliable data.",
+  "z": 3
+ },
+ {
+  "w": "suppress",
+  "m": "bastırmak",
+  "s": "The regime suppressed all reports of the protests in state media.",
+  "z": 3
+ },
+ {
+  "w": "surpass",
+  "m": "aşmak, geçmek",
+  "s": "China surpassed the United States in total energy consumption in 2009.",
+  "z": 2
+ },
+ {
+  "w": "sustain",
+  "m": "sürdürmek, ayakta tutmak",
+  "s": "The soil can no longer sustain intensive farming without fertilizers.",
+  "z": 2
+ },
+ {
+  "w": "tackle",
+  "m": "ele almak, üstesinden gelmek",
+  "s": "The summit will tackle climate change and global food security.",
+  "z": 2
+ },
+ {
+  "w": "terminate",
+  "m": "sona erdirmek",
+  "s": "The company terminated the contract after repeated delivery failures.",
+  "z": 2
+ },
+ {
+  "w": "transform",
+  "m": "dönüştürmek",
+  "s": "Artificial intelligence is transforming the way doctors diagnose disease.",
+  "z": 2
+ },
+ {
+  "w": "transmit",
+  "m": "iletmek, bulaştırmak",
+  "s": "Mosquitoes transmit the disease from infected animals to humans.",
+  "z": 2
+ },
+ {
+  "w": "undergo",
+  "m": "geçirmek, maruz kalmak",
+  "s": "The patient will undergo surgery to remove the damaged tissue.",
+  "z": 2
+ },
+ {
+  "w": "undertake",
+  "m": "üstlenmek, girişmek",
+  "s": "The institute undertook a five-year study of urban poverty.",
+  "z": 2
+ },
+ {
+  "w": "unveil",
+  "m": "tanıtmak, açıklamak",
+  "s": "The government unveiled a plan to modernize the railway network.",
+  "z": 2
+ },
+ {
+  "w": "uphold",
+  "m": "desteklemek, onamak",
+  "s": "The supreme court upheld the lower court's controversial ruling.",
+  "z": 3
+ },
+ {
+  "w": "utilize",
+  "m": "kullanmak, yararlanmak",
+  "s": "Farmers utilize drones to monitor crop health across large fields.",
+  "z": 2
+ },
+ {
+  "w": "vanish",
+  "m": "yok olmak, kaybolmak",
+  "s": "Entire glaciers could vanish from the Alps within decades.",
+  "z": 2
+ },
+ {
+  "w": "verify",
+  "m": "doğrulamak",
+  "s": "Journalists must verify their sources before publishing sensitive claims.",
+  "z": 2
+ },
+ {
+  "w": "withdraw",
+  "m": "geri çekmek, çekilmek",
+  "s": "The company withdrew the product after reports of contamination.",
+  "z": 2
+ },
+ {
+  "w": "withstand",
+  "m": "dayanmak, karşı koymak",
+  "s": "The new buildings are designed to withstand powerful earthquakes.",
+  "z": 2
+ },
+ {
+  "w": "witness",
+  "m": "tanık olmak; tanık",
+  "s": "The past decade has witnessed dramatic advances in gene therapy.",
+  "z": 1
+ },
+ {
+  "w": "abrupt",
+  "m": "ani, beklenmedik",
+  "s": "The talks came to an abrupt end without any agreement.",
+  "z": 2
+ },
+ {
+  "w": "absurd",
+  "m": "saçma, mantıksız",
+  "s": "Critics dismissed the conspiracy theory as completely absurd.",
+  "z": 2
+ },
+ {
+  "w": "abundantly",
+  "m": "bolca, açıkça",
+  "s": "The report makes it abundantly clear that reforms are urgent.",
+  "z": 2
+ },
+ {
+  "w": "accessible",
+  "m": "erişilebilir, ulaşılabilir",
+  "s": "Public buildings must be accessible to people with disabilities.",
+  "z": 1
+ },
+ {
+  "w": "accurate",
+  "m": "doğru, kesin",
+  "s": "Weather forecasts have become far more accurate over recent decades.",
+  "z": 1
+ },
+ {
+  "w": "acute",
+  "m": "şiddetli, akut",
+  "s": "The region faces an acute shortage of clean drinking water.",
+  "z": 3
+ },
+ {
+  "w": "adequate",
+  "m": "yeterli",
+  "s": "Many rural schools lack adequate funding for basic supplies.",
+  "z": 2
+ },
+ {
+  "w": "adjacent",
+  "m": "bitişik, komşu",
+  "s": "The fire spread quickly to adjacent buildings in the old quarter.",
+  "z": 3
+ },
+ {
+  "w": "affluent",
+  "m": "varlıklı, zengin",
+  "s": "Children from affluent families are more likely to attend university.",
+  "z": 3
+ },
+ {
+  "w": "alien",
+  "m": "yabancı; uzaylı",
+  "s": "The customs of the region seemed alien to the early travelers.",
+  "z": 2
+ },
+ {
+  "w": "ample",
+  "m": "bol, fazlasıyla yeterli",
+  "s": "There is ample evidence that smoking causes numerous fatal diseases.",
+  "z": 3
+ },
+ {
+  "w": "annual",
+  "m": "yıllık",
+  "s": "The organization publishes an annual report on global press freedom.",
+  "z": 1
+ },
+ {
+  "w": "anonymous",
+  "m": "isimsiz, anonim",
+  "s": "The study was based on anonymous surveys of hospital staff.",
+  "z": 2
+ },
+ {
+  "w": "apparent",
+  "m": "görünürdeki, açık",
+  "s": "The economic benefits of the project were apparent within months.",
+  "z": 2
+ },
+ {
+  "w": "appropriate",
+  "m": "uygun",
+  "s": "Teachers must choose materials appropriate for each age group.",
+  "z": 1
+ },
+ {
+  "w": "arbitrary",
+  "m": "keyfî, gelişigüzel",
+  "s": "Critics called the new visa restrictions arbitrary and unfair.",
+  "z": 3
+ },
+ {
+  "w": "artificial",
+  "m": "yapay",
+  "s": "Artificial sweeteners are widely used in low-calorie soft drinks.",
+  "z": 1
+ },
+ {
+  "w": "authentic",
+  "m": "özgün, gerçek",
+  "s": "Experts confirmed that the painting was an authentic seventeenth-century work.",
+  "z": 2
+ },
+ {
+  "w": "beneficial",
+  "m": "yararlı, faydalı",
+  "s": "Moderate coffee consumption may be beneficial to heart health.",
+  "z": 2
+ },
+ {
+  "w": "biased",
+  "m": "taraflı, önyargılı",
+  "s": "The defense argued that the media coverage was heavily biased.",
+  "z": 2
+ },
+ {
+  "w": "bleak",
+  "m": "kasvetli, umutsuz",
+  "s": "Without urgent action, the outlook for coral reefs remains bleak.",
+  "z": 3
+ },
+ {
+  "w": "brutal",
+  "m": "acımasız, vahşi",
+  "s": "The report documented the brutal treatment of political prisoners.",
+  "z": 2
+ },
+ {
+  "w": "chronic",
+  "m": "kronik, süregelen",
+  "s": "Chronic stress increases the risk of heart disease and depression.",
+  "z": 2
+ },
+ {
+  "w": "coarse",
+  "m": "kaba, pürüzlü",
+  "s": "The coarse volcanic soil is surprisingly good for growing vines.",
+  "z": 3
+ },
+ {
+  "w": "cognitive",
+  "m": "bilişsel",
+  "s": "Bilingual children often show enhanced cognitive flexibility in problem solving.",
+  "z": 2
+ },
+ {
+  "w": "compatible",
+  "m": "uyumlu",
+  "s": "The new software is compatible with most older operating systems.",
+  "z": 2
+ },
+ {
+  "w": "compelling",
+  "m": "ikna edici, sürükleyici",
+  "s": "The documentary presents compelling evidence of corporate environmental crimes.",
+  "z": 3
+ },
+ {
+  "w": "competent",
+  "m": "yetkin, ehil",
+  "s": "Every patient deserves treatment by competent and caring medical staff.",
+  "z": 2
+ },
+ {
+  "w": "comprehensive",
+  "m": "kapsamlı",
+  "s": "The government announced a comprehensive review of the pension system.",
+  "z": 2
+ },
+ {
+  "w": "compulsory",
+  "m": "zorunlu",
+  "s": "Military service is still compulsory in several European countries.",
+  "z": 2
+ },
+ {
+  "w": "conducive",
+  "m": "elverişli, yardımcı olan",
+  "s": "Quiet study environments are conducive to deep learning and concentration.",
+  "z": 3
+ },
+ {
+  "w": "confidential",
+  "m": "gizli",
+  "s": "Medical records are confidential and cannot be shared without consent.",
+  "z": 2
+ },
+ {
+  "w": "conscious",
+  "m": "bilinçli, farkında",
+  "s": "Consumers are becoming more conscious of the environmental costs of fashion.",
+  "z": 1
+ },
+ {
+  "w": "consecutive",
+  "m": "ardışık, üst üste",
+  "s": "The economy contracted for three consecutive quarters last year.",
+  "z": 2
+ },
+ {
+  "w": "considerable",
+  "m": "önemli, hatırı sayılır",
+  "s": "The new policy has attracted considerable criticism from teachers' unions.",
+  "z": 2
+ },
+ {
+  "w": "consistent",
+  "m": "tutarlı",
+  "s": "Her account of events was consistent with the physical evidence.",
+  "z": 2
+ },
+ {
+  "w": "conspicuous",
+  "m": "göze çarpan, dikkat çekici",
+  "s": "The minister was conspicuous by his absence from the ceremony.",
+  "z": 3
+ },
+ {
+  "w": "contemporary",
+  "m": "çağdaş, güncel",
+  "s": "The museum hosts exhibitions of both classical and contemporary art.",
+  "z": 2
+ },
+ {
+  "w": "controversial",
+  "m": "tartışmalı",
+  "s": "The controversial dam project displaced thousands of local families.",
+  "z": 1
+ },
+ {
+  "w": "conventional",
+  "m": "geleneksel, alışılmış",
+  "s": "Organic farming avoids many chemicals used in conventional agriculture.",
+  "z": 2
+ },
+ {
+  "w": "crucial",
+  "m": "çok önemli, hayati",
+  "s": "Early diagnosis is crucial for the successful treatment of cancer.",
+  "z": 1
+ },
+ {
+  "w": "crude",
+  "m": "ham; kaba",
+  "s": "The country exports crude oil and imports refined petroleum products.",
+  "z": 2
+ },
+ {
+  "w": "cumulative",
+  "m": "birikimli, kümülatif",
+  "s": "The cumulative effect of small daily habits can be enormous.",
+  "z": 3
+ },
+ {
+  "w": "current",
+  "m": "güncel, mevcut",
+  "s": "Current estimates put the world's population at over eight billion.",
+  "z": 1
+ },
+ {
+  "w": "deceptive",
+  "m": "aldatıcı, yanıltıcı",
+  "s": "The calm surface of the river is deceptive; strong currents lurk below.",
+  "z": 3
+ },
+ {
+  "w": "decisive",
+  "m": "belirleyici, kararlı",
+  "s": "The general's decisive action prevented the conflict from spreading.",
+  "z": 2
+ },
+ {
+  "w": "deficient",
+  "m": "eksik, yetersiz",
+  "s": "Diets deficient in iron can cause fatigue and poor concentration.",
+  "z": 3
+ },
+ {
+  "w": "dense",
+  "m": "yoğun, sık",
+  "s": "Dense fog forced the airport to cancel dozens of flights.",
+  "z": 1
+ },
+ {
+  "w": "detrimental",
+  "m": "zararlı",
+  "s": "Excessive screen time can be detrimental to children's sleep patterns.",
+  "z": 3
+ },
+ {
+  "w": "devoid",
+  "m": "yoksun",
+  "s": "The desert landscape appeared utterly devoid of any plant life.",
+  "z": 3
+ },
+ {
+  "w": "distinct",
+  "m": "farklı, ayrı",
+  "s": "The dialect of the island is distinct from mainland varieties.",
+  "z": 2
+ },
+ {
+  "w": "distinguished",
+  "m": "seçkin, saygın",
+  "s": "A distinguished panel of scientists reviewed the grant applications.",
+  "z": 2
+ },
+ {
+  "w": "dominant",
+  "m": "baskın, hâkim",
+  "s": "English remains the dominant language of international scientific publishing.",
+  "z": 1
+ },
+ {
+  "w": "drastic",
+  "m": "sert, köklü",
+  "s": "The crisis forced the airline to take drastic cost-cutting measures.",
+  "z": 2
+ },
+ {
+  "w": "dubious",
+  "m": "şüpheli, kuşkulu",
+  "s": "Several studies cited in the article rest on dubious methodology.",
+  "z": 3
+ },
+ {
+  "w": "durable",
+  "m": "dayanıklı",
+  "s": "Manufacturers now design products to be durable and easily repairable.",
+  "z": 2
+ },
+ {
+  "w": "eager",
+  "m": "istekli, hevesli",
+  "s": "Young graduates are eager to gain experience in international firms.",
+  "z": 1
+ },
+ {
+  "w": "elaborate",
+  "m": "ayrıntılı; detaylandırmak",
+  "s": "The palace is decorated with elaborate carvings and gold leaf.",
+  "z": 3
+ },
+ {
+  "w": "eligible",
+  "m": "uygun, hak sahibi",
+  "s": "Only citizens over eighteen are eligible to vote in national elections.",
+  "z": 2
+ },
+ {
+  "w": "eminent",
+  "m": "seçkin, ünlü",
+  "s": "The conference attracted eminent scholars from around the world.",
+  "z": 3
+ },
+ {
+  "w": "empirical",
+  "m": "deneysel, ampirik",
+  "s": "The theory lacks empirical support from controlled laboratory studies.",
+  "z": 3
+ },
+ {
+  "w": "enormous",
+  "m": "muazzam, devasa",
+  "s": "Rebuilding the flooded region will require enormous financial resources.",
+  "z": 1
+ },
+ {
+  "w": "equivalent",
+  "m": "eşdeğer",
+  "s": "A calorie of sugar is not nutritionally equivalent to one of protein.",
+  "z": 2
+ },
+ {
+  "w": "essential",
+  "m": "gerekli, temel",
+  "s": "Clean water is essential for public health and economic development.",
+  "z": 1
+ },
+ {
+  "w": "evident",
+  "m": "açık, belli",
+  "s": "The effects of the drought were evident in the withered crops.",
+  "z": 2
+ },
+ {
+  "w": "exempt",
+  "m": "muaf",
+  "s": "Charitable organizations are exempt from most forms of corporate taxation.",
+  "z": 3
+ },
+ {
+  "w": "exhaustive",
+  "m": "kapsamlı, ayrıntılı",
+  "s": "The commission conducted an exhaustive review of the safety procedures.",
+  "z": 3
+ },
+ {
+  "w": "exotic",
+  "m": "egzotik, yabancıl",
+  "s": "The trade in exotic pets threatens many endangered species.",
+  "z": 1
+ },
+ {
+  "w": "extensive",
+  "m": "geniş kapsamlı",
+  "s": "The storm caused extensive damage to crops along the coast.",
+  "z": 2
+ },
+ {
+  "w": "external",
+  "m": "dış, harici",
+  "s": "The project was reviewed by external auditors from an independent firm.",
+  "z": 1
+ },
+ {
+  "w": "extinct",
+  "m": "soyu tükenmiş",
+  "s": "Scientists estimate that dozens of species become extinct every day.",
+  "z": 1
+ },
+ {
+  "w": "feeble",
+  "m": "zayıf, cılız",
+  "s": "The government made only a feeble attempt to control prices.",
+  "z": 3
+ },
+ {
+  "w": "fertile",
+  "m": "verimli, bereketli",
+  "s": "The Nile's annual floods made the surrounding land remarkably fertile.",
+  "z": 2
+ },
+ {
+  "w": "fierce",
+  "m": "şiddetli, sert",
+  "s": "The proposal met fierce opposition from environmental groups.",
+  "z": 2
+ },
+ {
+  "w": "flexible",
+  "m": "esnek",
+  "s": "Flexible working hours help parents balance careers and family life.",
+  "z": 1
+ },
+ {
+  "w": "formidable",
+  "m": "zorlu, korkutucu",
+  "s": "Climate change poses a formidable challenge to coastal cities everywhere.",
+  "z": 3
+ },
+ {
+  "w": "fragile",
+  "m": "kırılgan, narin",
+  "s": "The ceasefire remains fragile and could collapse at any moment.",
+  "z": 2
+ },
+ {
+  "w": "fundamental",
+  "m": "temel, esaslı",
+  "s": "Access to education is a fundamental right of every child.",
+  "z": 1
+ },
+ {
+  "w": "genuine",
+  "m": "gerçek, hakiki",
+  "s": "The reforms reflect a genuine commitment to reducing inequality.",
+  "z": 2
+ },
+ {
+  "w": "gradual",
+  "m": "kademeli, aşamalı",
+  "s": "The data show a gradual decline in smoking among teenagers.",
+  "z": 1
+ },
+ {
+  "w": "hazardous",
+  "m": "tehlikeli, zararlı",
+  "s": "Workers handling hazardous materials must wear full protective equipment.",
+  "z": 2
+ },
+ {
+  "w": "hostile",
+  "m": "düşmanca",
+  "s": "The explorers faced hostile weather conditions throughout the expedition.",
+  "z": 2
+ },
+ {
+  "w": "immense",
+  "m": "muazzam, çok büyük",
+  "s": "The war placed an immense burden on the country's economy.",
+  "z": 2
+ },
+ {
+  "w": "imminent",
+  "m": "yakın, eli kulağında",
+  "s": "Residents were evacuated because of the imminent threat of flooding.",
+  "z": 3
+ },
+ {
+  "w": "immune",
+  "m": "bağışık",
+  "s": "Vaccinated individuals are largely immune to the severest form of the disease.",
+  "z": 2
+ },
+ {
+  "w": "imperative",
+  "m": "zorunlu, şart",
+  "s": "It is imperative that hospitals prepare for future pandemics now.",
+  "z": 3
+ },
+ {
+  "w": "inadequate",
+  "m": "yetersiz",
+  "s": "Inadequate sanitation contributes to the spread of infectious diseases.",
+  "z": 2
+ },
+ {
+  "w": "incompatible",
+  "m": "uyumsuz, bağdaşmaz",
+  "s": "The witness's statement was incompatible with the forensic evidence.",
+  "z": 2
+ },
+ {
+  "w": "inconclusive",
+  "m": "kesin olmayan, sonuçsuz",
+  "s": "Tests on the new drug proved inconclusive, so trials continue.",
+  "z": 3
+ },
+ {
+  "w": "indifferent",
+  "m": "kayıtsız, ilgisiz",
+  "s": "Voters seemed indifferent to the scandal, and turnout stayed high.",
+  "z": 2
+ },
+ {
+  "w": "indigenous",
+  "m": "yerli",
+  "s": "Indigenous communities hold valuable knowledge about local plant medicine.",
+  "z": 3
+ },
+ {
+  "w": "indispensable",
+  "m": "vazgeçilmez",
+  "s": "Smartphones have become indispensable tools for modern business travelers.",
+  "z": 3
+ },
+ {
+  "w": "inevitable",
+  "m": "kaçınılmaz",
+  "s": "Some economists argue that periodic recessions are simply inevitable.",
+  "z": 2
+ },
+ {
+  "w": "infamous",
+  "m": "adı çıkmış, kötü şöhretli",
+  "s": "The prison became infamous for its harsh treatment of inmates.",
+  "z": 2
+ },
+ {
+  "w": "inferior",
+  "m": "aşağı, düşük kaliteli",
+  "s": "Imported goods were once considered inferior to domestic products.",
+  "z": 2
+ },
+ {
+  "w": "ingenious",
+  "m": "dâhice, ustalıklı",
+  "s": "Engineers found an ingenious solution to the bridge's vibration problem.",
+  "z": 3
+ },
+ {
+  "w": "initial",
+  "m": "ilk, başlangıç",
+  "s": "Initial results from the vaccine trial exceeded all expectations.",
+  "z": 1
+ },
+ {
+  "w": "innate",
+  "m": "doğuştan gelen",
+  "s": "Some researchers believe humans have an innate capacity for language.",
+  "z": 3
+ },
+ {
+  "w": "intense",
+  "m": "yoğun, şiddetli",
+  "s": "The negotiations took place under intense pressure from the media.",
+  "z": 1
+ },
+ {
+  "w": "internal",
+  "m": "iç, dahili",
+  "s": "An internal investigation revealed serious flaws in the safety procedures.",
+  "z": 1
+ },
+ {
+  "w": "intact",
+  "m": "bozulmamış, sağlam",
+  "s": "Remarkably, the ancient mosaics survived the earthquake completely intact.",
+  "z": 3
+ },
+ {
+  "w": "integral",
+  "m": "ayrılmaz, bütünleyici",
+  "s": "Music is an integral part of the region's cultural identity.",
+  "z": 3
+ },
+ {
+  "w": "irrelevant",
+  "m": "alakasız, konu dışı",
+  "s": "The judge ruled that the evidence was irrelevant to the case.",
+  "z": 2
+ },
+ {
+  "w": "irreversible",
+  "m": "geri döndürülemez",
+  "s": "Scientists warn that some climate damage may already be irreversible.",
+  "z": 2
+ },
+ {
+  "w": "legitimate",
+  "m": "meşru, yasal",
+  "s": "Citizens have a legitimate right to know how taxes are spent.",
+  "z": 2
+ },
+ {
+  "w": "lethal",
+  "m": "öldürücü",
+  "s": "Even small doses of the toxin can be lethal to children.",
+  "z": 2
+ },
+ {
+  "w": "liable",
+  "m": "sorumlu; eğilimli",
+  "s": "Employers are legally liable for accidents caused by faulty equipment.",
+  "z": 3
+ },
+ {
+  "w": "literal",
+  "m": "gerçek, harfi harfine",
+  "s": "The translator preferred a literal rendering of the original text.",
+  "z": 2
+ },
+ {
+  "w": "lucrative",
+  "m": "kazançlı, kârlı",
+  "s": "The illegal wildlife trade has become a highly lucrative business.",
+  "z": 3
+ },
+ {
+  "w": "mandatory",
+  "m": "zorunlu",
+  "s": "Seat belts became mandatory for all passengers in the 1980s.",
+  "z": 2
+ },
+ {
+  "w": "marginal",
+  "m": "marjinal, önemsiz",
+  "s": "The new treatment offered only a marginal improvement over existing drugs.",
+  "z": 2
+ },
+ {
+  "w": "mature",
+  "m": "olgun; olgunlaşmak",
+  "s": "Mature forests store far more carbon than newly planted ones.",
+  "z": 2
+ },
+ {
+  "w": "moderate",
+  "m": "ılımlı, orta düzeyde",
+  "s": "Moderate exercise several times a week reduces the risk of stroke.",
+  "z": 2
+ },
+ {
+  "w": "mutual",
+  "m": "karşılıklı",
+  "s": "Successful partnerships are built on mutual trust and shared goals.",
+  "z": 2
+ },
+ {
+  "w": "naive",
+  "m": "saf, deneyimsiz",
+  "s": "It would be naive to expect quick solutions to such problems.",
+  "z": 2
+ },
+ {
+  "w": "negligible",
+  "m": "önemsiz, göz ardı edilebilir",
+  "s": "The device's effect on battery life is practically negligible.",
+  "z": 3
+ },
+ {
+  "w": "neutral",
+  "m": "tarafsız, nötr",
+  "s": "Switzerland remained neutral throughout both of the world wars.",
+  "z": 1
+ },
+ {
+  "w": "notorious",
+  "m": "kötü şöhretli",
+  "s": "The strait is notorious for its violent and unpredictable storms.",
+  "z": 2
+ },
+ {
+  "w": "numerous",
+  "m": "çok sayıda",
+  "s": "Numerous studies have linked air pollution to respiratory diseases.",
+  "z": 1
+ },
+ {
+  "w": "obedient",
+  "m": "itaatkâr",
+  "s": "The regime demanded obedient citizens rather than critical thinkers.",
+  "z": 2
+ },
+ {
+  "w": "objective",
+  "m": "nesnel; amaç",
+  "s": "Historians strive to give an objective account of past events.",
+  "z": 2
+ },
+ {
+  "w": "obligatory",
+  "m": "zorunlu",
+  "s": "Attendance at the weekly seminars is obligatory for all students.",
+  "z": 2
+ },
+ {
+  "w": "obstinate",
+  "m": "inatçı",
+  "s": "The obstinate refusal of both sides prolonged the strike for months.",
+  "z": 3
+ },
+ {
+  "w": "ongoing",
+  "m": "devam eden, süregelen",
+  "s": "The ongoing drought has forced farmers to abandon their fields.",
+  "z": 1
+ },
+ {
+  "w": "optimistic",
+  "m": "iyimser",
+  "s": "Analysts remain optimistic about the region's long-term economic prospects.",
+  "z": 1
+ },
+ {
+  "w": "outstanding",
+  "m": "olağanüstü; ödenmemiş",
+  "s": "She received the award for her outstanding contributions to chemistry.",
+  "z": 2
+ },
+ {
+  "w": "overdue",
+  "m": "gecikmiş, vadesi geçmiş",
+  "s": "Reform of the outdated tax system is long overdue.",
+  "z": 3
+ },
+ {
+  "w": "paramount",
+  "m": "en önemli, üstün",
+  "s": "Passenger safety is of paramount importance to the airline industry.",
+  "z": 3
+ },
+ {
+  "w": "peculiar",
+  "m": "tuhaf; özgü",
+  "s": "The custom is peculiar to a few villages in the region.",
+  "z": 2
+ },
+ {
+  "w": "perilous",
+  "m": "tehlikeli",
+  "s": "Migrants often undertake perilous journeys across the open sea.",
+  "z": 3
+ },
+ {
+  "w": "permanent",
+  "m": "kalıcı",
+  "s": "Untreated infections can cause permanent damage to the hearing.",
+  "z": 1
+ },
+ {
+  "w": "persistent",
+  "m": "kalıcı, inatçı",
+  "s": "Persistent inflation eroded the purchasing power of ordinary families.",
+  "z": 2
+ },
+ {
+  "w": "pertinent",
+  "m": "ilgili, konuyla alakalı",
+  "s": "The lawyer asked several questions pertinent to the witness's whereabouts.",
+  "z": 3
+ },
+ {
+  "w": "precise",
+  "m": "kesin, tam",
+  "s": "Modern instruments allow extremely precise measurements of tiny distances.",
+  "z": 2
+ },
+ {
+  "w": "predictable",
+  "m": "öngörülebilir",
+  "s": "The film's plot was so predictable that critics dismissed it entirely.",
+  "z": 1
+ },
+ {
+  "w": "preliminary",
+  "m": "ön, hazırlık niteliğinde",
+  "s": "Preliminary findings suggest the treatment works better in younger patients.",
+  "z": 2
+ },
+ {
+  "w": "prestigious",
+  "m": "prestijli, saygın",
+  "s": "She won a scholarship to one of the most prestigious universities.",
+  "z": 1
+ },
+ {
+  "w": "prior",
+  "m": "önceki, önce gelen",
+  "s": "Applicants must have prior experience in project management.",
+  "z": 2
+ },
+ {
+  "w": "proficient",
+  "m": "yetkin, usta",
+  "s": "Graduates must be proficient in at least two foreign languages.",
+  "z": 2
+ },
+ {
+  "w": "prominent",
+  "m": "önde gelen, göze çarpan",
+  "s": "Several prominent economists warned against cutting interest rates.",
+  "z": 2
+ },
+ {
+  "w": "prone",
+  "m": "eğilimli, yatkın",
+  "s": "Coastal cities are especially prone to flooding during hurricane season.",
+  "z": 3
+ },
+ {
+  "w": "prosperous",
+  "m": "müreffeh, zengin",
+  "s": "Trade turned the small port into a prosperous commercial hub.",
+  "z": 2
+ },
+ {
+  "w": "provisional",
+  "m": "geçici",
+  "s": "A provisional government was formed until elections could be held.",
+  "z": 3
+ },
+ {
+  "w": "prudent",
+  "m": "ihtiyatlı, sağgörülü",
+  "s": "Prudent investors spread their savings across different types of assets.",
+  "z": 3
+ },
+ {
+  "w": "redundant",
+  "m": "gereksiz; işsiz kalan",
+  "s": "Automation made hundreds of assembly-line workers redundant last year.",
+  "z": 3
+ },
+ {
+  "w": "relevant",
+  "m": "ilgili, konuyla alakalı",
+  "s": "Candidates should include only relevant experience in their applications.",
+  "z": 1
+ },
+ {
+  "w": "reliable",
+  "m": "güvenilir",
+  "s": "The study relies on data from reliable government sources.",
+  "z": 1
+ },
+ {
+  "w": "remote",
+  "m": "uzak, ıssız",
+  "s": "Mobile clinics bring healthcare to remote mountain communities.",
+  "z": 1
+ },
+ {
+  "w": "rigid",
+  "m": "katı, esnemez",
+  "s": "Critics say the rigid curriculum leaves no room for creativity.",
+  "z": 2
+ },
+ {
+  "w": "rigorous",
+  "m": "titiz, sıkı",
+  "s": "All drugs undergo rigorous testing before they reach the market.",
+  "z": 3
+ },
+ {
+  "w": "robust",
+  "m": "güçlü, sağlam",
+  "s": "The economy showed robust growth despite global market turbulence.",
+  "z": 2
+ },
+ {
+  "w": "rudimentary",
+  "m": "ilkel, temel düzeyde",
+  "s": "The villagers had only rudimentary tools for farming the land.",
+  "z": 3
+ },
+ {
+  "w": "rural",
+  "m": "kırsal",
+  "s": "Young people continue to leave rural areas for jobs in cities.",
+  "z": 1
+ },
+ {
+  "w": "savage",
+  "m": "vahşi, acımasız",
+  "s": "The proposal faced savage criticism from opposition politicians.",
+  "z": 2
+ },
+ {
+  "w": "scarce",
+  "m": "kıt, az bulunan",
+  "s": "Clean water is becoming scarce in many rapidly growing cities.",
+  "z": 2
+ },
+ {
+  "w": "sensible",
+  "m": "mantıklı, makul",
+  "s": "The most sensible option is to invest in renewable energy now.",
+  "z": 1
+ },
+ {
+  "w": "significant",
+  "m": "önemli, kayda değer",
+  "s": "The study found a significant link between diet and heart disease.",
+  "z": 1
+ },
+ {
+  "w": "skeptical",
+  "m": "şüpheci, kuşkucu",
+  "s": "Many scientists remain skeptical about the benefits of vitamin supplements.",
+  "z": 2
+ },
+ {
+  "w": "sophisticated",
+  "m": "gelişmiş, karmaşık",
+  "s": "Hackers used sophisticated software to break into the bank's systems.",
+  "z": 2
+ },
+ {
+  "w": "stable",
+  "m": "istikrarlı, sabit",
+  "s": "A stable political environment attracts long-term foreign investment.",
+  "z": 1
+ },
+ {
+  "w": "stagnant",
+  "m": "durgun",
+  "s": "Wages have remained stagnant while living costs continue to rise.",
+  "z": 3
+ },
+ {
+  "w": "steep",
+  "m": "dik; keskin (artış)",
+  "s": "The report notes a steep rise in youth unemployment since 2020.",
+  "z": 2
+ },
+ {
+  "w": "strenuous",
+  "m": "yorucu, zorlu",
+  "s": "Doctors advise avoiding strenuous activity in extreme summer heat.",
+  "z": 3
+ },
+ {
+  "w": "stringent",
+  "m": "katı, sıkı (kural)",
+  "s": "The industry faces stringent new rules on chemical emissions.",
+  "z": 3
+ },
+ {
+  "w": "sturdy",
+  "m": "sağlam, dayanıklı",
+  "s": "The bridge's sturdy design allowed it to survive the flood.",
+  "z": 2
+ },
+ {
+  "w": "subsequent",
+  "m": "sonraki, müteakip",
+  "s": "Subsequent investigations confirmed the initial findings of the inquiry.",
+  "z": 2
+ },
+ {
+  "w": "substantial",
+  "m": "önemli, büyük miktarda",
+  "s": "The donors pledged substantial financial support for the reconstruction effort.",
+  "z": 2
+ },
+ {
+  "w": "sufficient",
+  "m": "yeterli",
+  "s": "The generator provides sufficient power for the entire hospital.",
+  "z": 1
+ },
+ {
+  "w": "superficial",
+  "m": "yüzeysel",
+  "s": "The article offers only a superficial analysis of the crisis.",
+  "z": 2
+ },
+ {
+  "w": "superior",
+  "m": "üstün, daha iyi",
+  "s": "The new alloy is superior to steel in both strength and weight.",
+  "z": 2
+ },
+ {
+  "w": "susceptible",
+  "m": "duyarlı, yatkın",
+  "s": "Elderly patients are particularly susceptible to complications from influenza.",
+  "z": 3
+ },
+ {
+  "w": "tentative",
+  "m": "geçici, kesin olmayan",
+  "s": "The two sides reached a tentative agreement late last night.",
+  "z": 3
+ },
+ {
+  "w": "thorough",
+  "m": "kapsamlı, eksiksiz",
+  "s": "Investigators carried out a thorough examination of the crash site.",
+  "z": 2
+ },
+ {
+  "w": "toxic",
+  "m": "zehirli",
+  "s": "The factory released toxic chemicals into the nearby river for years.",
+  "z": 1
+ },
+ {
+  "w": "transparent",
+  "m": "şeffaf",
+  "s": "Voters demand a more transparent process for awarding government contracts.",
+  "z": 2
+ },
+ {
+  "w": "trivial",
+  "m": "önemsiz",
+  "s": "The two proposals differ only in trivial technical details.",
+  "z": 2
+ },
+ {
+  "w": "ubiquitous",
+  "m": "her yerde bulunan",
+  "s": "Smartphones have become ubiquitous even in the world's poorest regions.",
+  "z": 3
+ },
+ {
+  "w": "unanimous",
+  "m": "oybirliğiyle",
+  "s": "The board reached a unanimous decision to reject the takeover bid.",
+  "z": 3
+ },
+ {
+  "w": "unprecedented",
+  "m": "eşi görülmemiş",
+  "s": "The pandemic caused unprecedented disruption to global supply chains.",
+  "z": 3
+ },
+ {
+  "w": "urgent",
+  "m": "acil",
+  "s": "The refugees are in urgent need of food, shelter, and medicine.",
+  "z": 1
+ },
+ {
+  "w": "vague",
+  "m": "belirsiz, muğlak",
+  "s": "The minister gave only vague answers about the project's true cost.",
+  "z": 2
+ },
+ {
+  "w": "valid",
+  "m": "geçerli",
+  "s": "The ticket remains valid for three months from the purchase date.",
+  "z": 1
+ },
+ {
+  "w": "versatile",
+  "m": "çok yönlü",
+  "s": "Bamboo is a versatile material used in construction and textiles.",
+  "z": 2
+ },
+ {
+  "w": "vigorous",
+  "m": "güçlü, enerjik",
+  "s": "The proposal sparked vigorous debate in the national press.",
+  "z": 2
+ },
+ {
+  "w": "vital",
+  "m": "hayati, çok önemli",
+  "s": "Bees play a vital role in pollinating the world's food crops.",
+  "z": 1
+ },
+ {
+  "w": "vulnerable",
+  "m": "savunmasız, korunmasız",
+  "s": "Low-lying islands are especially vulnerable to rising sea levels.",
+  "z": 2
+ },
+ {
+  "w": "widespread",
+  "m": "yaygın",
+  "s": "The decision triggered widespread protests across the entire country.",
+  "z": 1
+ },
+ {
+  "w": "abundance",
+  "m": "bolluk",
+  "s": "The reef supports an abundance of colorful fish and coral species.",
+  "z": 2
+ },
+ {
+  "w": "access",
+  "m": "erişim",
+  "s": "Millions of children still lack access to basic primary education.",
+  "z": 1
+ },
+ {
+  "w": "accomplishment",
+  "m": "başarı",
+  "s": "Landing on the moon remains humanity's most celebrated technological accomplishment.",
+  "z": 2
+ },
+ {
+  "w": "accuracy",
+  "m": "doğruluk, kesinlik",
+  "s": "The accuracy of the forecasts improved with better satellite data.",
+  "z": 2
+ },
+ {
+  "w": "advent",
+  "m": "geliş, ortaya çıkış",
+  "s": "The advent of the internet transformed how news is consumed.",
+  "z": 3
+ },
+ {
+  "w": "adversity",
+  "m": "sıkıntı, zorluk",
+  "s": "The community showed remarkable courage in the face of adversity.",
+  "z": 3
+ },
+ {
+  "w": "allegation",
+  "m": "iddia, suçlama",
+  "s": "The company denied all allegations of bribery and fraud.",
+  "z": 3
+ },
+ {
+  "w": "ambiguity",
+  "m": "belirsizlik, çok anlamlılık",
+  "s": "Legal contracts should be drafted to avoid any ambiguity.",
+  "z": 3
+ },
+ {
+  "w": "apprehension",
+  "m": "endişe; kavrayış",
+  "s": "Many parents expressed apprehension about the new grading system.",
+  "z": 3
+ },
+ {
+  "w": "aspiration",
+  "m": "özlem, hedef",
+  "s": "Many young people share the aspiration of studying abroad.",
+  "z": 2
+ },
+ {
+  "w": "assault",
+  "m": "saldırı",
+  "s": "The soldiers repelled a night assault on the fortress walls.",
+  "z": 2
+ },
+ {
+  "w": "assessment",
+  "m": "değerlendirme",
+  "s": "Continuous assessment has largely replaced final exams in many courses.",
+  "z": 1
+ },
+ {
+  "w": "asset",
+  "m": "varlık, değerli şey",
+  "s": "Fluency in several languages is a valuable asset in diplomacy.",
+  "z": 2
+ },
+ {
+  "w": "assumption",
+  "m": "varsayım",
+  "s": "The model rests on the assumption that markets behave rationally.",
+  "z": 2
+ },
+ {
+  "w": "attitude",
+  "m": "tutum, tavır",
+  "s": "Public attitudes toward recycling have changed dramatically in recent decades.",
+  "z": 1
+ },
+ {
+  "w": "boundary",
+  "m": "sınır",
+  "s": "The river forms a natural boundary between the two provinces.",
+  "z": 1
+ },
+ {
+  "w": "breakthrough",
+  "m": "çığır açan gelişme",
+  "s": "The discovery marked a major breakthrough in cancer research.",
+  "z": 2
+ },
+ {
+  "w": "burden",
+  "m": "yük, külfet",
+  "s": "Rising healthcare costs place a heavy burden on state budgets.",
+  "z": 2
+ },
+ {
+  "w": "catastrophe",
+  "m": "felaket",
+  "s": "Swift international aid prevented the drought from becoming a catastrophe.",
+  "z": 2
+ },
+ {
+  "w": "circumstance",
+  "m": "koşul, durum",
+  "s": "Under no circumstances should medication be shared between patients.",
+  "z": 2
+ },
+ {
+  "w": "commodity",
+  "m": "emtia, mal",
+  "s": "Coffee is the second most traded commodity in the world.",
+  "z": 3
+ },
+ {
+  "w": "compassion",
+  "m": "şefkat, merhamet",
+  "s": "Nurses are trained to treat every patient with compassion and respect.",
+  "z": 2
+ },
+ {
+  "w": "competence",
+  "m": "yeterlilik, ehliyet",
+  "s": "The exam measures both linguistic competence and communication skills.",
+  "z": 2
+ },
+ {
+  "w": "conflict",
+  "m": "çatışma, anlaşmazlık",
+  "s": "The conflict displaced more than two million people within months.",
+  "z": 1
+ },
+ {
+  "w": "consensus",
+  "m": "uzlaşma, fikir birliği",
+  "s": "There is broad scientific consensus that human activity drives warming.",
+  "z": 3
+ },
+ {
+  "w": "consequence",
+  "m": "sonuç",
+  "s": "Deforestation has serious consequences for both wildlife and climate.",
+  "z": 1
+ },
+ {
+  "w": "conservation",
+  "m": "koruma",
+  "s": "The park was created for the conservation of endangered tigers.",
+  "z": 1
+ },
+ {
+  "w": "constraint",
+  "m": "kısıtlama",
+  "s": "Budget constraints forced the museum to shorten its opening hours.",
+  "z": 3
+ },
+ {
+  "w": "controversy",
+  "m": "tartışma, ihtilaf",
+  "s": "The book sparked controversy over its portrayal of colonial history.",
+  "z": 2
+ },
+ {
+  "w": "criteria",
+  "m": "ölçütler",
+  "s": "Applicants must meet strict criteria to qualify for the scholarship.",
+  "z": 2
+ },
+ {
+  "w": "deficiency",
+  "m": "eksiklik, yetersizlik",
+  "s": "Vitamin D deficiency is common in countries with long winters.",
+  "z": 2
+ },
+ {
+  "w": "deficit",
+  "m": "açık, eksik",
+  "s": "The government pledged to reduce the budget deficit within five years.",
+  "z": 2
+ },
+ {
+  "w": "demand",
+  "m": "talep; talep etmek",
+  "s": "Global demand for lithium has soared with electric car production.",
+  "z": 1
+ },
+ {
+  "w": "depletion",
+  "m": "tükenme, azalma",
+  "s": "The depletion of fish stocks threatens millions of coastal livelihoods.",
+  "z": 3
+ },
+ {
+  "w": "destination",
+  "m": "varış yeri, hedef",
+  "s": "The island has become a popular destination for adventure tourists.",
+  "z": 1
+ },
+ {
+  "w": "determination",
+  "m": "kararlılık",
+  "s": "Her determination to succeed carried her through years of setbacks.",
+  "z": 1
+ },
+ {
+  "w": "deterioration",
+  "m": "kötüleşme, bozulma",
+  "s": "Doctors noted a rapid deterioration in the patient's condition.",
+  "z": 3
+ },
+ {
+  "w": "dimension",
+  "m": "boyut",
+  "s": "The scandal added a political dimension to the financial crisis.",
+  "z": 2
+ },
+ {
+  "w": "disaster",
+  "m": "felaket, afet",
+  "s": "The country lacks the resources to respond to natural disasters.",
+  "z": 1
+ },
+ {
+  "w": "discourse",
+  "m": "söylem",
+  "s": "Social media has coarsened the tone of public political discourse.",
+  "z": 3
+ },
+ {
+  "w": "discrepancy",
+  "m": "tutarsızlık, fark",
+  "s": "Auditors found a discrepancy between the reported and actual figures.",
+  "z": 3
+ },
+ {
+  "w": "discrimination",
+  "m": "ayrımcılık",
+  "s": "The law bans discrimination on grounds of age or gender.",
+  "z": 1
+ },
+ {
+  "w": "disparity",
+  "m": "eşitsizlik, farklılık",
+  "s": "The report highlights the growing disparity between urban and rural incomes.",
+  "z": 3
+ },
+ {
+  "w": "dispute",
+  "m": "anlaşmazlık; itiraz etmek",
+  "s": "The border dispute has strained relations between the neighbors for decades.",
+  "z": 2
+ },
+ {
+  "w": "disruption",
+  "m": "aksama, kesinti",
+  "s": "The volcanic eruption caused massive disruption to air travel.",
+  "z": 2
+ },
+ {
+  "w": "distinction",
+  "m": "ayrım; üstün başarı",
+  "s": "The law draws a clear distinction between negligence and intent.",
+  "z": 2
+ },
+ {
+  "w": "diversity",
+  "m": "çeşitlilik",
+  "s": "The rainforest's biological diversity is unmatched anywhere on Earth.",
+  "z": 1
+ },
+ {
+  "w": "domain",
+  "m": "alan, saha",
+  "s": "Machine translation was once a domain reserved for specialists.",
+  "z": 2
+ },
+ {
+  "w": "drawback",
+  "m": "dezavantaj, sakınca",
+  "s": "The main drawback of solar power is its dependence on weather.",
+  "z": 2
+ },
+ {
+  "w": "drought",
+  "m": "kuraklık",
+  "s": "The prolonged drought devastated harvests across the entire region.",
+  "z": 2
+ },
+ {
+  "w": "emergence",
+  "m": "ortaya çıkış",
+  "s": "The emergence of drug-resistant bacteria alarms public health officials.",
+  "z": 2
+ },
+ {
+  "w": "emission",
+  "m": "salım, emisyon",
+  "s": "The treaty commits nations to cutting carbon emissions by half.",
+  "z": 2
+ },
+ {
+  "w": "emphasis",
+  "m": "vurgu",
+  "s": "The new curriculum places greater emphasis on practical skills.",
+  "z": 2
+ },
+ {
+  "w": "endeavor",
+  "m": "çaba, girişim",
+  "s": "Space exploration is perhaps humanity's most ambitious scientific endeavor.",
+  "z": 3
+ },
+ {
+  "w": "epidemic",
+  "m": "salgın",
+  "s": "Health officials struggled to contain the cholera epidemic.",
+  "z": 2
+ },
+ {
+  "w": "equality",
+  "m": "eşitlik",
+  "s": "The movement campaigned for equality in pay and promotion.",
+  "z": 1
+ },
+ {
+  "w": "era",
+  "m": "çağ, dönem",
+  "s": "The invention of the printing press began a new era.",
+  "z": 1
+ },
+ {
+  "w": "eruption",
+  "m": "patlama, püskürme",
+  "s": "The volcanic eruption buried the ancient city under meters of ash.",
+  "z": 2
+ },
+ {
+  "w": "evidence",
+  "m": "kanıt, delil",
+  "s": "There is growing evidence that gut bacteria influence mental health.",
+  "z": 1
+ },
+ {
+  "w": "evolution",
+  "m": "evrim, gelişim",
+  "s": "The exhibition traces the evolution of flight from balloons to jets.",
+  "z": 1
+ },
+ {
+  "w": "exception",
+  "m": "istisna",
+  "s": "With few exceptions, all students passed the final examination.",
+  "z": 1
+ },
+ {
+  "w": "expenditure",
+  "m": "harcama, gider",
+  "s": "Military expenditure consumes a large share of the national budget.",
+  "z": 3
+ },
+ {
+  "w": "exposure",
+  "m": "maruz kalma",
+  "s": "Prolonged exposure to loud noise can cause permanent hearing loss.",
+  "z": 2
+ },
+ {
+  "w": "extent",
+  "m": "boyut, derece",
+  "s": "The full extent of the damage became clear only at dawn.",
+  "z": 2
+ },
+ {
+  "w": "extinction",
+  "m": "yok olma, soy tükenmesi",
+  "s": "Poaching has driven several rhino species to the brink of extinction.",
+  "z": 2
+ },
+ {
+  "w": "famine",
+  "m": "kıtlık",
+  "s": "The famine of the 1840s forced millions to emigrate from Ireland.",
+  "z": 2
+ },
+ {
+  "w": "fatigue",
+  "m": "yorgunluk",
+  "s": "Pilot fatigue has been cited as a factor in several accidents.",
+  "z": 2
+ },
+ {
+  "w": "flaw",
+  "m": "kusur, hata",
+  "s": "Engineers discovered a critical flaw in the reactor's cooling system.",
+  "z": 2
+ },
+ {
+  "w": "fluctuation",
+  "m": "dalgalanma",
+  "s": "Farmers suffer from sharp fluctuations in global grain prices.",
+  "z": 2
+ },
+ {
+  "w": "framework",
+  "m": "çerçeve",
+  "s": "The agreement provides a legal framework for sharing water resources.",
+  "z": 2
+ },
+ {
+  "w": "fraud",
+  "m": "dolandırıcılık, sahtekârlık",
+  "s": "The executives were convicted of fraud and sentenced to prison.",
+  "z": 2
+ },
+ {
+  "w": "friction",
+  "m": "sürtünme; gerginlik",
+  "s": "Trade barriers created friction between the two longtime allies.",
+  "z": 2
+ },
+ {
+  "w": "glimpse",
+  "m": "kısa bakış, an",
+  "s": "The excavation offers a rare glimpse into daily Roman life.",
+  "z": 2
+ },
+ {
+  "w": "grievance",
+  "m": "şikâyet, yakınma",
+  "s": "The workers presented a list of grievances to the management.",
+  "z": 3
+ },
+ {
+  "w": "hazard",
+  "m": "tehlike",
+  "s": "Icy roads pose a serious hazard to drivers every winter.",
+  "z": 2
+ },
+ {
+  "w": "heritage",
+  "m": "miras",
+  "s": "The old town was declared a world heritage site in 1985.",
+  "z": 1
+ },
+ {
+  "w": "hierarchy",
+  "m": "hiyerarşi, aşama düzeni",
+  "s": "Decisions travel slowly through the company's rigid management hierarchy.",
+  "z": 2
+ },
+ {
+  "w": "hypothesis",
+  "m": "hipotez, varsayım",
+  "s": "The experiment was designed to test a single clear hypothesis.",
+  "z": 2
+ },
+ {
+  "w": "impact",
+  "m": "etki",
+  "s": "Researchers measured the impact of social media on adolescent sleep.",
+  "z": 1
+ },
+ {
+  "w": "implication",
+  "m": "sonuç, ima",
+  "s": "The ruling has far-reaching implications for online privacy rights.",
+  "z": 3
+ },
+ {
+  "w": "incentive",
+  "m": "teşvik",
+  "s": "Tax breaks give companies an incentive to invest in research.",
+  "z": 2
+ },
+ {
+  "w": "incidence",
+  "m": "görülme sıklığı",
+  "s": "The incidence of diabetes has doubled in the past two decades.",
+  "z": 3
+ },
+ {
+  "w": "inclination",
+  "m": "eğilim",
+  "s": "He showed little inclination to compromise on the key issues.",
+  "z": 3
+ },
+ {
+  "w": "income",
+  "m": "gelir",
+  "s": "Households with lower incomes spend proportionally more on food.",
+  "z": 1
+ },
+ {
+  "w": "inequality",
+  "m": "eşitsizlik",
+  "s": "Economic inequality has widened in most industrialized nations since 1980.",
+  "z": 1
+ },
+ {
+  "w": "inflation",
+  "m": "enflasyon",
+  "s": "Soaring inflation eroded the savings of millions of pensioners.",
+  "z": 1
+ },
+ {
+  "w": "ingredient",
+  "m": "malzeme, bileşen",
+  "s": "Trust is the essential ingredient of any successful negotiation.",
+  "z": 1
+ },
+ {
+  "w": "inhabitant",
+  "m": "sakin, oturan",
+  "s": "The island's inhabitants depend almost entirely on fishing.",
+  "z": 2
+ },
+ {
+  "w": "initiative",
+  "m": "girişim, inisiyatif",
+  "s": "The initiative aims to provide laptops to disadvantaged students.",
+  "z": 2
+ },
+ {
+  "w": "insight",
+  "m": "içgörü, kavrayış",
+  "s": "Brain imaging gives researchers new insights into how memory works.",
+  "z": 2
+ },
+ {
+  "w": "integrity",
+  "m": "dürüstlük; bütünlük",
+  "s": "The scandal raised questions about the integrity of the judges.",
+  "z": 3
+ },
+ {
+  "w": "intersection",
+  "m": "kesişim, kavşak",
+  "s": "The study sits at the intersection of biology and computer science.",
+  "z": 2
+ },
+ {
+  "w": "intervention",
+  "m": "müdahale",
+  "s": "Early intervention can prevent minor learning difficulties from worsening.",
+  "z": 2
+ },
+ {
+  "w": "intuition",
+  "m": "sezgi",
+  "s": "Experienced doctors often rely on intuition as well as tests.",
+  "z": 2
+ },
+ {
+  "w": "invasion",
+  "m": "istila, işgal",
+  "s": "The invasion triggered the largest refugee crisis in decades.",
+  "z": 2
+ },
+ {
+  "w": "legacy",
+  "m": "miras, kalıt",
+  "s": "The dictator left a legacy of debt and institutional decay.",
+  "z": 3
+ },
+ {
+  "w": "legislation",
+  "m": "mevzuat, yasama",
+  "s": "Parliament passed legislation banning single-use plastic bags.",
+  "z": 3
+ },
+ {
+  "w": "leverage",
+  "m": "koz, kaldıraç gücü",
+  "s": "Small nations have little leverage in global trade negotiations.",
+  "z": 3
+ },
+ {
+  "w": "livelihood",
+  "m": "geçim kaynağı",
+  "s": "Overfishing threatens the livelihood of thousands of coastal families.",
+  "z": 3
+ },
+ {
+  "w": "magnitude",
+  "m": "büyüklük, boyut",
+  "s": "Few people grasped the true magnitude of the approaching crisis.",
+  "z": 3
+ },
+ {
+  "w": "mainstream",
+  "m": "ana akım",
+  "s": "Electric cars have finally entered the automotive mainstream.",
+  "z": 2
+ },
+ {
+  "w": "maintenance",
+  "m": "bakım; sürdürme",
+  "s": "Poor maintenance was blamed for the collapse of the bridge.",
+  "z": 1
+ },
+ {
+  "w": "means",
+  "m": "araç, yol",
+  "s": "For many villagers, the river is the only means of transport.",
+  "z": 2
+ },
+ {
+  "w": "measure",
+  "m": "önlem; ölçmek",
+  "s": "The government introduced strict measures to curb tobacco advertising.",
+  "z": 1
+ },
+ {
+  "w": "merit",
+  "m": "değer, erdem; hak etmek",
+  "s": "Promotions should be based on merit rather than personal connections.",
+  "z": 2
+ },
+ {
+  "w": "migration",
+  "m": "göç",
+  "s": "Climate change is expected to accelerate migration from coastal regions.",
+  "z": 2
+ },
+ {
+  "w": "momentum",
+  "m": "ivme, hız",
+  "s": "The campaign gained momentum after several celebrities endorsed it.",
+  "z": 2
+ },
+ {
+  "w": "myriad",
+  "m": "sayısız, çok sayıda",
+  "s": "The delta supports a myriad of bird and fish species.",
+  "z": 3
+ },
+ {
+  "w": "norm",
+  "m": "norm, kural",
+  "s": "Remote work has become the norm in many technology companies.",
+  "z": 2
+ },
+ {
+  "w": "nuisance",
+  "m": "baş belası, rahatsızlık",
+  "s": "Noise from the airport is a constant nuisance for nearby residents.",
+  "z": 3
+ },
+ {
+  "w": "objection",
+  "m": "itiraz",
+  "s": "The plan was approved despite strong objections from local farmers.",
+  "z": 2
+ },
+ {
+  "w": "obligation",
+  "m": "yükümlülük",
+  "s": "States have a legal obligation to protect their citizens' basic rights.",
+  "z": 2
+ },
+ {
+  "w": "obstacle",
+  "m": "engel",
+  "s": "Lack of funding remains the biggest obstacle to the project.",
+  "z": 1
+ },
+ {
+  "w": "offspring",
+  "m": "yavru, döl",
+  "s": "Female turtles return to the same beach to produce their offspring.",
+  "z": 3
+ },
+ {
+  "w": "outbreak",
+  "m": "salgın, patlak verme",
+  "s": "The outbreak was traced to contaminated water in a single well.",
+  "z": 2
+ },
+ {
+  "w": "outcome",
+  "m": "sonuç",
+  "s": "The outcome of the referendum surprised pollsters and politicians alike.",
+  "z": 1
+ },
+ {
+  "w": "outlook",
+  "m": "görünüm, bakış açısı",
+  "s": "The economic outlook for the region remains cautiously positive.",
+  "z": 2
+ },
+ {
+  "w": "output",
+  "m": "üretim, çıktı",
+  "s": "Factory output rose sharply after the new machinery was installed.",
+  "z": 1
+ },
+ {
+  "w": "perception",
+  "m": "algı",
+  "s": "Media coverage strongly shapes public perception of crime rates.",
+  "z": 2
+ },
+ {
+  "w": "perspective",
+  "m": "bakış açısı",
+  "s": "Travel gives young people a broader perspective on other cultures.",
+  "z": 1
+ },
+ {
+  "w": "phenomenon",
+  "m": "olgu, fenomen",
+  "s": "Urban loneliness is a growing phenomenon in modern industrial societies.",
+  "z": 2
+ },
+ {
+  "w": "plague",
+  "m": "veba; musallat olmak",
+  "s": "Power shortages continue to plague the country's manufacturing sector.",
+  "z": 3
+ },
+ {
+  "w": "poverty",
+  "m": "yoksulluk",
+  "s": "Nearly a tenth of the world's population lives in extreme poverty.",
+  "z": 1
+ },
+ {
+  "w": "precaution",
+  "m": "önlem, tedbir",
+  "s": "Simple precautions can greatly reduce the risk of food poisoning.",
+  "z": 2
+ },
+ {
+  "w": "precedent",
+  "m": "emsal, örnek",
+  "s": "The court's decision set an important precedent for future cases.",
+  "z": 3
+ },
+ {
+  "w": "predator",
+  "m": "yırtıcı, avcı",
+  "s": "Wolves are the main natural predator of deer in the region.",
+  "z": 2
+ },
+ {
+  "w": "prediction",
+  "m": "tahmin, öngörü",
+  "s": "Early predictions about the storm's path proved remarkably accurate.",
+  "z": 1
+ },
+ {
+  "w": "prejudice",
+  "m": "önyargı",
+  "s": "Education is the most powerful weapon against prejudice and ignorance.",
+  "z": 2
+ },
+ {
+  "w": "premise",
+  "m": "öncül, varsayım",
+  "s": "The argument rests on the premise that resources are unlimited.",
+  "z": 3
+ },
+ {
+  "w": "pressure",
+  "m": "baskı, basınç",
+  "s": "The minister resigned under intense pressure from the opposition.",
+  "z": 1
+ },
+ {
+  "w": "prevalence",
+  "m": "yaygınlık",
+  "s": "The survey measured the prevalence of anxiety among university students.",
+  "z": 3
+ },
+ {
+  "w": "priority",
+  "m": "öncelik",
+  "s": "Reducing child mortality remains the ministry's top priority.",
+  "z": 1
+ },
+ {
+  "w": "procedure",
+  "m": "prosedür, işlem",
+  "s": "The clinic follows strict procedures for sterilizing surgical instruments.",
+  "z": 2
+ },
+ {
+  "w": "proponent",
+  "m": "savunucu, taraftar",
+  "s": "Proponents of the tax argue it will fund better public transport.",
+  "z": 3
+ },
+ {
+  "w": "proportion",
+  "m": "oran, orantı",
+  "s": "A growing proportion of the population now lives in cities.",
+  "z": 2
+ },
+ {
+  "w": "prosperity",
+  "m": "refah",
+  "s": "The discovery of oil brought sudden prosperity to the small nation.",
+  "z": 2
+ },
+ {
+  "w": "provision",
+  "m": "hüküm; sağlama",
+  "s": "The treaty contains provisions for the protection of migratory birds.",
+  "z": 3
+ },
+ {
+  "w": "proximity",
+  "m": "yakınlık",
+  "s": "House prices rise with proximity to good schools and transport.",
+  "z": 3
+ },
+ {
+  "w": "pursuit",
+  "m": "peşinde koşma, uğraş",
+  "s": "The pursuit of profit should not override basic ethical standards.",
+  "z": 2
+ },
+ {
+  "w": "ratio",
+  "m": "oran",
+  "s": "The school boasts a low ratio of students to teachers.",
+  "z": 1
+ },
+ {
+  "w": "recession",
+  "m": "durgunluk, resesyon",
+  "s": "The recession forced thousands of small businesses to close down.",
+  "z": 2
+ },
+ {
+  "w": "reciprocity",
+  "m": "karşılıklılık",
+  "s": "Trade agreements are built on the principle of reciprocity.",
+  "z": 3
+ },
+ {
+  "w": "reference",
+  "m": "referans, atıf",
+  "s": "The article makes frequent reference to earlier studies on migration.",
+  "z": 1
+ },
+ {
+  "w": "reform",
+  "m": "reform, iyileştirme",
+  "s": "Sweeping reforms transformed the country's outdated education system.",
+  "z": 2
+ },
+ {
+  "w": "refuge",
+  "m": "sığınak",
+  "s": "Thousands sought refuge in neighboring countries during the civil war.",
+  "z": 2
+ },
+ {
+  "w": "reign",
+  "m": "hükümdarlık; hüküm sürmek",
+  "s": "The empire reached its greatest extent during her long reign.",
+  "z": 2
+ },
+ {
+  "w": "remnant",
+  "m": "kalıntı",
+  "s": "These forests are the last remnants of a vast ancient woodland.",
+  "z": 3
+ },
+ {
+  "w": "resentment",
+  "m": "kızgınlık, içerleme",
+  "s": "The unfair tax bred deep resentment among small farmers.",
+  "z": 3
+ },
+ {
+  "w": "resource",
+  "m": "kaynak",
+  "s": "The country's mineral resources attracted waves of foreign investment.",
+  "z": 1
+ },
+ {
+  "w": "restraint",
+  "m": "kısıtlama, itidal",
+  "s": "The police were praised for showing restraint during the protests.",
+  "z": 3
+ },
+ {
+  "w": "revenue",
+  "m": "gelir, hasılat",
+  "s": "Tourism generates nearly a third of the island's total revenue.",
+  "z": 2
+ },
+ {
+  "w": "sanction",
+  "m": "yaptırım; onaylamak",
+  "s": "Economic sanctions crippled the country's ability to import medicine.",
+  "z": 3
+ },
+ {
+  "w": "scarcity",
+  "m": "kıtlık, azlık",
+  "s": "Water scarcity could trigger conflicts in several arid regions.",
+  "z": 3
+ },
+ {
+  "w": "scheme",
+  "m": "plan, program",
+  "s": "The pension scheme covers workers in both public and private sectors.",
+  "z": 2
+ },
+ {
+  "w": "scope",
+  "m": "kapsam",
+  "s": "The investigation widened in scope to include senior officials.",
+  "z": 2
+ },
+ {
+  "w": "sentiment",
+  "m": "duygu, kanı",
+  "s": "Anti-war sentiment grew steadily as casualties continued to mount.",
+  "z": 3
+ },
+ {
+  "w": "shortage",
+  "m": "kıtlık, eksiklik",
+  "s": "A severe shortage of nurses forced the hospital to cancel operations.",
+  "z": 1
+ },
+ {
+  "w": "significance",
+  "m": "önem, anlam",
+  "s": "The discovery's significance was not recognized until decades later.",
+  "z": 2
+ },
+ {
+  "w": "skepticism",
+  "m": "şüphecilik",
+  "s": "The claims were met with skepticism by the scientific community.",
+  "z": 3
+ },
+ {
+  "w": "stance",
+  "m": "tutum, duruş",
+  "s": "The party softened its stance on immigration before the election.",
+  "z": 3
+ },
+ {
+  "w": "strain",
+  "m": "gerginlik, zorlanma; tür",
+  "s": "The refugee influx put enormous strain on public services.",
+  "z": 2
+ },
+ {
+  "w": "strategy",
+  "m": "strateji",
+  "s": "The company adopted a new strategy focused on emerging markets.",
+  "z": 1
+ },
+ {
+  "w": "subsidy",
+  "m": "sübvansiyon, devlet desteği",
+  "s": "Farm subsidies distort prices in global agricultural markets.",
+  "z": 3
+ },
+ {
+  "w": "substance",
+  "m": "madde; öz",
+  "s": "The banned substance was detected in samples from several athletes.",
+  "z": 1
+ },
+ {
+  "w": "surge",
+  "m": "ani artış; yükselmek",
+  "s": "Hospitals reported a surge in admissions during the heat wave.",
+  "z": 2
+ },
+ {
+  "w": "surveillance",
+  "m": "gözetim, izleme",
+  "s": "Mass surveillance raises difficult questions about privacy and security.",
+  "z": 3
+ },
+ {
+  "w": "survival",
+  "m": "hayatta kalma",
+  "s": "The species' survival depends on protecting its shrinking habitat.",
+  "z": 1
+ },
+ {
+  "w": "threat",
+  "m": "tehdit",
+  "s": "Rising sea levels pose a direct threat to coastal cities.",
+  "z": 1
+ },
+ {
+  "w": "threshold",
+  "m": "eşik",
+  "s": "Once inflation crosses a certain threshold, the bank raises rates.",
+  "z": 3
+ },
+ {
+  "w": "trait",
+  "m": "özellik, karakter özelliği",
+  "s": "Curiosity is a common trait among successful scientists.",
+  "z": 2
+ },
+ {
+  "w": "transaction",
+  "m": "işlem",
+  "s": "Digital wallets make everyday financial transactions faster and safer.",
+  "z": 2
+ },
+ {
+  "w": "transition",
+  "m": "geçiş",
+  "s": "The transition to renewable energy will require massive investment.",
+  "z": 2
+ },
+ {
+  "w": "trend",
+  "m": "eğilim",
+  "s": "The data reveal a clear trend toward later retirement ages.",
+  "z": 1
+ },
+ {
+  "w": "tuition",
+  "m": "öğrenim ücreti",
+  "s": "Rising tuition fees discourage many students from attending university.",
+  "z": 2
+ },
+ {
+  "w": "variation",
+  "m": "çeşitlilik, değişim",
+  "s": "There is considerable variation in rainfall across the country.",
+  "z": 1
+ },
+ {
+  "w": "velocity",
+  "m": "hız",
+  "s": "The probe reached an extraordinary velocity as it approached Jupiter.",
+  "z": 2
+ },
+ {
+  "w": "venue",
+  "m": "mekân, yer",
+  "s": "The stadium was chosen as the venue for the opening ceremony.",
+  "z": 2
+ },
+ {
+  "w": "verdict",
+  "m": "karar, hüküm",
+  "s": "The jury delivered its verdict after three days of deliberation.",
+  "z": 2
+ },
+ {
+  "w": "viability",
+  "m": "uygulanabilirlik",
+  "s": "Engineers questioned the economic viability of the tunnel project.",
+  "z": 3
+ },
+ {
+  "w": "vicinity",
+  "m": "civar, yakın çevre",
+  "s": "Several rare bird species nest in the vicinity of the lake.",
+  "z": 3
+ },
+ {
+  "w": "welfare",
+  "m": "refah; sosyal yardım",
+  "s": "The charity works to improve the welfare of abandoned animals.",
+  "z": 2
+ },
+ {
+  "w": "withdrawal",
+  "m": "geri çekilme",
+  "s": "The army completed its withdrawal from the region by December.",
+  "z": 2
+ },
+ {
+  "w": "carry out",
+  "m": "gerçekleştirmek, yürütmek",
+  "s": "The team carried out experiments on more than five hundred volunteers.",
+  "z": 1
+ },
+ {
+  "w": "bring about",
+  "m": "yol açmak, meydana getirmek",
+  "s": "The industrial revolution brought about profound changes in family life.",
+  "z": 2
+ },
+ {
+  "w": "account for",
+  "m": "açıklamak; oluşturmak",
+  "s": "Renewables now account for a quarter of the nation's electricity.",
+  "z": 2
+ },
+ {
+  "w": "give rise to",
+  "m": "yol açmak",
+  "s": "Poor sanitation gave rise to repeated outbreaks of cholera.",
+  "z": 2
+ },
+ {
+  "w": "rule out",
+  "m": "olasılık dışı bırakmak",
+  "s": "Doctors ruled out infection before considering rarer possible causes.",
+  "z": 2
+ },
+ {
+  "w": "set out",
+  "m": "yola çıkmak; ortaya koymak",
+  "s": "The report sets out a detailed plan for reforming the courts.",
+  "z": 2
+ },
+ {
+  "w": "point out",
+  "m": "belirtmek, işaret etmek",
+  "s": "Critics point out that the study ignored older age groups.",
+  "z": 1
+ },
+ {
+  "w": "put forward",
+  "m": "öne sürmek",
+  "s": "Several theories have been put forward to explain the extinction.",
+  "z": 2
+ },
+ {
+  "w": "turn out",
+  "m": "ortaya çıkmak, sonuçlanmak",
+  "s": "The rumor turned out to be completely without foundation.",
+  "z": 1
+ },
+ {
+  "w": "break down",
+  "m": "bozulmak; ayrıştırmak",
+  "s": "Peace talks broke down after disagreements over prisoner exchanges.",
+  "z": 1
+ },
+ {
+  "w": "break out",
+  "m": "patlak vermek",
+  "s": "Fighting broke out along the border despite the ceasefire agreement.",
+  "z": 1
+ },
+ {
+  "w": "come across",
+  "m": "rastlamak",
+  "s": "Researchers came across the manuscript while cataloguing the archive.",
+  "z": 1
+ },
+ {
+  "w": "cope with",
+  "m": "başa çıkmak",
+  "s": "Many students struggle to cope with the pressures of exams.",
+  "z": 1
+ },
+ {
+  "w": "deal with",
+  "m": "ele almak, ilgilenmek",
+  "s": "The conference will deal with the ethics of genetic engineering.",
+  "z": 1
+ },
+ {
+  "w": "do away with",
+  "m": "ortadan kaldırmak",
+  "s": "The reforms did away with dozens of unnecessary bureaucratic procedures.",
+  "z": 2
+ },
+ {
+  "w": "figure out",
+  "m": "çözmek, anlamak",
+  "s": "Scientists are still trying to figure out why the whales stranded.",
+  "z": 1
+ },
+ {
+  "w": "give up",
+  "m": "vazgeçmek, bırakmak",
+  "s": "Nearly half of smokers try to give up every single year.",
+  "z": 1
+ },
+ {
+  "w": "look into",
+  "m": "araştırmak, incelemek",
+  "s": "Authorities promised to look into complaints about the water quality.",
+  "z": 1
+ },
+ {
+  "w": "make up",
+  "m": "oluşturmak; uydurmak",
+  "s": "Immigrants make up nearly a fifth of the country's workforce.",
+  "z": 1
+ },
+ {
+  "w": "put off",
+  "m": "ertelemek",
+  "s": "Many young couples put off having children for financial reasons.",
+  "z": 1
+ },
+ {
+  "w": "set up",
+  "m": "kurmak",
+  "s": "The university set up a research center devoted to renewable energy.",
+  "z": 1
+ },
+ {
+  "w": "take over",
+  "m": "devralmak",
+  "s": "A foreign investor took over the struggling airline last spring.",
+  "z": 1
+ },
+ {
+  "w": "wipe out",
+  "m": "tamamen yok etmek",
+  "s": "A single disease wiped out most of the region's olive trees.",
+  "z": 2
+ },
+ {
+  "w": "phase out",
+  "m": "aşamalı olarak kaldırmak",
+  "s": "The government plans to phase out coal power by 2035.",
+  "z": 2
+ },
+ {
+  "w": "bring up",
+  "m": "yetiştirmek; gündeme getirmek",
+  "s": "Children brought up bilingual often switch languages without noticing.",
+  "z": 1
+ },
+ {
+  "w": "catch up with",
+  "m": "yetişmek, yakalamak",
+  "s": "Developing nations are catching up with the West in technology.",
+  "z": 1
+ },
+ {
+  "w": "get rid of",
+  "m": "kurtulmak",
+  "s": "The new policy aims to get rid of unnecessary paperwork.",
+  "z": 1
+ },
+ {
+  "w": "result in",
+  "m": "ile sonuçlanmak",
+  "s": "The drought resulted in the worst harvest in thirty years.",
+  "z": 1
+ },
+ {
+  "w": "result from",
+  "m": "-den kaynaklanmak",
+  "s": "Most workplace accidents result from carelessness rather than faulty equipment.",
+  "z": 2
+ },
+ {
+  "w": "lead to",
+  "m": "yol açmak",
+  "s": "Chronic stress can lead to serious cardiovascular problems over time.",
+  "z": 1
+ },
+ {
+  "w": "depend on",
+  "m": "bağlı olmak, güvenmek",
+  "s": "The success of the harvest depends on the spring rains.",
+  "z": 1
+ },
+ {
+  "w": "consist of",
+  "m": "oluşmak",
+  "s": "The committee consists of scientists, lawyers, and patient representatives.",
+  "z": 1
+ },
+ {
+  "w": "engage in",
+  "m": "katılmak, meşgul olmak",
+  "s": "Students who engage in sports tend to perform better academically.",
+  "z": 2
+ },
+ {
+  "w": "benefit from",
+  "m": "yararlanmak",
+  "s": "Small businesses will benefit from the new tax exemptions.",
+  "z": 1
+ },
+ {
+  "w": "suffer from",
+  "m": "muzdarip olmak",
+  "s": "Millions of people worldwide suffer from untreated chronic pain.",
+  "z": 1
+ },
+ {
+  "w": "interfere with",
+  "m": "engellemek, karışmak",
+  "s": "Bright screens at night can interfere with natural sleep cycles.",
+  "z": 2
+ },
+ {
+  "w": "abolish",
+  "m": "kaldırmak, feshetmek",
+  "s": "Britain abolished the slave trade in 1807 after decades of campaigning.",
+  "z": 3
+ },
+ {
+  "w": "absorb",
+  "m": "emmek, özümsemek",
+  "s": "Oceans absorb roughly a third of human-produced carbon dioxide.",
+  "z": 2
+ },
+ {
+  "w": "abstain",
+  "m": "çekimser kalmak, kaçınmak",
+  "s": "Twelve countries abstained from voting on the controversial resolution.",
+  "z": 3
+ },
+ {
+  "w": "accelerate",
+  "m": "hızlandırmak, hızlanmak",
+  "s": "Warmer oceans accelerate the melting of polar ice sheets.",
+  "z": 2
+ },
+ {
+  "w": "accommodate",
+  "m": "barındırmak, karşılamak",
+  "s": "The new stadium can accommodate up to eighty thousand spectators.",
+  "z": 2
+ },
+ {
+  "w": "accompany",
+  "m": "eşlik etmek",
+  "s": "Severe headaches often accompany this particular strain of influenza.",
+  "z": 2
+ },
+ {
+  "w": "acquaint",
+  "m": "tanıtmak, bilgilendirmek",
+  "s": "The orientation week acquaints new students with campus facilities.",
+  "z": 3
+ },
+ {
+  "w": "activate",
+  "m": "etkinleştirmek, harekete geçirmek",
+  "s": "Sunlight activates the chemical reaction that produces vitamin D.",
+  "z": 1
+ },
+ {
+  "w": "address",
+  "m": "ele almak; hitap etmek",
+  "s": "The summit failed to address the root causes of migration.",
+  "z": 2
+ },
+ {
+  "w": "adjust",
+  "m": "ayarlamak, uyum sağlamak",
+  "s": "It takes newcomers several months to adjust to the climate.",
+  "z": 1
+ },
+ {
+  "w": "administer",
+  "m": "yönetmek; uygulamak (ilaç)",
+  "s": "Trained volunteers administered the vaccine at temporary clinics.",
+  "z": 2
+ },
+ {
+  "w": "advance",
+  "m": "ilerlemek; ilerleme",
+  "s": "Medical science has advanced enormously over the past half century.",
+  "z": 2
+ },
+ {
+  "w": "advise",
+  "m": "tavsiye etmek",
+  "s": "Experts advise consumers to check labels for hidden sugar content.",
+  "z": 1
+ },
+ {
+  "w": "afford",
+  "m": "gücü yetmek; sağlamak",
+  "s": "Many families can no longer afford heating during the winter.",
+  "z": 1
+ },
+ {
+  "w": "analyze",
+  "m": "analiz etmek, çözümlemek",
+  "s": "The software analyzes thousands of medical images in minutes.",
+  "z": 1
+ },
+ {
+  "w": "annihilate",
+  "m": "yok etmek, imha etmek",
+  "s": "The asteroid impact annihilated most life forms on the planet.",
+  "z": 3
+ },
+ {
+  "w": "appeal",
+  "m": "başvurmak; cazip gelmek; temyiz",
+  "s": "The charity appealed to the public for emergency donations.",
+  "z": 2
+ },
+ {
+  "w": "apply",
+  "m": "başvurmak; uygulamak",
+  "s": "The same physical laws apply everywhere in the observable universe.",
+  "z": 1
+ },
+ {
+  "w": "appreciate",
+  "m": "takdir etmek; değer kazanmak",
+  "s": "Few people appreciate how much work goes into a dictionary.",
+  "z": 2
+ },
+ {
+  "w": "approve",
+  "m": "onaylamak",
+  "s": "The regulator approved the drug after reviewing extensive trial data.",
+  "z": 1
+ },
+ {
+  "w": "arise",
+  "m": "ortaya çıkmak, doğmak",
+  "s": "Disputes often arise over the interpretation of ambiguous contract terms.",
+  "z": 2
+ },
+ {
+  "w": "arrange",
+  "m": "düzenlemek, ayarlamak",
+  "s": "The embassy arranged emergency flights for its stranded citizens.",
+  "z": 1
+ },
+ {
+  "w": "articulate",
+  "m": "açıkça ifade etmek",
+  "s": "The report clearly articulates the risks of delaying climate action.",
+  "z": 3
+ },
+ {
+  "w": "ascend",
+  "m": "yükselmek, tırmanmak",
+  "s": "The climbers ascended the final ridge just before the storm.",
+  "z": 2
+ },
+ {
+  "w": "assemble",
+  "m": "toplamak, monte etmek",
+  "s": "Workers assemble the aircraft from parts made on three continents.",
+  "z": 2
+ },
+ {
+  "w": "assign",
+  "m": "görevlendirmek, atamak",
+  "s": "Each student was assigned a mentor from the graduate program.",
+  "z": 2
+ },
+ {
+  "w": "assist",
+  "m": "yardım etmek",
+  "s": "Volunteers assisted rescue teams in searching the collapsed buildings.",
+  "z": 1
+ },
+ {
+  "w": "associate",
+  "m": "ilişkilendirmek",
+  "s": "Researchers associate the disorder with a defect in a single gene.",
+  "z": 2
+ },
+ {
+  "w": "astonish",
+  "m": "hayrete düşürmek",
+  "s": "The speed of the city's recovery astonished foreign observers.",
+  "z": 2
+ },
+ {
+  "w": "attach",
+  "m": "iliştirmek, eklemek",
+  "s": "Scientists attached tracking devices to forty migrating storks.",
+  "z": 2
+ },
+ {
+  "w": "attend",
+  "m": "katılmak; ilgilenmek",
+  "s": "Over two thousand delegates attended the climate conference in Geneva.",
+  "z": 1
+ },
+ {
+  "w": "attract",
+  "m": "çekmek, cezbetmek",
+  "s": "The exhibition attracted record numbers of visitors from abroad.",
+  "z": 1
+ },
+ {
+  "w": "avert",
+  "m": "önlemek, savuşturmak",
+  "s": "Swift diplomatic action averted a full-scale military confrontation.",
+  "z": 3
+ },
+ {
+  "w": "await",
+  "m": "beklemek",
+  "s": "Thousands of applications await review by the immigration authorities.",
+  "z": 2
+ },
+ {
+  "w": "ban",
+  "m": "yasaklamak; yasak",
+  "s": "Several cities have banned diesel vehicles from their historic centers.",
+  "z": 1
+ },
+ {
+  "w": "bear",
+  "m": "taşımak, katlanmak",
+  "s": "Consumers ultimately bear the cost of tariffs on imported goods.",
+  "z": 2
+ },
+ {
+  "w": "behave",
+  "m": "davranmak",
+  "s": "Light sometimes behaves like a wave and sometimes like particles.",
+  "z": 1
+ },
+ {
+  "w": "betray",
+  "m": "ihanet etmek; ele vermek",
+  "s": "His trembling hands betrayed the anxiety he tried to hide.",
+  "z": 3
+ },
+ {
+  "w": "blame",
+  "m": "suçlamak",
+  "s": "Officials blamed the blackout on record demand for air conditioning.",
+  "z": 1
+ },
+ {
+  "w": "boost",
+  "m": "artırmak; destek",
+  "s": "The Olympics gave a huge boost to the city's tourism industry.",
+  "z": 2
+ },
+ {
+  "w": "breed",
+  "m": "üremek; yetiştirmek; yol açmak",
+  "s": "Stagnant water breeds mosquitoes that spread dangerous diseases.",
+  "z": 2
+ },
+ {
+  "w": "broaden",
+  "m": "genişletmek",
+  "s": "Studying abroad broadens students' understanding of other cultures.",
+  "z": 2
+ },
+ {
+  "w": "calculate",
+  "m": "hesaplamak",
+  "s": "Astronomers calculated the comet's orbit with remarkable precision.",
+  "z": 1
+ },
+ {
+  "w": "capture",
+  "m": "yakalamak, ele geçirmek",
+  "s": "The documentary captures the daily struggles of subsistence farmers.",
+  "z": 2
+ },
+ {
+  "w": "cast",
+  "m": "atmak; rol vermek",
+  "s": "The scandal cast doubt on the reliability of the official statistics.",
+  "z": 2
+ },
+ {
+  "w": "cater",
+  "m": "hitap etmek, karşılamak",
+  "s": "The resort caters mainly to families with young children.",
+  "z": 3
+ },
+ {
+  "w": "challenge",
+  "m": "meydan okumak; zorluk",
+  "s": "The findings challenge long-held assumptions about early human migration.",
+  "z": 1
+ },
+ {
+  "w": "cherish",
+  "m": "değer vermek",
+  "s": "The islanders cherish traditions passed down over many generations.",
+  "z": 3
+ },
+ {
+  "w": "circulate",
+  "m": "dolaşmak, yaymak",
+  "s": "False rumors circulated rapidly on social media after the explosion.",
+  "z": 3
+ },
+ {
+  "w": "classify",
+  "m": "sınıflandırmak",
+  "s": "Biologists classify the newly found species as critically endangered.",
+  "z": 2
+ },
+ {
+  "w": "collide",
+  "m": "çarpışmak",
+  "s": "Two cargo ships collided in dense fog near the strait.",
+  "z": 2
+ },
+ {
+  "w": "combat",
+  "m": "mücadele etmek; çatışma",
+  "s": "New measures were announced to combat tax evasion.",
+  "z": 2
+ },
+ {
+  "w": "commemorate",
+  "m": "anmak",
+  "s": "A monument was erected to commemorate the victims of the disaster.",
+  "z": 3
+ },
+ {
+  "w": "commit",
+  "m": "işlemek (suç); adamak",
+  "s": "The government committed itself to halving emissions within a decade.",
+  "z": 2
+ },
+ {
+  "w": "communicate",
+  "m": "iletişim kurmak",
+  "s": "Bees communicate the location of food through elaborate dances.",
+  "z": 1
+ },
+ {
+  "w": "commute",
+  "m": "işe gidip gelmek",
+  "s": "Millions of workers commute into the capital every weekday morning.",
+  "z": 2
+ },
+ {
+  "w": "compare",
+  "m": "karşılaştırmak",
+  "s": "The study compares literacy rates across fifty developing countries.",
+  "z": 1
+ },
+ {
+  "w": "compete",
+  "m": "rekabet etmek",
+  "s": "Local shops struggle to compete with giant online retailers.",
+  "z": 1
+ },
+ {
+  "w": "complement",
+  "m": "tamamlamak",
+  "s": "Online courses complement rather than replace traditional classroom teaching.",
+  "z": 3
+ },
+ {
+  "w": "compress",
+  "m": "sıkıştırmak",
+  "s": "The new algorithm compresses video files without losing visible quality.",
+  "z": 2
+ },
+ {
+  "w": "condense",
+  "m": "yoğunlaşmak; özetlemek",
+  "s": "Water vapor condenses into droplets as the air cools.",
+  "z": 2
+ },
+ {
+  "w": "connect",
+  "m": "bağlamak",
+  "s": "The new tunnel connects the island to the mainland rail network.",
+  "z": 1
+ },
+ {
+  "w": "conquer",
+  "m": "fethetmek",
+  "s": "The empire conquered vast territories across three separate continents.",
+  "z": 2
+ },
+ {
+  "w": "consent",
+  "m": "rıza göstermek; onay",
+  "s": "Patients must give informed consent before joining clinical trials.",
+  "z": 2
+ },
+ {
+  "w": "conserve",
+  "m": "korumak, tasarruf etmek",
+  "s": "Simple habits at home can conserve significant amounts of energy.",
+  "z": 2
+ },
+ {
+  "w": "consider",
+  "m": "düşünmek, göz önünde bulundurmak",
+  "s": "The council is considering a total ban on heavy trucks.",
+  "z": 1
+ },
+ {
+  "w": "construct",
+  "m": "inşa etmek",
+  "s": "Engineers constructed the dam in record time despite harsh conditions.",
+  "z": 1
+ },
+ {
+  "w": "consult",
+  "m": "danışmak",
+  "s": "Patients should consult a doctor before taking herbal supplements.",
+  "z": 2
+ },
+ {
+  "w": "consume",
+  "m": "tüketmek",
+  "s": "Data centers consume enormous amounts of electricity for cooling.",
+  "z": 2
+ },
+ {
+  "w": "contain",
+  "m": "içermek; kontrol altına almak",
+  "s": "Firefighters worked through the night to contain the forest blaze.",
+  "z": 1
+ },
+ {
+  "w": "contaminate",
+  "m": "kirletmek, bulaştırmak",
+  "s": "Industrial waste contaminated the groundwater used by nearby villages.",
+  "z": 2
+ },
+ {
+  "w": "correlate",
+  "m": "ilişkili olmak",
+  "s": "Income levels correlate strongly with life expectancy in most countries.",
+  "z": 3
+ },
+ {
+  "w": "counter",
+  "m": "karşı koymak; karşıt",
+  "s": "The bank raised interest rates to counter rising inflation.",
+  "z": 2
+ },
+ {
+  "w": "criticize",
+  "m": "eleştirmek",
+  "s": "Human rights groups criticized the new law on public assembly.",
+  "z": 2
+ },
+ {
+  "w": "crawl",
+  "m": "emeklemek, sürünmek",
+  "s": "Traffic crawled through the city center during the transport strike.",
+  "z": 2
+ },
+ {
+  "w": "damage",
+  "m": "zarar vermek; hasar",
+  "s": "The hailstorm damaged thousands of hectares of ripening wheat.",
+  "z": 1
+ },
+ {
+  "w": "debate",
+  "m": "tartışmak; tartışma",
+  "s": "Scholars still debate the true causes of the empire's collapse.",
+  "z": 1
+ },
+ {
+  "w": "decay",
+  "m": "çürümek; çürüme",
+  "s": "The abandoned mansion slowly decayed over the following decades.",
+  "z": 2
+ },
+ {
+  "w": "deceive",
+  "m": "aldatmak, kandırmak",
+  "s": "The company deceived investors about the true state of its finances.",
+  "z": 3
+ },
+ {
+  "w": "declare",
+  "m": "ilan etmek, beyan etmek",
+  "s": "The government declared a state of emergency after the floods.",
+  "z": 1
+ },
+ {
+  "w": "decrease",
+  "m": "azalmak, azaltmak",
+  "s": "Infant mortality decreased dramatically after the vaccination campaign began.",
+  "z": 1
+ },
+ {
+  "w": "defeat",
+  "m": "yenmek; yenilgi",
+  "s": "The proposal was defeated by a narrow margin in parliament.",
+  "z": 1
+ },
+ {
+  "w": "defend",
+  "m": "savunmak",
+  "s": "The minister defended the policy despite mounting public criticism.",
+  "z": 1
+ },
+ {
+  "w": "define",
+  "m": "tanımlamak",
+  "s": "Economists define inflation as a sustained rise in general prices.",
+  "z": 1
+ },
+ {
+  "w": "delay",
+  "m": "geciktirmek; gecikme",
+  "s": "Bad weather delayed the launch of the satellite by two weeks.",
+  "z": 1
+ },
+ {
+  "w": "delegate",
+  "m": "yetki devretmek; delege",
+  "s": "Good managers delegate routine tasks and focus on strategy.",
+  "z": 2
+ },
+ {
+  "w": "deliver",
+  "m": "teslim etmek; sunmak",
+  "s": "The charity delivers hot meals to elderly residents every day.",
+  "z": 1
+ },
+ {
+  "w": "depart",
+  "m": "ayrılmak, kalkmak",
+  "s": "The expedition departed from the base camp before sunrise.",
+  "z": 2
+ },
+ {
+  "w": "descend",
+  "m": "inmek, alçalmak",
+  "s": "The aircraft descended rapidly after losing pressure in the cabin.",
+  "z": 2
+ },
+ {
+  "w": "deserve",
+  "m": "hak etmek",
+  "s": "Whistleblowers deserve legal protection rather than punishment and dismissal.",
+  "z": 2
+ },
+ {
+  "w": "destroy",
+  "m": "yok etmek, tahrip etmek",
+  "s": "The wildfire destroyed hundreds of homes on the city's outskirts.",
+  "z": 1
+ },
+ {
+  "w": "determine",
+  "m": "belirlemek, saptamak",
+  "s": "Genetic factors largely determine a person's susceptibility to the disease.",
+  "z": 2
+ },
+ {
+  "w": "develop",
+  "m": "geliştirmek, gelişmek",
+  "s": "Researchers developed a cheaper test for detecting the infection early.",
+  "z": 1
+ },
+ {
+  "w": "differ",
+  "m": "farklılık göstermek",
+  "s": "Legal drinking ages differ considerably from one country to another.",
+  "z": 1
+ },
+ {
+  "w": "disagree",
+  "m": "aynı fikirde olmamak",
+  "s": "Economists disagree sharply about the likely effects of the tariff.",
+  "z": 1
+ },
+ {
+  "w": "disappear",
+  "m": "kaybolmak",
+  "s": "Traditional crafts are disappearing as older artisans retire.",
+  "z": 1
+ },
+ {
+  "w": "discourage",
+  "m": "caydırmak, cesaretini kırmak",
+  "s": "High parking fees discourage commuters from driving into the center.",
+  "z": 2
+ },
+ {
+  "w": "discover",
+  "m": "keşfetmek",
+  "s": "Archaeologists discovered a burial chamber beneath the ancient temple.",
+  "z": 1
+ },
+ {
+  "w": "discuss",
+  "m": "tartışmak, görüşmek",
+  "s": "World leaders met to discuss the coordination of vaccine distribution.",
+  "z": 1
+ },
+ {
+  "w": "dispatch",
+  "m": "göndermek, sevk etmek",
+  "s": "The UN dispatched observers to monitor the disputed election.",
+  "z": 3
+ },
+ {
+  "w": "displace",
+  "m": "yerinden etmek",
+  "s": "The dam project displaced thousands of families from their ancestral lands.",
+  "z": 3
+ },
+ {
+  "w": "display",
+  "m": "sergilemek; ekran",
+  "s": "The museum displays artifacts recovered from the sunken ship.",
+  "z": 1
+ },
+ {
+  "w": "divide",
+  "m": "bölmek",
+  "s": "The issue has divided public opinion for more than a decade.",
+  "z": 1
+ },
+ {
+  "w": "doubt",
+  "m": "şüphe etmek; şüphe",
+  "s": "Many experts doubt the official explanation for the crash.",
+  "z": 1
+ },
+ {
+  "w": "drain",
+  "m": "boşaltmak, tüketmek",
+  "s": "The prolonged war drained the country's financial and human resources.",
+  "z": 2
+ },
+ {
+  "w": "earn",
+  "m": "kazanmak",
+  "s": "Graduates in engineering typically earn more than humanities graduates.",
+  "z": 1
+ },
+ {
+  "w": "elevate",
+  "m": "yükseltmek",
+  "s": "A diet high in salt can elevate blood pressure significantly.",
+  "z": 2
+ },
+ {
+  "w": "eloquence",
+  "m": "belagat, güzel konuşma",
+  "s": "The senator's eloquence swayed undecided voters during the final debate.",
+  "z": 3
+ },
+ {
+  "w": "embody",
+  "m": "somutlaştırmak, temsil etmek",
+  "s": "The new library embodies the city's commitment to public education.",
+  "z": 3
+ },
+ {
+  "w": "employ",
+  "m": "istihdam etmek; kullanmak",
+  "s": "The factory employs nearly half of the town's working population.",
+  "z": 1
+ },
+ {
+  "w": "enable",
+  "m": "olanak sağlamak",
+  "s": "Fiber-optic cables enable data to travel at nearly light speed.",
+  "z": 2
+ },
+ {
+  "w": "encourage",
+  "m": "teşvik etmek, cesaretlendirmek",
+  "s": "Subsidies encourage homeowners to install solar panels on their roofs.",
+  "z": 1
+ },
+ {
+  "w": "engage",
+  "m": "meşgul etmek; katılmak",
+  "s": "Interactive exhibits engage children far more effectively than static displays.",
+  "z": 2
+ },
+ {
+  "w": "enlarge",
+  "m": "büyütmek, genişletmek",
+  "s": "The port was enlarged to handle the newest container ships.",
+  "z": 2
+ },
+ {
+  "w": "enlighten",
+  "m": "aydınlatmak",
+  "s": "The lecture enlightened the audience about the physics of black holes.",
+  "z": 2
+ },
+ {
+  "w": "enroll",
+  "m": "kaydolmak, kaydetmek",
+  "s": "Record numbers of students enrolled in computer science courses this year.",
+  "z": 2
+ },
+ {
+  "w": "envisage",
+  "m": "öngörmek, tasavvur etmek",
+  "s": "The plan envisages a carbon-neutral economy by the middle of the century.",
+  "z": 3
+ },
+ {
+  "w": "equip",
+  "m": "donatmak",
+  "s": "The new schools are equipped with modern laboratories and libraries.",
+  "z": 2
+ },
+ {
+  "w": "escalate",
+  "m": "tırmanmak, şiddetlenmek",
+  "s": "The border skirmish quickly escalated into a full-scale conflict.",
+  "z": 3
+ },
+ {
+  "w": "escape",
+  "m": "kaçmak",
+  "s": "Radioactive material escaped from the damaged reactor for several days.",
+  "z": 1
+ },
+ {
+  "w": "examine",
+  "m": "incelemek, muayene etmek",
+  "s": "The commission examined thousands of documents during its investigation.",
+  "z": 1
+ },
+ {
+  "w": "exchange",
+  "m": "değiş tokuş etmek; borsa",
+  "s": "The two universities exchange students and researchers every year.",
+  "z": 1
+ },
+ {
+  "w": "exemplify",
+  "m": "örnek teşkil etmek",
+  "s": "The cathedral exemplifies the finest achievements of Gothic architecture.",
+  "z": 3
+ },
+ {
+  "w": "exist",
+  "m": "var olmak",
+  "s": "Liquid water cannot exist on the surface of Mars today.",
+  "z": 1
+ },
+ {
+  "w": "experience",
+  "m": "deneyimlemek; deneyim",
+  "s": "The region experienced its hottest summer since records began.",
+  "z": 1
+ },
+ {
+  "w": "explore",
+  "m": "keşfetmek, araştırmak",
+  "s": "The study explores the link between poverty and educational attainment.",
+  "z": 2
+ },
+ {
+  "w": "export",
+  "m": "ihraç etmek; ihracat",
+  "s": "The country exports most of its natural gas to neighboring states.",
+  "z": 2
+ },
+ {
+  "w": "express",
+  "m": "ifade etmek",
+  "s": "Union leaders expressed deep concern over the planned job cuts.",
+  "z": 1
+ },
+ {
+  "w": "extend",
+  "m": "uzatmak, genişletmek",
+  "s": "The government extended the deadline for filing tax returns.",
+  "z": 2
+ },
+ {
+  "w": "extinguish",
+  "m": "söndürmek",
+  "s": "Firefighters finally extinguished the blaze after three exhausting days.",
+  "z": 2
+ },
+ {
+  "w": "fabricate",
+  "m": "uydurmak, imal etmek",
+  "s": "The journalist was fired for fabricating quotes and sources.",
+  "z": 3
+ },
+ {
+  "w": "fade",
+  "m": "solmak, kaybolmak",
+  "s": "Memories of the disaster faded as the town slowly rebuilt.",
+  "z": 1
+ },
+ {
+  "w": "fascinate",
+  "m": "büyülemek, hayran bırakmak",
+  "s": "The behavior of octopuses continues to fascinate marine biologists.",
+  "z": 2
+ },
+ {
+  "w": "favor",
+  "m": "tercih etmek; iyilik",
+  "s": "Younger voters tend to favor stronger environmental regulations.",
+  "z": 1
+ },
+ {
+  "w": "flee",
+  "m": "kaçmak",
+  "s": "Thousands fled the city as the flood waters rose.",
+  "z": 2
+ },
+ {
+  "w": "forge",
+  "m": "sahtesini yapmak; kurmak",
+  "s": "The two nations forged a lasting alliance after the war.",
+  "z": 2
+ },
+ {
+  "w": "forsake",
+  "m": "terk etmek, vazgeçmek",
+  "s": "He refused to forsake his principles despite enormous pressure.",
+  "z": 3
+ },
+ {
+  "w": "foretell",
+  "m": "önceden haber vermek",
+  "s": "Ancient astronomers used the stars to foretell the changing seasons.",
+  "z": 3
+ },
+ {
+  "w": "found",
+  "m": "kurmak, temellendirmek",
+  "s": "The society was founded to promote scientific literacy among the public.",
+  "z": 1
+ },
+ {
+  "w": "gather",
+  "m": "toplamak, bir araya gelmek",
+  "s": "Researchers gathered data from clinics across the entire country.",
+  "z": 1
+ },
+ {
+  "w": "glow",
+  "m": "parlamak; parıltı",
+  "s": "The city lights glowed softly through the evening mist.",
+  "z": 1
+ },
+ {
+  "w": "govern",
+  "m": "yönetmek",
+  "s": "Strict laws govern the storage of hazardous industrial chemicals.",
+  "z": 1
+ },
+ {
+  "w": "guarantee",
+  "m": "garanti etmek; güvence",
+  "s": "The constitution guarantees freedom of speech to all citizens.",
+  "z": 2
+ },
+ {
+  "w": "guide",
+  "m": "yol göstermek; rehber",
+  "s": "Clear ethical principles should guide all medical research.",
+  "z": 1
+ },
+ {
+  "w": "handle",
+  "m": "ele almak, idare etmek",
+  "s": "The airline handled the crisis with impressive efficiency and calm.",
+  "z": 1
+ },
+ {
+  "w": "heal",
+  "m": "iyileşmek, iyileştirmek",
+  "s": "Deep wounds take longer to heal in elderly patients.",
+  "z": 1
+ },
+ {
+  "w": "heighten",
+  "m": "artırmak, yoğunlaştırmak",
+  "s": "The security alert heightened tension in the crowded terminal.",
+  "z": 3
+ },
+ {
+  "w": "honor",
+  "m": "onurlandırmak; onur",
+  "s": "The city honored the firefighters with a special ceremony.",
+  "z": 1
+ },
+ {
+  "w": "illuminate",
+  "m": "aydınlatmak",
+  "s": "The new findings illuminate a poorly understood stage of development.",
+  "z": 3
+ },
+ {
+  "w": "imitate",
+  "m": "taklit etmek",
+  "s": "Some harmless insects imitate the coloring of poisonous species.",
+  "z": 2
+ },
+ {
+  "w": "impede",
+  "m": "engellemek",
+  "s": "Bureaucratic delays impeded the delivery of urgently needed aid.",
+  "z": 3
+ },
+ {
+  "w": "import",
+  "m": "ithal etmek; ithalat",
+  "s": "The country imports most of its wheat from abroad.",
+  "z": 1
+ },
+ {
+  "w": "impress",
+  "m": "etkilemek",
+  "s": "The candidate's grasp of detail impressed the interview panel.",
+  "z": 2
+ },
+ {
+  "w": "improve",
+  "m": "iyileştirmek, geliştirmek",
+  "s": "Sanitation dramatically improved public health in nineteenth-century cities.",
+  "z": 1
+ },
+ {
+  "w": "incline",
+  "m": "eğilim göstermek; eğim",
+  "s": "Evidence inclines most historians toward a single explanation.",
+  "z": 3
+ },
+ {
+  "w": "increase",
+  "m": "artmak, artırmak",
+  "s": "Global temperatures have increased steadily over the past century.",
+  "z": 1
+ },
+ {
+  "w": "indulge",
+  "m": "kendini kaptırmak, şımartmak",
+  "s": "Occasionally people indulge in luxuries they cannot really afford.",
+  "z": 3
+ },
+ {
+  "w": "infect",
+  "m": "enfekte etmek, bulaştırmak",
+  "s": "The virus can infect both humans and several animal species.",
+  "z": 2
+ },
+ {
+  "w": "influence",
+  "m": "etkilemek; etki",
+  "s": "Advertising strongly influences the food choices of young children.",
+  "z": 1
+ },
+ {
+  "w": "inform",
+  "m": "bilgilendirmek",
+  "s": "Doctors must inform patients of all significant treatment risks.",
+  "z": 2
+ },
+ {
+  "w": "inhale",
+  "m": "solumak, içine çekmek",
+  "s": "Workers who inhale coal dust risk serious lung disease.",
+  "z": 2
+ },
+ {
+  "w": "inject",
+  "m": "enjekte etmek; katmak",
+  "s": "The government injected billions into the collapsing banking sector.",
+  "z": 2
+ },
+ {
+  "w": "innovate",
+  "m": "yenilik yapmak",
+  "s": "Firms that fail to innovate quickly lose their market share.",
+  "z": 2
+ },
+ {
+  "w": "inquire",
+  "m": "sormak, soruşturmak",
+  "s": "Reporters inquired about the true cost of the failed project.",
+  "z": 2
+ },
+ {
+  "w": "inscribe",
+  "m": "kazımak, yazmak",
+  "s": "The names of the fallen soldiers were inscribed on the monument.",
+  "z": 3
+ },
+ {
+  "w": "insert",
+  "m": "eklemek, sokmak",
+  "s": "Surgeons insert a tiny camera to examine the damaged joint.",
+  "z": 1
+ },
+ {
+  "w": "insist",
+  "m": "ısrar etmek",
+  "s": "The minister insisted that no laws had been broken.",
+  "z": 1
+ },
+ {
+  "w": "inspire",
+  "m": "ilham vermek",
+  "s": "Her groundbreaking research inspired a generation of young scientists.",
+  "z": 2
+ },
+ {
+  "w": "install",
+  "m": "kurmak, monte etmek",
+  "s": "The city installed hundreds of sensors to monitor air quality.",
+  "z": 2
+ },
+ {
+  "w": "instruct",
+  "m": "talimat vermek; öğretmek",
+  "s": "The pilot was instructed to circle until the runway cleared.",
+  "z": 2
+ },
+ {
+  "w": "insult",
+  "m": "hakaret etmek; hakaret",
+  "s": "The cartoon was widely seen as an insult to religious believers.",
+  "z": 2
+ },
+ {
+  "w": "intend",
+  "m": "niyet etmek, amaçlamak",
+  "s": "The reforms are intended to make the courts more efficient.",
+  "z": 2
+ },
+ {
+  "w": "interpret",
+  "m": "yorumlamak; tercüme etmek",
+  "s": "Different scholars interpret the ancient inscriptions in conflicting ways.",
+  "z": 2
+ },
+ {
+  "w": "interrupt",
+  "m": "kesmek, yarıda bırakmak",
+  "s": "The power failure interrupted surgery in three operating theaters.",
+  "z": 2
+ },
+ {
+  "w": "introduce",
+  "m": "tanıtmak; sunmak",
+  "s": "The government introduced a new tax on sugary drinks.",
+  "z": 2
+ },
+ {
+  "w": "invent",
+  "m": "icat etmek",
+  "s": "The printing press was invented in the fifteenth century.",
+  "z": 2
+ },
+ {
+  "w": "invest",
+  "m": "yatırım yapmak",
+  "s": "The company invested heavily in research on renewable energy.",
+  "z": 1
+ },
+ {
+  "w": "involve",
+  "m": "içermek, dahil etmek",
+  "s": "The experiment involved participants from six different age groups.",
+  "z": 1
+ },
+ {
+  "w": "jeopardize",
+  "m": "tehlikeye atmak",
+  "s": "Missing the deadline could jeopardize the entire funding agreement.",
+  "z": 3
+ },
+ {
+  "w": "join",
+  "m": "katılmak, birleştirmek",
+  "s": "Several countries joined the coalition to combat the epidemic.",
+  "z": 1
+ },
+ {
+  "w": "judge",
+  "m": "yargılamak; hâkim",
+  "s": "It is unfair to judge a culture by its worst examples.",
+  "z": 1
+ },
+ {
+  "w": "label",
+  "m": "etiketlemek; etiket",
+  "s": "The media quickly labeled the movement as dangerously radical.",
+  "z": 1
+ },
+ {
+  "w": "lack",
+  "m": "eksikliğini çekmek; eksiklik",
+  "s": "Many rural clinics lack even the most basic equipment.",
+  "z": 1
+ },
+ {
+  "w": "lament",
+  "m": "yakınmak, hayıflanmak",
+  "s": "Critics lament the decline of independent local newspapers.",
+  "z": 3
+ },
+ {
+  "w": "lessen",
+  "m": "azaltmak",
+  "s": "Regular breaks can lessen the strain of long-distance driving.",
+  "z": 2
+ },
+ {
+  "w": "linger",
+  "m": "oyalanmak, sürüp gitmek",
+  "s": "The smell of smoke lingered in the building for days.",
+  "z": 3
+ },
+ {
+  "w": "link",
+  "m": "bağlantı kurmak; bağlantı",
+  "s": "Studies link long working hours to increased risk of stroke.",
+  "z": 1
+ },
+ {
+  "w": "locate",
+  "m": "bulmak, konumlandırmak",
+  "s": "Rescuers used drones to locate survivors under the rubble.",
+  "z": 1
+ },
+ {
+  "w": "magnify",
+  "m": "büyütmek, abartmak",
+  "s": "Poverty magnifies the impact of natural disasters on communities.",
+  "z": 2
+ },
+ {
+  "w": "manage",
+  "m": "yönetmek; başarmak",
+  "s": "Few countries have managed to eliminate poverty completely.",
+  "z": 1
+ },
+ {
+  "w": "manufacture",
+  "m": "üretmek, imal etmek",
+  "s": "The plant manufactures batteries for electric vehicles.",
+  "z": 2
+ },
+ {
+  "w": "mark",
+  "m": "işaretlemek; iz",
+  "s": "The treaty marked the beginning of a long peace.",
+  "z": 1
+ },
+ {
+  "w": "mask",
+  "m": "gizlemek, maskelemek",
+  "s": "Strong perfume can mask but not remove unpleasant odors.",
+  "z": 1
+ },
+ {
+  "w": "measure up",
+  "m": "beklentileri karşılamak",
+  "s": "The cheap imitation simply did not measure up to the original.",
+  "z": 2
+ },
+ {
+  "w": "mention",
+  "m": "bahsetmek",
+  "s": "The report barely mentions the environmental cost of the project.",
+  "z": 1
+ },
+ {
+  "w": "merge",
+  "m": "birleşmek, birleştirmek",
+  "s": "The two banks merged to form the country's largest lender.",
+  "z": 1
+ },
+ {
+  "w": "minimize",
+  "m": "en aza indirmek",
+  "s": "Careful planning can minimize the disruption caused by roadworks.",
+  "z": 2
+ },
+ {
+  "w": "mislead",
+  "m": "yanıltmak",
+  "s": "The advertisement was banned for misleading consumers about the risks.",
+  "z": 2
+ },
+ {
+  "w": "mount",
+  "m": "artmak; düzenlemek",
+  "s": "Pressure mounted on the government to release the detained journalists.",
+  "z": 2
+ },
+ {
+  "w": "multiply",
+  "m": "çoğalmak, çarpmak",
+  "s": "Bacteria multiply rapidly in warm, moist conditions.",
+  "z": 2
+ },
+ {
+  "w": "navigate",
+  "m": "yol bulmak, seyretmek",
+  "s": "Early sailors navigated by observing the position of the stars.",
+  "z": 3
+ },
+ {
+  "w": "notify",
+  "m": "bildirmek, haber vermek",
+  "s": "Passengers were notified of the cancellation only minutes before departure.",
+  "z": 2
+ },
+ {
+  "w": "nominate",
+  "m": "aday göstermek",
+  "s": "The committee nominated three candidates for the prestigious prize.",
+  "z": 3
+ },
+ {
+  "w": "observe",
+  "m": "gözlemlemek; uymak",
+  "s": "Astronomers observe distant galaxies using increasingly powerful telescopes.",
+  "z": 1
+ },
+ {
+  "w": "obey",
+  "m": "itaat etmek",
+  "s": "Citizens are expected to obey laws even when they disagree.",
+  "z": 1
+ },
+ {
+  "w": "offend",
+  "m": "gücendirmek, incitmek",
+  "s": "The remarks offended many viewers and prompted formal complaints.",
+  "z": 2
+ },
+ {
+  "w": "operate",
+  "m": "işletmek; ameliyat etmek",
+  "s": "The company operates factories in more than twenty countries.",
+  "z": 1
+ },
+ {
+  "w": "organize",
+  "m": "düzenlemek, örgütlemek",
+  "s": "Volunteers organized food distribution in the earthquake-hit villages.",
+  "z": 1
+ },
+ {
+  "w": "originate",
+  "m": "kaynaklanmak, ortaya çıkmak",
+  "s": "Many common diseases originate in wild animal populations.",
+  "z": 3
+ },
+ {
+  "w": "outline",
+  "m": "ana hatlarıyla belirtmek; taslak",
+  "s": "The minister outlined the government's priorities for the coming year.",
+  "z": 2
+ },
+ {
+  "w": "outnumber",
+  "m": "sayıca üstün olmak",
+  "s": "In several faculties, women now outnumber men among graduates.",
+  "z": 2
+ },
+ {
+  "w": "outpace",
+  "m": "geride bırakmak, geçmek",
+  "s": "Demand for the vaccine outpaced the factory's production capacity.",
+  "z": 3
+ },
+ {
+  "w": "owe",
+  "m": "borçlu olmak",
+  "s": "The city owes much of its wealth to centuries of trade.",
+  "z": 1
+ },
+ {
+  "w": "participate",
+  "m": "katılmak",
+  "s": "Thousands of citizens participated in the public consultation.",
+  "z": 1
+ },
+ {
+  "w": "penetrate",
+  "m": "içine işlemek, nüfuz etmek",
+  "s": "Sunlight barely penetrates the deepest layers of the rainforest.",
+  "z": 2
+ },
+ {
+  "w": "pioneer",
+  "m": "öncülük etmek; öncü",
+  "s": "The clinic pioneered a new technique for treating heart defects.",
+  "z": 2
+ },
+ {
+  "w": "populate",
+  "m": "yerleşmek, doldurmak",
+  "s": "Nomadic tribes populated these plains for thousands of years.",
+  "z": 2
+ },
+ {
+  "w": "praise",
+  "m": "övmek; övgü",
+  "s": "Critics praised the film for its honest portrayal of poverty.",
+  "z": 1
+ },
+ {
+  "w": "prescribe",
+  "m": "reçete etmek, önermek",
+  "s": "Doctors are now less likely to prescribe antibiotics for colds.",
+  "z": 2
+ },
+ {
+  "w": "preserve",
+  "m": "korumak, muhafaza etmek",
+  "s": "The dry climate preserved the ancient manuscripts remarkably well.",
+  "z": 2
+ },
+ {
+  "w": "prevent",
+  "m": "önlemek, engellemek",
+  "s": "Simple hygiene measures can prevent the spread of many infections.",
+  "z": 2
+ },
+ {
+  "w": "proclaim",
+  "m": "ilan etmek",
+  "s": "The colony proclaimed its independence in the summer of 1776.",
+  "z": 3
+ },
+ {
+  "w": "produce",
+  "m": "üretmek",
+  "s": "The region produces most of the country's fruit and vegetables.",
+  "z": 1
+ },
+ {
+  "w": "prolong",
+  "m": "uzatmak",
+  "s": "New treatments can prolong the lives of cancer patients.",
+  "z": 2
+ },
+ {
+  "w": "protest",
+  "m": "protesto etmek; protesto",
+  "s": "Students protested against the sharp increase in tuition fees.",
+  "z": 2
+ },
+ {
+  "w": "prove",
+  "m": "kanıtlamak; olduğu ortaya çıkmak",
+  "s": "The new approach proved far more effective than anyone expected.",
+  "z": 1
+ },
+ {
+  "w": "provide",
+  "m": "sağlamak, temin etmek",
+  "s": "The charity provides shelter and food for homeless families.",
+  "z": 1
+ },
+ {
+  "w": "publish",
+  "m": "yayımlamak",
+  "s": "The journal published the controversial study after lengthy peer review.",
+  "z": 2
+ },
+ {
+  "w": "punish",
+  "m": "cezalandırmak",
+  "s": "The law punishes bribery with lengthy prison sentences.",
+  "z": 2
+ },
+ {
+  "w": "purchase",
+  "m": "satın almak; satın alma",
+  "s": "Consumers can purchase tickets online at a small discount.",
+  "z": 2
+ },
+ {
+  "w": "quench",
+  "m": "gidermek, söndürmek",
+  "s": "No amount of profit could quench the founder's ambition.",
+  "z": 3
+ },
+ {
+  "w": "radiate",
+  "m": "yaymak, ışımak",
+  "s": "Heated stones radiate warmth long after the fire dies.",
+  "z": 2
+ },
+ {
+  "w": "raise",
+  "m": "yükseltmek; gündeme getirmek",
+  "s": "The report raises serious concerns about workplace safety standards.",
+  "z": 1
+ },
+ {
+  "w": "react",
+  "m": "tepki vermek",
+  "s": "Markets reacted nervously to the surprise interest-rate decision.",
+  "z": 2
+ },
+ {
+  "w": "reap",
+  "m": "biçmek, elde etmek",
+  "s": "Investors who took early risks reaped enormous rewards.",
+  "z": 3
+ },
+ {
+  "w": "reassure",
+  "m": "güvence vermek, yatıştırmak",
+  "s": "Officials tried to reassure the public that the water was safe.",
+  "z": 2
+ },
+ {
+  "w": "rebel",
+  "m": "isyan etmek; isyancı",
+  "s": "The provinces rebelled against the heavy taxes imposed by the capital.",
+  "z": 2
+ },
+ {
+  "w": "recede",
+  "m": "çekilmek, azalmak",
+  "s": "The flood waters slowly receded after nearly a week.",
+  "z": 3
+ },
+ {
+  "w": "recognize",
+  "m": "tanımak; takdir etmek",
+  "s": "The court recognized the couple's marriage under foreign law.",
+  "z": 2
+ },
+ {
+  "w": "recommend",
+  "m": "tavsiye etmek",
+  "s": "The panel recommended stricter limits on industrial emissions.",
+  "z": 1
+ },
+ {
+  "w": "recover",
+  "m": "iyileşmek; geri kazanmak",
+  "s": "The economy slowly recovered after two years of deep recession.",
+  "z": 2
+ },
+ {
+  "w": "reduce",
+  "m": "azaltmak",
+  "s": "Cycling to work can significantly reduce your carbon footprint.",
+  "z": 1
+ },
+ {
+  "w": "reflect",
+  "m": "yansıtmak; düşünmek",
+  "s": "The survey results reflect growing anxiety about job security.",
+  "z": 2
+ },
+ {
+  "w": "regard",
+  "m": "saymak, görmek; saygı",
+  "s": "Many economists regard the policy as a costly mistake.",
+  "z": 1
+ },
+ {
+  "w": "register",
+  "m": "kaydolmak; kaydetmek",
+  "s": "Sensors registered a sharp rise in radiation near the plant.",
+  "z": 2
+ },
+ {
+  "w": "regret",
+  "m": "pişman olmak; pişmanlık",
+  "s": "Officials later regretted ignoring the early warnings about the dam.",
+  "z": 1
+ },
+ {
+  "w": "reinstate",
+  "m": "eski görevine iade etmek",
+  "s": "The court ordered the company to reinstate the dismissed workers.",
+  "z": 3
+ },
+ {
+  "w": "relate",
+  "m": "ilişkilendirmek; anlatmak",
+  "s": "The lecture related economic growth to advances in public health.",
+  "z": 2
+ },
+ {
+  "w": "release",
+  "m": "serbest bırakmak; yayınlamak",
+  "s": "The factory releases treated water back into the river.",
+  "z": 1
+ },
+ {
+  "w": "remove",
+  "m": "kaldırmak, çıkarmak",
+  "s": "Surgeons removed the tumor during a four-hour operation.",
+  "z": 1
+ },
+ {
+  "w": "renew",
+  "m": "yenilemek",
+  "s": "The two nations renewed their trade agreement for another decade.",
+  "z": 2
+ },
+ {
+  "w": "renounce",
+  "m": "vazgeçmek, feragat etmek",
+  "s": "The prince renounced his claim to the throne.",
+  "z": 3
+ },
+ {
+  "w": "repair",
+  "m": "onarmak; onarım",
+  "s": "Crews worked overnight to repair the damaged power lines.",
+  "z": 1
+ },
+ {
+  "w": "replace",
+  "m": "değiştirmek, yerini almak",
+  "s": "Robots increasingly replace humans in dangerous industrial tasks.",
+  "z": 2
+ },
+ {
+  "w": "represent",
+  "m": "temsil etmek",
+  "s": "The sample was chosen to represent the whole population accurately.",
+  "z": 2
+ },
+ {
+  "w": "reproduce",
+  "m": "üremek; çoğaltmak",
+  "s": "The bacteria reproduce every twenty minutes under ideal conditions.",
+  "z": 2
+ },
+ {
+  "w": "require",
+  "m": "gerektirmek",
+  "s": "The procedure requires specialized equipment and highly trained staff.",
+  "z": 1
+ },
+ {
+  "w": "rescue",
+  "m": "kurtarmak; kurtarma",
+  "s": "Helicopters rescued dozens of hikers stranded by the sudden blizzard.",
+  "z": 2
+ },
+ {
+  "w": "reside",
+  "m": "ikamet etmek",
+  "s": "Nearly a million foreign nationals reside in the capital.",
+  "z": 2
+ },
+ {
+  "w": "resist",
+  "m": "direnmek, karşı koymak",
+  "s": "Certain bacteria have learned to resist even the strongest antibiotics.",
+  "z": 2
+ },
+ {
+  "w": "respond",
+  "m": "yanıt vermek",
+  "s": "The government responded slowly to the growing humanitarian crisis.",
+  "z": 1
+ },
+ {
+  "w": "retreat",
+  "m": "geri çekilmek; geri çekilme",
+  "s": "The army was forced to retreat after suffering heavy losses.",
+  "z": 2
+ },
+ {
+  "w": "retire",
+  "m": "emekli olmak",
+  "s": "Many workers can no longer afford to retire at sixty.",
+  "z": 1
+ },
+ {
+  "w": "reverse",
+  "m": "tersine çevirmek; ters",
+  "s": "New treatments may partly reverse the damage caused by the stroke.",
+  "z": 2
+ },
+ {
+  "w": "reward",
+  "m": "ödüllendirmek; ödül",
+  "s": "The system rewards employees who share innovative ideas.",
+  "z": 1
+ },
+ {
+  "w": "rid",
+  "m": "kurtarmak, temizlemek",
+  "s": "The campaign aims to rid the oceans of plastic waste.",
+  "z": 2
+ },
+ {
+  "w": "roam",
+  "m": "dolaşmak, gezinmek",
+  "s": "Wild elephants once roamed freely across the entire region.",
+  "z": 2
+ },
+ {
+  "w": "scatter",
+  "m": "saçmak, dağıtmak",
+  "s": "The explosion scattered debris across a wide residential area.",
+  "z": 2
+ },
+ {
+  "w": "secure",
+  "m": "güvence altına almak; güvenli",
+  "s": "The startup secured funding from several international investors.",
+  "z": 2
+ },
+ {
+  "w": "select",
+  "m": "seçmek",
+  "s": "The committee selected twelve finalists from hundreds of applicants.",
+  "z": 1
+ },
+ {
+  "w": "separate",
+  "m": "ayırmak; ayrı",
+  "s": "A narrow strait separates the island from the mainland.",
+  "z": 1
+ },
+ {
+  "w": "settle",
+  "m": "yerleşmek; çözmek",
+  "s": "The two companies settled the dispute out of court.",
+  "z": 2
+ },
+ {
+  "w": "shatter",
+  "m": "paramparça etmek",
+  "s": "The scandal shattered public confidence in the police force.",
+  "z": 2
+ },
+ {
+  "w": "shrink",
+  "m": "küçülmek, daralmak",
+  "s": "The lake has shrunk dramatically over the past thirty years.",
+  "z": 2
+ },
+ {
+  "w": "soar",
+  "m": "fırlamak, yükselmek",
+  "s": "Housing prices soared as demand far outstripped supply.",
+  "z": 2
+ },
+ {
+  "w": "solve",
+  "m": "çözmek",
+  "s": "No single policy can solve the problem of urban congestion.",
+  "z": 2
+ },
+ {
+  "w": "spark",
+  "m": "ateşlemek, yol açmak; kıvılcım",
+  "s": "The court's decision sparked protests in cities across the country.",
+  "z": 2
+ },
+ {
+  "w": "specify",
+  "m": "belirtmek",
+  "s": "The contract specifies the exact quality of materials to be used.",
+  "z": 2
+ },
+ {
+  "w": "spread",
+  "m": "yayılmak, yaymak",
+  "s": "The disease spread rapidly through overcrowded refugee camps.",
+  "z": 1
+ },
+ {
+  "w": "stabilize",
+  "m": "istikrara kavuşturmak",
+  "s": "Emergency loans helped stabilize the collapsing currency.",
+  "z": 2
+ },
+ {
+  "w": "strengthen",
+  "m": "güçlendirmek",
+  "s": "The alliance was strengthened by decades of close cooperation.",
+  "z": 2
+ },
+ {
+  "w": "stretch",
+  "m": "uzanmak, uzatmak",
+  "s": "The desert stretches for hundreds of kilometers beyond the horizon.",
+  "z": 1
+ },
+ {
+  "w": "struggle",
+  "m": "mücadele etmek; mücadele",
+  "s": "Small farmers struggle to compete with heavily subsidized imports.",
+  "z": 1
+ },
+ {
+  "w": "summon",
+  "m": "çağırmak, celp etmek",
+  "s": "The committee summoned the executives to explain the safety failures.",
+  "z": 3
+ },
+ {
+  "w": "supervise",
+  "m": "denetlemek, gözetmek",
+  "s": "An experienced surgeon supervised the entire operation.",
+  "z": 2
+ },
+ {
+  "w": "supplement",
+  "m": "tamamlamak; ek",
+  "s": "Many retirees supplement their pensions with part-time work.",
+  "z": 2
+ },
+ {
+  "w": "suspend",
+  "m": "askıya almak; asmak",
+  "s": "The airline suspended all flights during the volcanic eruption.",
+  "z": 2
+ },
+ {
+  "w": "swell",
+  "m": "şişmek, kabarmak",
+  "s": "The crowd swelled to over fifty thousand by early afternoon.",
+  "z": 2
+ },
+ {
+  "w": "testify",
+  "m": "tanıklık etmek",
+  "s": "Several witnesses agreed to testify against the corrupt officials.",
+  "z": 3
+ },
+ {
+  "w": "thrive",
+  "m": "gelişmek, serpilmek",
+  "s": "Coral reefs thrive in warm, clear, nutrient-poor waters.",
+  "z": 2
+ },
+ {
+  "w": "tolerate",
+  "m": "hoş görmek, dayanmak",
+  "s": "These plants tolerate drought far better than most crops.",
+  "z": 2
+ },
+ {
+  "w": "trace",
+  "m": "izini sürmek; iz",
+  "s": "Investigators traced the outbreak to a single contaminated shipment.",
+  "z": 2
+ },
+ {
+  "w": "trigger",
+  "m": "tetiklemek; tetik",
+  "s": "The assassination triggered a war that lasted four devastating years.",
+  "z": 2
+ },
+ {
+  "w": "vary",
+  "m": "değişmek, farklılık göstermek",
+  "s": "Ticket prices vary depending on the season and time of day.",
+  "z": 2
+ },
+ {
+  "w": "weaken",
+  "m": "zayıflatmak, zayıflamak",
+  "s": "Prolonged illness had greatly weakened the elderly patient.",
+  "z": 2
+ },
+ {
+  "w": "widen",
+  "m": "genişletmek, genişlemek",
+  "s": "The gap between rich and poor continues to widen.",
+  "z": 2
+ },
+ {
+  "w": "worsen",
+  "m": "kötüleşmek, kötüleştirmek",
+  "s": "Air quality worsened sharply during the prolonged heat wave.",
+  "z": 2
+ }
+]

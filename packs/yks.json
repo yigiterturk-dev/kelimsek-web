@@ -1,0 +1,3736 @@
+[
+ {
+  "w": "muğlak",
+  "m": "belirsiz, kapalı, anlaşılması güç",
+  "s": "Yazarın muğlak ifadeleri, metnin farklı biçimlerde yorumlanmasına yol açıyor.",
+  "z": 2
+ },
+ {
+  "w": "izafi",
+  "m": "göreceli, bağıl",
+  "s": "Güzellik izafi bir kavramdır; kişiden kişiye, çağdan çağa değişir.",
+  "z": 2
+ },
+ {
+  "w": "tahakküm",
+  "m": "baskı, zorbalık, hükmetme",
+  "s": "Sanatçı, hiçbir gücün düşünce üzerinde tahakküm kurmasına razı olmaz.",
+  "z": 2
+ },
+ {
+  "w": "tefekkür",
+  "m": "derin düşünme",
+  "s": "Şair, doğa karşısında saatler süren bir tefekkür içine dalardı.",
+  "z": 2
+ },
+ {
+  "w": "muhayyile",
+  "m": "hayal gücü",
+  "s": "Güçlü bir muhayyile olmadan özgün bir roman yazmak olanaksızdır.",
+  "z": 2
+ },
+ {
+  "w": "tevazu",
+  "m": "alçakgönüllülük",
+  "s": "Onca ödüle rağmen tevazu göstermesi okurlarının sevgisini artırdı.",
+  "z": 2
+ },
+ {
+  "w": "ihtiras",
+  "m": "aşırı güçlü istek, tutku",
+  "s": "Romanın kahramanı, para ihtirası yüzünden bütün dostlarını yitirir.",
+  "z": 2
+ },
+ {
+  "w": "sükunet",
+  "m": "durgunluk, dinginlik, sessizlik",
+  "s": "Gölün kıyısındaki sükunet, şaire aradığı iç huzuru verdi.",
+  "z": 2
+ },
+ {
+  "w": "feraset",
+  "m": "çabuk seziş, anlayış keskinliği",
+  "s": "Eleştirmen, ferasetiyle genç yazarın yeteneğini herkesten önce fark etti.",
+  "z": 3
+ },
+ {
+  "w": "basiret",
+  "m": "öngörü, sağgörü",
+  "s": "Yönetici, basireti sayesinde krizin ayak seslerini önceden duymuştu.",
+  "z": 2
+ },
+ {
+  "w": "tahayyül",
+  "m": "hayalde canlandırma",
+  "s": "Okur, betimlemeler aracılığıyla mekânı zihninde tahayyül eder.",
+  "z": 2
+ },
+ {
+  "w": "teenni",
+  "m": "acele etmeden düşünüp davranma",
+  "s": "Önemli kararlar öfkeyle değil teenni ile alınmalıdır.",
+  "z": 3
+ },
+ {
+  "w": "münzevi",
+  "m": "topluluktan kaçan, yalnız yaşayan",
+  "s": "Münzevi şair, ömrünün son yıllarını dağ köyünde geçirdi.",
+  "z": 2
+ },
+ {
+  "w": "tenakuz",
+  "m": "çelişki, çelişme",
+  "s": "Konuşmacının sözleri arasındaki tenakuz dinleyicilerin gözünden kaçmadı.",
+  "z": 3
+ },
+ {
+  "w": "tereddüt",
+  "m": "kararsızlık, duraksama",
+  "s": "Genç yazar, ilk kitabını yayımlatma konusunda uzun süre tereddüt yaşadı.",
+  "z": 1
+ },
+ {
+  "w": "mefhum",
+  "m": "kavram",
+  "s": "Adalet mefhumu, her toplumda farklı biçimlerde tanımlanmıştır.",
+  "z": 2
+ },
+ {
+  "w": "meşakkat",
+  "m": "sıkıntı, güçlük, zahmet",
+  "s": "Sanat, meşakkate katlanmayı göze alanların yürüyebileceği bir yoldur.",
+  "z": 2
+ },
+ {
+  "w": "tecelli",
+  "m": "belirme, görünme, ortaya çıkma",
+  "s": "Tasavvuf şiirinde evren, ilahi güzelliğin tecellisi olarak görülür.",
+  "z": 3
+ },
+ {
+  "w": "teşbih",
+  "m": "benzetme sanatı",
+  "s": "Sevgilinin boyunu selviye benzeten şair teşbih sanatına başvurmuştur.",
+  "z": 1
+ },
+ {
+  "w": "mecaz",
+  "m": "sözcüğü gerçek dışı anlamda kullanma",
+  "s": "Şiir dili, gündelik dilden çok mecaz üzerine kurulur.",
+  "z": 1
+ },
+ {
+  "w": "telmih",
+  "m": "bilinen bir olaya gönderme sanatı",
+  "s": "Şair, Leyla ile Mecnun'u anımsatarak telmih sanatı yapmıştır.",
+  "z": 2
+ },
+ {
+  "w": "tezat",
+  "m": "karşıt kavramları bir arada kullanma",
+  "s": "Dizedeki ağlayıp gülme ifadeleri tezat sanatına örnektir.",
+  "z": 1
+ },
+ {
+  "w": "kinaye",
+  "m": "sözü hem gerçek hem mecaz anlama gelecek biçimde kullanma",
+  "s": "Eli açık deyimiyle şair, kinayeli bir anlatım kurmuştur.",
+  "z": 2
+ },
+ {
+  "w": "istiare",
+  "m": "benzetme ögelerinden biriyle yapılan eğretileme",
+  "s": "Aslanlarımız sahaya çıktı cümlesinde istiare sanatı vardır.",
+  "z": 2
+ },
+ {
+  "w": "betimleme",
+  "m": "sözcüklerle resim çizme, tasvir",
+  "s": "Yazar, kasabayı ayrıntılı bir betimlemeyle okurun gözünde canlandırıyor.",
+  "z": 1
+ },
+ {
+  "w": "imge",
+  "m": "zihinde canlandırılan görüntü, hayal",
+  "s": "Modern şiir, alışılmamış imgelerle okuru şaşırtmayı amaçlar.",
+  "z": 2
+ },
+ {
+  "w": "izlek",
+  "m": "eserin işlediği ana düşünce, tema",
+  "s": "Yalnızlık, yazarın bütün romanlarında yinelenen bir izlektir.",
+  "z": 2
+ },
+ {
+  "w": "ironi",
+  "m": "söylenenin tersini kasteden alaycı anlatım",
+  "s": "Yazar, toplumsal aksaklıkları ince bir ironiyle sergiliyor.",
+  "z": 2
+ },
+ {
+  "w": "yergi",
+  "m": "kusurları alaya alan eleştiri, hiciv",
+  "s": "Nef'i, ağır yergileriyle döneminin devlet adamlarını hedef almıştır.",
+  "z": 2
+ },
+ {
+  "w": "uyak",
+  "m": "dize sonlarındaki ses benzerliği, kafiye",
+  "s": "Halk şiirinde uyak çoğunlukla yarım uyak biçimindedir.",
+  "z": 1
+ },
+ {
+  "w": "dize",
+  "m": "şiirin her bir satırı, mısra",
+  "s": "Şiirin son dizesi, bütün anlam yükünü tek başına taşıyor.",
+  "z": 1
+ },
+ {
+  "w": "redif",
+  "m": "uyaktan sonra yinelenen ek ya da sözcük",
+  "s": "Dize sonlarında yinelenen gönül sözcüğü rediftir.",
+  "z": 2
+ },
+ {
+  "w": "aliterasyon",
+  "m": "aynı ünsüzün yinelenmesiyle ahenk sağlama",
+  "s": "Dizedeki s seslerinin yinelenmesi aliterasyon oluşturur.",
+  "z": 2
+ },
+ {
+  "w": "nida",
+  "m": "coşkulu seslenme sanatı",
+  "s": "Ey Türk gençliği hitabında nida sanatı kullanılmıştır.",
+  "z": 2
+ },
+ {
+  "w": "tevriye",
+  "m": "iki anlamlı sözcüğün uzak anlamını kastetme",
+  "s": "Divan şairi, iki anlamlı sözcüklerle ustaca tevriye yapar.",
+  "z": 3
+ },
+ {
+  "w": "cinas",
+  "m": "sesteş sözcüklerle yapılan söz oyunu",
+  "s": "Manilerdeki yara sözcükleri sesteşlikten doğan cinas örneğidir.",
+  "z": 2
+ },
+ {
+  "w": "mazmun",
+  "m": "divan şiirinin kalıplaşmış imgesi",
+  "s": "Servi boy, divan şiirinde sevgiliyi anlatan bir mazmundur.",
+  "z": 3
+ },
+ {
+  "w": "teşhis",
+  "m": "kişileştirme sanatı",
+  "s": "Ağlayan bulutlar ifadesinde doğaya insan özelliği veren teşhis vardır.",
+  "z": 1
+ },
+ {
+  "w": "intak",
+  "m": "insan dışı varlıkları konuşturma sanatı",
+  "s": "Fabllarda hayvanların konuşturulması intak sanatına dayanır.",
+  "z": 2
+ },
+ {
+  "w": "yadsımak",
+  "m": "inkâr etmek, reddetmek",
+  "s": "Bilim, gözlemle çelişen iddiaları yadsımak zorundadır.",
+  "z": 2
+ },
+ {
+  "w": "öznel",
+  "m": "kişisel görüşe dayalı, subjektif",
+  "s": "Bence bu roman çağının en iyisidir cümlesi öznel bir yargıdır.",
+  "z": 1
+ },
+ {
+  "w": "nesnel",
+  "m": "kişisel görüşten bağımsız, objektif",
+  "s": "Eleştirmen, eseri duygularına kapılmadan nesnel ölçütlerle değerlendirmelidir.",
+  "z": 1
+ },
+ {
+  "w": "olgu",
+  "m": "gözlemlenebilir, kanıtlanabilir gerçek",
+  "s": "Yazar, kişisel kanılarını olgu gibi sunarak okuru yanıltıyor.",
+  "z": 1
+ },
+ {
+  "w": "kanı",
+  "m": "kişisel inanış, görüş",
+  "s": "Yeterli veri olmadan edinilen kanılar bizi yanlış yargılara götürür.",
+  "z": 1
+ },
+ {
+  "w": "saplantı",
+  "m": "zihinden atılamayan yerleşik düşünce",
+  "s": "Kahraman, geçmişte yaşadıklarını saplantı hâline getirip kendini yiyip bitirir.",
+  "z": 2
+ },
+ {
+  "w": "önyargı",
+  "m": "peşin hüküm",
+  "s": "Eleştirmen, genç yazarlara karşı önyargılarından bir türlü kurtulamıyor.",
+  "z": 1
+ },
+ {
+  "w": "müphem",
+  "m": "belirsiz, kapalı",
+  "s": "Şiirdeki müphem söyleyiş, her okurda başka bir çağrışım uyandırıyor.",
+  "z": 3
+ },
+ {
+  "w": "mücerret",
+  "m": "soyut",
+  "s": "Aşk, özlem gibi mücerret kavramlar şiirin başlıca konularıdır.",
+  "z": 3
+ },
+ {
+  "w": "müşahhas",
+  "m": "somut",
+  "s": "Yazar, soyut düşüncelerini müşahhas örneklerle anlaşılır kılıyor.",
+  "z": 3
+ },
+ {
+  "w": "mutlak",
+  "m": "koşulsuz, salt, kesin",
+  "s": "Sanatta mutlak doğrudan söz etmek pek olanaklı değildir.",
+  "z": 2
+ },
+ {
+  "w": "görece",
+  "m": "bir şeye göre değişen, izafi",
+  "s": "Başarı görece bir kavramdır; herkes onu kendince tanımlar.",
+  "z": 2
+ },
+ {
+  "w": "özgün",
+  "m": "yalnız kendine özgü, orijinal",
+  "s": "Taklitten uzak duran sanatçı, özgün bir anlatım geliştirmiştir.",
+  "z": 2
+ },
+ {
+  "w": "özgünlük",
+  "m": "başkasına benzememe niteliği",
+  "s": "Eleştirmenler romanı, kurgusundaki özgünlük yönünden övgüye değer buldu.",
+  "z": 1
+ },
+ {
+  "w": "yetkin",
+  "m": "olgunlaşmış, kusursuz, mükemmel",
+  "s": "Şair, dili yetkin biçimde kullanarak yoğun bir anlatım yakalamış.",
+  "z": 2
+ },
+ {
+  "w": "yalın",
+  "m": "süsten uzak, sade",
+  "s": "Sait Faik, yalın bir anlatımla sıradan insanın dünyasını yansıtır.",
+  "z": 1
+ },
+ {
+  "w": "özenti",
+  "m": "başkasına benzemeye çalışma",
+  "s": "Batı edebiyatına duyulan özenti, kimi eserleri kişiliksizleştirmiştir.",
+  "z": 2
+ },
+ {
+  "w": "yapmacık",
+  "m": "içtenlikten yoksun, sahte davranış",
+  "s": "Okur, yapmacık duygularla yazılmış dizeleri hemen sezer.",
+  "z": 2
+ },
+ {
+  "w": "içtenlik",
+  "m": "yürekten davranma, samimiyet",
+  "s": "Mektuplarındaki içtenlik, şairi okurlarına yakınlaştıran başlıca özelliktir.",
+  "z": 1
+ },
+ {
+  "w": "duruluk",
+  "m": "anlatımın gereksiz sözden arınmış olması",
+  "s": "Duruluk ilkesine bağlı yazar, cümlelerindeki fazlalıkları ayıklar.",
+  "z": 2
+ },
+ {
+  "w": "akıcılık",
+  "m": "anlatımın pürüzsüz, kolay okunur olması",
+  "s": "Romanın akıcılığı, okurun kitabı elinden bırakmamasını sağlıyor.",
+  "z": 2
+ },
+ {
+  "w": "tutarlılık",
+  "m": "düşünceler arasında çelişki bulunmaması",
+  "s": "Denemede ileri sürülen görüşler tutarlılık açısından sınanmalıdır.",
+  "z": 2
+ },
+ {
+  "w": "özlülük",
+  "m": "az sözle çok şey anlatma",
+  "s": "Atasözleri, özlülük bakımından dilin en yoğun ürünleridir.",
+  "z": 2
+ },
+ {
+  "w": "evrensel",
+  "m": "bütün insanlığı ilgilendiren",
+  "s": "Gerçek sanat eseri, yerel olandan yola çıkıp evrensel olana ulaşır.",
+  "z": 1
+ },
+ {
+  "w": "yerellik",
+  "m": "belli bir yöreye özgü olma",
+  "s": "Romandaki yerellik, ağız özellikleri ve yöresel geleneklerle sağlanmış.",
+  "z": 2
+ },
+ {
+  "w": "kalıcılık",
+  "m": "etkisini uzun süre koruma",
+  "s": "Bir eserin kalıcılığı, çağları aşan sorunlara değinmesine bağlıdır.",
+  "z": 2
+ },
+ {
+  "w": "yozlaşma",
+  "m": "özünden uzaklaşıp bozulma",
+  "s": "Yazar, dildeki yozlaşmaya karşı bilinçli bir direniş sergiliyor.",
+  "z": 2
+ },
+ {
+  "w": "yabancılaşma",
+  "m": "kendi özüne ve çevresine uzaklaşma",
+  "s": "Modern romanlar, kent insanının yabancılaşmasını sıkça işler.",
+  "z": 2
+ },
+ {
+  "w": "ötekileştirmek",
+  "m": "birini yabancı sayıp dışlamak",
+  "s": "Yazar, farklı olanı ötekileştiren toplumsal tutumları eleştiriyor.",
+  "z": 2
+ },
+ {
+  "w": "tekdüze",
+  "m": "değişmeden aynı biçimde süren, monoton",
+  "s": "Kahraman, kasabadaki tekdüze yaşamdan kurtulmanın yollarını arar.",
+  "z": 1
+ },
+ {
+  "w": "bayağılık",
+  "m": "sıradanlık, aşağılık, adilik",
+  "s": "Eleştirmen, dildeki bayağılığın sanat değerini düşürdüğünü savunur.",
+  "z": 2
+ },
+ {
+  "w": "seçkin",
+  "m": "benzerlerinden üstün, güzide",
+  "s": "Antolojiye yalnızca seçkin örnekler alınmış, sıradan şiirler ayıklanmıştır.",
+  "z": 2
+ },
+ {
+  "w": "ayrıksı",
+  "m": "alışılmışın dışında, aykırı",
+  "s": "Şairin ayrıksı imgeleri, dönemin okurunu bir hayli şaşırtmıştı.",
+  "z": 3
+ },
+ {
+  "w": "aykırı",
+  "m": "kurala, alışılmışa ters düşen",
+  "s": "Sanatçı, geleneğe aykırı biçim denemeleriyle adından söz ettirdi.",
+  "z": 2
+ },
+ {
+  "w": "sıra dışı",
+  "m": "alışılmışın dışında, olağandışı",
+  "s": "Romanın sıra dışı kurgusu, zaman çizgisini bilerek kırıyor.",
+  "z": 1
+ },
+ {
+  "w": "alaturka",
+  "m": "eski Türk gelenek ve usulüne uygun",
+  "s": "Romanda alaturka yaşamla alafranga özenti ustaca karşılaştırılır.",
+  "z": 2
+ },
+ {
+  "w": "nostalji",
+  "m": "geçmişe duyulan özlem",
+  "s": "Şair, çocukluğunun mahallesini anlatırken derin bir nostaljiye kapılıyor.",
+  "z": 2
+ },
+ {
+  "w": "melankoli",
+  "m": "süreklilik kazanan hüzün hâli",
+  "s": "Sonbahar betimlemeleri, şiire ağır bir melankoli havası katmış.",
+  "z": 2
+ },
+ {
+  "w": "hüzün",
+  "m": "iç kapanıklığı, gam, keder",
+  "s": "Şairin dizelerine akşam vakitlerinin hüznü sinmiştir.",
+  "z": 2
+ },
+ {
+  "w": "ıstırap",
+  "m": "derin acı, üzüntü",
+  "s": "Sanatçı, çektiği ıstırabı eserine dönüştürmesini bilen insandır.",
+  "z": 2
+ },
+ {
+  "w": "keder",
+  "m": "acı, üzüntü, tasa",
+  "s": "Ağıtlar, toplumun ortak kederini dile getiren ürünlerdir.",
+  "z": 2
+ },
+ {
+  "w": "özlem",
+  "m": "görme, kavuşma isteği, hasret",
+  "s": "Gurbet şiirlerinin ortak duygusu, sıla özlemidir.",
+  "z": 1
+ },
+ {
+  "w": "hasret",
+  "m": "özlem, kavuşamama acısı",
+  "s": "Mektuplarında memlekete duyduğu hasret her satıra yansır.",
+  "z": 2
+ },
+ {
+  "w": "kasvet",
+  "m": "iç sıkıntısı veren ağır hava",
+  "s": "Romanın kasvetli atmosferi, kahramanın ruhsal çöküşünü yansıtıyor.",
+  "z": 2
+ },
+ {
+  "w": "buhran",
+  "m": "bunalım, kriz",
+  "s": "Kahraman, ruhsal buhranını yazarak aşmaya çalışır.",
+  "z": 2
+ },
+ {
+  "w": "bunalım",
+  "m": "ruhsal sıkıntı, depresyon, kriz",
+  "s": "Savaş sonrası kuşağın bunalımı, dönemin romanlarına yansımıştır.",
+  "z": 2
+ },
+ {
+  "w": "hicran",
+  "m": "ayrılık, ayrılık acısı",
+  "s": "Divan şairi, hicran gecelerinin bitmek bilmediğinden yakınır.",
+  "z": 3
+ },
+ {
+  "w": "firkat",
+  "m": "ayrılık, ayrılık acısı",
+  "s": "Halk türkülerinde firkat, en çok işlenen konulardandır.",
+  "z": 3
+ },
+ {
+  "w": "vuslat",
+  "m": "sevgiliye kavuşma",
+  "s": "Divan şiirinde âşık için vuslat çoğu kez ulaşılmaz bir umuttur.",
+  "z": 2
+ },
+ {
+  "w": "tahassür",
+  "m": "özlem duyma, hasret çekme",
+  "s": "Şair, geçip giden gençlik yıllarını tahassürle anar.",
+  "z": 3
+ },
+ {
+  "w": "teselli",
+  "m": "avunma, avutma",
+  "s": "Kahraman, kitaplarda buluyordu yalnızlığının tek tesellisini.",
+  "z": 1
+ },
+ {
+  "w": "avuntu",
+  "m": "teselli veren şey",
+  "s": "Anılar, yaşlı adamın son yıllarındaki tek avuntusuydu.",
+  "z": 2
+ },
+ {
+  "w": "yeis",
+  "m": "umutsuzluk, karamsarlık",
+  "s": "Şair, en karanlık günlerde bile yeise kapılmamayı öğütler.",
+  "z": 3
+ },
+ {
+  "w": "karamsarlık",
+  "m": "her şeyi kötü görme, kötümserlik",
+  "s": "Eleştirmenler, romandaki koyu karamsarlığı dönemin koşullarına bağlıyor.",
+  "z": 1
+ },
+ {
+  "w": "kötümser",
+  "m": "olayların kötü yanını gören, pesimist",
+  "s": "Kötümser anlatıcı, olayların hep en karanlık yüzünü gösterir.",
+  "z": 1
+ },
+ {
+  "w": "iyimser",
+  "m": "olayların iyi yanını gören, optimist",
+  "s": "Yazarın iyimser bakışı, en acı sahnelere bile umut katıyor.",
+  "z": 1
+ },
+ {
+  "w": "umarsız",
+  "m": "çaresi olmayan, çaresiz",
+  "s": "Kahraman, umarsız bir bekleyişle kapının önünden ayrılmıyordu.",
+  "z": 2
+ },
+ {
+  "w": "çaresizlik",
+  "m": "çıkar yol bulamama durumu",
+  "s": "Roman, yoksul ailenin çaresizliğini yalın bir dille anlatır.",
+  "z": 1
+ },
+ {
+  "w": "kayıtsızlık",
+  "m": "ilgisizlik, aldırmazlık",
+  "s": "Toplumun sanata kayıtsızlığı, yazarı derinden yaralıyordu.",
+  "z": 2
+ },
+ {
+  "w": "lakayt",
+  "m": "ilgisiz, kayıtsız, umursamaz",
+  "s": "Çevresindeki olup bitene lakayt kalan kahraman, sonunda yalnızlaşır.",
+  "z": 2
+ },
+ {
+  "w": "bigâne",
+  "m": "ilgisiz, yabancı kalan",
+  "s": "Gerçek sanatçı, çağının sorunlarına bigâne kalamaz.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "vurdumduymaz",
+  "m": "aldırışsız, umursamaz",
+  "s": "Yazar, vurdumduymaz kalabalıkları iğneleyici bir dille eleştirir.",
+  "z": 2
+ },
+ {
+  "w": "irdelemek",
+  "m": "ayrıntılarıyla incelemek",
+  "s": "Deneme yazarı, alışkanlıklarımızı irdeleyerek okuru düşünmeye çağırır.",
+  "z": 2
+ },
+ {
+  "w": "yadırgamak",
+  "m": "yabancı bulmak, tuhaf karşılamak",
+  "s": "Kente göçen kahraman, apartman yaşamını uzun süre yadırgar.",
+  "z": 2
+ },
+ {
+  "w": "özümsemek",
+  "m": "iyice benimseyip kendine mal etmek",
+  "s": "Sanatçı, geleneği önce özümsemeden onu aşmayı asla başaramaz.",
+  "z": 2
+ },
+ {
+  "w": "benimsemek",
+  "m": "kabullenmek, kendine mal etmek",
+  "s": "Toplum, yeniliği ancak kendi değerleriyle bağdaştırınca benimser.",
+  "z": 1
+ },
+ {
+  "w": "içselleştirmek",
+  "m": "derinlemesine benimseyip özümsemek",
+  "s": "Okuma alışkanlığını içselleştiren çocuk, kitaba ömür boyu bağlanır.",
+  "z": 2
+ },
+ {
+  "w": "kanıksamak",
+  "m": "alışıp etkilenmez olmak",
+  "s": "İnsanlar şiddet haberlerini kanıksadıkça duyarlılıklarını yitiriyor.",
+  "z": 2
+ },
+ {
+  "w": "yeğlemek",
+  "m": "tercih etmek, üstün tutmak",
+  "s": "Şair, süslü söyleyiş yerine yalın anlatımı yeğlemiştir.",
+  "z": 2
+ },
+ {
+  "w": "öngörmek",
+  "m": "olacakları önceden kestirmek",
+  "s": "Romancı, teknolojinin yol açacağı yalnızlığı yıllar öncesinden öngörmüştü.",
+  "z": 2
+ },
+ {
+  "w": "sezinlemek",
+  "m": "üstü kapalı biçimde sezmek",
+  "s": "Okur, daha ilk sayfalarda yaklaşan felaketi sezinler.",
+  "z": 2
+ },
+ {
+  "w": "saptamak",
+  "m": "belirlemek, tespit etmek",
+  "s": "Araştırmacı, metindeki yabancı sözcük oranını tek tek saptamıştır.",
+  "z": 1
+ },
+ {
+  "w": "savlamak",
+  "m": "iddia etmek, sav ileri sürmek",
+  "s": "Yazar, eleştirinin bir yaratım olduğunu savlıyor.",
+  "z": 2
+ },
+ {
+  "w": "öne sürmek",
+  "m": "iddia etmek, ileri sürmek",
+  "s": "Kimi eleştirmenler, romanın çağını aştığını öne sürüyor.",
+  "z": 2
+ },
+ {
+  "w": "çıkarım",
+  "m": "verilerden sonuç çıkarma, istidlal",
+  "s": "Paragraftan hareketle yapılacak en doğru çıkarım, sanatın evrenselliğidir.",
+  "z": 2
+ },
+ {
+  "w": "tümevarım",
+  "m": "tek tek olgulardan genel yargıya varma",
+  "s": "Bilim insanı, deney sonuçlarından tümevarım yoluyla yasaya ulaşır.",
+  "z": 2
+ },
+ {
+  "w": "tümdengelim",
+  "m": "genel yargıdan özele ulaşma",
+  "s": "Yazar, genel ilkeden yola çıkıp tümdengelimle örneklere iniyor.",
+  "z": 2
+ },
+ {
+  "w": "varsayım",
+  "m": "geçici olarak doğru sayılan önerme, hipotez",
+  "s": "Bilimsel varsayım, deneyle sınanmadıkça yasa değeri kazanamaz.",
+  "z": 2
+ },
+ {
+  "w": "kuram",
+  "m": "sistemli bilimsel açıklama, teori",
+  "s": "Eleştirmen, romanı çözümlemek için çağdaş kuramlardan yararlanıyor.",
+  "z": 2
+ },
+ {
+  "w": "öğreti",
+  "m": "benimsenmiş düşünce sistemi, doktrin",
+  "s": "Tanzimat aydınları, Batı'nın siyasal öğretilerini yakından izliyordu.",
+  "z": 2
+ },
+ {
+  "w": "kanıt",
+  "m": "bir yargıyı doğrulayan belge, delil",
+  "s": "Yazar, savını tarihsel kanıtlarla destekleyerek inandırıcılık kazanıyor.",
+  "z": 1
+ },
+ {
+  "w": "kanıtlamak",
+  "m": "doğruluğunu belgelerle göstermek",
+  "s": "Deneme yazarı düşüncelerini kanıtlamak zorunda değildir.",
+  "z": 1
+ },
+ {
+  "w": "çürütmek",
+  "m": "yanlışlığını ortaya koymak",
+  "s": "Eleştirmen, romana yöneltilen suçlamaları örneklerle çürütüyor.",
+  "z": 2
+ },
+ {
+  "w": "yalanlamak",
+  "m": "doğru olmadığını söylemek, tekzip etmek",
+  "s": "Yayınevi, kitabın toplatılacağı iddialarını hemen yalanladı.",
+  "z": 1
+ },
+ {
+  "w": "doğrulamak",
+  "m": "gerçekliğini onaylamak, teyit etmek",
+  "s": "Yeni bulgular, araştırmacının yıllar önceki savını doğruladı.",
+  "z": 1
+ },
+ {
+  "w": "pekiştirmek",
+  "m": "etkisini artırmak, sağlamlaştırmak",
+  "s": "Yazar, görüşünü atasözleriyle pekiştirerek anlatımını güçlendiriyor.",
+  "z": 2
+ },
+ {
+  "w": "yinelemek",
+  "m": "tekrarlamak",
+  "s": "Şair, aynı dizeyi her bendin sonunda yineleyerek ahenk sağlıyor.",
+  "z": 1
+ },
+ {
+  "w": "vurgulamak",
+  "m": "önemle belirtmek",
+  "s": "Konuşmacı, okumanın düşünceyi beslediğini özellikle vurguladı.",
+  "z": 1
+ },
+ {
+  "w": "değinmek",
+  "m": "kısaca söz etmek, temas etmek",
+  "s": "Yazar, sanatçının geçim derdine yalnızca birkaç cümleyle değiniyor.",
+  "z": 1
+ },
+ {
+  "w": "dokundurmak",
+  "m": "üstü kapalı söz atmak, taş atmak",
+  "s": "Şair, dönemin yöneticilerine ince ince dokundurmaktan geri durmaz.",
+  "z": 2
+ },
+ {
+  "w": "ima",
+  "m": "dolaylı, üstü kapalı anlatma",
+  "s": "Eleştirmen, romanın taklit olduğunu açıkça söylemeyip imayla geçiştirdi.",
+  "z": 1
+ },
+ {
+  "w": "sezdirmek",
+  "m": "açıkça söylemeden hissettirmek",
+  "s": "Usta yazar, kahramanın sonunu okura satır aralarında sezdirir.",
+  "z": 2
+ },
+ {
+  "w": "esinlenmek",
+  "m": "ilham almak",
+  "s": "Şair, halk masallarından esinlenerek modern bir destan yazdı.",
+  "z": 2
+ },
+ {
+  "w": "öykünmek",
+  "m": "birini örnek alıp taklit etmek",
+  "s": "Genç şair, ustalara öykünmekten kurtulup kendi sesini bulmalıdır.",
+  "z": 2
+ },
+ {
+  "w": "özenmek",
+  "m": "imrenerek benzemeye çalışmak",
+  "s": "Batılı yaşama özenen roman kahramanı, kendi kültürüne yabancılaşır.",
+  "z": 2
+ },
+ {
+  "w": "yermek",
+  "m": "kusurlarını söyleyip kötülemek",
+  "s": "Eleştirmen, övmek ya da yermek için değil anlamak için okur.",
+  "z": 2
+ },
+ {
+  "w": "taşlamak",
+  "m": "şiirle alaylı biçimde eleştirmek",
+  "s": "Halk ozanı, dönemin haksızlıklarını taşlayan deyişler söylemiştir.",
+  "z": 2
+ },
+ {
+  "w": "alaya almak",
+  "m": "biriyle eğlenmek, alay etmek",
+  "s": "Yazar, görgüsüz sonradan görmeleri incelikle alaya alıyor.",
+  "z": 1
+ },
+ {
+  "w": "küçümsemek",
+  "m": "değersiz görmek, hafife almak",
+  "s": "Genç kuşağı küçümseyen eleştirmen, sonradan yanıldığını kabullendi.",
+  "z": 1
+ },
+ {
+  "w": "hor görmek",
+  "m": "aşağılamak, değer vermemek",
+  "s": "Roman, emeği hor gören anlayışın yol açtığı yıkımı anlatır.",
+  "z": 1
+ },
+ {
+  "w": "yüceltmek",
+  "m": "değerini olduğundan çok göstermek",
+  "s": "Ölen sanatçıyı yüceltmek yerine yaşarken anlamak gerekir.",
+  "z": 2
+ },
+ {
+  "w": "abartmak",
+  "m": "olduğundan büyük göstermek, mübalağa etmek",
+  "s": "Anlatıcı, kahramanın gücünü abartarak destansı bir hava kuruyor.",
+  "z": 1
+ },
+ {
+  "w": "indirgemek",
+  "m": "daha basit, dar bir duruma getirmek",
+  "s": "Sanatı yalnızca eğlenceye indirgemek, onun işlevini görmezden gelmektir.",
+  "z": 2
+ },
+ {
+  "w": "genellemek",
+  "m": "tek örnekten genel yargıya varmak",
+  "s": "Birkaç kötü örneğe bakıp bütün gençliği genellemek yanlıştır.",
+  "z": 2
+ },
+ {
+  "w": "somutlamak",
+  "m": "soyut olanı elle tutulur kılmak",
+  "s": "Yazar, özgürlük kavramını kuş imgesiyle somutluyor.",
+  "z": 2
+ },
+ {
+  "w": "soyutlamak",
+  "m": "nesneden bağımsız kavram hâline getirmek",
+  "s": "Ressam, doğayı çizgilere soyutlayarak yeni bir dil kurmuştur.",
+  "z": 2
+ },
+ {
+  "w": "nitelemek",
+  "m": "bir özellikle tanımlamak, vasıflandırmak",
+  "s": "Eleştirmenler bu romanı, kuşağının en yetkin eseri diye niteliyor.",
+  "z": 2
+ },
+ {
+  "w": "nitelik",
+  "m": "bir şeyi belirleyen özellik, vasıf",
+  "s": "Okur sayısı değil okurun niteliği, yazarı asıl ilgilendirendir.",
+  "z": 1
+ },
+ {
+  "w": "nicelik",
+  "m": "sayılabilir, ölçülebilir miktar, kemiyet",
+  "s": "Sanatta nicelik değil nitelik ölçüt alınmalıdır.",
+  "z": 2
+ },
+ {
+  "w": "örneklemek",
+  "m": "örnek göstererek açıklamak",
+  "s": "Yazar, dildeki bozulmayı gazete başlıklarından örnekleyerek gösteriyor.",
+  "z": 1
+ },
+ {
+  "w": "karşılaştırmak",
+  "m": "benzer ve farklı yönleri belirlemek",
+  "s": "Eleştirmen, iki şairin doğa anlayışını karşılaştırarak inceliyor.",
+  "z": 1
+ },
+ {
+  "w": "ilişkilendirmek",
+  "m": "aralarında bağ kurmak",
+  "s": "Yazar, bireyin yaşadığı bunalımı çarpık kentleşmeyle ilişkilendiriyor.",
+  "z": 1
+ },
+ {
+  "w": "bağdaştırmak",
+  "m": "uyumlu duruma getirmek, telif etmek",
+  "s": "Sanatçı, geleneksel motiflerle modern biçimi ustaca bağdaştırmış.",
+  "z": 2
+ },
+ {
+  "w": "çelişmek",
+  "m": "birbirini tutmamak, tenakuza düşmek",
+  "s": "Yazarın bu açıklaması, önceki sözleriyle açıkça çelişiyor.",
+  "z": 1
+ },
+ {
+  "w": "örtüşmek",
+  "m": "birbirine uymak, denk düşmek",
+  "s": "Şairin yaşamı ile şiirlerindeki dünya birebir örtüşmeyebilir.",
+  "z": 2
+ },
+ {
+  "w": "tepki",
+  "m": "bir davranışa karşı gösterilen davranış",
+  "s": "Roman, yayımlandığı dönemde sert tepkilerle karşılaştı.",
+  "z": 1
+ },
+ {
+  "w": "yakınmak",
+  "m": "şikâyet etmek, sızlanmak",
+  "s": "Deneme yazarı, okuma alışkanlığının azalmasından yakınıyor.",
+  "z": 1
+ },
+ {
+  "w": "sitem",
+  "m": "kırgınlığı üzülerek belirtme",
+  "s": "Şair, kendisini unutan dostlarına dizelerinde sitem eder.",
+  "z": 2
+ },
+ {
+  "w": "hayıflanmak",
+  "m": "üzülüp yerinmek",
+  "s": "Yaşlı yazar, gençliğinde yazamadığı kitaplara hayıflanıyordu.",
+  "z": 2
+ },
+ {
+  "w": "yerinmek",
+  "m": "üzülmek, esef etmek",
+  "s": "Fırsatları kaçırdığına yerinmek yerine yeni bir sayfa açmalısın.",
+  "z": 2
+ },
+ {
+  "w": "umursamak",
+  "m": "önemseyip aldırış etmek",
+  "s": "Genç şair, eleştirmenlerin alaycı yazılarını hiç umursamıyordu.",
+  "z": 1
+ },
+ {
+  "w": "önemsemek",
+  "m": "değer vermek, mühimsemek",
+  "s": "Yayınevi, genç okurların görüşlerini her zaman önemsemiştir.",
+  "z": 1
+ },
+ {
+  "w": "göz ardı etmek",
+  "m": "gereken önemi vermemek",
+  "s": "Eleştiride eserin yazıldığı dönemi göz ardı etmek yanıltıcı olur.",
+  "z": 2
+ },
+ {
+  "w": "görmezden gelmek",
+  "m": "görmemiş gibi davranmak",
+  "s": "Toplum, sanatçının uyarılarını yıllarca görmezden geldi.",
+  "z": 1
+ },
+ {
+  "w": "kaçınmak",
+  "m": "yapmamaya çalışmak, sakınmak",
+  "s": "Yazar, keskin yargılarda bulunmaktan özenle kaçınıyor.",
+  "z": 1
+ },
+ {
+  "w": "çekinmek",
+  "m": "cesaret edememek, sakınmak",
+  "s": "Genç yazar, düşüncelerini açıkça söylemekten çekinmiyordu.",
+  "z": 1
+ },
+ {
+  "w": "sakınmak",
+  "m": "korumak; yapmaktan uzak durmak",
+  "s": "Eleştirmen, kişisel dostluklarının etkisinde kalmaktan sakınmalıdır.",
+  "z": 2
+ },
+ {
+  "w": "tasarlamak",
+  "m": "zihinde biçimlendirmek, planlamak",
+  "s": "Romancı, eserinin kurgusunu yıllar boyunca zihninde tasarlamıştı.",
+  "z": 1
+ },
+ {
+  "w": "kurgulamak",
+  "m": "olayları belli düzende tasarlamak",
+  "s": "Yazar, romanını iç içe geçmiş iki zaman diliminde kurgulamış.",
+  "z": 2
+ },
+ {
+  "w": "yansıtmak",
+  "m": "göstermek, aksettirmek",
+  "s": "Sanat eseri, çağının ruhunu ister istemez yansıtır.",
+  "z": 1
+ },
+ {
+  "w": "aktarmak",
+  "m": "iletmek, nakletmek",
+  "s": "Anlatıcı, olayları çocuk kahramanın gözünden aktarıyor.",
+  "z": 1
+ },
+ {
+  "w": "algı",
+  "m": "duyularla edinilen bilinç içeriği, idrak",
+  "s": "Reklamlar, tüketicinin algısını yönlendirmek için imgelerden yararlanır.",
+  "z": 2
+ },
+ {
+  "w": "algılamak",
+  "m": "duyular yoluyla kavramak, idrak etmek",
+  "s": "Her okur, aynı şiiri kendi birikimine göre algılar.",
+  "z": 1
+ },
+ {
+  "w": "kavramak",
+  "m": "anlamak, zihinle kuşatmak",
+  "s": "Metnin derin anlamını kavramak, dikkatli bir okuma gerektirir.",
+  "z": 1
+ },
+ {
+  "w": "idrak",
+  "m": "anlama yetisi, kavrayış",
+  "s": "Sanat, insanın kendini ve dünyayı idrak etme çabasıdır.",
+  "z": 2
+ },
+ {
+  "w": "sezgi",
+  "m": "akıl yürütmeden doğrudan kavrama",
+  "s": "Şair, dünyayı mantıkla değil sezgiyle kavramaya çalışır.",
+  "z": 2
+ },
+ {
+  "w": "bellek",
+  "m": "anıları saklama gücü, hafıza",
+  "s": "Edebiyat, bir toplumun ortak belleğini canlı tutar.",
+  "z": 1
+ },
+ {
+  "w": "imgelem",
+  "m": "hayal kurma gücü, muhayyile",
+  "s": "Çocuk kitapları, okurun imgelemini besleyen zengin dünyalar sunmalıdır.",
+  "z": 2
+ },
+ {
+  "w": "dürtü",
+  "m": "davranışa iten iç güç",
+  "s": "Yaratma dürtüsü, sanatçıyı hiç dinmeyen bir arayışa sürükler.",
+  "z": 2
+ },
+ {
+  "w": "güdü",
+  "m": "davranışı yönlendiren istek, saik",
+  "s": "Kahramanın davranışlarının ardındaki asıl güdü, beğenilme isteğidir.",
+  "z": 2
+ },
+ {
+  "w": "içgüdü",
+  "m": "doğuştan gelen davranış eğilimi",
+  "s": "Yazar, uygarlığın örttüğü içgüdüleri kahramanları aracılığıyla açığa çıkarır.",
+  "z": 1
+ },
+ {
+  "w": "bilinç",
+  "m": "kendini ve çevreyi tanıma yetisi, şuur",
+  "s": "Roman, kahramanın bilincinde olup bitenleri ayrıntısıyla sergiler.",
+  "z": 1
+ },
+ {
+  "w": "bilinçaltı",
+  "m": "bilincin dışında kalan ruhsal alan",
+  "s": "Sürrealistler, bilinçaltının görüntülerini şiire taşımayı amaçladı.",
+  "z": 2
+ },
+ {
+  "w": "özeleştiri",
+  "m": "kişinin kendi kusurlarını değerlendirmesi",
+  "s": "Gelişmek isteyen yazar, özeleştiri yapmaktan korkmamalıdır.",
+  "z": 2
+ },
+ {
+  "w": "özveri",
+  "m": "kendi çıkarından vazgeçme, fedakârlık",
+  "s": "Köy öğretmeninin özverisi, romanın en etkileyici yönüdür.",
+  "z": 2
+ },
+ {
+  "w": "öz güven",
+  "m": "kendine inanma duygusu",
+  "s": "İlk kitabının ilgi görmesi, genç yazara öz güven kazandırdı.",
+  "z": 1
+ },
+ {
+  "w": "özgürlük",
+  "m": "dışarıdan kısıtlanmama durumu, hürriyet",
+  "s": "Sanatçı için özgürlük, yaratmanın vazgeçilmez koşuludur.",
+  "z": 1
+ },
+ {
+  "w": "sorumluluk",
+  "m": "yükümlülük, mesuliyet",
+  "s": "Aydın olmak, topluma karşı sorumluluk taşımayı gerektirir.",
+  "z": 1
+ },
+ {
+  "w": "duyarlılık",
+  "m": "olaylardan kolay etkilenme, hassasiyet",
+  "s": "Şairin doğaya karşı duyarlılığı, bütün kitaplarında hissedilir.",
+  "z": 2
+ },
+ {
+  "w": "duyarsızlık",
+  "m": "olaylardan etkilenmeme, ilgisizlik",
+  "s": "Yazar, çevre kirliliği karşısındaki duyarsızlığı sert biçimde eleştiriyor.",
+  "z": 1
+ },
+ {
+  "w": "empati",
+  "m": "kendini başkasının yerine koyma, duygudaşlık",
+  "s": "Roman okumak, farklı yaşamlara empati kurmayı öğretir.",
+  "z": 2
+ },
+ {
+  "w": "hoşgörü",
+  "m": "anlayışla karşılama, müsamaha",
+  "s": "Deneme yazarı, hoşgörünün korkaklık sanılmasına karşı çıkıyor.",
+  "z": 2
+ },
+ {
+  "w": "müsamaha",
+  "m": "hoşgörü, göz yumma",
+  "s": "Usta, çırağının küçük kusurlarına müsamaha gösterirdi.",
+  "z": 2
+ },
+ {
+  "w": "tahammül",
+  "m": "katlanma, dayanma",
+  "s": "Sanatçı, eleştiriye tahammül etmeyi öğrenmek zorundadır.",
+  "z": 2
+ },
+ {
+  "w": "metanet",
+  "m": "dayanma gücü, dirençlilik",
+  "s": "Kahraman, ardı ardına gelen felaketleri metanetle karşıladı.",
+  "z": 2
+ },
+ {
+  "w": "soğukkanlılık",
+  "m": "telaşsızlık, kendine hâkim olma",
+  "s": "Anlatıcı, en gergin sahneleri bile soğukkanlılıkla aktarıyor.",
+  "z": 2
+ },
+ {
+  "w": "itidal",
+  "m": "ölçülülük, aşırılıktan uzaklık",
+  "s": "Eleştirmen, övgüde de yergide de itidali elden bırakmamalıdır.",
+  "z": 3
+ },
+ {
+  "w": "teslimiyet",
+  "m": "kendini bırakma, boyun eğme",
+  "s": "Yazar, kadere teslimiyet yerine mücadeleyi savunan kahramanlar çizer.",
+  "z": 2
+ },
+ {
+  "w": "tevekkül",
+  "m": "işi Tanrı'ya bırakıp kabullenme",
+  "s": "Yaşlı balıkçı, fırtınayı köylülere özgü bir tevekkülle karşıladı.",
+  "z": 2
+ },
+ {
+  "w": "kanaatkâr",
+  "m": "azla yetinen, elindekine razı",
+  "s": "Kanaatkâr insan, mutluluğu hırsta değil elindekinde arar.",
+  "z": 2
+ },
+ {
+  "w": "tamahkâr",
+  "m": "açgözlü, doymak bilmez",
+  "s": "Masalın tamahkâr kahramanı, sonunda elindekini de yitirir.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "haris",
+  "m": "aşırı hırslı, açgözlü",
+  "s": "Romanın haris tüccarı, servet uğruna bütün değerlerini çiğner.",
+  "z": 3
+ },
+ {
+  "w": "mağrur",
+  "m": "kibirli, gururlu",
+  "s": "Mağrur şair, kimseden övgü beklemediğini her fırsatta söylerdi.",
+  "z": 2
+ },
+ {
+  "w": "mütevazı",
+  "m": "alçakgönüllü",
+  "s": "Onca üne karşın mütevazı kişiliğinden hiç ödün vermedi.",
+  "z": 1
+ },
+ {
+  "w": "kibir",
+  "m": "kendini büyük görme, büyüklenme",
+  "s": "Yazar, bilgiyle beslenmeyen kibrin insanı gülünçleştirdiğini anlatır.",
+  "z": 2
+ },
+ {
+  "w": "mecazımürsel",
+  "m": "benzetme amacı gütmeyen ad aktarması",
+  "s": "Bütün sınıf gezmeye gitti cümlesinde mecazımürsel vardır.",
+  "z": 2
+ },
+ {
+  "w": "tariz",
+  "m": "sözün tersini kastederek iğneleme",
+  "s": "Ne kadar çalışkansın sözü, tembel birine tarizle söylenmiştir.",
+  "z": 3
+ },
+ {
+  "w": "hüsnütalil",
+  "m": "bir olayı güzel bir nedene bağlama",
+  "s": "Güller sevgilin utandığı için kızarmış diyen şair hüsnütalil yapar.",
+  "z": 3
+ },
+ {
+  "w": "tecahülüarif",
+  "m": "bildiğini bilmezlikten gelme sanatı",
+  "s": "Şu bakır zirvelerin ardından bir su mu var diyen şair tecahülüarif yapar.",
+  "z": 3
+ },
+ {
+  "w": "mübalağa",
+  "m": "abartma sanatı",
+  "s": "Bir ah çeksem dağı taşı eritir dizesinde mübalağa vardır.",
+  "z": 2
+ },
+ {
+  "w": "tenasüp",
+  "m": "anlamca ilgili sözcükleri bir arada kullanma",
+  "s": "Gül, bülbül, diken sözcükleri aynı beyitte tenasüp oluşturur.",
+  "z": 2
+ },
+ {
+  "w": "leffüneşir",
+  "m": "önce sıralanan sözcükleri sonra karşılıklarıyla açma",
+  "s": "İlk dizedeki sözcüklerin ikinci dizede sırayla karşılanması leffüneşirdir.",
+  "z": 3
+ },
+ {
+  "w": "irsalimesel",
+  "m": "şiirde atasözü ya da özdeyiş kullanma",
+  "s": "Beyte atasözü yerleştiren divan şairi irsalimesel sanatına başvurmuştur.",
+  "z": 3
+ },
+ {
+  "w": "iktibas",
+  "m": "başka bir metinden alıntı yapma",
+  "s": "Yazar, ayet ve hadislerden iktibas yaparak anlatımını güçlendirmiş.",
+  "z": 3
+ },
+ {
+  "w": "seci",
+  "m": "düzyazıda cümle içi uyak",
+  "s": "Divan nesrinde cümle sonlarındaki ses benzerlikleri seci oluşturur.",
+  "z": 3
+ },
+ {
+  "w": "akis",
+  "m": "dizedeki sözleri ters çevirerek yineleme sanatı",
+  "s": "Dizenin sözcüklerini tersinden yineleyen şair akis sanatı yapmıştır.",
+  "z": 3
+ },
+ {
+  "w": "kalem",
+  "m": "yazarlık, yazma ustalığı",
+  "s": "Genç yaşta güçlü bir kaleme sahip olduğunu herkes kabul ediyor.",
+  "z": 1
+ },
+ {
+  "w": "aruz",
+  "m": "hece uzunluğuna dayalı divan şiiri ölçüsü",
+  "s": "Divan şiiri, ahengini aruz ölçüsünün kalıplarından alır.",
+  "z": 2
+ },
+ {
+  "w": "hece ölçüsü",
+  "m": "dizelerdeki hece sayısı eşitliğine dayalı ölçü",
+  "s": "Halk şiirimiz, yüzyıllarca hece ölçüsüyle söylenegelmiştir.",
+  "z": 1
+ },
+ {
+  "w": "serbest ölçü",
+  "m": "ölçü ve uyak kurallarına bağlı olmayan şiir biçimi",
+  "s": "Orhan Veli kuşağı, serbest ölçüyü Türk şiirine yerleştirdi.",
+  "z": 1
+ },
+ {
+  "w": "imale",
+  "m": "aruzda kısa heceyi uzun okuma",
+  "s": "Türkçe sözcüklerdeki imale, aruzun ilk dönem kusurlarındandır.",
+  "z": 3
+ },
+ {
+  "w": "zihaf",
+  "m": "aruzda uzun heceyi kısa okuma",
+  "s": "Aruz kusurlarından zihaf, uzun hecenin kısa okunmasıdır.",
+  "z": 3
+ },
+ {
+  "w": "ulama",
+  "m": "ünsüzle biten sözcüğü ünlüyle başlayana bağlama",
+  "s": "Dizelerdeki ulamalar, şiire akıcı bir söyleyiş kazandırır.",
+  "z": 2
+ },
+ {
+  "w": "kafiye şeması",
+  "m": "uyakların dizelere dağılım düzeni",
+  "s": "Sonenin kafiye şeması, İtalyan ve İngiliz biçiminde farklılaşır.",
+  "z": 2
+ },
+ {
+  "w": "beyit",
+  "m": "anlamca bütünlük taşıyan iki dize",
+  "s": "Gazelde her beyit, çoğu kez kendi içinde bağımsız bir anlam taşır.",
+  "z": 2
+ },
+ {
+  "w": "bent",
+  "m": "şiirde ikiden çok dizeli birim",
+  "s": "Şarkı nazım biçimi, dörder dizelik bentlerden oluşur.",
+  "z": 2
+ },
+ {
+  "w": "kıta",
+  "m": "dört dizelik nazım birimi; dörtlük",
+  "s": "Şiirin her kıtası, ayrı bir mevsimin duygusunu işliyor.",
+  "z": 1
+ },
+ {
+  "w": "matla",
+  "m": "gazelin ilk beyti",
+  "s": "Gazelin matla beytinde her iki dize birbiriyle uyaklıdır.",
+  "z": 3
+ },
+ {
+  "w": "makta",
+  "m": "gazelin son beyti",
+  "s": "Şair, mahlasını çoğunlukla gazelin makta beytinde söyler.",
+  "z": 3
+ },
+ {
+  "w": "mahlas",
+  "m": "şairin şiirde kullandığı takma ad",
+  "s": "Halk ozanları mahlaslarını son dörtlükte söyleme geleneğindedir.",
+  "z": 2
+ },
+ {
+  "w": "tapşırma",
+  "m": "halk şairinin son dörtlükte adını söylemesi",
+  "s": "Âşık, tapşırma geleneği gereği mahlasını son dörtlükte anar.",
+  "z": 3
+ },
+ {
+  "w": "gazel",
+  "m": "divan şiirinde aşk konulu lirik nazım biçimi",
+  "s": "Fuzuli, aşk ıstırabını en çok gazellerinde dile getirmiştir.",
+  "z": 2
+ },
+ {
+  "w": "kaside",
+  "m": "övgü amaçlı uzun divan nazım biçimi",
+  "s": "Nef'i, kasideleriyle padişahlardan caize almayı ummuştur.",
+  "z": 2
+ },
+ {
+  "w": "mesnevi",
+  "m": "her beyti kendi içinde uyaklı uzun nazım biçimi",
+  "s": "Uzun aşk hikâyeleri, divan edebiyatında mesnevi biçimiyle yazılırdı.",
+  "z": 2
+ },
+ {
+  "w": "rubai",
+  "m": "dört dizelik, felsefi içerikli divan nazım biçimi",
+  "s": "Hayyam, dünyanın geçiciliğini dört dizelik rubaileriyle ölümsüzleştirmiştir.",
+  "z": 2
+ },
+ {
+  "w": "tuyuğ",
+  "m": "Türklerin divan şiirine kattığı dört dizelik biçim",
+  "s": "Kadı Burhaneddin, tuyuğ biçiminin en güçlü temsilcisidir.",
+  "z": 3
+ },
+ {
+  "w": "şarkı",
+  "m": "Türklerin divan şiirine kattığı bestelenmeye uygun biçim",
+  "s": "Nedim, şarkı biçimini divan şiirinin gözdesi hâline getirdi.",
+  "z": 2
+ },
+ {
+  "w": "murabba",
+  "m": "dörder dizelik bentlerden kurulu divan biçimi",
+  "s": "Namık Kemal, vatan sevgisini murabba biçimiyle de işlemiştir.",
+  "z": 3
+ },
+ {
+  "w": "terkibibent",
+  "m": "vasıta beyitli, bentlerden oluşan divan biçimi",
+  "s": "Bağdatlı Ruhi, toplumsal eleştirisini terkibibent biçiminde yazmıştır.",
+  "z": 3
+ },
+ {
+  "w": "müstezat",
+  "m": "gazelden türeyen, uzun kısa dizeli biçim",
+  "s": "Müstezat, gazelin dizelerine kısa dizeler eklenmesiyle oluşur.",
+  "z": 3
+ },
+ {
+  "w": "mersiye",
+  "m": "divan edebiyatında ölüm üzerine yazılan şiir",
+  "s": "Baki'nin Kanuni mersiyesi, türün en görkemli örneğidir.",
+  "z": 2
+ },
+ {
+  "w": "methiye",
+  "m": "bir kişiyi övmek için yazılan şiir",
+  "s": "Kasidelerin methiye bölümünde padişahın erdemleri sıralanır.",
+  "z": 2
+ },
+ {
+  "w": "hicviye",
+  "m": "alaylı yergi şiiri",
+  "s": "Nef'i, Siham-ı Kaza'daki hicviyeleri yüzünden canından oldu.",
+  "z": 2
+ },
+ {
+  "w": "fahriye",
+  "m": "şairin kendini övdüğü bölüm ya da şiir",
+  "s": "Kasidenin fahriye bölümünde şair kendi sanatını yüceltir.",
+  "z": 3
+ },
+ {
+  "w": "nesib",
+  "m": "kasidenin giriş, betimleme bölümü",
+  "s": "Kasidenin nesib bölümünde bahar ya da bayram betimlenir.",
+  "z": 3
+ },
+ {
+  "w": "münacat",
+  "m": "Tanrı'ya yakarış konulu şiir",
+  "s": "Divanlar çoğunlukla bir münacat ile açılır.",
+  "z": 3
+ },
+ {
+  "w": "naat",
+  "m": "Hz. Peygamber'i öven şiir",
+  "s": "Fuzuli'nin Su Kasidesi, edebiyatımızın en ünlü naatıdır.",
+  "z": 2
+ },
+ {
+  "w": "mani",
+  "m": "yedi heceli, tek dörtlük anonim halk şiiri",
+  "s": "Genç kızlar, duygularını manilerle dile getirirdi.",
+  "z": 1
+ },
+ {
+  "w": "koşma",
+  "m": "âşık edebiyatının en yaygın nazım biçimi",
+  "s": "Karacaoğlan, sevda ve gurbeti en çok koşma biçimiyle söylemiştir.",
+  "z": 2
+ },
+ {
+  "w": "semai",
+  "m": "sekiz heceli, özel ezgili âşık şiiri",
+  "s": "Semai, koşmadan hece sayısı ve ezgisiyle ayrılır.",
+  "z": 2
+ },
+ {
+  "w": "varsağı",
+  "m": "yiğitçe söyleyişli, bre nidalı âşık şiiri",
+  "s": "Varsağı, bre ve hey nidalarıyla yiğitçe bir eda taşır.",
+  "z": 3
+ },
+ {
+  "w": "destan",
+  "m": "toplumu derinden etkileyen olayları anlatan uzun şiir",
+  "s": "Oğuz Kağan Destanı, Türklerin en eski destanlarındandır.",
+  "z": 1
+ },
+ {
+  "w": "ağıt",
+  "m": "ölüm acısını dile getiren şiir, sagu",
+  "s": "Anadolu kadınları, acılarını yakılan ağıtlarla paylaşırdı.",
+  "z": 2
+ },
+ {
+  "w": "sagu",
+  "m": "İslamiyet öncesi Türk şiirinde ölüm şiiri",
+  "s": "Alp Er Tunga sagusu, yuğ törenlerinde söylenmiştir.",
+  "z": 2
+ },
+ {
+  "w": "koşuk",
+  "m": "İslamiyet öncesi sığır törenlerinde söylenen şiir",
+  "s": "Koşuklar, kopuz eşliğinde aşkı ve doğayı dile getirirdi.",
+  "z": 2
+ },
+ {
+  "w": "sav",
+  "m": "İslamiyet öncesi dönemde atasözü",
+  "s": "Divanü Lugati't-Türk'teki savlar, atasözlerimizin ilk örnekleridir.",
+  "z": 2
+ },
+ {
+  "w": "yuğ",
+  "m": "eski Türklerde ölüm töreni",
+  "s": "Yuğ törenlerinde ölen yiğidin ardından sagular söylenirdi.",
+  "z": 3
+ },
+ {
+  "w": "güzelleme",
+  "m": "sevgi ve övgü konulu koşma türü",
+  "s": "Ozan, sevdiğinin güzelliğini bir güzellemeyle dile getirdi.",
+  "z": 2
+ },
+ {
+  "w": "koçaklama",
+  "m": "yiğitlik ve savaş konulu koşma türü",
+  "s": "Köroğlu'nun koçaklamaları, yiğitlik meclislerinde coşkuyla söylenirdi.",
+  "z": 2
+ },
+ {
+  "w": "taşlama",
+  "m": "halk şiirinde toplumsal yergi türü",
+  "s": "Seyrani, devrin adaletsizliklerini keskin taşlamalarıyla acımasızca eleştirmiştir.",
+  "z": 2
+ },
+ {
+  "w": "ilahi",
+  "m": "tekke şiirinde Tanrı aşkını işleyen tür",
+  "s": "Yunus Emre'nin ilahileri yüzyıllardır dilden dile dolaşır.",
+  "z": 2
+ },
+ {
+  "w": "nefes",
+  "m": "Bektaşi şairlerinin söylediği tasavvufi şiir",
+  "s": "Pir Sultan Abdal'ın nefesleri, cem törenlerinde okunur.",
+  "z": 2
+ },
+ {
+  "w": "şathiye",
+  "m": "tasavvufta şaka ve tezat yollu söylenen şiir",
+  "s": "Kaygusuz Abdal'ın şathiyeleri, ilk bakışta saçma görünen derin anlamlar taşır.",
+  "z": 3
+ },
+ {
+  "w": "devriye",
+  "m": "varlığın Tanrı'dan çıkıp dönüşünü anlatan tekke şiiri",
+  "s": "Devriyeler, ruhun Tanrı'dan gelip Tanrı'ya dönüş yolculuğunu işler.",
+  "z": 3
+ },
+ {
+  "w": "nutuk",
+  "m": "tekke edebiyatında tarikat adabını öğreten şiir",
+  "s": "Mürşitler, dervişlere yol adabını nutuklarla öğretirdi.",
+  "z": 3
+ },
+ {
+  "w": "cönk",
+  "m": "halk şiirlerinin derlendiği el yazması defter",
+  "s": "Araştırmacılar, unutulmuş deyişleri eski cönklerden gün ışığına çıkarıyor.",
+  "z": 3
+ },
+ {
+  "w": "âşık",
+  "m": "saz eşliğinde şiir söyleyen halk sanatçısı",
+  "s": "Âşıklar, köy köy dolaşarak deyişlerini saz eşliğinde söylerdi.",
+  "z": 1
+ },
+ {
+  "w": "ozan",
+  "m": "eski Türklerde kopuz çalan şair",
+  "s": "Ozanlar, kopuz eşliğinde destanları kuşaktan kuşağa taşıdı.",
+  "z": 2
+ },
+ {
+  "w": "atışma",
+  "m": "âşıkların karşılıklı deyişme yarışı",
+  "s": "İki âşığın atışması, şölenin en heyecanlı bölümüydü.",
+  "z": 2
+ },
+ {
+  "w": "muamma",
+  "m": "âşık şiirinde çözülmesi istenen bilmece",
+  "s": "Usta âşık, rakibine çözülmesi güç bir muamma sordu.",
+  "z": 3
+ },
+ {
+  "w": "leb değmez",
+  "m": "dudak ünsüzleri kullanılmadan söylenen şiir",
+  "s": "Âşık, dudakları arasına iğne koyup leb değmez söyledi.",
+  "z": 3
+ },
+ {
+  "w": "tekerleme",
+  "m": "masal başında söylenen ölçülü kalıp söz",
+  "s": "Masalcı, bir varmış bir yokmuş tekerlemesiyle söze başladı.",
+  "z": 1
+ },
+ {
+  "w": "efsane",
+  "m": "olağanüstü ögeler taşıyan, inanılan anonim anlatı",
+  "s": "Kız Kulesi'ne ilişkin efsaneler kuşaktan kuşağa aktarılmıştır.",
+  "z": 1
+ },
+ {
+  "w": "halk hikâyesi",
+  "m": "âşıkların anlattığı nazım-nesir karışık anlatı",
+  "s": "Kerem ile Aslı, sevilen bir halk hikâyesidir.",
+  "z": 2
+ },
+ {
+  "w": "meddah",
+  "m": "taklitlerle hikâye anlatan seyirlik sanatçı",
+  "s": "Meddah, mendili ve bastonuyla kahvehanedekileri kahkahaya boğdu.",
+  "z": 2
+ },
+ {
+  "w": "orta oyunu",
+  "m": "meydanda oynanan doğaçlama seyirlik oyun",
+  "s": "Orta oyununda Kavuklu ile Pişekâr'ın atışmaları güldürüyü sağlar.",
+  "z": 2
+ },
+ {
+  "w": "karagöz",
+  "m": "deriden tasvirlerle oynatılan gölge oyunu",
+  "s": "Karagöz oyununda perdeye yansıyan tasvirler deriden kesilir.",
+  "z": 1
+ },
+ {
+  "w": "muhavere",
+  "m": "karşılıklı konuşma bölümü, diyalog",
+  "s": "Gölge oyununun muhavere bölümü, söz ustalığına dayanır.",
+  "z": 3
+ },
+ {
+  "w": "kurmaca",
+  "m": "gerçeğin yeniden yaratıldığı itibari dünya",
+  "s": "Roman, gerçeğin kopyası değil kurmaca bir dünyadır.",
+  "z": 2
+ },
+ {
+  "w": "olay örgüsü",
+  "m": "olayların neden-sonuç bağıyla dizilişi",
+  "s": "Yazar, olay örgüsünü küçük bir yanlış anlama üzerine kurmuş.",
+  "z": 2
+ },
+ {
+  "w": "anlatıcı",
+  "m": "kurmaca metinde olayları aktaran ses",
+  "s": "Romanın anlatıcısı, olup biteni çocuk gözüyle aktarıyor.",
+  "z": 1
+ },
+ {
+  "w": "bakış açısı",
+  "m": "anlatıcının olaylara konumlanışı",
+  "s": "Yazar, ilahi bakış açısıyla kahramanların iç dünyasına giriyor.",
+  "z": 2
+ },
+ {
+  "w": "iç monolog",
+  "m": "kahramanın içinden konuşmasının aktarımı",
+  "s": "Yazar, kahramanın kararsızlığını uzun bir iç monologla verir.",
+  "z": 2
+ },
+ {
+  "w": "bilinç akışı",
+  "m": "çağrışımlarla akan düzensiz iç konuşma tekniği",
+  "s": "Bilinç akışı tekniğinde düşünceler mantık bağı gözetilmeden aktarılır.",
+  "z": 2
+ },
+ {
+  "w": "geriye dönüş",
+  "m": "anlatıda geçmişe gitme tekniği",
+  "s": "Yazar, geriye dönüş tekniğiyle kahramanın çocukluğunu araya sokar.",
+  "z": 2
+ },
+ {
+  "w": "montaj",
+  "m": "başka metinleri anlatıya yerleştirme tekniği",
+  "s": "Romancı, gazete kupürlerini montaj tekniğiyle metne katmış.",
+  "z": 2
+ },
+ {
+  "w": "özetleme",
+  "m": "uzun zamanı kısaca geçme tekniği",
+  "s": "Anlatıcı, aradan geçen on yılı özetleme tekniğiyle aktarır.",
+  "z": 2
+ },
+ {
+  "w": "laytmotif",
+  "m": "eserde yinelenen simgesel motif",
+  "s": "Kırık saat, roman boyunca yinelenen bir laytmotif olarak karşımıza çıkar.",
+  "z": 3
+ },
+ {
+  "w": "tahkiye",
+  "m": "olaya dayalı anlatım, hikâye etme",
+  "s": "Mesneviler, tahkiye geleneğimizin divan şiirindeki karşılığıdır.",
+  "z": 3
+ },
+ {
+  "w": "mensur şiir",
+  "m": "şiirsel söyleyişli düzyazı",
+  "s": "Halit Ziya, mensur şiirin edebiyatımızdaki ilk örneklerini verdi.",
+  "z": 2
+ },
+ {
+  "w": "deneme",
+  "m": "kesin yargıya varmadan içtenlikle yazılan yazı",
+  "s": "Montaigne, denemeyi kendisiyle konuşur gibi yazmıştır.",
+  "z": 2
+ },
+ {
+  "w": "makale",
+  "m": "bilimsel, kanıtlayıcı gazete-dergi yazısı",
+  "s": "Makale yazarı, savını nesnel verilerle kanıtlamak zorundadır.",
+  "z": 1
+ },
+ {
+  "w": "fıkra",
+  "m": "güncel konulu, kanıt zorunluluğu olmayan köşe yazısı",
+  "s": "Usta gazeteci, güncel olayları esprili fıkralarıyla yorumlardı.",
+  "z": 2
+ },
+ {
+  "w": "söyleşi",
+  "m": "karşılıklı konuşma havasında yazı, sohbet",
+  "s": "Yazar, okuyucusuyla dertleşir gibi sıcak söyleşiler kaleme alır.",
+  "z": 2
+ },
+ {
+  "w": "eleştiri",
+  "m": "eseri değerlendirip yargıya varan yazı, tenkit",
+  "s": "Sağlıklı bir edebiyat ortamı, nitelikli eleştiriyle beslenir.",
+  "z": 2
+ },
+ {
+  "w": "biyografi",
+  "m": "bir kişinin yaşamını anlatan yazı",
+  "s": "Araştırmacı, unutulmuş şairin biyografisini belgelerle yeniden yazdı.",
+  "z": 2
+ },
+ {
+  "w": "otobiyografi",
+  "m": "kişinin kendi yaşamını anlattığı yazı",
+  "s": "Yazar, otobiyografisinde çocukluk yıllarını çarpıcı bir içtenlikle anlatıyor.",
+  "z": 2
+ },
+ {
+  "w": "monografi",
+  "m": "tek konu ya da kişiyi derinlemesine inceleyen eser",
+  "s": "Genç akademisyen, Tanpınar üzerine kapsamlı bir monografi yayımladı.",
+  "z": 3
+ },
+ {
+  "w": "anı",
+  "m": "yaşanmış olayları sonradan anlatan yazı, hatıra",
+  "s": "Yaşar Kemal'in anıları, dönemin edebiyat çevresine ışık tutuyor.",
+  "z": 1
+ },
+ {
+  "w": "günlük",
+  "m": "günü gününe yazılan tarih atılmış yazı",
+  "s": "Şair, günlüklerinde şiirlerinin doğuş serüvenini anlatır.",
+  "z": 1
+ },
+ {
+  "w": "gezi yazısı",
+  "m": "gezilen yerlerin izlenimlerini anlatan tür",
+  "s": "Evliya Çelebi'nin Seyahatnamesi, gezi yazısının klasik örneğidir.",
+  "z": 2
+ },
+ {
+  "w": "röportaj",
+  "m": "araştırma ve görüşmeye dayalı gazete yazısı",
+  "s": "Gazeteci, maden işçileriyle yaptığı röportajla ödül kazandı.",
+  "z": 1
+ },
+ {
+  "w": "mülakat",
+  "m": "görüşme, tanınmış biriyle yapılan söyleşi",
+  "s": "Dergi, yaşayan en büyük romancıyla uzun bir mülakat yayımladı.",
+  "z": 2
+ },
+ {
+  "w": "portre",
+  "m": "bir kişiyi karakteristik yönleriyle tanıtan yazı",
+  "s": "Yazar, edebiyat dünyasının ünlülerini keskin portrelerle anlatmıştır.",
+  "z": 2
+ },
+ {
+  "w": "hitabet",
+  "m": "topluluk karşısında etkili söz söyleme sanatı",
+  "s": "Hitabet gücü yüksek konuşmacı, salondakileri derinden etkiledi.",
+  "z": 2
+ },
+ {
+  "w": "nutuk türü",
+  "m": "topluluğa coşku vermek için yapılan konuşma metni",
+  "s": "Atatürk'ün Gençliğe Hitabesi, nutuk türünün başyapıtıdır.",
+  "z": 2
+ },
+ {
+  "w": "tirat",
+  "m": "oyunda kahramanın uzun ve coşkulu konuşması",
+  "s": "Oyuncu, ünlü tiradını soluk almadan tek nefeste söyledi.",
+  "z": 3
+ },
+ {
+  "w": "suflör",
+  "m": "oyunculara replik fısıldayan görevli",
+  "s": "Unutulan replikleri sahne gerisinden fısıldamak suflörün işidir.",
+  "z": 2
+ },
+ {
+  "w": "klasisizm",
+  "m": "akıl ve kurala bağlı XVII. yüzyıl akımı",
+  "s": "Klasisizm, sanatta akla ve değişmez kurallara bağlılığı savunur.",
+  "z": 2
+ },
+ {
+  "w": "romantizm",
+  "m": "duygu ve hayali öne çıkaran akım",
+  "s": "Romantizm, klasisizmin katı kurallarına duygularla başkaldırdı.",
+  "z": 2
+ },
+ {
+  "w": "realizm",
+  "m": "gerçeği nesnel biçimde yansıtma akımı",
+  "s": "Realizm, gözleme dayanarak yaşamı olduğu gibi anlatmayı amaçlar.",
+  "z": 2
+ },
+ {
+  "w": "natüralizm",
+  "m": "determinizmi edebiyata uygulayan akım",
+  "s": "Natüralizm, insanı soyaçekim ve çevrenin belirlediğini savunur.",
+  "z": 2
+ },
+ {
+  "w": "parnasizm",
+  "m": "biçim kusursuzluğunu amaçlayan şiir akımı",
+  "s": "Parnasizm, sanat için sanat ilkesini şiirde biçim yetkinliğiyle uygular.",
+  "z": 2
+ },
+ {
+  "w": "sembolizm",
+  "m": "anlamı simgelerle sezdirmeyi amaçlayan akım",
+  "s": "Sembolizm, şiirde anlam açıklığı yerine sezdirmeyi amaçlar.",
+  "z": 2
+ },
+ {
+  "w": "empresyonizm",
+  "m": "anlık izlenimleri yansıtan akım, izlenimcilik",
+  "s": "Empresyonizm, dış dünyayı sanatçının anlık izlenimleriyle verir.",
+  "z": 2
+ },
+ {
+  "w": "ekspresyonizm",
+  "m": "iç dünyayı dışa vuran akım, dışavurumculuk",
+  "s": "Ekspresyonizm, sanatçının iç çalkantılarını çarpıcı biçimlerle dışa vurur.",
+  "z": 3
+ },
+ {
+  "w": "kübizm",
+  "m": "nesneleri geometrik parçalarla veren akım",
+  "s": "Kübizm, nesnenin görünmeyen yüzlerini de aynı anda göstermek ister.",
+  "z": 3
+ },
+ {
+  "w": "fütürizm",
+  "m": "hız ve makineyi yücelten akım, gelecekçilik",
+  "s": "Fütürizm, geçmişi reddedip hızın ve makinenin güzelliğini över.",
+  "z": 2
+ },
+ {
+  "w": "dadaizm",
+  "m": "tüm kuralları reddeden başkaldırı akımı",
+  "s": "Dadaizm, savaş sonrası kuşağın anlamsızlığa başkaldırısıdır.",
+  "z": 3
+ },
+ {
+  "w": "sürrealizm",
+  "m": "bilinçaltını esas alan akım, gerçeküstücülük",
+  "s": "Sürrealizm, rüyaları ve bilinçaltını sanatın kaynağı sayar.",
+  "z": 2
+ },
+ {
+  "w": "egzistansiyalizm",
+  "m": "varoluşu özden önce sayan felsefe akımı",
+  "s": "Egzistansiyalizme göre insan, kendi seçimleriyle kendini var eder.",
+  "z": 3
+ },
+ {
+  "w": "hümanizm",
+  "m": "insanı en yüce değer sayan anlayış",
+  "s": "Rönesans sanatçıları, hümanizmin ışığında insana yöneldi.",
+  "z": 2
+ },
+ {
+  "w": "determinizm",
+  "m": "olayların nedenlere bağlı olduğu görüşü, gerekircilik",
+  "s": "Natüralistler, determinizmi roman kahramanlarının yazgısına uyguladı.",
+  "z": 3
+ },
+ {
+  "w": "nihilizm",
+  "m": "tüm değerleri yadsıyan görüş, hiççilik",
+  "s": "Romanın kahramanı, inançlarını yitirip nihilizme savrulur.",
+  "z": 3
+ },
+ {
+  "w": "pragmatizm",
+  "m": "doğruluğu yarara bağlayan görüş, faydacılık",
+  "s": "Pragmatizm, bir düşüncenin değerini sağladığı yararla ölçer.",
+  "z": 3
+ },
+ {
+  "w": "rasyonalizm",
+  "m": "bilginin kaynağını akılda gören görüş, akılcılık",
+  "s": "Rasyonalizm, doğru bilgiye ancak akılla ulaşılabileceğini savunur.",
+  "z": 2
+ },
+ {
+  "w": "septisizm",
+  "m": "her bilgiden kuşku duyma anlayışı, kuşkuculuk",
+  "s": "Septisizm, kesin bilginin olanaklılığından kuşku duyar.",
+  "z": 3
+ },
+ {
+  "w": "estetik",
+  "m": "güzelliği inceleyen bilim; sanatsal güzellik",
+  "s": "Şiirin estetik değeri, yalnızca konusuyla ölçülemez.",
+  "z": 2
+ },
+ {
+  "w": "etik",
+  "m": "ahlak felsefesi; ahlaki olan",
+  "s": "Bilim insanının verileri çarpıtması etik açıdan kabul edilemez.",
+  "z": 2
+ },
+ {
+  "w": "retorik",
+  "m": "etkili söz söyleme sanatı, belagat",
+  "s": "Söylevin gücü, hatibin retorik ustalığından geliyordu.",
+  "z": 2
+ },
+ {
+  "w": "belagat",
+  "m": "sözü yerinde, dönemine uygun söyleme ustalığı",
+  "s": "Divan şairleri belagat kurallarını medreselerde öğrenirdi.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "fonetik",
+  "m": "ses bilgisi; söylenişe ilişkin",
+  "s": "Şiir, fonetik ögelerin en yoğun kullanıldığı türdür.",
+  "z": 2
+ },
+ {
+  "w": "anonim",
+  "m": "yaratıcısı bilinmeyen, halka mal olmuş",
+  "s": "Türküler, ağıtlar ve maniler anonim halk edebiyatı ürünleridir.",
+  "z": 2
+ },
+ {
+  "w": "folklor",
+  "m": "halk bilimi",
+  "s": "Folklor araştırmacıları, köy köy gezip masalları derliyor.",
+  "z": 2
+ },
+ {
+  "w": "derleme",
+  "m": "sözlü ürünleri yazıya geçirme çalışması",
+  "s": "Dil Kurumu, Anadolu ağızlarından binlerce sözcük derlemesi yaptı.",
+  "z": 2
+ },
+ {
+  "w": "antoloji",
+  "m": "seçme metinleri toplayan eser, seçki",
+  "s": "Genç şairin dizeleri, yılın şiir antolojisine alındı.",
+  "z": 2
+ },
+ {
+  "w": "külliyat",
+  "m": "bir yazarın bütün eserleri",
+  "s": "Yayınevi, unutulmaz romancının külliyatını yeniden basıyor.",
+  "z": 2
+ },
+ {
+  "w": "nüsha",
+  "m": "birbirinin aynı yazılı metinlerden her biri",
+  "s": "Eserin en eski nüshası, Süleymaniye Kütüphanesi'nde korunuyor.",
+  "z": 2
+ },
+ {
+  "w": "müstensih",
+  "m": "el yazması eseri çoğaltan kişi",
+  "s": "Müstensihlerin dikkatsizliği, nüshalar arasında farklar doğurmuştur.",
+  "z": 3
+ },
+ {
+  "w": "mütercim",
+  "m": "çevirmen",
+  "s": "Mütercim, şiiri kaynak dilin ruhunu koruyarak aktarmış.",
+  "z": 2
+ },
+ {
+  "w": "muharrir",
+  "m": "yazar",
+  "s": "Tanzimat gazetelerinde muharrirler halkı aydınlatmayı amaç edinmişti.",
+  "z": 2
+ },
+ {
+  "w": "müellif",
+  "m": "kitap yazan, yazar",
+  "s": "Eserin müellifi uzun süre bilinmediğinden kitap anonim sanıldı.",
+  "z": 3
+ },
+ {
+  "w": "münekkit",
+  "m": "eleştirmen",
+  "s": "Dönemin ünlü münekkidi, genç şairi övgüyle karşıladı.",
+  "z": 3
+ },
+ {
+  "w": "mütefekkir",
+  "m": "düşünür",
+  "s": "Ünlü mütefekkir, medeniyet kavramını yeniden tanımlamaya girişti.",
+  "z": 3
+ },
+ {
+  "w": "edip",
+  "m": "edebiyatla uğraşan, yazar",
+  "s": "Devrin edipleri, dil tartışmalarında ikiye bölünmüştü.",
+  "z": 2
+ },
+ {
+  "w": "üslup",
+  "m": "sanatçının kendine özgü anlatım biçimi",
+  "s": "Her büyük yazar, taklit edilemez bir üslup yaratır.",
+  "z": 2
+ },
+ {
+  "w": "biçem",
+  "m": "üslup, anlatım tarzı",
+  "s": "Eleştirmen, yazarın biçemindeki değişimi son romanında saptıyor.",
+  "z": 2
+ },
+ {
+  "w": "içerik",
+  "m": "eserde işlenen konu ve anlam, muhteva",
+  "s": "Biçim ile içerik, başarılı eserde birbirini tamamlar.",
+  "z": 1
+ },
+ {
+  "w": "muhteva",
+  "m": "içerik",
+  "s": "Eleştirmen, kitabın muhtevasını çağının sorunları açısından inceledi.",
+  "z": 2
+ },
+ {
+  "w": "biçim",
+  "m": "eserin dış yapısı, şekil",
+  "s": "Divan şiirinde biçim kuralları kesin çizgilerle belirlenmiştir.",
+  "z": 1
+ },
+ {
+  "w": "özet",
+  "m": "metnin ana hatlarıyla kısaltılmışı, hulasa",
+  "s": "Arka kapaktaki özet, romanın sürprizini ele veriyor.",
+  "z": 1
+ },
+ {
+  "w": "bağlam",
+  "m": "sözcüğe anlam kazandıran söz ortamı",
+  "s": "Sözcüğün anlamı, kullanıldığı bağlama göre değişir.",
+  "z": 2
+ },
+ {
+  "w": "çağrışım",
+  "m": "bir sözcüğün zihinde başka şeyleri uyandırması",
+  "s": "Deniz sözcüğü her okurda farklı çağrışımlar uyandırır.",
+  "z": 2
+ },
+ {
+  "w": "yan anlam",
+  "m": "sözcüğün gerçek anlamına bağlı ikincil anlamı",
+  "s": "Kolun yan anlamı, sözcüğün organ anlamından türemiştir.",
+  "z": 2
+ },
+ {
+  "w": "terim",
+  "m": "bilim ve sanat dalına özgü sözcük",
+  "s": "Üçgen sözcüğü, geometri alanına ait bir terimdir.",
+  "z": 1
+ },
+ {
+  "w": "deyim",
+  "m": "kalıplaşmış, çoğu mecazlı söz öbeği",
+  "s": "Etekleri zil çalmak deyimi, aşırı sevinci anlatır.",
+  "z": 1
+ },
+ {
+  "w": "atasözü",
+  "m": "öğüt veren kalıplaşmış anonim özlü söz",
+  "s": "Atasözleri, halkın yüzyıllar süren deneyimlerini özetler.",
+  "z": 1
+ },
+ {
+  "w": "özdeyiş",
+  "m": "söyleyeni belli özlü söz, vecize",
+  "s": "Hayatta en hakiki mürşit ilimdir sözü bir özdeyiştir.",
+  "z": 2
+ },
+ {
+  "w": "vecize",
+  "m": "özdeyiş",
+  "s": "Konferans salonunun duvarları düşünürlerin vecizeleriyle süslenmişti.",
+  "z": 2
+ },
+ {
+  "w": "argo",
+  "m": "belli çevrelere özgü kaba konuşma dili",
+  "s": "Yazar, kenar mahalle kahramanlarını argo konuşturarak gerçekçilik sağlar.",
+  "z": 2
+ },
+ {
+  "w": "jargon",
+  "m": "meslek çevresine özgü özel dil",
+  "s": "Tıp jargonuyla yazılan metni sıradan okur anlayamaz.",
+  "z": 2
+ },
+ {
+  "w": "lehçe",
+  "m": "dilin çok eskiden ayrılmış uzak kolu",
+  "s": "Çuvaşça, Türkçenin en uzak lehçelerinden biridir.",
+  "z": 2
+ },
+ {
+  "w": "ağız",
+  "m": "dilin bir yöredeki söyleyiş biçimi",
+  "s": "Romandaki köylüler, gerçekçilik sağlamak için Ege ağzıyla konuşturulmuş.",
+  "z": 2
+ },
+ {
+  "w": "şive",
+  "m": "dilin yakın dönemde ayrılmış kolu; söyleyiş",
+  "s": "Azeri şivesi, Türkiye Türkçesine en yakın koldur.",
+  "z": 2
+ },
+ {
+  "w": "tercüme",
+  "m": "çeviri",
+  "s": "Tanzimat edebiyatı, Batı'dan yapılan tercümelerle başlamıştır.",
+  "z": 1
+ },
+ {
+  "w": "sadeleştirme",
+  "m": "eski metni günümüz diline aktarma",
+  "s": "Klasik eserlerin sadeleştirilmesi, edebiyat çevrelerinde hep tartışılır.",
+  "z": 1
+ },
+ {
+  "w": "intihal",
+  "m": "başkasının eserini kendine mal etme, aşırma",
+  "s": "Dergi, intihal saptanan yazarın bütün yazılarını yayından kaldırdı.",
+  "z": 2
+ },
+ {
+  "w": "nazire",
+  "m": "bir şiire aynı ölçü ve uyakla benzer yazma",
+  "s": "Divan şairleri, ustaların gazellerine nazireler yazarak yetişirdi.",
+  "z": 3
+ },
+ {
+  "w": "tanzimat",
+  "m": "1839 fermanıyla açılan Batılılaşma dönemi",
+  "s": "Tanzimat sanatçıları, edebiyatı toplumu eğitme aracı saydı.",
+  "z": 2
+ },
+ {
+  "w": "servetifünun",
+  "m": "1896-1901 arası Edebiyat-ı Cedide topluluğu",
+  "s": "Servetifünun şairleri, ağır ve süslü bir dil kullanmıştır.",
+  "z": 2
+ },
+ {
+  "w": "fecriati",
+  "m": "1909'da kurulan, sanat şahsi ve muhteremdir diyen topluluk",
+  "s": "Fecriati, edebiyatımızın bildiri yayımlayan ilk topluluğudur.",
+  "z": 2
+ },
+ {
+  "w": "millî edebiyat",
+  "m": "1911'de sade dille başlayan ulusal akım",
+  "s": "Millî edebiyatçılar, Yeni Lisan hareketiyle sade Türkçeyi savundu.",
+  "z": 2
+ },
+ {
+  "w": "garip akımı",
+  "m": "1941'de şiirdeki kalıpları yıkan hareket, Birinci Yeni",
+  "s": "Garip akımı, şiiri ölçüden, uyaktan ve şairanelikten arındırdı.",
+  "z": 2
+ },
+ {
+  "w": "ikinci yeni",
+  "m": "1950'lerde kapalı imgeci şiir hareketi",
+  "s": "İkinci Yeni şairleri, anlam kapalılığını bilinçle seçmiştir.",
+  "z": 2
+ },
+ {
+  "w": "beş hececiler",
+  "m": "hece ölçüsüyle memleket şiiri yazan topluluk",
+  "s": "Beş Hececiler, Anadolu'yu hece ölçüsüyle şiire taşıdı.",
+  "z": 2
+ },
+ {
+  "w": "yedi meşaleciler",
+  "m": "1928'de canlılık ve içtenlik isteyen topluluk",
+  "s": "Yedi Meşaleciler, Beş Hececilerin tekdüzeliğine tepki gösterdi.",
+  "z": 3
+ },
+ {
+  "w": "hisar grubu",
+  "m": "geleneğe bağlı milliyetçi şiir topluluğu",
+  "s": "Hisar grubu şairleri, gelenekten kopmadan yenileşmeyi savundu.",
+  "z": 3
+ },
+ {
+  "w": "maviciler",
+  "m": "Attila İlhan çevresinde toplumcu-romantik hareket",
+  "s": "Maviciler, Garip şiirinin basitliğine karşı çıktı.",
+  "z": 3
+ },
+ {
+  "w": "toplumcu gerçekçilik",
+  "m": "edebiyatı toplumsal mücadeleye bağlayan anlayış",
+  "s": "Toplumcu gerçekçilik, köy romanlarımızın ana damarını oluşturur.",
+  "z": 2
+ },
+ {
+  "w": "divan edebiyatı",
+  "m": "medrese kültürüne dayalı klasik Türk edebiyatı",
+  "s": "Divan edebiyatı, altı yüzyıl boyunca saray çevresinde gelişti.",
+  "z": 1
+ },
+ {
+  "w": "tezkire",
+  "m": "şair yaşamlarını anlatan eski biyografik eser",
+  "s": "Tezkireler, divan şairleri hakkındaki başlıca kaynaklarımızdır.",
+  "z": 3
+ },
+ {
+  "w": "siyer",
+  "m": "Hz. Peygamber'in yaşamını anlatan eser türü",
+  "s": "Siyer kitapları, İslami dönem edebiyatının önemli türlerindendir.",
+  "z": 3
+ },
+ {
+  "w": "menkıbe",
+  "m": "din ulularının olağanüstü yaşam öyküleri",
+  "s": "Menkıbeler, tasavvuf büyüklerinin olağanüstü yaşamlarını ve kerametlerini anlatır.",
+  "z": 3
+ },
+ {
+  "w": "surname",
+  "m": "şehzade düğünlerini anlatan divan eseri",
+  "s": "Surnameler, Osmanlı saray şenliklerinin en renkli tanıkları sayılır.",
+  "z": 3
+ },
+ {
+  "w": "seyahatname",
+  "m": "gezi izlenimlerini anlatan eser",
+  "s": "Evliya Çelebi, seyahatnamesinde gördüklerini mizahla harmanlar.",
+  "z": 2
+ },
+ {
+  "w": "sefaretname",
+  "m": "elçilerin izlenimlerini anlattığı eser",
+  "s": "Yirmisekiz Çelebi Mehmet'in sefaretnamesi Paris'i anlatır.",
+  "z": 3
+ },
+ {
+  "w": "hamse",
+  "m": "bir şairin beş mesnevisinin bütünü",
+  "s": "Hamse sahibi olmak, divan şairleri için büyük onurdu.",
+  "z": 3
+ },
+ {
+  "w": "divan",
+  "m": "şairin şiirlerini topladığı kitap",
+  "s": "Fuzuli'nin divanı, Türkçe gazelin doruk noktalarını içerir.",
+  "z": 1
+ },
+ {
+  "w": "lugat",
+  "m": "sözlük",
+  "s": "Kaşgarlı Mahmut, lugatını Araplara Türkçe öğretmek için yazdı.",
+  "z": 2
+ },
+ {
+  "w": "münşeat",
+  "m": "sanatlı düzyazı ve mektupların toplandığı eser",
+  "s": "Divan nesrinin örnekleri münşeat mecmualarında toplanırdı.",
+  "z": 3
+ },
+ {
+  "w": "mecmua",
+  "m": "dergi; şiirlerin derlendiği defter",
+  "s": "Genç şairler, ilk şiirlerini edebiyat mecmualarında yayımlardı.",
+  "z": 2
+ },
+ {
+  "w": "tefrika",
+  "m": "romanın gazetede bölüm bölüm yayımlanması",
+  "s": "Dönemin romanları önce gazetelerde tefrika edilirdi.",
+  "z": 2
+ },
+ {
+  "w": "müsvedde",
+  "m": "yazının ilk taslağı, karalama",
+  "s": "Yazarın ölümünden sonra çekmecesinden roman müsveddeleri çıktı.",
+  "z": 2
+ },
+ {
+  "w": "telif",
+  "m": "yazarlık hakkı; özgün eser yazma",
+  "s": "Yayınevi, yazara telif ücretini düzenli ödemekle yükümlüdür.",
+  "z": 2
+ },
+ {
+  "w": "edisyon kritik",
+  "m": "nüshaları karşılaştırıp metni kurma yöntemi",
+  "s": "Araştırmacı, divanın edisyon kritiğini beş nüshayı karşılaştırarak hazırladı.",
+  "z": 3
+ },
+ {
+  "w": "redaksiyon",
+  "m": "yazıyı yayına hazırlama, düzeltme",
+  "s": "Metin, titiz bir redaksiyondan geçtikten sonra basıldı.",
+  "z": 2
+ },
+ {
+  "w": "epik",
+  "m": "destansı, kahramanlık konulu",
+  "s": "Şairin epik söyleyişi, Kurtuluş Savaşı şiirlerinde doruğa ulaşır.",
+  "z": 2
+ },
+ {
+  "w": "lirik",
+  "m": "coşkulu duyguları anlatan",
+  "s": "Lirik şiir, okurun yüreğine seslenen içli bir türdür.",
+  "z": 2
+ },
+ {
+  "w": "didaktik",
+  "m": "öğretici amaçlı",
+  "s": "Fabllar, ders vermeyi amaçlayan didaktik ürünlerdir.",
+  "z": 2
+ },
+ {
+  "w": "pastoral",
+  "m": "çoban ve kır yaşamını anlatan",
+  "s": "Pastoral şiir, kır yaşamının dinginliğini özlemle işler.",
+  "z": 2
+ },
+ {
+  "w": "satirik",
+  "m": "yergiye dayalı",
+  "s": "Satirik şiir, toplumun aksayan yönlerini alaya alır.",
+  "z": 2
+ },
+ {
+  "w": "dramatik",
+  "m": "oynanmak için yazılan; acıklı çarpıcı",
+  "s": "Manzum tiyatrolar, dramatik şiirin örnekleri sayılır.",
+  "z": 2
+ },
+ {
+  "w": "trajedi",
+  "m": "seçkin kişilerin acıklı yazgısını işleyen oyun",
+  "s": "Antik trajedi, seyircide korku ve acıma duyguları uyandırır.",
+  "z": 2
+ },
+ {
+  "w": "komedi",
+  "m": "güldürerek düşündüren tiyatro türü",
+  "s": "Moliere, komedilerinde insanın gülünç zaaflarını sergiler.",
+  "z": 1
+ },
+ {
+  "w": "dram",
+  "m": "acıklı ve gülünç olanı birlikte işleyen oyun",
+  "s": "Dram, trajedinin katı kurallarını yıkarak yaşamın bütününü sahneye taşıdı.",
+  "z": 1
+ },
+ {
+  "w": "fabl",
+  "m": "hayvanları konuşturan ders verici öykü",
+  "s": "La Fontaine'in fablları, ders veren kıssalarla biter.",
+  "z": 2
+ },
+ {
+  "w": "kıssa",
+  "m": "ders çıkarılacak kısa öykü",
+  "s": "Dede, torunlarına her akşam ibretlik kıssalar anlatırdı.",
+  "z": 2
+ },
+ {
+  "w": "mesel",
+  "m": "örnek alınacak öğüt verici söz, öykücük",
+  "s": "Halk, karmaşık gerçekleri kısa mesellerle anlatmayı sever.",
+  "z": 3
+ },
+ {
+  "w": "epigram",
+  "m": "iğneleyici, nükteli kısa şiir",
+  "s": "Şair, düşmanlarını iki dizelik epigramlarla yerin dibine geçirirdi.",
+  "z": 3
+ },
+ {
+  "w": "parodi",
+  "m": "ciddi eseri alaya alan gülünç taklit",
+  "s": "Yazar, şövalye romanlarının parodisini yaparak türü tüketmiştir.",
+  "z": 2
+ },
+ {
+  "w": "pastiş",
+  "m": "bir eserin üslubunu öykünerek taklit etme",
+  "s": "Romancı, divan nesrini pastiş yoluyla yeniden üretir.",
+  "z": 3
+ },
+ {
+  "w": "metinlerarasılık",
+  "m": "metnin başka metinlerle kurduğu ilişki",
+  "s": "Postmodern roman, metinlerarasılığı bilinçli bir yöntem olarak kullanır.",
+  "z": 3
+ },
+ {
+  "w": "anakronizm",
+  "m": "tarihsel zaman uyumsuzluğu, çağ yanılgısı",
+  "s": "Osmanlı kahramanına kol saati takan yazar anakronizme düşmüş.",
+  "z": 3
+ },
+ {
+  "w": "alegori",
+  "m": "soyut kavramı baştan sona simgelerle anlatma",
+  "s": "Harname, eşek üzerinden toplumu anlatan alegorik bir eserdir.",
+  "z": 2
+ },
+ {
+  "w": "sembol",
+  "m": "simge, bir kavramı temsil eden gösterge",
+  "s": "Güvercin, şiirde barışın simgesi olarak kullanılan bir semboldür.",
+  "z": 2
+ },
+ {
+  "w": "motif",
+  "m": "eserde yinelenen küçük anlamlı birim",
+  "s": "Kırk sayısı, masallarımızda sık geçen bir motiftir.",
+  "z": 2
+ },
+ {
+  "w": "tema",
+  "m": "eserde işlenen soyut ana duygu ya da düşünce",
+  "s": "Şiirin teması, zamanın acımasız akışına duyulan hüzündür.",
+  "z": 2
+ },
+ {
+  "w": "konu",
+  "m": "eserde ele alınan olay, durum ya da sorun",
+  "s": "Roman, konusunu küçük bir kasabadaki toprak kavgasından alıyor.",
+  "z": 1
+ },
+ {
+  "w": "ana düşünce",
+  "m": "metinde okura verilmek istenen ileti",
+  "s": "Paragrafın ana düşüncesi, çoğu kez giriş cümlesinde saklıdır.",
+  "z": 1
+ },
+ {
+  "w": "yardımcı düşünce",
+  "m": "ana düşünceyi destekleyen yan yargı",
+  "s": "Sorular, metindeki yardımcı düşünceleri de sınamaktadır.",
+  "z": 1
+ },
+ {
+  "w": "münferit",
+  "m": "tek tek olan, ayrı, bireysel",
+  "s": "Yetkililer, olayın münferit olduğunu söyleyerek kaygıları gidermeye çalıştı.",
+  "z": 2
+ },
+ {
+  "w": "müstesna",
+  "m": "benzerlerinden üstün; ayrık, dışında",
+  "s": "O, kuşağının müstesna yeteneklerinden biri olarak anılıyor.",
+  "z": 2
+ },
+ {
+  "w": "mümbit",
+  "m": "verimli, bitek",
+  "s": "Nil'in taşıdığı alüvyonlar, deltayı mümbit topraklara dönüştürmüştür.",
+  "z": 3
+ },
+ {
+  "w": "muteber",
+  "m": "saygın, geçerli, güvenilir",
+  "s": "Sözü hâlâ muteber sayılan eleştirmen, dergide yazmayı sürdürüyor.",
+  "z": 2
+ },
+ {
+  "w": "mutedil",
+  "m": "ılımlı, ölçülü",
+  "s": "Tartışmada en mutedil sesi, yaşlı akademisyen yükseltti.",
+  "z": 3
+ },
+ {
+  "w": "muallak",
+  "m": "askıda, sonuca bağlanmamış",
+  "s": "Derginin geleceği, ödenek sorunu yüzünden muallakta kaldı.",
+  "z": 2
+ },
+ {
+  "w": "mahzun",
+  "m": "üzgün, hüzünlü",
+  "s": "Şair, yağmurlu akşamlarda mahzun bir yüzle pencereden bakardı.",
+  "z": 2
+ },
+ {
+  "w": "müteessir",
+  "m": "üzülmüş, etkilenmiş",
+  "s": "Usta yazar, dostunun ölümünden derin biçimde müteessir oldu.",
+  "z": 3
+ },
+ {
+  "w": "müstehzi",
+  "m": "alaycı",
+  "s": "Eleştirmenin müstehzi gülümseyişi, genç şairi tedirgin etti.",
+  "z": 3
+ },
+ {
+  "w": "mültefit",
+  "m": "güler yüz gösteren, iltifat eden",
+  "s": "Ev sahibi, konuklarına karşı son derece mültefit davrandı.",
+  "z": 3
+ },
+ {
+  "w": "mahcup",
+  "m": "utangaç, utanmış",
+  "s": "Ödül törenine çıkan genç yazar, mahcup bir edayla teşekkür etti.",
+  "z": 2
+ },
+ {
+  "w": "mükellef",
+  "m": "yükümlü; eksiksiz, özenli hazırlanmış",
+  "s": "Konaktaki mükellef sofra, romanın en canlı sahnelerinden biridir.",
+  "z": 2
+ },
+ {
+  "w": "müptela",
+  "m": "tutkun, bağımlı, düşkün",
+  "s": "Kahraman, kumara müptela olunca ailesini de sürükledi felakete.",
+  "z": 2
+ },
+ {
+  "w": "müzmin",
+  "m": "süreğen, kronikleşmiş",
+  "s": "Kentin müzmin sorunları, her seçim döneminde yeniden hatırlanır.",
+  "z": 2
+ },
+ {
+  "w": "nadide",
+  "m": "az bulunur, değerli",
+  "s": "Sahaf, elindeki nadide baskıyı hiçbir fiyata satmıyordu.",
+  "z": 2
+ },
+ {
+  "w": "nafile",
+  "m": "boşuna, yararsız",
+  "s": "Kahraman, geçmişi geri getirmek için nafile bir çaba içindeydi.",
+  "z": 2
+ },
+ {
+  "w": "naif",
+  "m": "deneyimsiz saflıkta; kendi kendini yetiştirmiş",
+  "s": "Öyküdeki naif çocuk bakışı, anlatıya içtenlik katıyor.",
+  "z": 2
+ },
+ {
+  "w": "nezaket",
+  "m": "incelik, kibarlık",
+  "s": "Yaşlı beyefendi, herkese aynı nezaketle davranmasıyla tanınırdı.",
+  "z": 1
+ },
+ {
+  "w": "nezih",
+  "m": "temiz, seçkin, hoş",
+  "s": "Aile, kentin nezih bir semtinde sakin bir yaşam sürüyordu.",
+  "z": 2
+ },
+ {
+  "w": "nekre",
+  "m": "beklenmedik nüktelerle güldüren kimse",
+  "s": "Karagöz, nekre kişiliğiyle halkın gönlünde taht kurmuştur.",
+  "z": 3
+ },
+ {
+  "w": "nükte",
+  "m": "ince anlamlı, zekice şaka",
+  "s": "Konuşmacı, ağır konuyu yerinde nüktelerle yumuşatmayı bildi.",
+  "z": 2
+ },
+ {
+  "w": "hicap",
+  "m": "utanma, utanç",
+  "s": "Kahraman, yalanı ortaya çıkınca hicabından kimsenin yüzüne bakamadı.",
+  "z": 3
+ },
+ {
+  "w": "hazin",
+  "m": "acıklı, hüzün veren",
+  "s": "Türkünün hazin ezgisi, dinleyenlerin gözlerini yaşarttı.",
+  "z": 2
+ },
+ {
+  "w": "hasbi",
+  "m": "karşılık beklemeden yapılan, gönüllü",
+  "s": "Köy enstitülü öğretmenler, işlerine hasbi bir sevgiyle sarılmıştı.",
+  "z": 3
+ },
+ {
+  "w": "hodbin",
+  "m": "bencil",
+  "s": "Romanın hodbin kahramanı, çevresindekilerin acılarını görmez.",
+  "z": 3
+ },
+ {
+  "w": "diğerkâm",
+  "m": "özgeci, başkalarını düşünen",
+  "s": "Diğerkâm hekim, ücret almadan köylüleri sağaltmayı sürdürdü.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "bedbin",
+  "m": "karamsar, kötümser",
+  "s": "Savaş yıllarının bedbin havası, dönemin şiirine sinmiştir.",
+  "z": 3
+ },
+ {
+  "w": "nikbin",
+  "m": "iyimser",
+  "s": "Yazar, en karanlık dönemlerde bile nikbin bakışını yitirmedi.",
+  "z": 3
+ },
+ {
+  "w": "müşkülpesent",
+  "m": "güç beğenen, titiz",
+  "s": "Müşkülpesent editör, dosyayı üç kez geri gönderdi.",
+  "z": 3
+ },
+ {
+  "w": "mahir",
+  "m": "becerikli, usta",
+  "s": "Mahir bir hattatın elinden çıkan levha, sergide çok beğenildi.",
+  "z": 2
+ },
+ {
+  "w": "dirayet",
+  "m": "beceriklilik, yönetme yeteneği",
+  "s": "Genç yönetici, krizi dirayetiyle atlatmayı başardı.",
+  "z": 2
+ },
+ {
+  "w": "cevval",
+  "m": "canlı, hareketli, atılgan",
+  "s": "Cevval muhabir, haberin peşinde kentin sokaklarını arşınlıyordu.",
+  "z": 3
+ },
+ {
+  "w": "çalak",
+  "m": "eline ayağına çabuk, atik",
+  "s": "Çalak çırak, ustasının istediği aleti göz açıp kapayana dek getirirdi.",
+  "z": 3
+ },
+ {
+  "w": "rint",
+  "m": "dünyaya aldırmayan, kalender yaradılışlı kişi",
+  "s": "Divan şiirinde rint, kaba sofunun tam karşısında durur.",
+  "z": 3
+ },
+ {
+  "w": "zahit",
+  "m": "kaba sofu, ham ermiş",
+  "s": "Şair, gazellerinde zahidin ikiyüzlülüğünü alaya alır.",
+  "z": 3
+ },
+ {
+  "w": "kalender",
+  "m": "gösterişsiz yaşayan, alçakgönüllü",
+  "s": "Kalender şair, şöhretin nimetlerine hiç aldırış etmedi.",
+  "z": 2
+ },
+ {
+  "w": "derbeder",
+  "m": "düzensiz, dağınık yaşayan, avare",
+  "s": "Romanın derbeder ressamı, kentin kahvelerinde ömür tüketir.",
+  "z": 2
+ },
+ {
+  "w": "hercai",
+  "m": "sevgisi gelip geçici, kararsız",
+  "s": "Halk türküleri, hercai sevgililerin vefasızlığından sık sık yakınır.",
+  "z": 3
+ },
+ {
+  "w": "vefa",
+  "m": "sevgide sebat, bağlılık",
+  "s": "Deneme yazarı, vefanın unutulmuş bir erdem olduğundan yakınıyor.",
+  "z": 2
+ },
+ {
+  "w": "riya",
+  "m": "ikiyüzlülük",
+  "s": "Şair, toplumun riyasını gazellerinde acımasızca sergilemiştir.",
+  "z": 2
+ },
+ {
+  "w": "riyakâr",
+  "m": "ikiyüzlü",
+  "s": "Yazar, riyakâr kahramanının çelişkilerini ince ironilerle verir.",
+  "z": 2
+ },
+ {
+  "w": "samimiyet",
+  "m": "içtenlik",
+  "s": "Okur, satırlardaki samimiyeti yapmacıklıktan kolayca ayırır.",
+  "z": 1
+ },
+ {
+  "w": "tekebbür",
+  "m": "kibirlenme, büyüklenme",
+  "s": "Bilgisiyle tekebbüre kapılan âlim, halkın gözünden düştü.",
+  "z": 3
+ },
+ {
+  "w": "tevekkeli",
+  "m": "boşuna değil, boş yere",
+  "s": "Tevekkeli dememişler, sütten ağzı yanan yoğurdu üfleyerek yer diye.",
+  "z": 2
+ },
+ {
+  "w": "nispet",
+  "m": "inat olsun diye yapılan davranış; oran",
+  "s": "Komşusuna nispet yaparcasına kapısının önüne yeni arabasını çekti.",
+  "z": 2
+ },
+ {
+  "w": "istihza",
+  "m": "gizli, ince alay",
+  "s": "Yazarın satır aralarındaki istihza, dikkatli okurun gözünden kaçmaz.",
+  "z": 3
+ },
+ {
+  "w": "istiğna",
+  "m": "eldekiyle yetinip kimseye minnet etmeme",
+  "s": "Şair, istiğna göstererek saraydan gelen caizeyi geri çevirdi.",
+  "z": 3
+ },
+ {
+  "w": "istihare",
+  "m": "hayırlı olanı rüyada arama",
+  "s": "Yaşlı kadın, kızını vermeden önce istihareye yattı.",
+  "z": 3
+ },
+ {
+  "w": "mahviyet",
+  "m": "alçakgönüllülük",
+  "s": "Onca eserine rağmen mahviyet içinde yaşamayı seçti.",
+  "z": 3
+ },
+ {
+  "w": "vakar",
+  "m": "ağırbaşlılık",
+  "s": "Yaşlı öğretmen, uğradığı haksızlığı vakarını bozmadan karşıladı.",
+  "z": 2
+ },
+ {
+  "w": "temkin",
+  "m": "ihtiyatlı, ölçülü davranma",
+  "s": "Deneyimli editör, iddialı dosyalara hep temkinle yaklaşırdı.",
+  "z": 2
+ },
+ {
+  "w": "ihtiyat",
+  "m": "önlem alarak davranma, sakınım",
+  "s": "Anlatıcı, söylentileri ihtiyatla karşılamak gerektiğini vurguluyor.",
+  "z": 2
+ },
+ {
+  "w": "cesamet",
+  "m": "büyüklük, irilik",
+  "s": "Yapının cesameti, kente ilk kez gelenleri şaşkına çeviriyordu.",
+  "z": 3
+ },
+ {
+  "w": "azamet",
+  "m": "büyüklük, görkem; çalım",
+  "s": "Selimiye'nin azameti karşısında yabancı gezginler bile büyülenmiştir.",
+  "z": 2
+ },
+ {
+  "w": "ihtişam",
+  "m": "göz alıcı görkem",
+  "s": "Romanda saray yaşamının ihtişamı ince ayrıntılarla betimlenir.",
+  "z": 2
+ },
+ {
+  "w": "debdebe",
+  "m": "görkem, şatafat",
+  "s": "Düğünün debdebesi, ailenin gösteriş merakını ele veriyordu.",
+  "z": 3
+ },
+ {
+  "w": "mütevazi",
+  "m": "birbirine paralel olan",
+  "s": "Geometride mütevazi doğrular hiçbir noktada kesişmez.",
+  "z": 3
+ },
+ {
+  "w": "mahdut",
+  "m": "sınırlı, az sayıda",
+  "s": "Kitap, mahdut sayıda basıldığı için kısa sürede tükendi.",
+  "z": 3
+ },
+ {
+  "w": "kifayet",
+  "m": "yeterlik, yeterli olma",
+  "s": "Eldeki kaynakların projeye kifayet etmeyeceği anlaşıldı.",
+  "z": 3
+ },
+ {
+  "w": "kifayetsiz",
+  "m": "yetersiz",
+  "s": "Eleştirmen, çevirinin kifayetsiz kaldığını örneklerle gösterdi.",
+  "z": 2
+ },
+ {
+  "w": "behemehâl",
+  "m": "ne yapıp yapıp, mutlaka",
+  "s": "Editör, dosyanın behemehâl cuma gününe yetişmesini istedi.",
+  "z": 3,
+  "k": "Osmanlı Türkçesi بهمه حال‎, Farsça بهمه‎."
+ },
+ {
+  "w": "bilhassa",
+  "m": "özellikle",
+  "s": "Yazar, bilhassa taşra insanının ruh dünyasını anlatmakta ustadır.",
+  "z": 1
+ },
+ {
+  "w": "nezdinde",
+  "m": "yanında, katında, gözünde",
+  "s": "Sanatçının okurlar nezdindeki saygınlığı her geçen yıl arttı.",
+  "z": 2
+ },
+ {
+  "w": "binaenaleyh",
+  "m": "bundan dolayı, bu nedenle",
+  "s": "Kanıtlar yetersizdir; binaenaleyh bu yargıya varmak aceleciliktir.",
+  "z": 3
+ },
+ {
+  "w": "zira",
+  "m": "çünkü",
+  "s": "Şiiri çevirmek güçtür; zira ses ve anlam birbirine kenetlidir.",
+  "z": 2
+ },
+ {
+  "w": "nitekim",
+  "m": "gerçekten de, öyle ki",
+  "s": "Eleştirmen romanı çok öngörülü bulmuştu; nitekim zaman onu doğruladı.",
+  "z": 2
+ },
+ {
+  "w": "kezalik",
+  "m": "aynı biçimde, bu da öyle",
+  "s": "Roman büyük ilgi gördü; kezalik öykü kitabı da beğenildi.",
+  "z": 3
+ },
+ {
+  "w": "mamafih",
+  "m": "bununla birlikte",
+  "s": "Eser kusursuz değildir; mamafih dönemin en özgün denemesidir.",
+  "z": 3
+ },
+ {
+  "w": "halbuki",
+  "m": "oysa, gerçek şu ki",
+  "s": "Kitabı sıkıcı sanıyordum; halbuki ilk sayfada beni içine çekti.",
+  "z": 1
+ },
+ {
+  "w": "gelgelelim",
+  "m": "ne var ki, ancak",
+  "s": "Şiirleri çok beğeniliyordu; gelgelelim kitaplaşması yıllar aldı.",
+  "z": 2
+ },
+ {
+  "w": "kaldı ki",
+  "m": "üstelik, ayrıca",
+  "s": "Roman zaten uzun; kaldı ki gereksiz betimlemeler onu daha da ağırlaştırmış.",
+  "z": 1
+ },
+ {
+  "w": "öte yandan",
+  "m": "başka bir bakımdan, diğer taraftan",
+  "s": "Eser dil açısından kusurlu; öte yandan kurgusu son derece sağlam.",
+  "z": 1
+ },
+ {
+  "w": "deruhte",
+  "m": "üstlenme, üzerine alma",
+  "s": "Derginin yayın giderlerini bu yıl köklü bir vakıf deruhte etti.",
+  "z": 3
+ },
+ {
+  "w": "ifa",
+  "m": "bir görevi yerine getirme",
+  "s": "Memur, görevini yıllarca kusursuz biçimde ifa etti.",
+  "z": 2
+ },
+ {
+  "w": "icra",
+  "m": "yapma, yerine getirme; yürütme",
+  "s": "Sanatçı, mesleğini kırk yıl aşkla icra etti.",
+  "z": 1
+ },
+ {
+  "w": "ihdas",
+  "m": "ortaya çıkarma, yeni bir şey kurma",
+  "s": "Üniversite, çeviribilim alanında yeni bir kürsü ihdas etti.",
+  "z": 3
+ },
+ {
+  "w": "ihtiva",
+  "m": "içerme, kapsama",
+  "s": "Sözlük, kırk bini aşkın madde başı ihtiva ediyor.",
+  "z": 2
+ },
+ {
+  "w": "iktifa",
+  "m": "yetinme",
+  "s": "Yazar, uzun açıklamalar yerine birkaç örnekle iktifa etmiş.",
+  "z": 3
+ },
+ {
+  "w": "istinat",
+  "m": "dayanma, yaslanma",
+  "s": "Eleştirmen, yargılarını somut metin örneklerine istinat ettiriyor.",
+  "z": 3
+ },
+ {
+  "w": "istinaden",
+  "m": "dayanarak",
+  "s": "Yazar, arşiv belgelerine istinaden dönemin ticaret yaşamını anlatıyor.",
+  "z": 2
+ },
+ {
+  "w": "mukabele",
+  "m": "karşılık verme, karşılama",
+  "s": "Şair, ağır eleştirilere zarif bir dille mukabele etti.",
+  "z": 3
+ },
+ {
+  "w": "mukayese",
+  "m": "karşılaştırma, kıyaslama",
+  "s": "İki çeviriyi mukayese eden okur, aradaki üslup farkını hemen görür.",
+  "z": 2
+ },
+ {
+  "w": "muhakeme",
+  "m": "akıl yürütme, yargılama",
+  "s": "Paragraf soruları, öğrencinin muhakeme gücünü ölçmeyi amaçlar.",
+  "z": 2
+ },
+ {
+  "w": "mütalaa",
+  "m": "okuyup düşünme; görüş",
+  "s": "Kurul, raporu mütalaa ettikten sonra kararını açıklayacak.",
+  "z": 3
+ },
+ {
+  "w": "müzakere",
+  "m": "görüşme, danışıp konuşma",
+  "s": "Yayın kurulu, dosyayı uzun bir müzakereden sonra kabul etti.",
+  "z": 2
+ },
+ {
+  "w": "müdahale",
+  "m": "karışma, araya girme",
+  "s": "Editörün metne ölçüsüz müdahalesi, yazarın üslubunu zedeledi.",
+  "z": 1
+ },
+ {
+  "w": "mümanaat",
+  "m": "engelleme, karşı koyma",
+  "s": "Yetkililer, derginin dağıtımına mümanaat etmekle suçlandı.",
+  "z": 3
+ },
+ {
+  "w": "muvaffakiyet",
+  "m": "başarı",
+  "s": "Genç romancı, ilk eserinde beklenmedik bir muvaffakiyet gösterdi.",
+  "z": 2
+ },
+ {
+  "w": "muvafakat",
+  "m": "uygun bulma, onay",
+  "s": "Çeviri için yazarın yazılı muvafakati alınmalıdır.",
+  "z": 3
+ },
+ {
+  "w": "muvazene",
+  "m": "denge",
+  "s": "Eleştirmen, övgüyle yergi arasındaki muvazeneyi hep korudu.",
+  "z": 3
+ },
+ {
+  "w": "nüfuz",
+  "m": "içine işleme; söz geçirme gücü",
+  "s": "Şairin dizeleri, okurun ruhuna sessizce nüfuz eder.",
+  "z": 2
+ },
+ {
+  "w": "payidar",
+  "m": "kalıcı, sürekli",
+  "s": "Gerçek sanat eserleri, çağlar boyunca payidar olur.",
+  "z": 3
+ },
+ {
+  "w": "berdevam",
+  "m": "sürmekte olan, devam eden",
+  "s": "Usta yazarla dergi arasındaki işbirliği hâlâ berdevam.",
+  "z": 3
+ },
+ {
+  "w": "kadim",
+  "m": "çok eski, başlangıcı bilinmeyen",
+  "s": "Anadolu, kadim uygarlıkların izlerini hâlâ taşır.",
+  "z": 2
+ },
+ {
+  "w": "antik",
+  "m": "ilk çağdaki uygarlıklara ait",
+  "s": "Antik tiyatro kalıntıları, kentin turizmine can verdi.",
+  "z": 1
+ },
+ {
+  "w": "arkaik",
+  "m": "kullanımdan düşmüş, eskimiş",
+  "s": "Şair, arkaik sözcükleri bilinçle kullanarak geçmişi çağırır.",
+  "z": 3
+ },
+ {
+  "w": "köhne",
+  "m": "eski, yıpranmış",
+  "s": "Sahafın rafları, köhne ciltli yazmalarla doluydu.",
+  "z": 3
+ },
+ {
+  "w": "atıl",
+  "m": "işlemez durumda, kullanılmayan",
+  "s": "Kütüphanenin atıl duran deposu, sergi salonuna dönüştürüldü.",
+  "z": 2
+ },
+ {
+  "w": "muattal",
+  "m": "kullanılmaz, işlemez durumda",
+  "s": "Fabrika yıllardır muattal hâlde, çürümeye terk edilmiş.",
+  "z": 3
+ },
+ {
+  "w": "hâlihazır",
+  "m": "şimdiki durum, bugünkü hâl",
+  "s": "Rapor, kütüphanelerin hâlihazırdaki durumunu ortaya koyuyor.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "vaziyet",
+  "m": "durum, konum",
+  "s": "Anlatıcı, kahramanın içine düştüğü vaziyeti ironik bir dille aktarır.",
+  "z": 1
+ },
+ {
+  "w": "kavram",
+  "m": "nesnelerin zihindeki soyut tasarımı",
+  "s": "Zaman kavramı, her kültürde farklı biçimde algılanmıştır.",
+  "z": 1
+ },
+ {
+  "w": "olgunluk",
+  "m": "gelişimini tamamlamış olma, kemal",
+  "s": "Yazar, üslup olgunluğuna ancak son romanlarında ulaşmıştır.",
+  "z": 2
+ },
+ {
+  "w": "birikim",
+  "m": "zamanla edinilen bilgi ve deneyim",
+  "s": "Nitelikli eleştiri, geniş bir kültürel birikim gerektirir.",
+  "z": 1
+ },
+ {
+  "w": "donanım",
+  "m": "sahip olunan bilgi ve beceri bütünü",
+  "s": "Çevirmen, her iki dilde de sağlam bir donanıma sahip olmalıdır.",
+  "z": 1
+ },
+ {
+  "w": "yeti",
+  "m": "doğuştan gelen güç, meleke",
+  "s": "Dil yetisi, insanı öteki canlılardan ayıran temel özelliktir.",
+  "z": 2
+ },
+ {
+  "w": "yetenek",
+  "m": "bir işi yapabilme gücü, kabiliyet",
+  "s": "Yetenek tek başına yetmez; onu işleyecek disiplin gerekir.",
+  "z": 1
+ },
+ {
+  "w": "deha",
+  "m": "olağanüstü yaratıcı zekâ",
+  "s": "Eleştirmenler, genç bestecinin dehasını erken fark etti.",
+  "z": 2
+ },
+ {
+  "w": "meleke",
+  "m": "tekrarla kazanılan beceri, yatkınlık",
+  "s": "Yıllarca yazan kalem, kelime seçiminde şaşmaz bir meleke kazanır.",
+  "z": 3
+ },
+ {
+  "w": "maharet",
+  "m": "ustalık, beceriklilik",
+  "s": "Öykücü, az sözle çok şey anlatma maharetiyle övülüyor.",
+  "z": 2
+ },
+ {
+  "w": "hüner",
+  "m": "ustalık isteyen beceri, marifet",
+  "s": "Şairlik, sözcükleri en az kayıpla duyguya dönüştürme hüneridir.",
+  "z": 2
+ },
+ {
+  "w": "zanaat",
+  "m": "el ustalığı isteyen iş",
+  "s": "Yazarlık, sanattan önce sabır isteyen bir zanaattır.",
+  "z": 2
+ },
+ {
+  "w": "emek",
+  "m": "bir işe harcanan güç, çaba",
+  "s": "Kusursuz görünen her dize, ardında büyük bir emek saklar.",
+  "z": 1
+ },
+ {
+  "w": "sebat",
+  "m": "sözünde, kararında direnme",
+  "s": "Genç yazar, onca ret yanıtına karşın sebat etmeyi bildi.",
+  "z": 2
+ },
+ {
+  "w": "azim",
+  "m": "kararlılık, bir işe kesin niyet",
+  "s": "Başarının sırrını yetenekten çok azimde aramak gerekir.",
+  "z": 2
+ },
+ {
+  "w": "gayret",
+  "m": "çaba, çalışma isteği",
+  "s": "Öğrencinin gayreti, öğretmenin ilgisiyle birleşince başarı geldi.",
+  "z": 1
+ },
+ {
+  "w": "hamle",
+  "m": "ileri atılış, atılım",
+  "s": "Yayınevi, çeviri edebiyatında yeni bir hamle başlattı.",
+  "z": 1
+ },
+ {
+  "w": "atılım",
+  "m": "ileriye doğru güçlü girişim",
+  "s": "Cumhuriyetin ilk yıllarında eğitim alanında büyük atılımlar yapıldı.",
+  "z": 2
+ },
+ {
+  "w": "girişim",
+  "m": "bir işe girişme, teşebbüs",
+  "s": "Kütüphaneyi yaşatma girişimi, kısa sürede gönüllüleri buluşturdu.",
+  "z": 1
+ },
+ {
+  "w": "teşebbüs",
+  "m": "girişim, bir işe el atma",
+  "s": "Dergiyi yeniden çıkarma teşebbüsü, maddi engellere takıldı.",
+  "z": 2
+ },
+ {
+  "w": "tasavvur",
+  "m": "zihinde canlandırma, tasarım",
+  "s": "Mimarın tasavvurundaki kent, hiçbir haritada yer almıyordu.",
+  "z": 2
+ },
+ {
+  "w": "tekâmül",
+  "m": "olgunlaşma, evrim, gelişme",
+  "s": "Dil, toplumla birlikte sürekli bir tekâmül içindedir.",
+  "z": 3,
+  "k": "Arapça تَكَامُلٌ‎ (tekāmülün) sözcüğünden"
+ },
+ {
+  "w": "terakki",
+  "m": "ilerleme, yükselme",
+  "s": "Tanzimat aydını, terakkinin yolunu eğitimde görüyordu.",
+  "z": 3
+ },
+ {
+  "w": "tekabül",
+  "m": "karşılık gelme",
+  "s": "Bu sözcüğe Türkçede tam tekabül eden bir karşılık yok.",
+  "z": 3
+ },
+ {
+  "w": "tezahür",
+  "m": "belirme, görünme, ortaya çıkma",
+  "s": "Halkın sevgisi, cenaze törenindeki kalabalıkta tezahür etti.",
+  "z": 3
+ },
+ {
+  "w": "tahrif",
+  "m": "bir metni bozma, değiştirme",
+  "s": "Çevirmen, özgün metni tahrif etmekle suçlandı.",
+  "z": 3
+ },
+ {
+  "w": "tasnif",
+  "m": "bölümleme, sınıflandırma",
+  "s": "Araştırmacı, halk masallarını konularına göre tasnif etti.",
+  "z": 2
+ },
+ {
+  "w": "tashih",
+  "m": "düzeltme",
+  "s": "Dizgi yanlışları, ikinci baskıda tek tek tashih edildi.",
+  "z": 3
+ },
+ {
+  "w": "tetkik",
+  "m": "inceleme, araştırma",
+  "s": "Uzmanlar, yazmanın hangi yüzyıla ait olduğunu tetkik ediyor.",
+  "z": 2
+ },
+ {
+  "w": "teyit",
+  "m": "doğrulama, sağlama alma",
+  "s": "Haber, ikinci bir kaynaktan teyit edilmeden yayımlanmamalı.",
+  "z": 2
+ },
+ {
+  "w": "telkin",
+  "m": "bir duyguyu aşılama",
+  "s": "Reklamlar, tüketiciye sürekli eksiklik duygusu telkin ediyor.",
+  "z": 2
+ },
+ {
+  "w": "teşvik",
+  "m": "isteklendirme, özendirme",
+  "s": "Genç yazarları teşvik için yayınevi bir ilk roman ödülü koydu.",
+  "z": 1
+ },
+ {
+  "w": "özendirmek",
+  "m": "isteklendirmek, teşvik etmek",
+  "s": "Okul kütüphaneleri, çocukları okumaya özendirecek biçimde düzenlenmeli.",
+  "z": 1
+ },
+ {
+  "w": "caydırmak",
+  "m": "vazgeçirmek",
+  "s": "Olumsuz eleştiriler, kararlı yazarı yolundan caydıramadı.",
+  "z": 2
+ },
+ {
+  "w": "ket vurmak",
+  "m": "engellemek, sekte vurmak",
+  "s": "Aşırı kuralcılık, çocuğun yaratıcılığına ket vurabilir.",
+  "z": 2
+ },
+ {
+  "w": "sekteye uğramak",
+  "m": "kesintiye uğramak, aksamak",
+  "s": "Derginin yayımı, savaş yıllarında iki kez sekteye uğradı.",
+  "z": 2
+ },
+ {
+  "w": "baltalamak",
+  "m": "bilinçli biçimde engellemek, sabote etmek",
+  "s": "Kıskanç meslektaşları, projeyi içeriden baltalamaya çalıştı.",
+  "z": 1
+ },
+ {
+  "w": "körüklemek",
+  "m": "kışkırtıp artırmak",
+  "s": "Sorumsuz yayınlar, toplumdaki gerginliği daha da körüklüyor.",
+  "z": 2
+ },
+ {
+  "w": "perçinlemek",
+  "m": "iyice sağlamlaştırmak",
+  "s": "Bu roman, yazarın edebiyatımızdaki yerini iyice perçinledi.",
+  "z": 2
+ },
+ {
+  "w": "sindirmek",
+  "m": "özümsemek; korkutup yıldırmak",
+  "s": "Okuduğunu sindirmeden yeni kitaba geçmek kalıcı öğrenme sağlamaz.",
+  "z": 1
+ },
+ {
+  "w": "yıldırmak",
+  "m": "gözünü korkutup vazgeçirmek",
+  "s": "Ağır eleştiriler bile üretken yazarı yıldıramadı.",
+  "z": 2
+ },
+ {
+  "w": "süreğen",
+  "m": "sürüp giden, müzmin, kronik",
+  "s": "Eleştirmen, şiirimizdeki süreğen taklit sorununa dikkat çekiyor.",
+  "z": 2
+ },
+ {
+  "w": "kısır döngü",
+  "m": "çözümsüz biçimde yinelenen durum",
+  "s": "Kahraman, borç ve pişmanlıktan örülü bir kısır döngüye hapsolur.",
+  "z": 2
+ },
+ {
+  "w": "çıkmaz",
+  "m": "içinden çıkılamayan güç durum",
+  "s": "Roman, aydının inançla kuşku arasındaki çıkmazını işler.",
+  "z": 1
+ },
+ {
+  "w": "ikilem",
+  "m": "iki seçenek arasında kalma, dilemma",
+  "s": "Kahraman, ailesiyle idealleri arasında derin bir ikilem yaşar.",
+  "z": 2
+ },
+ {
+  "w": "açmaz",
+  "m": "içinden zor çıkılır durum, kıskaç",
+  "s": "Yazar, modern insanın açmazlarını mizahla anlatmayı seçmiş.",
+  "z": 2
+ },
+ {
+  "w": "paradoks",
+  "m": "görünüşte çelişen ama düşündüren yargı",
+  "s": "Az konuşanın çok anlatması, iletişimin ilginç bir paradoksudur.",
+  "z": 2
+ },
+ {
+  "w": "girift",
+  "m": "iç içe geçmiş, karmaşık, çapraşık",
+  "s": "Romanın girift kurgusu, dikkatli bir okuma gerektiriyor.",
+  "z": 2
+ },
+ {
+  "w": "belirsizlik",
+  "m": "belirli olmama durumu, müphemiyet",
+  "s": "Romanın açık ucu, okuru bilinçli bir belirsizlikle baş başa bırakır.",
+  "z": 1
+ },
+ {
+  "w": "kaygı",
+  "m": "üzüntülü bekleyiş, tasa, endişe",
+  "s": "Gelecek kaygısı, genç kuşağın şiirine belirgin biçimde yansıyor.",
+  "z": 1
+ },
+ {
+  "w": "endişe",
+  "m": "kaygı, kuşkulu korku",
+  "s": "Yazar, dilin yozlaşacağı endişesini her söyleşisinde dile getirir.",
+  "z": 1
+ },
+ {
+  "w": "tasa",
+  "m": "üzüntü, kaygı, dert",
+  "s": "İhtiyar balıkçının tek tasası, denizin eskisi gibi vermemesiydi.",
+  "z": 1
+ },
+ {
+  "w": "tedirginlik",
+  "m": "huzursuzluk, rahatsızlık",
+  "s": "Öyküdeki sessizlik sahneleri, okurda ince bir tedirginlik yaratıyor.",
+  "z": 2
+ },
+ {
+  "w": "huzursuzluk",
+  "m": "rahat olmama durumu, tedirginlik",
+  "s": "Kentin hızı, romandaki taşralı kahramanda sürekli huzursuzluk doğurur.",
+  "z": 1
+ },
+ {
+  "w": "burukluk",
+  "m": "tatlı-acı karışık üzüntü",
+  "s": "Mezuniyet töreninin sevincine belli belirsiz bir burukluk karışmıştı.",
+  "z": 2
+ },
+ {
+  "w": "serzeniş",
+  "m": "sitem, çıkışma",
+  "s": "Şairin dizeleri, vefasız dostlara yöneltilmiş bir serzeniştir.",
+  "z": 2
+ },
+ {
+  "w": "yakarış",
+  "m": "yalvarma, niyaz",
+  "s": "Münacatlar, kulun Tanrı'ya yakarışını dile getirir.",
+  "z": 2
+ },
+ {
+  "w": "niyaz",
+  "m": "yalvarma, dua",
+  "s": "Dervişin içli niyazı, tekkenin loş kubbesinde uzun uzun yankılandı.",
+  "z": 3
+ },
+ {
+  "w": "minnet",
+  "m": "iyiliğe karşı duyulan borçluluk",
+  "s": "Yazar, kendisini yetiştiren hocalarına minnetini önsözde dile getirdi.",
+  "z": 2
+ },
+ {
+  "w": "şükran",
+  "m": "iyilik bilme, gönül borcu",
+  "s": "Yazar, ödül konuşmasında kendisini var eden okurlarına şükranlarını sundu.",
+  "z": 2
+ },
+ {
+  "w": "burjuva",
+  "m": "kentli, sermaye sahibi orta sınıf üyesi",
+  "s": "Roman, burjuva ailesinin çöküşünü üç kuşak boyunca izler.",
+  "z": 2
+ },
+ {
+  "w": "feodal",
+  "m": "derebeyliğe ilişkin",
+  "s": "Köy romanları, feodal düzenin ezdiği insanları anlatır.",
+  "z": 2
+ },
+ {
+  "w": "anarşi",
+  "m": "düzensizlik, başsızlık, kargaşa",
+  "s": "Otorite boşluğu, kentte tam bir anarşi ortamı doğurdu.",
+  "z": 1
+ },
+ {
+  "w": "kaos",
+  "m": "büyük karışıklık, düzensizlik",
+  "s": "Savaş sahneleri, romanda ustaca kurgulanmış bir kaos duygusu verir.",
+  "z": 1
+ },
+ {
+  "w": "statüko",
+  "m": "süregelen düzenin olduğu gibi korunması",
+  "s": "Genç sanatçılar, statükoya başkaldıran manifestolar yayımladı.",
+  "z": 2
+ },
+ {
+  "w": "otorite",
+  "m": "yaptırma gücü; alanında uzman kişi",
+  "s": "Profesör, divan edebiyatı alanında bir otorite sayılıyor.",
+  "z": 1
+ },
+ {
+  "w": "hiyerarşi",
+  "m": "aşamalı sıralanma düzeni",
+  "s": "Osmanlı bürokrasisi, katı bir hiyerarşiye dayanıyordu.",
+  "z": 2
+ },
+ {
+  "w": "bürokrasi",
+  "m": "devlet kurumlarındaki işleyiş; kırtasiyecilik",
+  "s": "Yazar, bürokrasinin çarkları arasında ezilen memuru anlatır.",
+  "z": 2
+ },
+ {
+  "w": "zümre",
+  "m": "ortak nitelikli topluluk, sınıf",
+  "s": "Divan edebiyatı, belli bir zümrenin edebiyatı olmakla eleştirilir.",
+  "z": 2
+ },
+ {
+  "w": "tabaka",
+  "m": "katman; toplumsal katman",
+  "s": "Roman, toplumun farklı tabakalarını aynı apartmanda buluşturur.",
+  "z": 1
+ },
+ {
+  "w": "kamuoyu",
+  "m": "halkın ortak görüşü, efkârıumumiye",
+  "s": "Gazeteci, kamuoyunu aydınlatmayı meslek onuru sayar.",
+  "z": 2
+ },
+ {
+  "w": "efkârıumumiye",
+  "m": "kamuoyu",
+  "s": "Tanzimat gazeteleri, efkârıumumiye oluşturmayı amaç edinmişti.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "aydın",
+  "m": "kültürlü, öncü düşünceli kimse, münevver",
+  "s": "Romanda aydının halktan kopukluğu acı bir dille eleştirilir.",
+  "z": 1
+ },
+ {
+  "w": "münevver",
+  "m": "aydın",
+  "s": "Dönemin münevverleri, edebiyat dergileri çevresinde kümelenmişti.",
+  "z": 2
+ },
+ {
+  "w": "mistik",
+  "m": "gizemci, tasavvufi",
+  "s": "Şairin mistik söyleyişi, tekke şiiri geleneğinden beslenir.",
+  "z": 2
+ },
+ {
+  "w": "lirizm",
+  "m": "coşkulu, içli anlatım niteliği",
+  "s": "Türkünün yakıcı lirizmi, dinleyeni ilk dizede yakalar.",
+  "z": 2
+ },
+ {
+  "w": "pathos",
+  "m": "acıklı, dokunaklı nitelik",
+  "s": "Sahnedeki veda, ölçülü bir pathosla işlendiği için etkileyicidir.",
+  "z": 3
+ },
+ {
+  "w": "katarsis",
+  "m": "sanat yoluyla duygusal arınma",
+  "s": "Trajedi, seyirciyi korku ve acıma yoluyla katarsise ulaştırır.",
+  "z": 3
+ },
+ {
+  "w": "estetik haz",
+  "m": "güzellik karşısında duyulan tat",
+  "s": "Şiir, bilgi vermekten çok estetik haz uyandırmayı amaçlar.",
+  "z": 2
+ },
+ {
+  "w": "trajikomik",
+  "m": "hem acıklı hem gülünç",
+  "s": "Küçük memurun yükselme çabaları trajikomik sahnelerle anlatılıyor.",
+  "z": 2
+ },
+ {
+  "w": "grotesk",
+  "m": "abartılı, tuhaf, gülünç ürkütücü olan",
+  "s": "Yazar, kasaba düğününü grotesk ayrıntılarla resmeder.",
+  "z": 3
+ },
+ {
+  "w": "absürt",
+  "m": "saçma, anlamsız, uyumsuz",
+  "s": "Absürt tiyatro, yaşamın anlamsızlığını mantık dışı diyaloglarla verir.",
+  "z": 2
+ },
+ {
+  "w": "fantastik",
+  "m": "gerçekte olmayan, hayal ürünü",
+  "s": "Fantastik ögeler, romanın gerçekçi dokusuna ustaca yedirilmiş.",
+  "z": 1
+ },
+ {
+  "w": "otantik",
+  "m": "özgün, gerçek, yerli",
+  "s": "Yönetmen, köy düğününü otantik ezgiler eşliğinde çekti.",
+  "z": 2
+ },
+ {
+  "w": "egzotik",
+  "m": "uzak ülkelere özgü, yabancıl",
+  "s": "Pierre Loti, İstanbul'u Batılı okur için egzotik bir dekora çevirir.",
+  "z": 2
+ },
+ {
+  "w": "idealize",
+  "m": "olduğundan güzel gösterme, ülküleştirme",
+  "s": "Yazar, köy yaşamını idealize etmeden gerçekliğiyle anlatıyor.",
+  "z": 2
+ },
+ {
+  "w": "tipik",
+  "m": "kendi türünün özelliklerini taşıyan",
+  "s": "Felatun Bey, yanlış Batılılaşmanın tipik bir örneğidir.",
+  "z": 1
+ },
+ {
+  "w": "karikatürize",
+  "m": "gülünçleştirerek abartılı çizme",
+  "s": "Romancı, sonradan görme zengini karikatürize ederek eleştirir.",
+  "z": 2
+ },
+ {
+  "w": "tip",
+  "m": "benzerlerini temsil eden kahraman",
+  "s": "Cimri tipi, dünya edebiyatında pek çok eserde karşımıza çıkar.",
+  "z": 1
+ },
+ {
+  "w": "karakter",
+  "m": "kendine özgü, çok boyutlu kahraman",
+  "s": "Yazar, tek yönlü tipler yerine derinlikli karakterler yaratmayı başarmış.",
+  "z": 1
+ },
+ {
+  "w": "protagonist",
+  "m": "başkahraman",
+  "s": "Romanın protagonisti, sıradan bir kasaba eczacısıdır.",
+  "z": 3
+ },
+ {
+  "w": "figüran",
+  "m": "önemsiz, silik rollerdeki oyuncu",
+  "s": "Kahraman, kendi hayatında bir figüran gibi yaşadığını fark eder.",
+  "z": 2
+ },
+ {
+  "w": "dekor",
+  "m": "sahneyi tamamlayan düzenleme; çevre",
+  "s": "Yağmurlu kent, romanın kasvetli dekorunu oluşturur.",
+  "z": 1
+ },
+ {
+  "w": "replik",
+  "m": "oyuncunun karşılık olarak söylediği söz",
+  "s": "Oyunun kapanış repliği, seyircinin belleğine kazındı.",
+  "z": 1
+ },
+ {
+  "w": "perde",
+  "m": "tiyatro eserinin ana bölümü",
+  "s": "Oyunun ikinci perdesinde bütün düğümler çözülüyor.",
+  "z": 1
+ },
+ {
+  "w": "epizot",
+  "m": "anlatının kendi içinde bütünlüklü bölümü",
+  "s": "Halk hikâyeleri, birbirine eklenen epizotlardan oluşur.",
+  "z": 3
+ },
+ {
+  "w": "jest",
+  "m": "anlam taşıyan el kol hareketi",
+  "s": "Usta oyuncu, tek jestle sayfalarca sözün anlatacağını verdi.",
+  "z": 1
+ },
+ {
+  "w": "mimik",
+  "m": "yüz kaslarıyla yapılan anlatım",
+  "s": "Meddah, sesinden çok mimikleriyle kahramanlarını canlandırırdı.",
+  "z": 1
+ },
+ {
+  "w": "doğaçlama",
+  "m": "metne bağlı kalmadan içten geldiği gibi oynama",
+  "s": "Orta oyunu, yazılı metne değil doğaçlamaya dayanır.",
+  "z": 2
+ },
+ {
+  "w": "dramaturg",
+  "m": "oyun metnini sahneye uyarlayan uzman",
+  "s": "Dramaturg, klasik metni günümüz seyircisi için yeniden yorumladı.",
+  "z": 3
+ },
+ {
+  "w": "sahne tozu",
+  "m": "tiyatroya duyulan vazgeçilmez tutku",
+  "s": "Sahne tozunu yutan oyuncu, bir daha bu meslekten kopamaz.",
+  "z": 2
+ },
+ {
+  "w": "reji",
+  "m": "sahneye koyma işi, yönetmenlik",
+  "s": "Eleştirmenler, oyunun metninden çok rejisini beğendi.",
+  "z": 2
+ }
+]

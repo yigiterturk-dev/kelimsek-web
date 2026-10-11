@@ -1,0 +1,5844 @@
+[
+ {
+  "w": "müstakil",
+  "m": "bağımsız, ayrı",
+  "s": "Emekli olunca şehir dışında müstakil bir eve taşınmayı planlıyordu.",
+  "z": 2
+ },
+ {
+  "w": "mutat",
+  "m": "alışılmış, her zamanki",
+  "s": "Toplantı mutat olduğu üzere pazartesi sabahı saat dokuzda başladı.",
+  "z": 2
+ },
+ {
+  "w": "tereddüt",
+  "m": "kararsızlık, duraksama",
+  "s": "Teklifi kabul etmeden önce uzun süre tereddüt yaşadığını söyledi.",
+  "z": 1
+ },
+ {
+  "w": "nitelik",
+  "m": "bir şeyin nasıl olduğu, vasıf",
+  "s": "Bu okulda öğrenci sayısından çok eğitimin niteliği önemseniyor.",
+  "z": 1
+ },
+ {
+  "w": "nicelik",
+  "m": "sayılabilen, ölçülebilen miktar",
+  "s": "Üretimde niceliği artırırken kaliteden ödün vermemek gerçekten zordur.",
+  "z": 1
+ },
+ {
+  "w": "muğlâk",
+  "m": "► anlaşılmaz",
+  "s": "Bakanın muğlâk ifadeleri basına açıklama yapılmadı dedirten sorular sordu.",
+  "z": 2
+ },
+ {
+  "w": "yadsımak",
+  "m": "inkâr etmek, reddetmek",
+  "s": "Sanatçının Türk şiirine katkısını kimse yadsıyamaz elbette.",
+  "z": 2
+ },
+ {
+  "w": "yeğlemek",
+  "m": "tercih etmek, üstün tutmak",
+  "s": "Yazar kalabalık şehir yerine sakin kasaba hayatını yeğlediğini açıkladı.",
+  "z": 2
+ },
+ {
+  "w": "betimlemek",
+  "m": "sözle resim çizer gibi anlatmak",
+  "s": "Romancı, kasabanın sokaklarını en ince ayrıntısına kadar betimlemiş.",
+  "z": 2
+ },
+ {
+  "w": "özgün",
+  "m": "yalnız kendine özgü, orijinal",
+  "s": "Jüri, yarışmada en özgün tasarımı yapan öğrenciyi ödüllendirdi.",
+  "z": 1
+ },
+ {
+  "w": "özgül",
+  "m": "bir türe özgü olan",
+  "s": "Her bilim dalının kendine özgül yöntemleri ve kavramları vardır.",
+  "z": 3
+ },
+ {
+  "w": "öznel",
+  "m": "kişisel görüşe dayalı, subjektif",
+  "s": "Eleştirmenin yazısı kanıttan çok öznel yargılarla dolu bulundu.",
+  "z": 1
+ },
+ {
+  "w": "nesnel",
+  "m": "kişisel görüşten bağımsız, objektif",
+  "s": "Bilimsel bir makale nesnel verilere dayanmak zorundadır her zaman.",
+  "z": 1
+ },
+ {
+  "w": "yetkin",
+  "m": "olgunlaşmış, kâmil, ehil",
+  "s": "Bu ameliyatı ancak alanında yetkin bir cerrah yapabilir.",
+  "z": 2
+ },
+ {
+  "w": "kanıksamak",
+  "m": "alışıp yadırgamaz olmak",
+  "s": "İnsanlar zamla gelen fiyatları artık kanıksamış görünüyor maalesef.",
+  "z": 2
+ },
+ {
+  "w": "tekdüze",
+  "m": "değişmeyen, monoton",
+  "s": "Tekdüze geçen günlerden sıkılınca kendine yeni bir uğraş edindi.",
+  "z": 1
+ },
+ {
+  "w": "dingin",
+  "m": "sakin, durgun",
+  "s": "Göl kıyısındaki dingin sabahlar ona şehirde bulamadığı huzuru veriyordu.",
+  "z": 1
+ },
+ {
+  "w": "çekince",
+  "m": "sakınmayı gerektiren durum, rezerv",
+  "s": "Uzmanlar rapora bazı çekinceler koyarak imzalamayı kabul ettiler.",
+  "z": 2
+ },
+ {
+  "w": "sav",
+  "m": "ileri sürülen görüş, iddia",
+  "s": "Yazar savını desteklemek için tarihsel örneklere başvurmuş metinde.",
+  "z": 2
+ },
+ {
+  "w": "yergi",
+  "m": "eleştirip alaya alma, hiciv",
+  "s": "Şair toplumdaki çarpıklıkları keskin bir yergi diliyle anlatmış.",
+  "z": 2
+ },
+ {
+  "w": "alaycı",
+  "m": "eğlenip küçümseyen",
+  "s": "Konuşmacının alaycı üslubu dinleyicilerin bir kısmını rahatsız etti.",
+  "z": 1
+ },
+ {
+  "w": "iğneleyici",
+  "m": "dolaylı biçimde eleştiren",
+  "s": "Köşe yazarının iğneleyici cümleleri siyasetçileri hayli kızdırdı.",
+  "z": 2
+ },
+ {
+  "w": "sitem",
+  "m": "kırgınlığı üzülerek dile getirme",
+  "s": "Aramadığı için annesinden tatlı bir sitem işitti telefonda.",
+  "z": 2
+ },
+ {
+  "w": "serzeniş",
+  "m": "yakınma, sitem etme",
+  "s": "Yıllarca emeğinin görülmediğine dair serzenişlerini ilk kez dile getirdi.",
+  "z": 3
+ },
+ {
+  "w": "hayıflanmak",
+  "m": "üzülüp yerinmek",
+  "s": "Gençliğinde okumadığı kitaplar için şimdi hayıflanıp duruyor.",
+  "z": 2
+ },
+ {
+  "w": "yakınmak",
+  "m": "şikâyet etmek",
+  "s": "Esnaf, artan maliyetlerden ve azalan müşteriden sürekli yakınıyor.",
+  "z": 1
+ },
+ {
+  "w": "imrenmek",
+  "m": "gıpta etmek, özenmek",
+  "s": "Komşusunun bahçesindeki düzene bakıp imrenmekten kendini alamadı.",
+  "z": 1
+ },
+ {
+  "w": "öykünmek",
+  "m": "taklit etmek, benzemeye çalışmak",
+  "s": "Genç şairler bir süre ustalara öykünerek kendi seslerini arar.",
+  "z": 2
+ },
+ {
+  "w": "salt",
+  "m": "yalnızca, sadece, sırf",
+  "s": "Bu karar salt ekonomik gerekçelerle alınmış olamaz bence.",
+  "z": 2
+ },
+ {
+  "w": "görece",
+  "m": "bir şeye göre değişen, izafi",
+  "s": "Güzellik görece bir kavramdır; kişiden kişiye, çağdan çağa değişir.",
+  "z": 2
+ },
+ {
+  "w": "saplantı",
+  "m": "takıntı, sabit fikir",
+  "s": "Başarısızlık korkusu zamanla onda bir saplantı hâline gelmişti.",
+  "z": 1
+ },
+ {
+  "w": "önyargı",
+  "m": "peşin hüküm",
+  "s": "Yeni fikirlere önyargıyla yaklaşan biriyle tartışmak neredeyse imkânsızdır.",
+  "z": 1
+ },
+ {
+  "w": "yanılsama",
+  "m": "gerçeği yanlış algılama, illüzyon",
+  "s": "Çölde görülen serap aslında ışığın yarattığı bir yanılsamadır.",
+  "z": 2
+ },
+ {
+  "w": "izlenim",
+  "m": "bir şeyin bıraktığı etki, intiba",
+  "s": "Mülakatta bıraktığı olumlu izlenim işe alınmasında etkili oldu.",
+  "z": 1
+ },
+ {
+  "w": "sezgi",
+  "m": "akıl yürütmeden doğrudan kavrama",
+  "s": "Deneyimli öğretmen, sezgileri sayesinde öğrencinin sıkıntısını hemen fark etti.",
+  "z": 1
+ },
+ {
+  "w": "öngörü",
+  "m": "geleceği önceden kestirme",
+  "s": "Ekonomistin geçen yılki öngörüleri büyük ölçüde doğru çıktı.",
+  "z": 1
+ },
+ {
+  "w": "kestirim",
+  "m": "tahmin",
+  "s": "Uzmanların hasat miktarına ilişkin kestirimleri bu yıl oldukça iyimser.",
+  "z": 3
+ },
+ {
+  "w": "varsayım",
+  "m": "doğruluğu sınanmamış kabul, hipotez",
+  "s": "Araştırmacı, deney sonuçlarıyla varsayımını sınamayı planlıyor.",
+  "z": 2
+ },
+ {
+  "w": "kuram",
+  "m": "sistemli bilimsel açıklama, teori",
+  "s": "Bu kuram, gözlemlerle defalarca sınandıktan sonra kabul görmüştür.",
+  "z": 2
+ },
+ {
+  "w": "olgu",
+  "m": "gerçekleşmiş, gözlemlenebilir olay",
+  "s": "Bilim insanı görüşlerini kişisel kanılara değil olgulara dayandırır.",
+  "z": 2
+ },
+ {
+  "w": "ivedi",
+  "m": "acele, acil",
+  "s": "Deprem bölgesine ivedi biçimde çadır ve battaniye gönderildi.",
+  "z": 2
+ },
+ {
+  "w": "savsaklamak",
+  "m": "ihmal edip geciktirmek",
+  "s": "Sağlık kontrollerini savsaklamanın bedeli bazen çok ağır olabiliyor.",
+  "z": 2
+ },
+ {
+  "w": "umursamak",
+  "m": "önemseyip aldırış etmek",
+  "s": "Eleştirileri hiç umursamadan kendi bildiği yolda yürümeye devam etti.",
+  "z": 1
+ },
+ {
+  "w": "kayıtsız",
+  "m": "ilgisiz, aldırmayan",
+  "s": "Çevre sorunlarına bu kadar kayıtsız kalmamız gelecek kuşaklara haksızlıktır.",
+  "z": 1
+ },
+ {
+  "w": "duyarlı",
+  "m": "hassas, çabuk etkilenen",
+  "s": "Topluma karşı duyarlı sanatçılar eserlerinde güncel sorunlara değinir.",
+  "z": 1
+ },
+ {
+  "w": "içtenlik",
+  "m": "samimiyet",
+  "s": "Konuşmasındaki içtenlik salondaki herkesi derinden etkiledi doğrusu.",
+  "z": 1
+ },
+ {
+  "w": "yapmacık",
+  "m": "içten olmayan, sahte",
+  "s": "Sunucunun yapmacık gülüşü izleyicilerde güven duygusu uyandırmıyordu.",
+  "z": 1
+ },
+ {
+  "w": "bağlam",
+  "m": "anlamı belirleyen ilişkiler bütünü",
+  "s": "Bir sözcüğün anlamı ancak kullanıldığı bağlam içinde netleşir.",
+  "z": 2
+ },
+ {
+  "w": "kapsam",
+  "m": "sınırları içine alınan alan",
+  "s": "Yasanın kapsamı genişletilerek küçük esnaf da desteklerden yararlandırıldı.",
+  "z": 2
+ },
+ {
+  "w": "tutarlı",
+  "m": "çelişmeyen, birbirini tutan",
+  "s": "İyi bir paragrafta cümleler birbiriyle tutarlı biçimde bağlanır.",
+  "z": 1
+ },
+ {
+  "w": "çelişki",
+  "m": "birbirini tutmayan durum, tenakuz",
+  "s": "Tanığın ilk ifadesiyle sonraki anlatımı arasında açık çelişki vardı.",
+  "z": 2
+ },
+ {
+  "w": "örtük",
+  "m": "açıkça söylenmemiş, üstü kapalı",
+  "s": "Metindeki örtük anlamları ancak dikkatli okur fark edebilir.",
+  "z": 2
+ },
+ {
+  "w": "dolaylı",
+  "m": "doğrudan olmayan, aracılı",
+  "s": "Kararını doğrudan söylemek yerine dolaylı bir dille sezdirmeyi seçti.",
+  "z": 2
+ },
+ {
+  "w": "yalın",
+  "m": "süssüz, sade, gösterişsiz",
+  "s": "Yazar yalın bir anlatımı süslü cümlelere her zaman tercih eder.",
+  "z": 2
+ },
+ {
+  "w": "özlü",
+  "m": "az sözle çok anlatan, veciz",
+  "s": "Atasözleri, yüzyılların deneyimini özlü biçimde aktaran kalıplaşmış sözlerdir.",
+  "z": 2
+ },
+ {
+  "w": "akıcı",
+  "m": "sürükleyici, kolay okunan",
+  "s": "Romanın akıcı dili sayesinde kitabı bir gecede bitirdim.",
+  "z": 2
+ },
+ {
+  "w": "duru",
+  "m": "açık, berrak, arı",
+  "s": "Şairin duru Türkçesi her yaştan okura kolayca ulaşıyor.",
+  "z": 3
+ },
+ {
+  "w": "sürükleyici",
+  "m": "ilgiyi hep canlı tutan",
+  "s": "Filmin sürükleyici kurgusu izleyiciyi son sahneye kadar koltuğa bağladı.",
+  "z": 1
+ },
+ {
+  "w": "evrensel",
+  "m": "bütün insanlığı ilgilendiren",
+  "s": "Adalet ve özgürlük, çağlar boyu değişmeyen evrensel değerlerdir.",
+  "z": 2
+ },
+ {
+  "w": "yerel",
+  "m": "belirli bir yöreye özgü",
+  "s": "Festival, yerel lezzetleri ve el sanatlarını ziyaretçilerle buluşturdu.",
+  "z": 1
+ },
+ {
+  "w": "çağdaş",
+  "m": "aynı çağda yaşayan; modern",
+  "s": "Müze, çağdaş sanatçıların eserlerini genç izleyicilerle buluşturuyor.",
+  "z": 1
+ },
+ {
+  "w": "kadim",
+  "m": "çok eski, köklü",
+  "s": "İki halk arasındaki kadim dostluk törenlerde sıkça vurgulandı.",
+  "z": 2
+ },
+ {
+  "w": "köhne",
+  "m": "eskimiş, yıpranmış",
+  "s": "Mahallenin köhne binaları kentsel dönüşümle yenilenmeyi bekliyor.",
+  "z": 2
+ },
+ {
+  "w": "yozlaşmak",
+  "m": "özünden uzaklaşıp bozulmak",
+  "s": "Gelenekler ticari kaygılarla sürdürülünce zamanla yozlaşmaya başlıyor.",
+  "z": 2
+ },
+ {
+  "w": "bayağı",
+  "m": "aşağılık, sıradan, adi",
+  "s": "Eleştirmen, dizideki bayağı esprilerin sanata zarar verdiğini yazdı.",
+  "z": 2
+ },
+ {
+  "w": "ayrıksı",
+  "m": "alışılmışa uymayan, aykırı",
+  "s": "Onun ayrıksı fikirleri toplantılarda hep tartışma yaratırdı.",
+  "z": 3
+ },
+ {
+  "w": "aykırı",
+  "m": "kurala ters düşen, mugayir",
+  "s": "Mahkeme, düzenlemenin anayasaya aykırı olduğuna karar verdi.",
+  "z": 1
+ },
+ {
+  "w": "bağdaşmak",
+  "m": "uyuşmak, uygun düşmek",
+  "s": "Bu davranış onun yıllardır savunduğu ilkelerle hiç bağdaşmıyor.",
+  "z": 1
+ },
+ {
+  "w": "örtüşmek",
+  "m": "birbirine denk gelmek, uyuşmak",
+  "s": "Tanıkların anlattıkları olayın kamera kayıtlarıyla büyük ölçüde örtüşüyor.",
+  "z": 1
+ },
+ {
+  "w": "yadırgamak",
+  "m": "yabancı bulmak, garipsemek",
+  "s": "Kasabaya yeni taşınanlar buradaki sessizliği önce yadırgadı.",
+  "z": 1
+ },
+ {
+  "w": "benimsemek",
+  "m": "kabullenip kendine mal etmek",
+  "s": "Şirket çalışanları yeni sistemi kısa sürede benimsedi.",
+  "z": 1
+ },
+ {
+  "w": "içselleştirmek",
+  "m": "tam anlamıyla özümsemek",
+  "s": "Kuralları içselleştiren sürücüler denetim olmasa da hatalı davranmaz.",
+  "z": 2
+ },
+ {
+  "w": "özümsemek",
+  "m": "kavrayıp kendine mal etmek",
+  "s": "Konuyu özümsemeden ezberleyen öğrenci sınavda zorlanır elbette.",
+  "z": 1
+ },
+ {
+  "w": "gerekçe",
+  "m": "dayanak gösterilen neden",
+  "s": "Mahkeme, kararının gerekçesini iki hafta içinde açıklayacak.",
+  "z": 1
+ },
+ {
+  "w": "dayanak",
+  "m": "destek alınan temel, mesnet",
+  "s": "İddialarınızı kanıtlayacak somut bir dayanak sunmanız gerekiyor.",
+  "z": 1
+ },
+ {
+  "w": "ölçüt",
+  "m": "değerlendirme kıstası, kriter",
+  "s": "Jüri, eserleri belirlenen ölçütlere göre tek tek değerlendirdi.",
+  "z": 1
+ },
+ {
+  "w": "koşul",
+  "m": "şart",
+  "s": "Anlaşmanın koşulları iki tarafın avukatlarınca ayrıntılı biçimde belirlendi.",
+  "z": 1
+ },
+ {
+  "w": "kısıt",
+  "m": "sınırlama, kısıtlama",
+  "s": "Bütçe kısıtları nedeniyle projenin bazı bölümleri ertelendi.",
+  "z": 2
+ },
+ {
+  "w": "küçümsemek",
+  "m": "değersiz görmek, hor görmek",
+  "s": "Rakibini küçümseyen takım sahadan beklenmedik bir yenilgiyle ayrıldı.",
+  "z": 1
+ },
+ {
+  "w": "yüceltmek",
+  "m": "değerini çok yükseltmek",
+  "s": "Toplum, kahramanlarını yüceltirken onların insani yönlerini çoğu kez unutur.",
+  "z": 1
+ },
+ {
+  "w": "abartmak",
+  "m": "olduğundan büyük göstermek",
+  "s": "Basın olayı abartınca küçük tartışma büyük krize dönüştü.",
+  "z": 1
+ },
+ {
+  "w": "bağnaz",
+  "m": "körü körüne bağlı, mutaassıp",
+  "s": "Bağnaz düşünceler yeniliğin önündeki en büyük engellerden biridir.",
+  "z": 2
+ },
+ {
+  "w": "hoşgörü",
+  "m": "anlayışla karşılama, müsamaha",
+  "s": "Farklı inançların yüzyıllarca bir arada yaşaması hoşgörü kültürünün eseridir.",
+  "z": 1
+ },
+ {
+  "w": "tahammül",
+  "m": "katlanma, dayanma",
+  "s": "Gürültüye tahammülü kalmayınca şehir merkezinden köye taşındı.",
+  "z": 1
+ },
+ {
+  "w": "metanet",
+  "m": "dayanma gücü, sağlam duruş",
+  "s": "Kadın, en zor günlerde bile metanetini korumayı başardı.",
+  "z": 2
+ },
+ {
+  "w": "temkin",
+  "m": "ölçülü, ihtiyatlı davranma",
+  "s": "Yatırımcılar belirsizlik döneminde temkinle hareket etmeyi seçti.",
+  "z": 2
+ },
+ {
+  "w": "ihtiyat",
+  "m": "öngörülü, tedbirli davranma",
+  "s": "Kışa girerken ihtiyat olsun diye kilere fazladan erzak koydular.",
+  "z": 2
+ },
+ {
+  "w": "basiret",
+  "m": "gerçeği görme, sağgörü",
+  "s": "Basiretli bir tüccar gibi davranıp krizi önceden sezdi.",
+  "z": 3
+ },
+ {
+  "w": "feragat",
+  "m": "hakkından kendi isteğiyle vazgeçme",
+  "s": "Ağabeyi, mirastaki payından kardeşleri lehine feragat etti.",
+  "z": 2
+ },
+ {
+  "w": "feraset",
+  "m": "çabuk sezme, anlayış keskinliği",
+  "s": "Yaşlı kadın ferasetiyle misafirin dertli olduğunu hemen anladı.",
+  "z": 3
+ },
+ {
+  "w": "nedamet",
+  "m": "pişmanlık",
+  "s": "Suçlu, mahkemede yaptıklarından derin nedamet duyduğunu söyledi.",
+  "z": 3
+ },
+ {
+  "w": "rehavet",
+  "m": "gevşeklik, ağırlık hâli",
+  "s": "Öğle yemeğinden sonra çöken rehavet çalışanların verimini düşürüyor.",
+  "z": 2
+ },
+ {
+  "w": "atalet",
+  "m": "tembellik, işlemezlik, süredurum",
+  "s": "Uzun tatil dönüşü üzerimize çöken ataleti atmak kolay olmadı.",
+  "z": 3
+ },
+ {
+  "w": "zafiyet",
+  "m": "zayıflık, güçsüzlük",
+  "s": "Sistemdeki güvenlik zafiyeti uzman ekip tarafından hızla giderildi.",
+  "z": 2
+ },
+ {
+  "w": "zaruret",
+  "m": "zorunluluk, mecburiyet",
+  "s": "Ailenin köyden kente göçü ekonomik zaruretten kaynaklanmıştı.",
+  "z": 2
+ },
+ {
+  "w": "mülahaza",
+  "m": "etraflıca düşünme, görüş",
+  "s": "Kurul, raporu çeşitli mülahazalarla yeniden değerlendirmeye aldı.",
+  "z": 3
+ },
+ {
+  "w": "muhakeme",
+  "m": "akıl yürütme; yargılama",
+  "s": "Sorunun çözümü güçlü bir muhakeme yeteneği gerektiriyordu.",
+  "z": 2
+ },
+ {
+  "w": "müzakere",
+  "m": "karşılıklı görüşme, tartışma",
+  "s": "Sendika ile işveren zam oranını müzakere etmeye devam ediyor.",
+  "z": 1
+ },
+ {
+  "w": "münazara",
+  "m": "kurallı topluluk tartışması",
+  "s": "Okul takımı il genelindeki münazara yarışmasında birinci oldu.",
+  "z": 2
+ },
+ {
+  "w": "mütalâa",
+  "m": "Herhangi bir konu üzerinde ayrıntılı bir biçimde düşünme",
+  "s": "Rapor, uzman mütalâası alındıktan sonra imzalandı.",
+  "z": 2
+ },
+ {
+  "w": "müphem",
+  "m": "belirsiz, kapalı",
+  "s": "Politikacının müphem açıklamaları kamuoyunda farklı yorumlara yol açtı.",
+  "z": 3
+ },
+ {
+  "w": "sarih",
+  "m": "açık, net, belirgin",
+  "s": "Avukat, sözleşmeye sarih hükümler eklenmesini özellikle istedi.",
+  "z": 3
+ },
+ {
+  "w": "mücerret",
+  "m": "soyut",
+  "s": "Adalet gibi mücerret kavramları çocuklara örneklerle anlatmak gerekir.",
+  "z": 3
+ },
+ {
+  "w": "müşahhas",
+  "m": "somut",
+  "s": "Öğretmen konuyu müşahhas örneklerle anlatınca sınıf hemen kavradı.",
+  "z": 3
+ },
+ {
+  "w": "muhtasar",
+  "m": "kısaltılmış, özet hâlinde",
+  "s": "Yazar, üç ciltlik eserinin muhtasar bir baskısını da hazırladı.",
+  "z": 3
+ },
+ {
+  "w": "veciz",
+  "m": "az sözle çok anlam veren",
+  "s": "Konuşmasını herkesin aklında kalan veciz bir cümleyle bitirdi.",
+  "z": 3
+ },
+ {
+  "w": "mahzur",
+  "m": "sakınca, engel",
+  "s": "Yetkililer, raporun kamuoyuyla paylaşılmasında bir mahzur görmedi.",
+  "z": 2
+ },
+ {
+  "w": "mahsur",
+  "m": "kuşatılmış, sıkışıp kalmış",
+  "s": "Kar yağışı yüzünden dağ evinde mahsur kalan aile kurtarıldı.",
+  "z": 2
+ },
+ {
+  "w": "mağrur",
+  "m": "kibirli, gururlu",
+  "s": "Başarı onu mağrur biri hâline getirmiş, eski dostlarını unutturmuştu.",
+  "z": 2
+ },
+ {
+  "w": "tevazu",
+  "m": "alçakgönüllülük",
+  "s": "Bunca ödüle rağmen tevazusunu koruması herkesin takdirini kazandı.",
+  "z": 2
+ },
+ {
+  "w": "riya",
+  "m": "ikiyüzlülük, gösteriş için ibadet",
+  "s": "İnsanların gözüne girmek için yapılan iyilik riyadan öteye geçmez.",
+  "z": 2
+ },
+ {
+  "w": "husumet",
+  "m": "düşmanlık, hasım olma",
+  "s": "İki aile arasındaki husumet yıllar sonra tatlıya bağlandı.",
+  "z": 2
+ },
+ {
+  "w": "üslup",
+  "m": "anlatım tarzı, biçem",
+  "s": "Her yazarın kendine özgü bir üslubu olduğu paragrafta vurgulanıyor.",
+  "z": 2
+ },
+ {
+  "w": "imgelem",
+  "m": "hayal gücü, tasarlama yetisi",
+  "s": "Şiir, okurun imgelemini harekete geçirdiği ölçüde etkili olur.",
+  "z": 3
+ },
+ {
+  "w": "özveri",
+  "m": "fedakârlık",
+  "s": "Sağlık çalışanları salgın boyunca büyük özveriyle görev yaptı.",
+  "z": 2
+ },
+ {
+  "w": "diğerkâm",
+  "m": "kendinden çok başkalarını düşünen",
+  "s": "Diğerkâm insanlar toplumun görünmez kahramanlarıdır çoğu zaman.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "çıkarcı",
+  "m": "yalnız kendi yararını gözeten",
+  "s": "Çıkarcı tavırları yüzünden ekipte kimse ona güvenmiyordu.",
+  "z": 1
+ },
+ {
+  "w": "ödün",
+  "m": "uzlaşmak için verilen taviz",
+  "s": "Kaliteden ödün vermeden maliyetleri düşürmenin yollarını arıyorlar.",
+  "z": 2
+ },
+ {
+  "w": "uzlaşı",
+  "m": "anlaşmaya varma, mutabakat",
+  "s": "Taraflar uzun görüşmeler sonunda ortak bir uzlaşıya vardı.",
+  "z": 2
+ },
+ {
+  "w": "güdü",
+  "m": "davranışa iten iç güç",
+  "s": "Psikologlara göre merak, öğrenmenin en güçlü güdüsüdür.",
+  "z": 2
+ },
+ {
+  "w": "dürtü",
+  "m": "ani içsel istek, impuls",
+  "s": "Alışveriş dürtüsüne kapılıp ihtiyacı olmayan şeyler aldı.",
+  "z": 2
+ },
+ {
+  "w": "beklenti",
+  "m": "gerçekleşmesi umulan şey",
+  "s": "Yüksek beklentiyle gittiği filmden hayal kırıklığıyla ayrıldı.",
+  "z": 2
+ },
+ {
+  "w": "tasa",
+  "m": "üzüntü, kaygı",
+  "s": "Yarının tasasıyla bugünün güzelliklerini kaçırmamak gerektiğini söylerdi.",
+  "z": 2
+ },
+ {
+  "w": "kasvet",
+  "m": "iç sıkıntısı veren durum",
+  "s": "Kapalı havanın kasveti şehri bütün gün terk etmedi.",
+  "z": 2
+ },
+ {
+  "w": "buruk",
+  "m": "tatlı bir hüzün taşıyan",
+  "s": "Mezuniyet töreninde herkes buruk bir sevinç yaşıyordu.",
+  "z": 2
+ },
+ {
+  "w": "kırgınlık",
+  "m": "gücenme, gönül koyma",
+  "s": "Aralarındaki kırgınlık kısa bir konuşmayla giderildi neyse ki.",
+  "z": 2
+ },
+ {
+  "w": "nüksetmek",
+  "m": "hastalığın yeniden ortaya çıkması",
+  "s": "Eski rahatsızlığı yorucu geçen sezonun sonunda yeniden nüksetti.",
+  "z": 2
+ },
+ {
+  "w": "süregelmek",
+  "m": "eskiden beri devam etmek",
+  "s": "Bu gelenek yüzyıllardır bozulmadan süregelen bir mirastır.",
+  "z": 2
+ },
+ {
+  "w": "körüklemek",
+  "m": "kışkırtıp artırmak",
+  "s": "Sosyal medyadaki asılsız haberler gerginliği daha da körükledi.",
+  "z": 2
+ },
+ {
+  "w": "pekiştirmek",
+  "m": "iyice sağlamlaştırmak",
+  "s": "Öğrendiklerini bol soru çözerek pekiştirmesi sınavda işine yaradı.",
+  "z": 2
+ },
+ {
+  "w": "perçinlemek",
+  "m": "iyice sağlamlaştırmak, kökleştirmek",
+  "s": "Takım, aldığı galibiyetle liderliğini iyice perçinledi.",
+  "z": 2
+ },
+ {
+  "w": "sekte",
+  "m": "duraklama, kesinti",
+  "s": "Malzeme sıkıntısı üretime birkaç haftalığına sekte vurdu.",
+  "z": 3
+ },
+ {
+  "w": "eğreti",
+  "m": "iyice yerleşmemiş, geçici, iğreti",
+  "s": "Duvara eğreti asılan tablo ilk sarsıntıda yere düştü.",
+  "z": 3
+ },
+ {
+  "w": "naif",
+  "m": "deneyimsiz, saf, kolay kanan",
+  "s": "İş dünyasının kurnazlıkları karşısında fazlasıyla naif kalıyordu.",
+  "z": 2
+ },
+ {
+  "w": "çetrefilli",
+  "m": "karışık, içinden çıkılması güç",
+  "s": "Dava, uzmanların bile zorlandığı çetrefilli bir hâl aldı.",
+  "z": 2
+ },
+ {
+  "w": "girift",
+  "m": "iç içe geçmiş, karmaşık",
+  "s": "Romanın girift olay örgüsü dikkatli bir okuma gerektiriyor.",
+  "z": 2
+ },
+ {
+  "w": "müteakip",
+  "m": "ardından gelen, sonraki",
+  "s": "Törenden müteakip davetliler yemek salonuna alındı.",
+  "z": 3
+ },
+ {
+  "w": "mütemadiyen",
+  "m": "sürekli olarak, aralıksız",
+  "s": "Yağmur üç gündür mütemadiyen yağıyor, sokaklar göle döndü.",
+  "z": 3
+ },
+ {
+  "w": "bilhassa",
+  "m": "özellikle",
+  "s": "Bu kitabı bilhassa sınava hazırlanan öğrencilere öneriyorum.",
+  "z": 2
+ },
+ {
+  "w": "bilakis",
+  "m": "tam tersine, aksine",
+  "s": "Eleştiriler onu yıldırmadı; bilakis daha çok çalışmasını sağladı.",
+  "z": 2
+ },
+ {
+  "w": "nezaket",
+  "m": "incelik, kibarlık",
+  "s": "Garsonun nezaketi restorandaki kötü yemeği bile unutturdu.",
+  "z": 2
+ },
+ {
+  "w": "nezahet",
+  "m": "ahlaki temizlik, incelik",
+  "s": "Yazılarındaki nezahet, en sert eleştirilerinde bile kendini gösterirdi.",
+  "z": 3
+ },
+ {
+  "w": "zarafet",
+  "m": "incelik, şıklık",
+  "s": "Genç balerinin sahnedeki zarafeti bütün izleyicileri âdeta büyüledi.",
+  "z": 1
+ },
+ {
+  "w": "temayül",
+  "m": "eğilim, meyil",
+  "s": "Gençlerde uzaktan çalışmaya yönelik güçlü bir temayül gözleniyor.",
+  "z": 3
+ },
+ {
+  "w": "teveccüh",
+  "m": "ilgi ve sevgi gösterme",
+  "s": "Sanatçı, halkın kendisine gösterdiği teveccühe teşekkür etti.",
+  "z": 3
+ },
+ {
+  "w": "istihza",
+  "m": "gizli, ince alay",
+  "s": "Sorulara verdiği yanıtlardaki istihza gözlerden kaçmadı.",
+  "z": 3
+ },
+ {
+  "w": "tenkit",
+  "m": "eleştiri",
+  "s": "Genç yazar, sert tenkitleri olgunlukla karşılamayı öğrendi.",
+  "z": 2
+ },
+ {
+  "w": "tasvir",
+  "m": "betimleme, sözle canlandırma",
+  "s": "Romandaki köy tasvirleri okuru âdeta o coğrafyaya götürüyor.",
+  "z": 2
+ },
+ {
+  "w": "tahlil",
+  "m": "çözümleme, analiz",
+  "s": "Eleştirmen, şiiri dize dize tahlil ederek anlamını ortaya koydu.",
+  "z": 2
+ },
+ {
+  "w": "intiba",
+  "m": "izlenim",
+  "s": "Şehir, ilk ziyaretimde bende çok olumlu bir intiba bırakmıştı.",
+  "z": 2
+ },
+ {
+  "w": "mizah",
+  "m": "güldürü, humor",
+  "s": "Yazar toplumsal eleştirilerini ince bir mizahla harmanlıyor.",
+  "z": 2
+ },
+ {
+  "w": "kanaat",
+  "m": "yeterli bulma; kişisel yargı",
+  "s": "Komisyon, adayın yeterli olduğu kanaatine oy birliğiyle vardı.",
+  "z": 2
+ },
+ {
+  "w": "kanaatkâr",
+  "m": "azla yetinen, elindekine razı",
+  "s": "Kanaatkâr yapısı sayesinde az kazançla da mutlu olabiliyordu.",
+  "z": 2
+ },
+ {
+  "w": "mütevazı",
+  "m": "alçakgönüllü",
+  "s": "Dünyaca ünlü bilim insanı son derece mütevazı bir hayat sürüyordu.",
+  "z": 1
+ },
+ {
+  "w": "münzevi",
+  "m": "topluluktan uzak yaşayan",
+  "s": "Ressam, ömrünün son yıllarını adada münzevi biri olarak geçirdi.",
+  "z": 3
+ },
+ {
+  "w": "içedönük",
+  "m": "duygularını dışa vurmayan",
+  "s": "İçedönük öğrenciler kalabalık sınıflarda söz almakta zorlanabilir.",
+  "z": 1
+ },
+ {
+  "w": "arızi",
+  "m": "sonradan ortaya çıkan, geçici",
+  "s": "Uzmanlar sorunun yapısal değil arızi olduğunu belirtti.",
+  "z": 3
+ },
+ {
+  "w": "daimî",
+  "m": "► sürekli",
+  "s": "Şirkette daimî kadroya geçmek onun en büyük hayaliydi.",
+  "z": 1
+ },
+ {
+  "w": "muvakkat",
+  "m": "geçici, süreli",
+  "s": "Köprü onarılana dek muvakkat bir geçiş güzergâhı belirlendi.",
+  "z": 3
+ },
+ {
+  "w": "süreğen",
+  "m": "uzun süre devam eden, kronik",
+  "s": "Bölgedeki su sorunu artık süreğen bir hâl aldı.",
+  "z": 2
+ },
+ {
+  "w": "ender",
+  "m": "çok seyrek bulunan",
+  "s": "Bu kelebek türüne yalnızca birkaç vadide ender rastlanıyor.",
+  "z": 1
+ },
+ {
+  "w": "müstesna",
+  "m": "benzerlerinden üstün; dışında",
+  "s": "O, kuşağının en müstesna seslerinden biri kabul ediliyor.",
+  "z": 3
+ },
+ {
+  "w": "mümbit",
+  "m": "verimli, bereketli",
+  "s": "Nehir kıyısındaki mümbit topraklar yılda iki kez ürün veriyor.",
+  "z": 3
+ },
+ {
+  "w": "idrak",
+  "m": "anlama, kavrama yetisi",
+  "s": "Olayın ciddiyetini idrak etmesi biraz zaman aldı.",
+  "z": 2
+ },
+ {
+  "w": "kavrayış",
+  "m": "anlama gücü",
+  "s": "Hızlı kavrayışı sayesinde yeni görevine kolayca uyum sağladı.",
+  "z": 1
+ },
+ {
+  "w": "dirayet",
+  "m": "beceriklilik, yönetme gücü",
+  "s": "Genç müdür, krizi gösterdiği dirayetle atlatmayı bildi.",
+  "z": 3
+ },
+ {
+  "w": "vakar",
+  "m": "ağırbaşlılık, onurlu duruş",
+  "s": "Yaşlı hâkim, her duruşmayı aynı vakarla yönetirdi.",
+  "z": 3
+ },
+ {
+  "w": "ağırbaşlı",
+  "m": "ciddi, ölçülü davranan",
+  "s": "Ağırbaşlı tavırları sayesinde yaşıtları arasında hemen fark ediliyordu.",
+  "z": 1
+ },
+ {
+  "w": "değinmek",
+  "m": "kısaca söz etmek, temas etmek",
+  "s": "Yazar, sunumunda kitabının ilham kaynaklarına da değindi.",
+  "z": 2
+ },
+ {
+  "w": "irdelemek",
+  "m": "ayrıntılarıyla incelemek",
+  "s": "Komisyon, raporu madde madde irdeledikten sonra onayladı.",
+  "z": 2
+ },
+ {
+  "w": "sorgulamak",
+  "m": "doğruluğunu araştırmak",
+  "s": "Bilim, hazır doğruları sorgulamakla ilerler her şeyden önce.",
+  "z": 2
+ },
+ {
+  "w": "saptamak",
+  "m": "belirlemek, tespit etmek",
+  "s": "Ekip, arızanın kaynağını kısa sürede saptadı.",
+  "z": 2
+ },
+ {
+  "w": "çıkarım",
+  "m": "akıl yürütmeyle varılan sonuç",
+  "s": "Verilerden yola çıkarak yaptığı çıkarımlar oldukça tutarlıydı.",
+  "z": 2
+ },
+ {
+  "w": "genelleme",
+  "m": "tekil örneklerden genel yargıya varma",
+  "s": "Birkaç olaydan yola çıkıp genelleme yapmak bizi yanıltabilir.",
+  "z": 2
+ },
+ {
+  "w": "indirgemek",
+  "m": "daha basit duruma getirmek",
+  "s": "Karmaşık sorunu tek nedene indirgemek çözümü zorlaştırır.",
+  "z": 2
+ },
+ {
+  "w": "soyutlama",
+  "m": "nesneden bağımsız düşünme",
+  "s": "Matematik, soyutlama yeteneğini en çok geliştiren derslerdendir.",
+  "z": 2
+ },
+ {
+  "w": "ahenk",
+  "m": "uyum, düzen",
+  "s": "Koronun sesleri arasındaki ahenk dinleyicileri mest etti.",
+  "z": 1
+ },
+ {
+  "w": "ihtimam",
+  "m": "özen, özenli bakım",
+  "s": "Bahçesindeki güllere büyük bir ihtimamla bakıyordu.",
+  "z": 3
+ },
+ {
+  "w": "itibar",
+  "m": "saygınlık, güvenilir olma",
+  "s": "Firma, yıllar içinde kazandığı itibarı tek bir skandalla yitirdi.",
+  "z": 2
+ },
+ {
+  "w": "haysiyet",
+  "m": "onur, öz saygı",
+  "s": "Avukat, müvekkilinin haysiyetinin zedelendiğini öne sürdü.",
+  "z": 2
+ },
+ {
+  "w": "yoksun",
+  "m": "belirli bir şeyden mahrum",
+  "s": "Bölgedeki köyler hâlâ temiz içme suyundan yoksun durumda.",
+  "z": 2
+ },
+ {
+  "w": "bihaber",
+  "m": "habersiz, olan bitenden uzak",
+  "s": "Dünyadaki gelişmelerden bihaber yaşamak artık neredeyse imkânsız.",
+  "z": 2
+ },
+ {
+  "w": "lakayt",
+  "m": "ilgisiz, kayıtsız",
+  "s": "Görevine karşı bu denli lakayt kalması amirlerini kızdırdı.",
+  "z": 3
+ },
+ {
+  "w": "müstehzi",
+  "m": "alaycı",
+  "s": "Sorumu müstehzi bir gülümsemeyle geçiştirmesi beni kırdı.",
+  "z": 3
+ },
+ {
+  "w": "muzdarip",
+  "m": "acı ve sıkıntı çeken",
+  "s": "Yıllardır bel ağrısından muzdarip olduğu için ameliyata karar verdi.",
+  "z": 2
+ },
+ {
+  "w": "mahzun",
+  "m": "üzgün, hüzünlü",
+  "s": "Kaybettikleri maçın ardından oyuncular soyunma odasına mahzun döndü.",
+  "z": 2
+ },
+ {
+  "w": "bahtiyar",
+  "m": "mutlu, talihli",
+  "s": "Torunlarını bir arada gören yaşlı adam kendini bahtiyar hissetti.",
+  "z": 2
+ },
+ {
+  "w": "bedbaht",
+  "m": "mutsuz, talihsiz",
+  "s": "Romanın bedbaht kahramanı okurun yüreğinde derin izler bırakıyor.",
+  "z": 3
+ },
+ {
+  "w": "bedbin",
+  "m": "kötümser, karamsar",
+  "s": "Ekonomiye ilişkin bedbin yorumlar piyasalarda tedirginlik yarattı.",
+  "z": 3
+ },
+ {
+  "w": "nikbin",
+  "m": "iyimser",
+  "s": "Antrenör, sakat oyuncunun dönüşü konusunda nikbin konuştu.",
+  "z": 3
+ },
+ {
+  "w": "umarsız",
+  "m": "çaresiz",
+  "s": "Sel felaketi karşısında umarsız kalan köylüler yardım bekliyordu.",
+  "z": 2
+ },
+ {
+  "w": "algı",
+  "m": "duyularla edinilen bilinç içeriği",
+  "s": "Reklamlar, tüketicinin marka algısını sessizce biçimlendirir.",
+  "z": 2
+ },
+ {
+  "w": "eleştirel",
+  "m": "sorgulayıcı bakışla yaklaşan",
+  "s": "Eleştirel düşünme becerisi kazanmak ezberden daha değerlidir.",
+  "z": 2
+ },
+ {
+  "w": "içerik",
+  "m": "bir bütünü oluşturan öğeler, muhteva",
+  "s": "Derginin bu sayısındaki içerik tamamen çevre sorunlarına ayrılmış.",
+  "z": 2
+ },
+ {
+  "w": "kurgu",
+  "m": "olayların düzenlenişi; tasarlama",
+  "s": "Filmin geriye dönüşlü kurgusu bazı izleyicileri zorladı.",
+  "z": 2
+ },
+ {
+  "w": "devinim",
+  "m": "hareket, kımıldanış",
+  "s": "Ressam, tablosunda dalgaların devinimini ustaca yakalamış.",
+  "z": 2
+ },
+ {
+  "w": "durağan",
+  "m": "hareketsiz, değişmeyen, statik",
+  "s": "Piyasa haftalardır durağan bir seyir izliyor.",
+  "z": 2
+ },
+ {
+  "w": "ivme",
+  "m": "hız artışı, gelişme temposu",
+  "s": "Yeni yatırımlarla birlikte ihracat büyük bir ivme kazandı.",
+  "z": 2
+ },
+ {
+  "w": "özdeş",
+  "m": "her yönüyle aynı olan",
+  "s": "İkizlerin ders çalışma alışkanlıkları bile neredeyse özdeşti.",
+  "z": 2
+ },
+ {
+  "w": "benzeşim",
+  "m": "benzerlik kurma, analoji",
+  "s": "Yazar, kalp ile pompa arasında bir benzeşim kurarak konuyu açıklıyor.",
+  "z": 2
+ },
+ {
+  "w": "karşıtlık",
+  "m": "zıtlık, tezat oluşturma",
+  "s": "Şiirdeki ışık ve karanlık karşıtlığı temayı güçlendiriyor.",
+  "z": 2
+ },
+ {
+  "w": "ikilem",
+  "m": "iki seçenek arasında kalma",
+  "s": "Kariyer ile aile arasında kalınca büyük bir ikilem yaşadı.",
+  "z": 2
+ },
+ {
+  "w": "açmaz",
+  "m": "içinden çıkılamayan durum",
+  "s": "Müzakereler her iki tarafı da zorlayan bir açmaza girdi.",
+  "z": 2
+ },
+ {
+  "w": "yetke",
+  "m": "otorite, buyurma gücü",
+  "s": "Öğretmen sınıftaki yetkesini bağırmadan, saygıyla kurmuştu.",
+  "z": 3
+ },
+ {
+  "w": "erk",
+  "m": "güç, iktidar, kudret",
+  "s": "Anayasa, devlet erkinin tek elde toplanmasını engeller.",
+  "z": 2
+ },
+ {
+  "w": "seçkin",
+  "m": "benzerlerinden üstün, mümtaz",
+  "s": "Galaya sanat dünyasının seçkin isimleri katıldı.",
+  "z": 2
+ },
+ {
+  "w": "alelâde",
+  "m": "► sıradan",
+  "s": "Sıradan bir ayakkabı bekliyordum ama alelâde bir model bulamadım bile.",
+  "z": 1
+ },
+ {
+  "w": "harcıâlem",
+  "m": "herkesçe kullanılan, sıradan",
+  "s": "Konuşmasında harcıâlem sözlerden kaçınıp özgün örnekler verdi.",
+  "z": 3
+ },
+ {
+  "w": "basmakalıp",
+  "m": "klişeleşmiş, özgünlükten uzak",
+  "s": "Basmakalıp ifadelerle örülü bir yazının okuru etkilemesi güçtür.",
+  "z": 2
+ },
+ {
+  "w": "yinelemek",
+  "m": "tekrarlamak",
+  "s": "Bakan, reform takviminin değişmediğini bir kez daha yineledi.",
+  "z": 2
+ },
+ {
+  "w": "tahrif",
+  "m": "bir metni bozup değiştirme",
+  "s": "Bilirkişi, belgedeki imzanın tahrif edildiğini saptadı.",
+  "z": 3
+ },
+ {
+  "w": "tahrip",
+  "m": "yıkıp bozma, harap etme",
+  "s": "Orman yangını binlerce hektarlık alanı tahrip etti.",
+  "z": 2
+ },
+ {
+  "w": "telafi",
+  "m": "eksikliği giderme, karşılama",
+  "s": "Firma, gecikmeden doğan zararı indirimle telafi etmeye çalıştı.",
+  "z": 2
+ },
+ {
+  "w": "tekamül",
+  "m": "olgunlaşma, evrim",
+  "s": "Sanatçının üslubu kırk yıllık bir tekamül sürecinin ürünüdür.",
+  "z": 3,
+  "k": "Arapça تَكَامُلٌ‎ (tekāmülün) sözcüğünden"
+ },
+ {
+  "w": "tekabül",
+  "m": "karşılık gelme, denk düşme",
+  "s": "Bu harcama, bütçenin yaklaşık yüzde onuna tekabül ediyor.",
+  "z": 3
+ },
+ {
+  "w": "teşekkül",
+  "m": "oluşum, belli biçim kazanma",
+  "s": "Komisyonun teşekkülü için partilerden üye bildirmeleri istendi.",
+  "z": 3
+ },
+ {
+  "w": "tezahür",
+  "m": "belirme, ortaya çıkma",
+  "s": "Kaygıları, uykusuzluk olarak tezahür etmeye başlamıştı.",
+  "z": 3
+ },
+ {
+  "w": "istidat",
+  "m": "doğuştan gelen yetenek",
+  "s": "Küçük yaşta resme karşı büyük bir istidat gösteriyordu.",
+  "z": 3
+ },
+ {
+  "w": "istikamet",
+  "m": "yön, doğrultu",
+  "s": "Konvoy, sabah erken saatte liman istikametine hareket etti.",
+  "z": 2
+ },
+ {
+  "w": "ihtilâf",
+  "m": "► anlaşmazlık",
+  "s": "İki komite arasında ihtilâf çıkınca karar üst kurulda kaldı.",
+  "z": 2
+ },
+ {
+  "w": "ihtiras",
+  "m": "aşırı, güçlü istek, tutku",
+  "s": "Kariyer ihtirası zamanla sağlığını hiçe saymasına yol açtı.",
+  "z": 2
+ },
+ {
+  "w": "iptidai",
+  "m": "ilkel, gelişmemiş",
+  "s": "Kazıda bulunan iptidai aletler ilk yerleşimcilere aitti.",
+  "z": 3
+ },
+ {
+  "w": "ibret",
+  "m": "ders çıkarılacak olay",
+  "s": "Bu dava, yetkiyi kötüye kullananlara ibret olsun isterim.",
+  "z": 2
+ },
+ {
+  "w": "ihtiyari",
+  "m": "isteğe bağlı, zorunlu olmayan",
+  "s": "Depreme karşı bu sigorta türü zorunlu değil ihtiyaridir.",
+  "z": 3
+ },
+ {
+  "w": "minnet",
+  "m": "iyiliğe karşı duyulan borçluluk",
+  "s": "Kendisini yetiştiren hocalarına ömür boyu minnet duydu.",
+  "z": 2
+ },
+ {
+  "w": "gıpta",
+  "m": "imrenme, özenme",
+  "s": "Onun düzenli çalışma disiplinine hepimiz gıptayla bakardık.",
+  "z": 2
+ },
+ {
+  "w": "hasret",
+  "m": "özlem",
+  "s": "Gurbette geçen yıllar boyunca memleket hasretiyle yaşayıp durdu.",
+  "z": 2
+ },
+ {
+  "w": "yadigâr",
+  "m": "anı olarak kalan şey",
+  "s": "Bu saat, dedesinden kalan tek yadigârdı.",
+  "z": 2
+ },
+ {
+  "w": "nostalji",
+  "m": "geçmişe duyulan özlem",
+  "s": "Eski mahalle fotoğrafları izleyenlerde tatlı bir nostalji uyandırdı.",
+  "z": 2
+ },
+ {
+  "w": "özeleştiri",
+  "m": "kendi davranışını eleştirme",
+  "s": "Yenilgiden sonra teknik direktör cesur bir özeleştiri yaptı.",
+  "z": 2
+ },
+ {
+  "w": "otokontrol",
+  "m": "kendi kendini denetleme",
+  "s": "Sporcular müsabaka anında yüksek otokontrol sergilemek zorundadır.",
+  "z": 2
+ },
+ {
+  "w": "empati",
+  "m": "kendini başkasının yerine koyma",
+  "s": "Empati kurabilen yöneticiler çalışanlarının güvenini kolayca kazanır.",
+  "z": 1
+ },
+ {
+  "w": "vurdumduymaz",
+  "m": "hiçbir şeyi umursamayan",
+  "s": "Uyarılara karşı bu vurdumduymaz tutumu kabul edilemez buldu.",
+  "z": 2
+ },
+ {
+  "w": "pişkin",
+  "m": "utanılacak duruma aldırmayan",
+  "s": "Hatasını kabul etmek yerine pişkin pişkin gülüyordu.",
+  "z": 2
+ },
+ {
+  "w": "arsız",
+  "m": "utanması olmayan, yılışık",
+  "s": "Arsız tavırlarıyla kısa sürede herkesin tepkisini çekti.",
+  "z": 2
+ },
+ {
+  "w": "mahcup",
+  "m": "utangaç; utanmış",
+  "s": "Geç kaldığı için mahcup bir ifadeyle salona girdi.",
+  "z": 2
+ },
+ {
+  "w": "çekingen",
+  "m": "ürkek, sokulgan olmayan",
+  "s": "Çekingen yapısı yüzünden toplantılarda fikrini söyleyemiyordu.",
+  "z": 2
+ },
+ {
+  "w": "atılgan",
+  "m": "girişken, gözü pek",
+  "s": "Atılgan kişiliği sayesinde yeni işinde hızla yükseldi.",
+  "z": 2
+ },
+ {
+  "w": "sebat",
+  "m": "kararlılıkla sürdürme, direşme",
+  "s": "Başarının sırrını yetenekten çok sebatında aramak gerekir.",
+  "z": 2
+ },
+ {
+  "w": "azim",
+  "m": "kararlılık, güçlü istek",
+  "s": "Genç sporcu, azimle çalışarak sakatlığını yenip madalya kazandı.",
+  "z": 1
+ },
+ {
+  "w": "gayret",
+  "m": "çaba, çalışma isteği",
+  "s": "Bütün gayretine rağmen projeyi zamanında bitiremedi.",
+  "z": 1
+ },
+ {
+  "w": "teselli",
+  "m": "avutma, acıyı hafifletme",
+  "s": "Kaybettiği maçın tek tesellisi taraftarın desteğiydi.",
+  "z": 2
+ },
+ {
+  "w": "vefa",
+  "m": "sevgi ve dostlukta sadakat",
+  "s": "Eski hocasını her bayram arayarak vefasını gösterirdi.",
+  "z": 2
+ },
+ {
+  "w": "sadakat",
+  "m": "içten, sarsılmaz bağlılık",
+  "s": "Kurum, müşteri sadakatini kazanmak için güven vermek zorundadır.",
+  "z": 2
+ },
+ {
+  "w": "riayet",
+  "m": "kurala uyma, saygı gösterme",
+  "s": "Sürücülerin hız sınırlarına riayet etmesi kazaları azaltır.",
+  "z": 2
+ },
+ {
+  "w": "nizam",
+  "m": "düzen, kural",
+  "s": "Kışlada her şey belirli bir nizam içinde yürürdü.",
+  "z": 2
+ },
+ {
+  "w": "intizam",
+  "m": "düzenlilik, tertiplilik",
+  "s": "Defterindeki intizam, sınıfı gezen öğretmenin dikkatinden hiç kaçmadı.",
+  "z": 3
+ },
+ {
+  "w": "ihlâl",
+  "m": "Bozma, zarar verme",
+  "s": "Kural ihlâli yapan her oyuncuya ceza yazıldı.",
+  "z": 1
+ },
+ {
+  "w": "yavan",
+  "m": "tatsız, sıradan, etkileyicilikten uzak",
+  "s": "Eleştirmenler, dizinin son bölümünü yavan ve heyecansız buldu.",
+  "z": 2
+ },
+ {
+  "w": "dokunaklı",
+  "m": "duygulandıran, içe işleyen",
+  "s": "Şarkının dokunaklı sözleri salondaki herkesin gözlerini yaşarttı.",
+  "z": 2
+ },
+ {
+  "w": "düşsel",
+  "m": "hayale dayanan, hayali",
+  "s": "Yazar, romanında düşsel bir ada ülkesi kurgulamış.",
+  "z": 2
+ },
+ {
+  "w": "mihenk",
+  "m": "değer ölçmeye yarayan denek taşı",
+  "s": "Zor günler, dostlukların gerçek mihenk taşıdır derler.",
+  "z": 3
+ },
+ {
+  "w": "yeti",
+  "m": "doğuştan gelen yapabilme gücü",
+  "s": "Konuşma yetisi insanı diğer canlılardan ayıran özelliklerdendir.",
+  "z": 2
+ },
+ {
+  "w": "münferit",
+  "m": "tek tek olan, ayrı, bireysel",
+  "s": "Yetkililer olayın münferit olduğunu, genel bir sorun bulunmadığını açıkladı.",
+  "z": 3
+ },
+ {
+  "w": "yasama",
+  "m": "kanun yapma erki",
+  "s": "Anayasaya göre yasama yetkisi Türkiye Büyük Millet Meclisinindir.",
+  "z": 1
+ },
+ {
+  "w": "yürütme",
+  "m": "kanunları uygulama erki",
+  "s": "Yürütme yetkisi Cumhurbaşkanı tarafından anayasaya uygun olarak kullanılır.",
+  "z": 1
+ },
+ {
+  "w": "yargı",
+  "m": "hukuki denetim erki",
+  "s": "Yargı yetkisi millet adına bağımsız ve tarafsız mahkemelerce kullanılır.",
+  "z": 1
+ },
+ {
+  "w": "içtihat",
+  "m": "yerleşik yargı görüşü",
+  "s": "Yargıtayın bu konudaki içtihadı yıllar içinde önemli ölçüde değişti.",
+  "z": 2
+ },
+ {
+  "w": "teamül",
+  "m": "yerleşik uygulama, gelenek",
+  "s": "Mecliste en yaşlı üyenin geçici başkanlık etmesi bir teamüldür.",
+  "z": 2
+ },
+ {
+  "w": "mevzuat",
+  "m": "yürürlükteki hukuk kuralları bütünü",
+  "s": "Şirket, yeni çevre mevzuatına uyum için altı ay süre aldı.",
+  "z": 1
+ },
+ {
+  "w": "teşrii",
+  "m": "yasamayla ilgili",
+  "s": "Meclisin teşrii faaliyetleri komisyon çalışmalarıyla başlar.",
+  "z": 3
+ },
+ {
+  "w": "idarî",
+  "m": "► yönetimsel",
+  "s": "Sınavın idarî işleri rektörlük tarafından yürütülüyor.",
+  "z": 2
+ },
+ {
+  "w": "icrai",
+  "m": "yürütmeyle ilgili, uygulayıcı",
+  "s": "İdarenin icrai kararları tek yanlı olarak hukuki sonuç doğurur.",
+  "z": 3
+ },
+ {
+  "w": "anayasa",
+  "m": "devletin temel kuruluş kanunu",
+  "s": "Anayasa, temel hak ve özgürlüklerin güvencesi olan üstün normdur.",
+  "z": 1
+ },
+ {
+  "w": "egemenlik",
+  "m": "devletin en üstün buyurma gücü",
+  "s": "Anayasaya göre egemenlik kayıtsız şartsız milletindir.",
+  "z": 1
+ },
+ {
+  "w": "cumhuriyet",
+  "m": "halkın seçtiği yöneticilerle yönetim",
+  "s": "Cumhuriyet, yöneticilerin seçimle belirlendiği bir devlet biçimidir.",
+  "z": 1
+ },
+ {
+  "w": "demokrasi",
+  "m": "halkın egemenliğine dayalı yönetim",
+  "s": "Demokrasi, çoğunluğun yönetimini azınlık haklarıyla dengeler.",
+  "z": 1
+ },
+ {
+  "w": "laiklik",
+  "m": "din ve devlet işlerinin ayrılığı",
+  "s": "Laiklik ilkesi 1937 yılında anayasaya girmiştir.",
+  "z": 1
+ },
+ {
+  "w": "hukuk devleti",
+  "m": "hukuka bağlı, denetlenebilir devlet",
+  "s": "Hukuk devleti ilkesi, idarenin tüm eylemlerinin yargı denetimine açık olmasını gerektirir.",
+  "z": 2
+ },
+ {
+  "w": "sosyal devlet",
+  "m": "vatandaşın refahını gözeten devlet",
+  "s": "Ücretsiz eğitim ve sağlık hizmetleri sosyal devlet ilkesinin gereğidir.",
+  "z": 2
+ },
+ {
+  "w": "üniter devlet",
+  "m": "tek merkezli, bölünmez devlet yapısı",
+  "s": "Türkiye, yasama ve yargı birliğine dayanan üniter devlet modelini benimser.",
+  "z": 2
+ },
+ {
+  "w": "federasyon",
+  "m": "federe devletlerden oluşan birlik",
+  "s": "Almanya, eyaletlerin geniş yetkiler taşıdığı bir federasyondur.",
+  "z": 2
+ },
+ {
+  "w": "kuvvetler ayrılığı",
+  "m": "erklerin farklı organlara verilmesi",
+  "s": "Kuvvetler ayrılığı, devlet gücünün kötüye kullanılmasını önlemeyi amaçlar.",
+  "z": 2
+ },
+ {
+  "w": "referandum",
+  "m": "halkoylaması",
+  "s": "Anayasa değişikliği son sözü halkın söylediği referandumla kabul edildi.",
+  "z": 1
+ },
+ {
+  "w": "seçmen",
+  "m": "oy kullanma hakkına sahip kişi",
+  "s": "On sekiz yaşını dolduran her vatandaş seçmen niteliği kazanır.",
+  "z": 1
+ },
+ {
+  "w": "milletvekili",
+  "m": "halkı mecliste temsil eden üye",
+  "s": "Milletvekili seçilebilmek için on sekiz yaşını doldurmak gerekir.",
+  "z": 1
+ },
+ {
+  "w": "dokunulmazlık",
+  "m": "milletvekilinin yargılanma ayrıcalığı",
+  "s": "Milletvekilinin dokunulmazlığı ancak meclis kararıyla kaldırılabilen bir güvencedir.",
+  "z": 2
+ },
+ {
+  "w": "yasama sorumsuzluğu",
+  "m": "meclisteki oy ve söz koruması",
+  "s": "Yasama sorumsuzluğu, vekilin meclisteki sözlerinden yargılanmamasını sağlar.",
+  "z": 3
+ },
+ {
+  "w": "gensoru",
+  "m": "hükümeti düşürebilen eski denetim yolu",
+  "s": "Gensoru, 2017 değişikliğiyle anayasadan çıkarılan bir denetim aracıydı.",
+  "z": 3
+ },
+ {
+  "w": "meclis araştırması",
+  "m": "bilgi edinmeye yönelik meclis denetimi",
+  "s": "Depremin ardından konunun aydınlatılması için meclis araştırması açıldı.",
+  "z": 2
+ },
+ {
+  "w": "meclis soruşturması",
+  "m": "cumhurbaşkanı ve yardımcılarına yönelik denetim",
+  "s": "Meclis soruşturması sonucunda ilgili kişi Yüce Divana sevk edilebilir.",
+  "z": 3
+ },
+ {
+  "w": "genel görüşme",
+  "m": "toplumu ilgilendiren konunun mecliste görüşülmesi",
+  "s": "Ekonomideki gelişmeler üzerine mecliste genel görüşme yapılması kararlaştırıldı.",
+  "z": 2
+ },
+ {
+  "w": "yüce divan",
+  "m": "üst düzey yöneticileri yargılayan sıfat",
+  "s": "Anayasa Mahkemesi, bakanları Yüce Divan sıfatıyla yargılar.",
+  "z": 2
+ },
+ {
+  "w": "cumhurbaşkanlığı kararnamesi",
+  "m": "yürütmenin düzenleyici işlemi",
+  "s": "Yürütme yetkisine ilişkin konular cumhurbaşkanlığı kararnamesiyle düzenlenebilir.",
+  "z": 2
+ },
+ {
+  "w": "yönetmelik",
+  "m": "kanunun uygulanmasını gösteren düzenleme",
+  "s": "Bakanlık, sınav usullerini yeni bir yönetmelikle belirledi.",
+  "z": 1
+ },
+ {
+  "w": "genelge",
+  "m": "uygulamayı açıklayan iç düzenleme",
+  "s": "Valilik, okulların tatil edildiğini bir genelgeyle duyurdu.",
+  "z": 2
+ },
+ {
+  "w": "kanun hükmünde kararname",
+  "m": "eski sistemde yasa gücündeki kararname",
+  "s": "Kanun hükmünde kararname çıkarma yetkisi 2017 değişikliğiyle kaldırıldı.",
+  "z": 3
+ },
+ {
+  "w": "normlar hiyerarşisi",
+  "m": "hukuk kurallarının üstünlük sıralaması",
+  "s": "Normlar hiyerarşisinde yönetmelik kanuna aykırı hükümler içeremez.",
+  "z": 2
+ },
+ {
+  "w": "somut norm denetimi",
+  "m": "görülen davada anayasaya aykırılık itirazı",
+  "s": "Mahkeme, uygulanacak kuralı somut norm denetimi için Anayasa Mahkemesine gönderdi.",
+  "z": 3
+ },
+ {
+  "w": "soyut norm denetimi",
+  "m": "iptal davasıyla yapılan anayasallık denetimi",
+  "s": "Ana muhalefet partisi, kanuna karşı soyut norm denetimi yoluyla iptal davası açtı.",
+  "z": 3
+ },
+ {
+  "w": "bireysel başvuru",
+  "m": "hak ihlalinde Anayasa Mahkemesine gitme",
+  "s": "İç hukuk yolları tükenince mağdur, bireysel başvuru hakkını kullandı.",
+  "z": 2
+ },
+ {
+  "w": "anayasa mahkemesi",
+  "m": "kanunların anayasaya uygunluğunu denetleyen mahkeme",
+  "s": "Anayasa Mahkemesi, itiraz edilen hükmü oy çokluğuyla iptal etti.",
+  "z": 1
+ },
+ {
+  "w": "yargıtay",
+  "m": "adli yargının en üst mahkemesi",
+  "s": "Yargıtay, yerel mahkemenin kararını usul yönünden bozdu.",
+  "z": 1
+ },
+ {
+  "w": "danıştay",
+  "m": "idari yargının en üst mahkemesi",
+  "s": "Danıştay, yönetmeliğin ilgili maddesinin yürütmesini durdurdu.",
+  "z": 1
+ },
+ {
+  "w": "sayıştay",
+  "m": "kamu harcamalarını denetleyen yüksek kurul",
+  "s": "Sayıştay, belediyenin hesaplarındaki usulsüzlükleri raporuna yazdı.",
+  "z": 2
+ },
+ {
+  "w": "uyuşmazlık mahkemesi",
+  "m": "yargı kolları arasındaki görev uyuşmazlığını çözen mahkeme",
+  "s": "Görev uyuşmazlığı çıkınca dosya Uyuşmazlık Mahkemesine gönderildi.",
+  "z": 3
+ },
+ {
+  "w": "istinaf",
+  "m": "bölge adliye mahkemesindeki üst yargı yolu",
+  "s": "Karara karşı iki hafta içinde istinaf yoluna başvurulabilir.",
+  "z": 2
+ },
+ {
+  "w": "temyiz",
+  "m": "Yargıtay veya Danıştay denetim yolu",
+  "s": "İstinaf incelemesinden geçen dosya temyiz için Yargıtaya taşındı.",
+  "z": 2
+ },
+ {
+  "w": "kesin hüküm",
+  "m": "artık değiştirilemeyen yargı kararı",
+  "s": "Aynı konuda kesin hüküm varken yeniden dava açılamaz.",
+  "z": 3
+ },
+ {
+  "w": "derdest",
+  "m": "görülmekte olan dava",
+  "s": "Taraflar arasında aynı konuda derdest bir dava zaten bulunuyordu.",
+  "z": 3
+ },
+ {
+  "w": "merkezden yönetim",
+  "m": "yetkinin başkentte toplandığı yönetim usulü",
+  "s": "Bakanlıkların taşra teşkilatları merkezden yönetim ilkesine göre çalışır.",
+  "z": 2
+ },
+ {
+  "w": "yerinden yönetim",
+  "m": "yerel organlara özerklik tanıyan yönetim",
+  "s": "Belediyeler yerinden yönetim ilkesinin en tipik örneğidir.",
+  "z": 2
+ },
+ {
+  "w": "idari vesayet",
+  "m": "merkezin yerel yönetimler üzerindeki denetimi",
+  "s": "Bakanlığın belediye kararını onaması idari vesayet yetkisinin sonucudur.",
+  "z": 3
+ },
+ {
+  "w": "hiyerarşi",
+  "m": "ast-üst ilişkisine dayalı denetim düzeni",
+  "s": "Müsteşar, hiyerarşi gereği bakanın emir ve talimatlarına bağlıdır.",
+  "z": 2
+ },
+ {
+  "w": "kamu tüzel kişiliği",
+  "m": "kamu kurumunun hukuki kişiliği",
+  "s": "Üniversiteler kanunla kurulan kamu tüzel kişiliğine sahiptir.",
+  "z": 2
+ },
+ {
+  "w": "belediye",
+  "m": "kentin yerel yönetim birimi",
+  "s": "Belediye meclisi, yeni imar planını oy çokluğuyla kabul etti.",
+  "z": 1
+ },
+ {
+  "w": "il özel idaresi",
+  "m": "ilin yerel yönetim tüzel kişiliği",
+  "s": "Köy yollarının bakımı il özel idaresinin görevleri arasındadır.",
+  "z": 2
+ },
+ {
+  "w": "vali",
+  "m": "ilde devleti temsil eden yönetici",
+  "s": "Vali, ilde hem devletin hem yürütmenin temsilcisidir.",
+  "z": 1
+ },
+ {
+  "w": "kaymakam",
+  "m": "ilçedeki en üst mülki amir",
+  "s": "Kaymakam, ilçedeki kamu kurumlarının çalışmalarını denetler.",
+  "z": 1
+ },
+ {
+  "w": "mülki amir",
+  "m": "il veya ilçenin yönetim başı",
+  "s": "Arama kurtarma çalışmalarını bölgedeki mülki amir koordine etti.",
+  "z": 2
+ },
+ {
+  "w": "kamu hizmeti",
+  "m": "toplumun ortak ihtiyacına yönelik faaliyet",
+  "s": "Ulaşım ve eğitim, devletin yürüttüğü temel kamu hizmetlerindendir.",
+  "z": 1
+ },
+ {
+  "w": "kamulaştırma",
+  "m": "özel mülkün kamu yararına alınması",
+  "s": "Otoyol güzergâhındaki araziler bedeli ödenerek kamulaştırıldı.",
+  "z": 2
+ },
+ {
+  "w": "istimlâk",
+  "m": "► kamulaştırma",
+  "s": "Yol genişletme çalışmasında iki ev istimlâk edildi.",
+  "z": 2
+ },
+ {
+  "w": "imtiyaz",
+  "m": "kamu hizmetini özel kişiye gördürme ayrıcalığı",
+  "s": "Elektrik dağıtımı uzun yıllar imtiyaz sözleşmeleriyle yürütüldü.",
+  "z": 3
+ },
+ {
+  "w": "ruhsat",
+  "m": "resmi izin belgesi",
+  "s": "İşletme, ruhsatı olmadığı için mühürlenerek kapatıldı.",
+  "z": 1
+ },
+ {
+  "w": "iptal davası",
+  "m": "hukuka aykırı idari işleme karşı dava",
+  "s": "Atama işlemine karşı idare mahkemesinde iptal davası açıldı.",
+  "z": 2
+ },
+ {
+  "w": "tam yargı davası",
+  "m": "idareden zarar tazmini istenen dava",
+  "s": "Yol çukurunda hasar gören sürücü, idareye karşı tam yargı davası açtı.",
+  "z": 3
+ },
+ {
+  "w": "kamu denetçisi",
+  "m": "idareyi şikâyet üzerine denetleyen ombudsman",
+  "s": "Vatandaş, kurumun cevabından tatmin olmayınca kamu denetçisine başvurdu.",
+  "z": 2
+ },
+ {
+  "w": "olağanüstü hal",
+  "m": "temel hakların sınırlanabildiği istisnai yönetim",
+  "s": "Depremin ardından bölgede üç ay süreyle olağanüstü hal ilan edildi.",
+  "z": 2
+ },
+ {
+  "w": "vatandaşlık",
+  "m": "kişiyi devlete bağlayan hukuki bağ",
+  "s": "Türk vatandaşlığı doğum yoluyla veya sonradan kazanılabilir.",
+  "z": 1
+ },
+ {
+  "w": "iltica",
+  "m": "başka devlete sığınma",
+  "s": "Savaştan kaçan aile komşu ülkeye iltica talebinde bulundu.",
+  "z": 2
+ },
+ {
+  "w": "mütekabiliyet",
+  "m": "devletler arasında karşılıklılık esası",
+  "s": "Yabancıların taşınmaz edinmesinde mütekabiliyet ilkesi gözetilir.",
+  "z": 3
+ },
+ {
+  "w": "kanun",
+  "m": "meclisin yaptığı bağlayıcı genel kural",
+  "s": "Kanunlar Resmî Gazetede yayımlanarak yürürlüğe girer.",
+  "z": 1,
+  "k": "Arapça كانون‎, o da Arapça كَانُون‎ (kānūn)"
+ },
+ {
+  "w": "yürürlük",
+  "m": "hukuk kuralının uygulanır olması",
+  "s": "Yeni vergi düzenlemesi yılbaşında yürürlüğe girecek.",
+  "z": 1
+ },
+ {
+  "w": "ilga",
+  "m": "bir kanunun yürürlükten kaldırılması",
+  "s": "Yeni kanun, eski düzenlemenin ilgili maddelerini ilga etti.",
+  "z": 3
+ },
+ {
+  "w": "lehe",
+  "m": "birinin yararına olan",
+  "s": "Ceza hukukunda sanığın lehine olan kanun uygulanır.",
+  "z": 2
+ },
+ {
+  "w": "aleyhe",
+  "m": "birinin zararına olan",
+  "s": "Hükümler hiçbir biçimde sanığın aleyhine genişletilerek yorumlanamaz.",
+  "z": 2
+ },
+ {
+  "w": "kıyas",
+  "m": "benzer duruma kural uygulama",
+  "s": "Ceza hukukunda kıyas yoluyla suç ve ceza yaratılamaz.",
+  "z": 3
+ },
+ {
+  "w": "boşluk",
+  "m": "kanunda düzenleme bulunmaması",
+  "s": "Hâkim, kanundaki boşluğu hukuka uygun biçimde doldurmak zorundadır.",
+  "z": 2
+ },
+ {
+  "w": "emsal",
+  "m": "örnek alınan önceki karar",
+  "s": "Bu karar, benzer davalar için önemli bir emsal oluşturdu.",
+  "z": 1
+ },
+ {
+  "w": "hukuki güvenlik",
+  "m": "kuralların öngörülebilir olması ilkesi",
+  "s": "Sık değişen mevzuat hukuki güvenlik ilkesini zedeler.",
+  "z": 2
+ },
+ {
+  "w": "kazanılmış hak",
+  "m": "önceki kurala göre elde edilmiş hak",
+  "s": "Yeni yönetmelik mevcut öğrencilerin kazanılmış haklarını koruyor.",
+  "z": 2
+ },
+ {
+  "w": "geriye yürümezlik",
+  "m": "kanunun geçmişe uygulanmaması",
+  "s": "Cezaların geriye yürümezliği ilkesi kişileri sonradan çıkan kanuna karşı korur.",
+  "z": 3
+ },
+ {
+  "w": "resmî gazete",
+  "m": "mevzuatın yayımlandığı devlet gazetesi",
+  "s": "Atama kararları bugünkü Resmî Gazetede yayımlandı.",
+  "z": 1
+ },
+ {
+  "w": "tebligat",
+  "m": "resmî bildirim",
+  "s": "Mahkeme, duruşma gününü taraflara tebligatla bildirdi.",
+  "z": 2
+ },
+ {
+  "w": "gerçek kişi",
+  "m": "insan olan hukuk süjesi",
+  "s": "Gerçek kişilik, çocuğun sağ ve tam doğumuyla başlar.",
+  "z": 2
+ },
+ {
+  "w": "tüzel kişi",
+  "m": "hukukun kişilik tanıdığı topluluk",
+  "s": "Dernekler ve şirketler birer tüzel kişi olarak hak edinebilir.",
+  "z": 2
+ },
+ {
+  "w": "hak ehliyeti",
+  "m": "haklara sahip olabilme yeteneği",
+  "s": "Her insan doğumla birlikte hak ehliyetine sahip olur.",
+  "z": 2
+ },
+ {
+  "w": "fiil ehliyeti",
+  "m": "kendi işlemiyle hak edinebilme yeteneği",
+  "s": "Fiil ehliyeti için ergin ve ayırt etme gücüne sahip olmak gerekir.",
+  "z": 2
+ },
+ {
+  "w": "ayırt etme gücü",
+  "m": "makul biçimde davranabilme yetisi",
+  "s": "Ayırt etme gücü bulunmayan kişinin yaptığı işlemler hüküm doğurmaz.",
+  "z": 2
+ },
+ {
+  "w": "ergin",
+  "m": "on sekiz yaşını dolduran, reşit",
+  "s": "Evlenme, kişiyi kanun gereği ergin kılar.",
+  "z": 2
+ },
+ {
+  "w": "kısıtlı",
+  "m": "fiil ehliyeti mahkemece sınırlanan kişi",
+  "s": "Savurganlığı nedeniyle kısıtlanan kişiye bir vasi atandı.",
+  "z": 3
+ },
+ {
+  "w": "velayet",
+  "m": "ana-babanın çocuk üzerindeki hak ve yetkisi",
+  "s": "Boşanma davasında çocuğun velayeti anneye verildi.",
+  "z": 2
+ },
+ {
+  "w": "vesayet",
+  "m": "mahkemece atanan koruyucu temsil düzeni",
+  "s": "Anne babası olmayan çocuk için vesayet makamı bir vasi görevlendirdi.",
+  "z": 2
+ },
+ {
+  "w": "vasi",
+  "m": "kısıtlıyı veya vesayet altındakini temsil eden kişi",
+  "s": "Vasi, temsil ettiği kişinin mallarını özenle yönetmekle yükümlüdür.",
+  "z": 2
+ },
+ {
+  "w": "kayyım",
+  "m": "belirli iş için atanan yasal temsilci",
+  "s": "Mahkeme, şirketin yönetimine geçici bir kayyım atadı.",
+  "z": 3
+ },
+ {
+  "w": "nafaka",
+  "m": "geçim için ödenen yasal destek parası",
+  "s": "Mahkeme, çocuk için aylık nafaka ödenmesine hükmetti.",
+  "z": 1
+ },
+ {
+  "w": "nişanlanma",
+  "m": "evlenme vaadiyle kurulan ilişki",
+  "s": "Nişanlanma, evlenmeye zorlamak için dava hakkı vermez.",
+  "z": 2
+ },
+ {
+  "w": "gaiplik",
+  "m": "kaybolan kişinin ölmüş sayılması kararı",
+  "s": "Yıllardır haber alınamayan denizci hakkında gaiplik kararı verildi.",
+  "z": 3
+ },
+ {
+  "w": "yerleşim yeri",
+  "m": "sürekli kalma niyetiyle oturulan yer, ikametgâh",
+  "s": "Bir kişinin aynı anda tek yerleşim yeri olabilir.",
+  "z": 2
+ },
+ {
+  "w": "dernek",
+  "m": "kazanç dışı amaçlı kişi topluluğu",
+  "s": "Yedi kişi bir araya gelerek çevre koruma derneği kurdu.",
+  "z": 1
+ },
+ {
+  "w": "vakıf",
+  "m": "bir amaca özgülenmiş mal topluluğu",
+  "s": "İş insanı, servetinin bir kısmını eğitim vakfına bağışladı.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi واقف‎ (vakıf) sözcüğünden devralındı, Arapça وَاقِف‎ (vāḳif) sözcüğünden."
+ },
+ {
+  "w": "mülkiyet",
+  "m": "eşya üzerindeki en geniş ayni hak",
+  "s": "Mülkiyet hakkı, kamu yararı amacıyla kanunla sınırlanabilir.",
+  "z": 1
+ },
+ {
+  "w": "zilyet",
+  "m": "malı fiilen elinde bulunduran kişi",
+  "s": "Kiracı, oturduğu evin maliki değil zilyedidir.",
+  "z": 3
+ },
+ {
+  "w": "zilyetlik",
+  "m": "eşya üzerinde fiili hâkimiyet durumu",
+  "s": "Taşınırlarda zilyetlik, mülkiyet hakkının varlığına karine oluşturur.",
+  "z": 3
+ },
+ {
+  "w": "tapu",
+  "m": "taşınmaz mülkiyetini gösteren resmî belge",
+  "s": "Ev satışı ancak tapu müdürlüğünde yapılan devirle geçerlilik kazanır.",
+  "z": 1
+ },
+ {
+  "w": "tapu sicili",
+  "m": "taşınmaz kayıtlarının tutulduğu resmî kütük",
+  "s": "Taşınmaz üzerindeki haklar tapu siciline tescille kazanılır.",
+  "z": 2
+ },
+ {
+  "w": "ipotek",
+  "m": "taşınmaz rehni",
+  "s": "Banka, kredinin güvencesi olarak eve ipotek koydurdu.",
+  "z": 2
+ },
+ {
+  "w": "rehin",
+  "m": "borca karşılık verilen güvence",
+  "s": "Kuyumcuya rehin bırakılan bilezikler borç ödenince geri alındı.",
+  "z": 2
+ },
+ {
+  "w": "irtifak",
+  "m": "başkasının taşınmazından sınırlı yararlanma hakkı",
+  "s": "Komşu parsel lehine kurulan irtifak hakkı tapuya tescil edildi.",
+  "z": 3
+ },
+ {
+  "w": "intifa",
+  "m": "başkasının malını kullanma ve ürünlerinden yararlanma hakkı",
+  "s": "Yaşlı adam evini oğluna devredip kendine intifa hakkı ayırdı.",
+  "z": 3
+ },
+ {
+  "w": "sükna",
+  "m": "bir konutta oturma hakkı",
+  "s": "Tapuya şerh edilen sükna hakkı yalnızca hak sahibince kullanılabilir.",
+  "z": 3
+ },
+ {
+  "w": "şüyu",
+  "m": "paylı ortaklık durumu",
+  "s": "Kardeşler arasındaki şüyu, taşınmazın satışıyla giderildi.",
+  "z": 3
+ },
+ {
+  "w": "önalım",
+  "m": "paydaşın satılan payı öncelikle alma hakkı, şufa",
+  "s": "Payını yabancıya satan ortağa karşı diğer paydaş önalım hakkını kullandı.",
+  "z": 3
+ },
+ {
+  "w": "iştira",
+  "m": "satın alma hakkı",
+  "s": "Sözleşmeyle tanınan iştira hakkı sahibine taşınmazı satın alma yetkisi verir.",
+  "z": 3
+ },
+ {
+  "w": "vefa hakkı",
+  "m": "satılan malı geri alma hakkı",
+  "s": "Satıcı, sözleşmedeki vefa hakkına dayanarak tarlayı geri aldı.",
+  "z": 3
+ },
+ {
+  "w": "miras",
+  "m": "ölenin geride bıraktığı hak ve borçlar",
+  "s": "Miras, ölümle birlikte kendiliğinden mirasçılara geçer.",
+  "z": 1
+ },
+ {
+  "w": "muris",
+  "m": "miras bırakan kişi",
+  "s": "Murisin borçları da terekeyle birlikte mirasçılara intikal eder.",
+  "z": 3
+ },
+ {
+  "w": "tereke",
+  "m": "ölenin bıraktığı malvarlığının tümü",
+  "s": "Mahkeme, tartışmalı tereke için resmî defter tutulmasına karar verdi.",
+  "z": 3
+ },
+ {
+  "w": "saklı pay",
+  "m": "mirasçının dokunulamayan miras payı",
+  "s": "Miras bırakan, çocuklarının saklı paylarını vasiyetle ortadan kaldıramaz.",
+  "z": 3
+ },
+ {
+  "w": "vasiyetname",
+  "m": "ölüme bağlı son istek belgesi",
+  "s": "El yazılı vasiyetname baştan sona mirasbırakanın el yazısıyla yazılmalıdır.",
+  "z": 2
+ },
+ {
+  "w": "tenkis",
+  "m": "saklı payı aşan kazandırmanın indirilmesi",
+  "s": "Saklı payı zedelenen mirasçı tenkis davası açtı.",
+  "z": 3
+ },
+ {
+  "w": "reddi miras",
+  "m": "mirası kabul etmeme",
+  "s": "Borca batık kalan mirası oğlu üç ay içinde reddetti.",
+  "z": 2
+ },
+ {
+  "w": "intikal",
+  "m": "hakkın bir kişiden diğerine geçmesi",
+  "s": "Tarla, veraset ilamıyla mirasçılara intikal etti.",
+  "z": 2
+ },
+ {
+  "w": "veraset ilamı",
+  "m": "mirasçılık belgesini gösteren resmi karar",
+  "s": "Bankadaki hesap için noterden veraset ilamı istendi.",
+  "z": 3
+ },
+ {
+  "w": "muvazaa",
+  "m": "tarafların üçüncü kişileri aldatmak için yaptığı danışıklı işlem",
+  "s": "Tarafların gerçek iradeyi gizlediği sözleşme muvazaa sayılır.",
+  "z": 3
+ },
+ {
+  "w": "gabin",
+  "m": "karşı tarafın zor durumundan aşırı yararlanma",
+  "s": "Edimler arasındaki aşırı oransızlık gabin nedeniyle davaya konu oldu.",
+  "z": 3
+ },
+ {
+  "w": "ikrah",
+  "m": "korkutarak hukuki işlem yaptırma",
+  "s": "Tehditle imzalatılan senet, ikrah nedeniyle iptal edildi.",
+  "z": 3
+ },
+ {
+  "w": "hile",
+  "m": "aldatarak sözleşme yaptırma",
+  "s": "Aracın hasar kaydını gizleyen satıcı hile yapmış sayıldı.",
+  "z": 2
+ },
+ {
+  "w": "butlan",
+  "m": "hukuki işlemin kesin hükümsüzlüğü",
+  "s": "Ehliyetsiz kişinin yaptığı sözleşme mutlak butlanla sakattır.",
+  "z": 3
+ },
+ {
+  "w": "borç",
+  "m": "bir edimi yerine getirme yükümlülüğü",
+  "s": "Sözleşmeden doğan borç, kararlaştırılan sürede ifa edilmelidir.",
+  "z": 1
+ },
+ {
+  "w": "alacak",
+  "m": "borçludan istenebilen edim hakkı",
+  "s": "Şirket, tahsil edemediği alacakları için icra takibi başlattı.",
+  "z": 1
+ },
+ {
+  "w": "edim",
+  "m": "borçlunun yerine getirmekle yükümlü olduğu davranış",
+  "s": "Sözleşmede tarafların karşılıklı edimleri açıkça belirlenmişti.",
+  "z": 3
+ },
+ {
+  "w": "ifa",
+  "m": "borcun gereği gibi yerine getirilmesi",
+  "s": "Satıcı, teslim borcunu zamanında ifa etmediği için sorumlu tutuldu.",
+  "z": 3
+ },
+ {
+  "w": "temerrüt",
+  "m": "borcun ifasında gecikmeye düşme",
+  "s": "Kira bedelini ödemeyen kiracı temerrüde düştü.",
+  "z": 3
+ },
+ {
+  "w": "muaccel",
+  "m": "vadesi gelmiş, ödenmesi istenebilir",
+  "s": "Vade dolunca borç muaccel hâle gelir ve alacaklı ödeme isteyebilir.",
+  "z": 3
+ },
+ {
+  "w": "müeccel",
+  "m": "vadesi gelmemiş, ertelenmiş",
+  "s": "Müeccel borç, vadesi gelmeden alacaklı tarafından talep edilemez.",
+  "z": 3
+ },
+ {
+  "w": "zamanaşımı",
+  "m": "sürenin geçmesiyle talebin dava edilememesi",
+  "s": "On yıllık zamanaşımı dolduğu için alacak davası reddedildi.",
+  "z": 2
+ },
+ {
+  "w": "hak düşürücü süre",
+  "m": "hakkı tamamen sona erdiren kesin süre",
+  "s": "Hak düşürücü süre geçtikten sonra iptal davası açılamaz.",
+  "z": 3
+ },
+ {
+  "w": "takas",
+  "m": "karşılıklı borçların birbirine sayışılması",
+  "s": "İki şirket, birbirlerine olan borçlarını takas yoluyla sona erdirdi.",
+  "z": 2
+ },
+ {
+  "w": "ibra",
+  "m": "alacaklının borçluyu borçtan kurtarması",
+  "s": "İşveren, tazminatı ödedikten sonra işçiden ibra belgesi aldı.",
+  "z": 3
+ },
+ {
+  "w": "temlik",
+  "m": "alacağın başkasına devri",
+  "s": "Müteahhit, hak edişlerini bankaya temlik etti.",
+  "z": 3
+ },
+ {
+  "w": "halefiyet",
+  "m": "ödeyenin alacaklının yerine geçmesi",
+  "s": "Sigorta şirketi hasarı ödeyip halefiyet yoluyla kusurluya rücu etti.",
+  "z": 3
+ },
+ {
+  "w": "rücu",
+  "m": "ödenen bedeli asıl sorumludan geri isteme",
+  "s": "Kefil, ödediği borç için asıl borçluya rücu etti.",
+  "z": 3
+ },
+ {
+  "w": "kefalet",
+  "m": "başkasının borcuna güvence olma",
+  "s": "Kefalet sözleşmesinin geçerliliği yazılı şekil şartına bağlıdır.",
+  "z": 2
+ },
+ {
+  "w": "cezai şart",
+  "m": "sözleşmeye aykırılık hâlinde ödenecek ceza",
+  "s": "Teslimatın gecikmesi hâlinde uygulanacak cezai şart sözleşmeye eklendi.",
+  "z": 2
+ },
+ {
+  "w": "pey akçesi",
+  "m": "sözleşmenin kanıtı olarak verilen kaparo",
+  "s": "Alıcı, satış görüşmesinde pey akçesi olarak bir miktar para verdi.",
+  "z": 3
+ },
+ {
+  "w": "sebepsiz zenginleşme",
+  "m": "haklı neden olmadan malvarlığı artışı",
+  "s": "Yanlışlıkla iki kez yatan maaş, sebepsiz zenginleşme hükümlerine göre iade edildi.",
+  "z": 3
+ },
+ {
+  "w": "haksız fiil",
+  "m": "hukuka aykırı kusurlu zarar verme",
+  "s": "Trafik kazasında yayaya çarpan sürücü haksız fiilden sorumlu tutuldu.",
+  "z": 2
+ },
+ {
+  "w": "kusur",
+  "m": "hukuka aykırı davranıştaki kınanabilirlik",
+  "s": "Bilirkişi raporu, kazada asli kusuru kamyon sürücüsüne verdi.",
+  "z": 1
+ },
+ {
+  "w": "kast",
+  "m": "sonucu bilerek ve isteyerek gerçekleştirme",
+  "s": "Suçun oluşması kural olarak failin kastına bağlıdır.",
+  "z": 2
+ },
+ {
+  "w": "taksir",
+  "m": "dikkatsizlikle istemeden sonuca yol açma",
+  "s": "Kırmızı ışıkta geçen sürücü taksirle yaralamadan yargılandı.",
+  "z": 2
+ },
+ {
+  "w": "tazminat",
+  "m": "zararın para ile giderilmesi",
+  "s": "Mahkeme, mağdura maddi ve manevi tazminat ödenmesine karar verdi.",
+  "z": 1
+ },
+ {
+  "w": "suç",
+  "m": "kanunun ceza öngördüğü fiil",
+  "s": "Kanunda açıkça yazmayan bir fiil suç sayılamaz.",
+  "z": 1
+ },
+ {
+  "w": "kanunilik ilkesi",
+  "m": "kanunsuz suç ve ceza olmaz kuralı",
+  "s": "Kanunilik ilkesi, keyfi cezalandırmaya karşı bireyi korur.",
+  "z": 2
+ },
+ {
+  "w": "masumiyet karinesi",
+  "m": "hüküm kesinleşene dek suçsuz sayılma",
+  "s": "Masumiyet karinesi gereği şüpheli, mahkûmiyet kesinleşene kadar suçlu ilan edilemez.",
+  "z": 2
+ },
+ {
+  "w": "şüpheli",
+  "m": "soruşturma aşamasındaki kişi",
+  "s": "Şüpheli, ifadesi alındıktan sonra serbest bırakıldı.",
+  "z": 1
+ },
+ {
+  "w": "sanık",
+  "m": "kovuşturma aşamasında yargılanan kişi",
+  "s": "Sanık, duruşmada suçlamaları kabul etmediğini söyledi.",
+  "z": 1
+ },
+ {
+  "w": "müdafi",
+  "m": "şüpheli veya sanığın avukatı",
+  "s": "İfade işlemine barodan atanan müdafi de katıldı.",
+  "z": 3
+ },
+ {
+  "w": "müşteki",
+  "m": "şikâyetçi olan kişi",
+  "s": "Müşteki, şikâyetini duruşmada geri çektiğini bildirdi.",
+  "z": 2
+ },
+ {
+  "w": "iddianame",
+  "m": "savcının dava açan suçlama belgesi",
+  "s": "Mahkeme, savcılığın hazırladığı iddianameyi kabul etti.",
+  "z": 2
+ },
+ {
+  "w": "soruşturma",
+  "m": "savcılığın dava öncesi araştırma evresi",
+  "s": "Olayla ilgili soruşturma cumhuriyet savcılığınca yürütülüyor.",
+  "z": 1
+ },
+ {
+  "w": "kovuşturma",
+  "m": "iddianamenin kabulüyle başlayan yargılama evresi",
+  "s": "İddianamenin kabulüyle kovuşturma evresi resmen başladı.",
+  "z": 2
+ },
+ {
+  "w": "beraat",
+  "m": "yargılama sonunda suçsuz bulunma",
+  "s": "Delil yetersizliğinden tüm sanıklar hakkında beraat kararı verildi.",
+  "z": 2
+ },
+ {
+  "w": "tahliye",
+  "m": "tutuklunun serbest bırakılması; boşaltma",
+  "s": "Mahkeme, tutuklu sanığın adli kontrolle tahliyesine karar verdi.",
+  "z": 2
+ },
+ {
+  "w": "tutuklama",
+  "m": "hâkim kararıyla özgürlüğün geçici kısıtlanması",
+  "s": "Tutuklama, kaçma şüphesi bulunan şüpheli için başvurulan bir tedbirdir.",
+  "z": 1
+ },
+ {
+  "w": "adli kontrol",
+  "m": "tutuklamaya alternatif denetim tedbiri",
+  "s": "Şüpheli, yurt dışı yasağı içeren adli kontrolle serbest bırakıldı.",
+  "z": 2
+ },
+ {
+  "w": "gözaltı",
+  "m": "savcı kararıyla kısa süreli özgürlük kısıtlaması",
+  "s": "Operasyonda yakalanan kişiler için gözaltı süresi uzatıldı.",
+  "z": 1
+ },
+ {
+  "w": "müsadere",
+  "m": "suç eşyasının devletçe alınması",
+  "s": "Kaçakçılıkta kullanılan araç mahkeme kararıyla müsadere edildi.",
+  "z": 3
+ },
+ {
+  "w": "meşru müdafaa",
+  "m": "saldırıya karşı orantılı zorunlu savunma",
+  "s": "Mahkeme, sanığın meşru müdafaa sınırları içinde kaldığına hükmetti.",
+  "z": 2
+ },
+ {
+  "w": "teşebbüs",
+  "m": "suçun tamamlanamadan kalması",
+  "s": "Fail, hırsızlığa teşebbüs suçundan indirimli ceza aldı.",
+  "z": 2
+ },
+ {
+  "w": "iştirak",
+  "m": "suça birden çok kişinin katılması",
+  "s": "Sanıklar suça iştirak hükümlerine göre ayrı ayrı cezalandırıldı.",
+  "z": 3
+ },
+ {
+  "w": "tekerrür",
+  "m": "suçun cezadan sonra yeniden işlenmesi",
+  "s": "Tekerrür hükümleri uygulanınca hükümlünün infaz süresi ağırlaştı.",
+  "z": 3
+ },
+ {
+  "w": "genel af",
+  "m": "suçu tüm sonuçlarıyla ortadan kaldıran af",
+  "s": "Genel af, mahkûmiyeti ve cezayı bütün sonuçlarıyla sona erdirir.",
+  "z": 2
+ },
+ {
+  "w": "özel af",
+  "m": "yalnızca cezayı azaltan veya kaldıran af",
+  "s": "Özel af cezayı kaldırsa da mahkûmiyet adli sicilde kalır.",
+  "z": 3
+ },
+ {
+  "w": "arz",
+  "m": "piyasaya sunulan mal ve hizmet miktarı",
+  "s": "Kuraklık yüzünden buğday arzı azalınca fiyatlar yükseldi.",
+  "z": 1
+ },
+ {
+  "w": "talep",
+  "m": "satın alınmak istenen mal miktarı",
+  "s": "Faiz indirimi konut talebini kısa sürede canlandırdı.",
+  "z": 1
+ },
+ {
+  "w": "enflasyon",
+  "m": "fiyatlar genel düzeyinin sürekli artışı",
+  "s": "Yıllık enflasyon açıklanınca piyasalar hızla hareketlendi.",
+  "z": 1
+ },
+ {
+  "w": "deflasyon",
+  "m": "fiyatlar genel düzeyinin sürekli düşüşü",
+  "s": "Uzun süren deflasyon, üreticilerin yatırım iştahını tamamen kırdı.",
+  "z": 2
+ },
+ {
+  "w": "stagflasyon",
+  "m": "durgunlukla enflasyonun birlikte yaşanması",
+  "s": "Yüksek işsizlik ve artan fiyatlar ekonomiyi stagflasyona sürükledi.",
+  "z": 3
+ },
+ {
+  "w": "resesyon",
+  "m": "ekonomik daralma, durgunluk",
+  "s": "Üst üste iki çeyrek küçülen ekonomi resesyona girdi.",
+  "z": 2
+ },
+ {
+  "w": "devalüasyon",
+  "m": "ulusal paranın değerinin resmen düşürülmesi",
+  "s": "Sabit kur döneminde yapılan devalüasyon ithalatı pahalılaştırdı.",
+  "z": 2
+ },
+ {
+  "w": "revalüasyon",
+  "m": "ulusal paranın değerinin resmen yükseltilmesi",
+  "s": "Revalüasyon, devalüasyonun tersine ulusal paranın değer kazanmasıdır.",
+  "z": 3
+ },
+ {
+  "w": "enflasyon hedeflemesi",
+  "m": "merkez bankasının fiyat istikrarı stratejisi",
+  "s": "Merkez bankası, yıl sonu enflasyon hedeflemesini yukarı yönlü güncelledi.",
+  "z": 3
+ },
+ {
+  "w": "faiz",
+  "m": "paranın kullanım bedeli",
+  "s": "Merkez bankası politika faizini iki puan artırdı.",
+  "z": 1
+ },
+ {
+  "w": "tekel",
+  "m": "tek satıcının piyasaya hâkim olması, monopol",
+  "s": "Şirketin bölgedeki tekel konumu rekabet kurumunca soruşturuldu.",
+  "z": 2
+ },
+ {
+  "w": "oligopol",
+  "m": "az sayıda satıcının hâkim olduğu piyasa",
+  "s": "Cep telefonu operatörleri tipik bir oligopol piyasası oluşturur.",
+  "z": 3
+ },
+ {
+  "w": "kartel",
+  "m": "firmaların rekabeti kısıtlayan anlaşması",
+  "s": "Fiyatları birlikte belirleyen firmalara kartel cezası kesildi.",
+  "z": 2
+ },
+ {
+  "w": "damping",
+  "m": "maliyetin altında satışla piyasa ele geçirme",
+  "s": "Yerli üreticiler, ithal çeliğe damping soruşturması açılmasını istedi.",
+  "z": 3
+ },
+ {
+  "w": "kota",
+  "m": "ithalata getirilen miktar sınırı",
+  "s": "Hükümet, ucuz ithalatı frenlemek için tekstile kota uyguladı.",
+  "z": 2
+ },
+ {
+  "w": "gümrük tarifesi",
+  "m": "ithal mallardan alınan vergi listesi",
+  "s": "Yeni gümrük tarifesi otomobil fiyatlarını doğrudan etkiledi.",
+  "z": 2
+ },
+ {
+  "w": "ihracat",
+  "m": "yurt dışına mal satma, dışsatım",
+  "s": "Türkiye'nin ihracatı bu yıl rekor seviyeye ulaştı.",
+  "z": 1
+ },
+ {
+  "w": "ithalat",
+  "m": "yurt dışından mal alma, dışalım",
+  "s": "Enerji ithalatı dış ticaret açığının en büyük kalemidir.",
+  "z": 1
+ },
+ {
+  "w": "cari açık",
+  "m": "döviz gelirlerinin giderlerden az olması",
+  "s": "Turizm gelirlerindeki artış cari açığı bir miktar azalttı.",
+  "z": 2
+ },
+ {
+  "w": "ödemeler dengesi",
+  "m": "ülkenin dış ekonomik işlemlerinin kaydı",
+  "s": "Ödemeler dengesi verileri her ay merkez bankasınca açıklanır.",
+  "z": 3
+ },
+ {
+  "w": "döviz kuru",
+  "m": "ulusal paranın yabancı para karşılığı",
+  "s": "Döviz kurundaki oynaklık ithalatçı firmaları zorluyor.",
+  "z": 1
+ },
+ {
+  "w": "konvertibilite",
+  "m": "paranın serbestçe dövize çevrilebilmesi",
+  "s": "Türk lirası 1989'daki kararlarla konvertibilite kazandı.",
+  "z": 3
+ },
+ {
+  "w": "emisyon",
+  "m": "merkez bankasının para basıp dolaşıma sürmesi",
+  "s": "Karşılıksız emisyon artışı uzun vadede enflasyonu besler.",
+  "z": 3
+ },
+ {
+  "w": "senyoraj",
+  "m": "devletin para basmaktan sağladığı gelir",
+  "s": "Senyoraj geliri, enflasyon vergisi olarak da nitelendirilir.",
+  "z": 3
+ },
+ {
+  "w": "mevduat",
+  "m": "bankaya yatırılan para",
+  "s": "Yüksek faiz, tasarrufların vadeli mevduata yönelmesini sağladı.",
+  "z": 1
+ },
+ {
+  "w": "tahvil",
+  "m": "uzun vadeli borçlanma senedi",
+  "s": "Devlet, altyapı yatırımları için on yıllık tahvil ihraç etti.",
+  "z": 2
+ },
+ {
+  "w": "bono",
+  "m": "kısa vadeli borçlanma senedi",
+  "s": "Hazine bonosu, bir yıldan kısa vadeli borçlanma aracıdır.",
+  "z": 2
+ },
+ {
+  "w": "hisse senedi",
+  "m": "şirket ortaklığını temsil eden pay belgesi",
+  "s": "Yatırımcı, birikimiyle halka açık şirketlerin hisse senetlerini aldı.",
+  "z": 1
+ },
+ {
+  "w": "temettü",
+  "m": "ortaklara dağıtılan kâr payı",
+  "s": "Şirket, bu yıl rekor temettü dağıtacağını duyurdu.",
+  "z": 3
+ },
+ {
+  "w": "portföy",
+  "m": "yatırımcının sahip olduğu varlıklar bütünü",
+  "s": "Uzmanlar, portföyü farklı varlıklara dağıtarak riski azaltmayı önerir.",
+  "z": 2
+ },
+ {
+  "w": "likidite",
+  "m": "varlığın hızla nakde çevrilebilmesi",
+  "s": "Bankalar, ani çekilişlere karşı yeterli likidite tutmak zorundadır.",
+  "z": 2
+ },
+ {
+  "w": "arbitraj",
+  "m": "fiyat farkından risksiz kazanç sağlama",
+  "s": "İki borsa arasındaki fiyat farkı arbitraj fırsatı doğurdu.",
+  "z": 3
+ },
+ {
+  "w": "spekülasyon",
+  "m": "fiyat beklentisiyle alım satım yapma",
+  "s": "Dövizdeki ani yükseliş uzmanlarca piyasadaki spekülasyona bağlandı.",
+  "z": 2
+ },
+ {
+  "w": "gayri safi yurt içi hasıla",
+  "m": "ülkede bir yılda üretilen nihai mal değeri",
+  "s": "Gayri safi yurt içi hasıla üçüncü çeyrekte yüzde dört büyüdü.",
+  "z": 2
+ },
+ {
+  "w": "kişi başına gelir",
+  "m": "milli gelirin nüfusa bölünmesi",
+  "s": "Kişi başına gelir, ülkeler arası refah karşılaştırmasında kullanılır.",
+  "z": 1
+ },
+ {
+  "w": "kalkınma",
+  "m": "ekonomik büyümeyle birlikte yapısal iyileşme",
+  "s": "Kalkınma, yalnız üretim artışını değil yaşam kalitesini de kapsar.",
+  "z": 1
+ },
+ {
+  "w": "istihdam",
+  "m": "çalışma çağındakilerin işe kavuşması",
+  "s": "Yeni fabrika bölgede iki bin kişilik istihdam yarattı.",
+  "z": 1
+ },
+ {
+  "w": "işsizlik",
+  "m": "çalışmak isteyenin iş bulamaması",
+  "s": "Genç işsizlik oranı genel ortalamanın hayli üzerinde seyrediyor.",
+  "z": 1
+ },
+ {
+  "w": "asgari ücret",
+  "m": "yasal en düşük çalışma ücreti",
+  "s": "Asgari ücret, komisyonda işçi ve işveren temsilcileriyle belirlenir.",
+  "z": 1
+ },
+ {
+  "w": "rant",
+  "m": "üretim faktörü toprağın getirisi; emeksiz kazanç",
+  "s": "İmar değişikliği arsa sahiplerine büyük rant sağladı.",
+  "z": 2
+ },
+ {
+  "w": "sermaye",
+  "m": "üretimde kullanılan birikmiş kaynak",
+  "s": "Girişimci, yeni tesis için yabancı sermaye ortaklığına gitti.",
+  "z": 1
+ },
+ {
+  "w": "girişimci",
+  "m": "üretim faktörlerini bir araya getiren kişi",
+  "s": "Genç girişimci, aldığı destekle teknoloji şirketi kurdu.",
+  "z": 1
+ },
+ {
+  "w": "üretim faktörleri",
+  "m": "emek, sermaye, doğa ve girişim",
+  "s": "İktisatta üretim faktörleri dört ana başlıkta incelenir.",
+  "z": 2
+ },
+ {
+  "w": "fırsat maliyeti",
+  "m": "vazgeçilen en iyi alternatifin değeri",
+  "s": "Okula devam etmenin fırsat maliyeti, çalışarak kazanılacak ücrettir.",
+  "z": 2
+ },
+ {
+  "w": "esneklik",
+  "m": "talebin fiyata duyarlılık ölçüsü",
+  "s": "Zorunlu malların talep esnekliği genellikle düşüktür.",
+  "z": 3
+ },
+ {
+  "w": "maliye",
+  "m": "devletin gelir ve gider yönetimi",
+  "s": "Kamu maliyesindeki disiplin, yatırımcı güvenini doğrudan etkiler.",
+  "z": 1
+ },
+ {
+  "w": "mükellef",
+  "m": "vergi ödemekle yükümlü kişi",
+  "s": "Her mükellef, yıllık beyannamesini süresi içinde vermek zorundadır.",
+  "z": 2
+ },
+ {
+  "w": "müzayede",
+  "m": "açık artırma yoluyla satış",
+  "s": "Ünlü ressamın tablosu müzayedede rekor fiyata satıldı.",
+  "z": 2
+ },
+ {
+  "w": "erozyon",
+  "m": "toprağın su ve rüzgârla aşınması",
+  "s": "Ağaçlandırma çalışmaları bölgedeki erozyonu büyük ölçüde önledi.",
+  "z": 1
+ },
+ {
+  "w": "vergi",
+  "m": "devletin karşılıksız aldığı zorunlu pay",
+  "s": "Vergi ödevi, anayasada mali güce göre düzenlenmiştir.",
+  "z": 1
+ },
+ {
+  "w": "harç",
+  "m": "kamu hizmeti karşılığı alınan bedel",
+  "s": "Tapu devri sırasında alıcı ve satıcı harç ödedi.",
+  "z": 2
+ },
+ {
+  "w": "matrah",
+  "m": "verginin üzerinden hesaplandığı tutar",
+  "s": "İndirimler düşüldükten sonra kalan matrah üzerinden vergi hesaplanır.",
+  "z": 3
+ },
+ {
+  "w": "muafiyet",
+  "m": "kişinin vergi yükümlülüğü dışında tutulması",
+  "s": "Küçük esnafa tanınan muafiyet kapsamı yeniden genişletildi.",
+  "z": 2
+ },
+ {
+  "w": "istisna",
+  "m": "konunun vergi dışında bırakılması",
+  "s": "İhracat gelirleri belirli koşullarda vergi istisnasından yararlanır.",
+  "z": 2
+ },
+ {
+  "w": "stopaj",
+  "m": "verginin kaynağında kesilmesi",
+  "s": "Kira ödemesinden yapılan stopaj, vergi dairesine yatırıldı.",
+  "z": 3
+ },
+ {
+  "w": "dolaylı vergi",
+  "m": "harcama üzerinden alınan vergi",
+  "s": "Katma değer vergisi en yaygın dolaylı vergi türüdür.",
+  "z": 2
+ },
+ {
+  "w": "dolaysız vergi",
+  "m": "gelir ve servetten alınan vergi",
+  "s": "Gelir vergisi, mükellefin kazancından alınan dolaysız vergidir.",
+  "z": 2
+ },
+ {
+  "w": "bütçe",
+  "m": "devletin yıllık gelir-gider planı",
+  "s": "Meclis, yeni yıl bütçesini uzun görüşmelerin ardından kabul etti.",
+  "z": 1
+ },
+ {
+  "w": "kesin hesap",
+  "m": "bütçe uygulamasının sonuç denetimi",
+  "s": "Kesin hesap kanunu teklifi bütçeyle birlikte mecliste görüşülür.",
+  "z": 3
+ },
+ {
+  "w": "sübvansiyon",
+  "m": "devletin üreticiye mali desteği",
+  "s": "Çiftçiye verilen gübre sübvansiyonu üretim maliyetini düşürdü.",
+  "z": 2
+ },
+ {
+  "w": "teşvik",
+  "m": "yatırımı özendiren devlet desteği",
+  "s": "Bölgeye yapılacak fabrikalar için kapsamlı teşvik paketi açıklandı.",
+  "z": 1
+ },
+ {
+  "w": "özelleştirme",
+  "m": "kamu işletmesinin özel sektöre devri",
+  "s": "Limanın özelleştirilmesi ihalesine üç konsorsiyum katıldı.",
+  "z": 1
+ },
+ {
+  "w": "devletleştirme",
+  "m": "özel işletmenin kamuya geçirilmesi",
+  "s": "Kamu yararının zorunlu kıldığı hâllerde özel işletmeler devletleştirilebilir.",
+  "z": 2
+ },
+ {
+  "w": "merkez bankası",
+  "m": "para politikasını yürüten kurum",
+  "s": "Merkez bankası, fiyat istikrarını sağlamakla görevlidir.",
+  "z": 1
+ },
+ {
+  "w": "para politikası",
+  "m": "para arzı ve faizle ekonomiyi yönlendirme",
+  "s": "Sıkı para politikası, talebi kısarak enflasyonu düşürmeyi amaçlar.",
+  "z": 2
+ },
+ {
+  "w": "maliye politikası",
+  "m": "vergi ve harcamalarla ekonomiyi yönlendirme",
+  "s": "Hükümet, daralmaya karşı genişletici maliye politikası uyguladı.",
+  "z": 2
+ },
+ {
+  "w": "sendika",
+  "m": "çalışanların hak arama örgütü",
+  "s": "İşçiler, ücret görüşmeleri için sendika çatısı altında toplandı.",
+  "z": 1
+ },
+ {
+  "w": "grev",
+  "m": "işçilerin topluca işi bırakması",
+  "s": "Görüşmelerden sonuç çıkmayınca sendika grev kararı aldı.",
+  "z": 1
+ },
+ {
+  "w": "lokavt",
+  "m": "işverenin işçileri topluca işten uzaklaştırması",
+  "s": "İşveren sendikası, grev kararına lokavt ilanıyla karşılık verdi.",
+  "z": 2
+ },
+ {
+  "w": "toplu iş sözleşmesi",
+  "m": "sendika ile işveren arasındaki ücret anlaşması",
+  "s": "Yeni toplu iş sözleşmesiyle işçi ücretlerine zam yapıldı.",
+  "z": 2
+ },
+ {
+  "w": "kıdem tazminatı",
+  "m": "çalışma süresine göre ödenen işten ayrılma bedeli",
+  "s": "Emekli olan işçiye yirmi yıllık kıdem tazminatı ödendi.",
+  "z": 1
+ },
+ {
+  "w": "sosyal güvenlik",
+  "m": "bireyi risklere karşı koruyan kamu sistemi",
+  "s": "Sosyal güvenlik primleri her ay işverence yatırılır.",
+  "z": 1
+ },
+ {
+  "w": "icra",
+  "m": "borcun devlet gücüyle tahsili",
+  "s": "Ödenmeyen fatura borcu için icra takibi başlatıldı.",
+  "z": 1
+ },
+ {
+  "w": "haciz",
+  "m": "borç için mallara el konulması",
+  "s": "Borçlunun banka hesaplarına icra dairesince haciz kondu.",
+  "z": 2
+ },
+ {
+  "w": "iflâs",
+  "m": "Borçlarını ödeyemediği mahkeme kararı ile tespit ve ilan olunan iş adamının durumu; batkı",
+  "s": "Şirket borçlarını ödeyemeyince iflâs kararı mahkemeden çıktı.",
+  "z": 2
+ },
+ {
+  "w": "konkordato",
+  "m": "borçlunun alacaklılarla yaptığı yeniden yapılandırma",
+  "s": "Şirket, iflastan kurtulmak için mahkemeden konkordato talep etti.",
+  "z": 3
+ },
+ {
+  "w": "noter",
+  "m": "belgelere resmiyet kazandıran görevli",
+  "s": "Araç satışı noter huzurunda yapılan sözleşmeyle tamamlandı.",
+  "z": 1
+ },
+ {
+  "w": "kabahat",
+  "m": "idari yaptırım gerektiren hafif fiil",
+  "s": "Çevreyi kirletmek suç değil, idari para cezası gerektiren bir kabahattir.",
+  "z": 3
+ },
+ {
+  "w": "yaptırım",
+  "m": "kurala uymamanın hukuki sonucu, müeyyide",
+  "s": "Hukuk kurallarını diğer kurallardan ayıran en önemli özellik yaptırımdır.",
+  "z": 1
+ },
+ {
+  "w": "karine",
+  "m": "aksi ispatlanabilir yasal varsayım",
+  "s": "Babalık karinesi, evlilik içinde doğan çocuk için geçerlidir.",
+  "z": 3
+ },
+ {
+  "w": "kamu düzeni",
+  "m": "toplum yaşamının huzur ve güvenliği",
+  "s": "Sözleşme özgürlüğü, kamu düzenine aykırı olmamak kaydıyla geçerlidir.",
+  "z": 2
+ },
+ {
+  "w": "tacir",
+  "m": "ticari işletmeyi kendi adına işleten kişi",
+  "s": "Tacir, ticaret siciline kaydolmak ve defter tutmak zorundadır.",
+  "z": 2
+ },
+ {
+  "w": "müktesebat",
+  "m": "kazanılmış hukuk kuralları bütünü",
+  "s": "Türkiye, üyelik sürecinde Avrupa Birliği müktesebatına uyum sağlamaya çalışıyor.",
+  "z": 3
+ },
+ {
+  "w": "denge fiyatı",
+  "m": "arz ile talebin eşitlendiği fiyat",
+  "s": "Piyasada denge fiyatı, arz ve talep eğrilerinin kesiştiği noktada oluşur.",
+  "z": 2
+ },
+ {
+  "w": "marjinal fayda",
+  "m": "son birim tüketimin sağladığı ek fayda",
+  "s": "Tüketim arttıkça her yeni birimin marjinal faydası giderek azalır.",
+  "z": 2
+ },
+ {
+  "w": "âdeta",
+  "m": "► neredeyse",
+  "s": "Herkes onu âdeta bir aile büyüğü gibi sayardı.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "ahkâm",
+  "m": "Hükümler",
+  "s": "Bu ahkâm kesmeye kalkışmadan önce konuyu iyice araştırmalı.",
+  "z": 2,
+  "k": "Osmanlı Türkçesi احكام‎ (ahkâm), o da Arapça أَحْكَام‎ (ʾaḥkām) sözcüğünden gelir."
+ },
+ {
+  "w": "âşıkane",
+  "m": "Âşığa yaraşır bir biçimde olan",
+  "s": "Şiirinde âşıkane duygularını saklamaya hiç çalışmadı.",
+  "z": 2
+ },
+ {
+  "w": "aşikâr",
+  "m": "► belli (II)",
+  "s": "İşin içinden bir aşikâr gerçek ortaya çıktı: kimse kuralları okumamış.",
+  "z": 2,
+  "k": "Osmanlı Türkçesi آشکار‎ sözcüğünden devralındı, Farsça آشکار‎ sözcüğünden."
+ },
+ {
+  "w": "aşikâre",
+  "m": "► açıkça",
+  "s": "Yalanını aşikâre söylemeye başlayınca kimse ona inanmaz oldu.",
+  "z": 2
+ },
+ {
+  "w": "belâgat",
+  "m": "İyi konuşma, sözle inandırma yeteneği",
+  "s": "Hitabet dersi, öğrencilerin belâgat yeteneğini geliştirmeyi amaçlıyor.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "bedevî",
+  "m": "Çölde, çadırda yaşayan göçebe",
+  "s": "Roman, bedevî hayatın çöldeki özgürlüğünü anlatıyor.",
+  "z": 2
+ },
+ {
+  "w": "bediî",
+  "m": "► estetik",
+  "s": "Sanatçının bediî kaygısı, eseri faydacı bir üründen ayırıyor.",
+  "z": 2
+ },
+ {
+  "w": "beşerî",
+  "m": "İnsanoğlu ile ilgili",
+  "s": "Deprem gibi beşerî afetlerin önüne geçmek için şehirleri planlamak gerekir.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "bîçare",
+  "m": "► çaresiz",
+  "s": "Kapıda bîçare bir kedi miyavlayarak duruyor.",
+  "z": 1
+ },
+ {
+  "w": "bigâne",
+  "m": "► ilgisiz",
+  "s": "Yıllar sonra memleketine döndüğünde her şey ona bigâne göründü.",
+  "z": 2,
+  "k": "Farsça"
+ },
+ {
+  "w": "cebrî",
+  "m": "Zor kullanılarak yaptırılan",
+  "s": "Vergi dairesi, cebrî tahsilat yoluna başvurmadan önce bir kez daha uyardı.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "cefakâr",
+  "m": "Eziyet eden, eziyet veren",
+  "s": "Babamız cefakâr bir insandı; hiç yorulmadığını söylemezdi.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "cismanî",
+  "m": "Cisimle, bedenle ilgili",
+  "s": "Felsefede cismanî varlık ile ruhun ayrımı tartışılır.",
+  "z": 3
+ },
+ {
+  "w": "cüretkâr",
+  "m": "► cüretli",
+  "s": "Cüretkâr bir hamleyle tüm sermayesini yeni projeye yatırdı.",
+  "z": 1,
+  "k": "cüret + -kâr"
+ },
+ {
+  "w": "dâhil",
+  "m": "► iç",
+  "s": "Sigortaya kaza teminatı da dâhil.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi داخل‎ (“dâhil”), Arapça دَاخِل‎ (dāḫil)."
+ },
+ {
+  "w": "dâhilî",
+  "m": "İçle ilgili",
+  "s": "Dâhilî nedenler yüzünden ürünün fiyatı iki katına çıktı.",
+  "z": 2
+ },
+ {
+  "w": "dâhilen",
+  "m": "İç taraftan",
+  "s": "Yaralanma dâhilen mi oluşmuş, dışarıdan mı, raporda açıklanıyor.",
+  "z": 3
+ },
+ {
+  "w": "derhâl",
+  "m": "► çabucak",
+  "s": "Müdür, raporun derhâl kendisine ulaştırılmasını istedi.",
+  "z": 1,
+  "k": "Farsça"
+ },
+ {
+  "w": "ebedî",
+  "m": "► sonsuz",
+  "s": "Dede, ebedî istirahatgâhına uğurlanırken hep sessizdik.",
+  "z": 1
+ },
+ {
+  "w": "edebî",
+  "m": "Edebiyatla ilgili, edebiyata ilişkin; yazınsal",
+  "s": "Edebî metinlerde anlam, sözcüklerin ötesine geçer.",
+  "z": 1
+ },
+ {
+  "w": "efkâr",
+  "m": "Herhangi üzücü bir olay sebebiyle hissedilen hüzün",
+  "s": "Kardeşinin hastalık haberi onun efkârını kaçırdı.",
+  "z": 2
+ },
+ {
+  "w": "ekâbir",
+  "m": "Büyükler, devlet büyükleri, ileri gelenler",
+  "s": "Süreçte devlet ekâbirinin imzası olmadan hiçbir karar alınamıyordu.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "erkân",
+  "m": "Bir topluluğun ileri gelenleri, büyükler, üstler",
+  "s": "Kurumun erkânı toplantı salonunda uzun süre görüştü.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "eşkâl",
+  "m": "Dıştan görünüş",
+  "s": "Şüphelinin eşkâl kaydı, tanıkların ifadeleriyle birebir örtüşüyordu.",
+  "z": 3
+ },
+ {
+  "w": "evlât",
+  "m": "► çocuk",
+  "s": "Evlât, anne babanın gözbebeğidir.",
+  "z": 1
+ },
+ {
+  "w": "evvelâ",
+  "m": "Her şeyden önce, ilk önce",
+  "s": "Evvelâ konuyu dinleyin, sonra karar verin.",
+  "z": 1
+ },
+ {
+  "w": "ezelî",
+  "m": "► öncesiz",
+  "s": "Şair, sevgiliye ezelî bir aşkla bağlı olduğunu söylüyor.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "fahrî",
+  "m": "► onursal",
+  "s": "Konserin sonunda orkestraya fahrî şef eşlik etti.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "fedakâr",
+  "m": "► özverili",
+  "s": "Fedakâr öğretmenler sayesinde köy okulu ayakta kaldı.",
+  "z": 1
+ },
+ {
+  "w": "felâket",
+  "m": "Büyük zarar, üzüntü ve sıkıntılara yol açan olay veya durum; yıkım, katastrof",
+  "s": "Dalgalı denizde tekne alabora olmaya ramak kalmıştı, felâket son anda önlendi.",
+  "z": 1
+ },
+ {
+  "w": "felâketzede",
+  "m": "Felakete uğramış (kimse)",
+  "s": "Deprem felâketzedelerine birinci derecede sıcak barınak yapıldı.",
+  "z": 2
+ },
+ {
+  "w": "felsefî",
+  "m": "Felsefe ile ilgili, felsefeye ilişkin",
+  "s": "Kitabın ikinci bölümü tamamen felsefî sorulara ayrılmış.",
+  "z": 1
+ },
+ {
+  "w": "fennî",
+  "m": "Fenle ilgili",
+  "s": "Kurumun fennî heyeti binayı denetledi.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "fevkalâde",
+  "m": "Alışılmış olandan ayrı",
+  "s": "Hastanın durumu fevkalâde iyi ilerliyor, taburcu yakın.",
+  "z": 1
+ },
+ {
+  "w": "fevrî",
+  "m": "Birdenbire, düşünmeden yapan",
+  "s": "Fevrî kararlarıyla önce öğretmenliğini bıraktı, sonra pişman oldu.",
+  "z": 2
+ },
+ {
+  "w": "fiilî",
+  "m": "Sözde kalmayıp gerçekten yapılan, yapılmış ve yapılmakta olan",
+  "s": "Söz verdiler ama fiilî bir adım henüz atılmadı.",
+  "z": 2
+ },
+ {
+  "w": "filân",
+  "m": "► falan",
+  "s": "Sinan ağa, filân mahalledeki çeşmeyi yaptırmıştı.",
+  "z": 2
+ },
+ {
+  "w": "fuzulî",
+  "m": "Yersiz, gereksiz olan",
+  "s": "Fuzulî masrafları bütçeyi tamamen bitirdi.",
+  "z": 1
+ },
+ {
+  "w": "garbî",
+  "m": "Batıyla ilgili, batıya özgü olan",
+  "s": "Eski haritalarda Osmanlı toprakları garbî sınırlardan başlardı.",
+  "z": 2
+ },
+ {
+  "w": "gayriihtiyarî",
+  "m": "► istem dışı",
+  "s": "Şimşek patladığında gayriihtiyarî irkildi.",
+  "z": 2
+ },
+ {
+  "w": "gayriresmî",
+  "m": "Devletin koyduğu kurallar dışında kalan",
+  "s": "Toplantı gayriresmî başladı; protokol daha gelmemişti.",
+  "z": 1
+ },
+ {
+  "w": "gıyabî",
+  "m": "Kişinin yokluğunda o kişi hakkında verilen (iş, hüküm vb.)",
+  "s": "Şüpheli, gıyabında yargılandığı davaya katılmadı.",
+  "z": 2
+ },
+ {
+  "w": "girizgâh",
+  "m": "Bir başka söze yol açmak için söylenen söz; girişlik",
+  "s": "Konuşmacı, asıl eleştirisini girizgâhın sonunda ima etti.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "günahkâr",
+  "m": "Günah işlemiş, günahı olan; günahlı",
+  "s": "Herkesin bir günahkâr yanı vardır, kimisi affettirir.",
+  "z": 1
+ },
+ {
+  "w": "güzergâh",
+  "m": "Yolüstü uğranılacak, geçilecek yer",
+  "s": "Otobüsün güzergâhı değişti, artık sahil yolundan geçiyor.",
+  "z": 1
+ },
+ {
+  "w": "hâdise",
+  "m": "► olay",
+  "s": "Akıllara durgunluk veren bir hâdiseyle karşılaştık.",
+  "z": 1,
+  "k": "Arapça حَادِثَة‎ (ḥādis̱e)."
+ },
+ {
+  "w": "hakikî",
+  "m": "► gerçek",
+  "s": "Bu, hakikî bir dostluk; yıllardır hiç bozulmadı.",
+  "z": 1
+ },
+ {
+  "w": "hâkimiyet",
+  "m": "► egemenlik",
+  "s": "Tarih kitaplarına göre Osmanlı'nın hâkimiyet alanı üç kıtaya yayıldı.",
+  "z": 1,
+  "k": "Arapça حاكمية‎ (ħa:kimiyya(tun))"
+ },
+ {
+  "w": "hâlbuki",
+  "m": "► oysa",
+  "s": "Sınava hiç çalışmamıştı, hâlbuki üç gündür kitap elinden düşmüyordu.",
+  "z": 1
+ },
+ {
+  "w": "hâlen",
+  "m": "İçinde bulunduğumuz zamanda",
+  "s": "Bu evin tapusu hâlen dedemden kalma.",
+  "z": 1
+ },
+ {
+  "w": "hâlihazırda",
+  "m": "Bugünlerde, son zamanlarda",
+  "s": "Hâlihazırda çalışan sistem, yeni yasayla tamamen değişecek.",
+  "z": 2
+ },
+ {
+  "w": "hâliyle",
+  "m": "Olduğu gibi",
+  "s": "Çocuk uzun yoldan yorgun, hâliyle erken uyudu.",
+  "z": 1
+ },
+ {
+  "w": "haricî",
+  "m": "Dışla ilgili, dıştan olan",
+  "s": "Haricî tehlikelere karşı kale surları onarılıyor.",
+  "z": 2
+ },
+ {
+  "w": "harikulâde",
+  "m": "► olağanüstü",
+  "s": "Sanatçı harikulâde bir performansla sahneden inmedi.",
+  "z": 1
+ },
+ {
+  "w": "hâsıl",
+  "m": "Olan, ortaya çıkan, görünen",
+  "s": "Bu yılın hâsılı, hedeflediğimiz sayının üç katı oldu.",
+  "z": 2
+ },
+ {
+  "w": "hâsılat",
+  "m": "► ürün",
+  "s": "Tarlanın hâsılatı geçen yılı ikiye katladı.",
+  "z": 2
+ },
+ {
+  "w": "hâsılı",
+  "m": "► kısacası",
+  "s": "Hâsılı sözü uzatmaya gerek yok, karar belli.",
+  "z": 2
+ },
+ {
+  "w": "hayalî",
+  "m": "Gerçekte var olmayan, gerçek olmayan; fantastik, ütopik",
+  "s": "Filmin hayalî şehirlerinde bile gerçeklik hissi var.",
+  "z": 2
+ },
+ {
+  "w": "hayatî",
+  "m": "Hayatla ilgili veya hayata bağlı olan; dirimlik, dirimsel, yaşamsal",
+  "s": "Kuraklık, bölge için hayatî bir sorun hâline geldi.",
+  "z": 2
+ },
+ {
+  "w": "heyulâ",
+  "m": "Korkunç hayal",
+  "s": "Geçmiş hataları onun için birer heyulâ gibi peşinden geliyordu.",
+  "z": 3
+ },
+ {
+  "w": "hicrî",
+  "m": "Tarih başı olarak hicreti kabul eden",
+  "s": "Belgenin tarihinde hicrî takvim kullanılmış.",
+  "z": 2
+ },
+ {
+  "w": "hikemî",
+  "m": "Felsefi söz veya düşünce",
+  "s": "Yazarın hikemî üslubu, kitabı bir ders kitabı gibi öğretici kılıyor.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "hilâf",
+  "m": "► aykırı",
+  "s": "Sözleriniz benim hilâfıma değil, tam tersine düşünsenize.",
+  "z": 2
+ },
+ {
+  "w": "hilâfet",
+  "m": "► halifelik",
+  "s": "Tarih dersinde hilâfetin Abbasi dönemini anlattı.",
+  "z": 2
+ },
+ {
+  "w": "hilâl",
+  "m": "Ayın ilk günlerinde aldığı yay biçimi; ayça, yeni ay",
+  "s": "Balkonda hilâl ayını izledi bütün akşam.",
+  "z": 1
+ },
+ {
+  "w": "hilekâr",
+  "m": "► hileci",
+  "s": "Hilekâr tüccar, tartıyı eleyerek müşterisini kandırdı.",
+  "z": 1
+ },
+ {
+  "w": "hissî",
+  "m": "► duygusal",
+  "s": "Bu karar tamamen hissî bir tercihten doğdu.",
+  "z": 2
+ },
+ {
+  "w": "hizmetkâr",
+  "m": "► uşak",
+  "s": "Yıllarca hizmetkâr olarak çalıştı, kimi evlat bildi.",
+  "z": 1,
+  "k": "Farsça"
+ },
+ {
+  "w": "hukukî",
+  "m": "Hukukla ilgili; hukuksal, tüzel",
+  "s": "Bu sözleşmenin hukukî geçerliliği tartışmalı.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "hususî",
+  "m": "► özel",
+  "s": "Hususî öğretim kurumlarında ücretler okul yönetimince belirleniyor.",
+  "z": 1
+ },
+ {
+  "w": "hükûmet",
+  "m": "► bakanlar kurulu",
+  "s": "Yeni hükûmet programını hafta içinde açıkladı.",
+  "z": 1
+ },
+ {
+  "w": "ihlâs",
+  "m": "Temiz sevgi ve yürekten bağlılık",
+  "s": "İşinde ihlâs arayan patron, yıllarca çalışanını ödüllendirdi.",
+  "z": 2
+ },
+ {
+  "w": "ihtilâl",
+  "m": "Bir ülkenin siyasal, sosyal ve ekonomik yapısını veya yönetim düzenini değiştirmek amacıyla kanunlara uymaksızın cebir ve kuvvet kullanarak yapılan geniş halk hareketi; devrim",
+  "s": "Fransız ihtilâli, Avrupa haritasını baştan çizdi.",
+  "z": 1
+ },
+ {
+  "w": "ihtiyatî",
+  "m": "İlerisi düşünülerek yapılan",
+  "s": "Doktor ihtiyatî tedbir olarak ikinci bir test istedi.",
+  "z": 3
+ },
+ {
+  "w": "ikametgâh",
+  "m": "► konut (I)",
+  "s": "İkametgâh senedi almak için kaymakamlığa gittim.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi اقامتگاه‎ (ikamet + -gâh)."
+ },
+ {
+  "w": "iktisadî",
+  "m": "► ekonomik",
+  "s": "Bölgenin iktisadî yapısı tarıma dayanıyor.",
+  "z": 1,
+  "k": "Arapça إقْتِصَادِي‎ (ʾiḳtiṣādī)"
+ },
+ {
+  "w": "ilâhî",
+  "m": "Tanrı ile ilgili olan, Tanrı'ya özgü olan; tanrısal, lahuti, rahmani",
+  "s": "Hakem, maçı ilâhî adaletle yönetiyor desek abartmış oluruz.",
+  "z": 1
+ },
+ {
+  "w": "ilânihaye",
+  "m": "Sonsuza kadar",
+  "s": "Bu iş ilânihaye sürüp giderse kimse kazanmaz.",
+  "z": 2
+ },
+ {
+  "w": "ilâve",
+  "m": "Ekleme, ulama",
+  "s": "Okula iki sınıf ilâve yapıldı.",
+  "z": 1
+ },
+ {
+  "w": "ilâveten",
+  "m": "Ek olarak, ek yoluyla, ekleyerek",
+  "s": "Konut kredisine ilâveten ihtiyaç kredisi de kullandırdılar.",
+  "z": 1
+ },
+ {
+  "w": "imalât",
+  "m": "Ham madde işlenerek yapılan her türlü mal",
+  "s": "Bölgede imalât sanayisi son yıllarda hızla büyüdü.",
+  "z": 1
+ },
+ {
+  "w": "imkân",
+  "m": "Yararlanılan uygun şart veya durum",
+  "s": "Bu tatil için bütçemde imkân yok, erteleyeceğim.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi امكان‎ sözcüğünden, Arapça إِمْكَان‎ (ʾimkān)."
+ },
+ {
+  "w": "infilâk",
+  "m": "Güçlü bir biçimde patlama",
+  "s": "Maden ocağında infilâk sonucu yollar çöktü.",
+  "z": 2
+ },
+ {
+  "w": "inikâs",
+  "m": "► yansı",
+  "s": "Yüzünün suda inikâsı, göl kenarında netleşti.",
+  "z": 2
+ },
+ {
+  "w": "inkâr",
+  "m": "Yaptığını, söylediğini, tanık olduğunu saklama, gizleme; yadsıma",
+  "s": "Suçunu bir türlü inkâr etmedi ama değiştirmeden anlattı.",
+  "z": 1
+ },
+ {
+  "w": "inkılâp",
+  "m": "Toplum düzenini ve yapısını daha iyi duruma getirmek için yapılan köklü değişiklik, iyileştirme; devrim",
+  "s": "Mustafa Kemal'in inkılâpları ülkede köklü değişimler başlattı.",
+  "z": 1
+ },
+ {
+  "w": "insanî",
+  "m": "► insanca",
+  "s": "İnsanî değerler eğitimden koparılamaz.",
+  "z": 1
+ },
+ {
+  "w": "istidlâl",
+  "m": "► çıkarım",
+  "s": "Mantık dersinde istidlâl yolları örneklerle anlatıldı.",
+  "z": 3
+ },
+ {
+  "w": "istiklâl",
+  "m": "► bağımsızlık",
+  "s": "İstiklâl Marşı, her törenin başında ayağa kalkılır.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi استقلال‎ sözcüğünden devralındı, Arapça اِسْتِقْلَال‎ (istiḳlāl) sözcüğünden."
+ },
+ {
+  "w": "istilâ",
+  "m": "Bir ülkeyi silah gücüyle ele geçirme",
+  "s": "Moğol istilâsı Anadolu'nun yerleşik düzenini sarstı.",
+  "z": 1
+ },
+ {
+  "w": "istisnaî",
+  "m": "Ayrı tutulmuş, benzerlerine uymayan, kural dışı olan; ayrıklı, istisnalı",
+  "s": "Bu yıl istisnaî bir kış yaşandı, kayıtlar buna hiç benzemiyor.",
+  "z": 2
+ },
+ {
+  "w": "isyankâr",
+  "m": "► başkaldırıcı",
+  "s": "İsyankâr öğrenci her kuralla inatlaşırdı.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "itaatkâr",
+  "m": "► itaatli",
+  "s": "Köpeği itaatkâr bir tavırla hep yanında kaldı.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "itibarî",
+  "m": "► saymaca",
+  "s": "Servet sayımında itibarî değerler de hesaba katılır.",
+  "z": 3
+ },
+ {
+  "w": "itilâ",
+  "m": "► yükselme",
+  "s": "Sıcak hava dalgası, sıcaklıkta itilâ yarattı.",
+  "z": 3
+ },
+ {
+  "w": "alenî",
+  "m": "Açık, ortada, meydanda, herkesin içinde yapılan",
+  "s": "Sözleşme alenî imzalandı, basın da davet edildi.",
+  "z": 2
+ },
+ {
+  "w": "cengâver",
+  "m": "Savaşta kahramanlık gösteren",
+  "s": "Dizide cengâver bir komutanı canlandırdı.",
+  "z": 1
+ },
+ {
+  "w": "kâbus",
+  "m": "► karabasan",
+  "s": "Kabus gibi bir trafik vardı sabah.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "kâgir",
+  "m": "Taş veya tuğladan yapılan (yapı); kârgir",
+  "s": "Köprü ayakları kâgir yapıya dayanarak yükseliyor.",
+  "z": 2
+ },
+ {
+  "w": "kâhya",
+  "m": "Konak, çiftlik vb. yerlerde türlü işleri yapmakla görevli kimse",
+  "s": "Çiftliğin kâhyası, işçilere ücretleri zamanında ödedi.",
+  "z": 2,
+  "k": "Farsça ked + ḫudā‎ (fa)"
+ },
+ {
+  "w": "kâinat",
+  "m": "► evren",
+  "s": "Gökyüzüne baktıkça kâinatın sonsuzluğunu düşündüm.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi كائنات‎ (kâinât), Arapça كَائِنَات‎ (kāʾināt)."
+ },
+ {
+  "w": "kalbî",
+  "m": "► içten",
+  "s": "Mektup, kalbî bir dille kardeşine yazılmış.",
+  "z": 2
+ },
+ {
+  "w": "kânunen",
+  "m": "Yasa gereğince, yasal olarak",
+  "s": "Kânunen ödenmesi gereken vergi, son tarihe kadar yatmalı.",
+  "z": 1
+ },
+ {
+  "w": "kanunî",
+  "m": "► yasal",
+  "s": "İşlemin kanunî dayanağı yoksa iptal edilir.",
+  "z": 1
+ },
+ {
+  "w": "kastî",
+  "m": "Bilerek, isteyerek yapılan",
+  "s": "Yangının kastî çıkarıldığı uzman raporuyla ortaya çıktı.",
+  "z": 2
+ },
+ {
+  "w": "kâşif",
+  "m": "Var olan ancak bilinmeyen bir şeyi bulan, ortaya çıkaran kimse; bulucu",
+  "s": "Kutup kâşifleri yıllarca rotalarını aradı.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "kâtip",
+  "m": "► sekreter",
+  "s": "Osmanlı'da kâtip, divan yazışmalarını yürütürdü.",
+  "z": 1,
+  "k": "Arapça كاتب‎, o da Arapça كَاتِب‎ (kātib)."
+ },
+ {
+  "w": "kelâm",
+  "m": "► söz",
+  "s": "Söz kelâmın ötesine geçti, herkes sustu.",
+  "z": 2
+ },
+ {
+  "w": "keyfî",
+  "m": "İsteğe bağlı olan",
+  "s": "Ölçüye dayanmayan keyfî kararlar denetlemeden geçmez.",
+  "z": 2
+ },
+ {
+  "w": "kısmî",
+  "m": "Bir şeyin yalnız bir bölümünü içine alan; tikel",
+  "s": "Çatıya kısmî onarım yetti, tamirat büyük değil.",
+  "z": 1
+ },
+ {
+  "w": "kimyevî",
+  "m": "► kimyasal",
+  "s": "Su, kimyevî yapısı gereği iki hidrojen bir oksijen taşır.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "klâsik",
+  "m": "Üzerinden çok zaman geçtiği hâlde değerini yitirmeyen, türünde örnek olarak görülen eser",
+  "s": "Bu roman, Türk edebiyatının klâsikleri arasında sayılır.",
+  "z": 1
+ },
+ {
+  "w": "küllî",
+  "m": "► tümel",
+  "s": "Mantıkta küllî hüküm, tüm özneleri kapsayan hükümdür.",
+  "z": 3
+ },
+ {
+  "w": "laubalî",
+  "m": "Saygısız, çekinmesi olmayan",
+  "s": "Laubalî sözler toplantının havasını bozdu.",
+  "z": 2
+ },
+ {
+  "w": "maddî",
+  "m": "Madde ile ilgili; maddesel, özdeksel, manevi karşıtı",
+  "s": "Sorun maddî değil, manevi yıkım daha derin.",
+  "z": 1
+ },
+ {
+  "w": "madenî",
+  "m": "Madenle ilgili veya madene özgü olan; madensel, metalik",
+  "s": "Para birimi madenî ve kâğıt olarak ikiye ayrılır.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "mahkûm",
+  "m": "► hükümlü",
+  "s": "Hüküm giyen mahkûm, cezaevine sevk edildi.",
+  "z": 1
+ },
+ {
+  "w": "mahlâs",
+  "m": "► takma ad",
+  "s": "Şair, mahlâs olarak \"Fuzuli\" adını kullanmıştır.",
+  "z": 1
+ },
+ {
+  "w": "mahsulât",
+  "m": "Ortaya çıkan, elde edilen şeyler",
+  "s": "Bu yıl mahsulât bol ama fiyat düşük.",
+  "z": 2
+ },
+ {
+  "w": "manevî",
+  "m": "Gözle görülüp elle tutulamayan, madde ve cisimle ilgisi bulunmayan, inançla ilgili, manaya, içe, öze, ruha ait olan; ruhani, maddi karşıtı",
+  "s": "Destek en çok manevî yönden geldi; yanımızda durdu.",
+  "z": 1
+ },
+ {
+  "w": "mânia",
+  "m": "► engel",
+  "s": "Yoldaki en büyük mânia, sabırsızlıktır.",
+  "z": 1
+ },
+ {
+  "w": "manivelâ",
+  "m": "Bir ucunun bağlı bulunduğu bir nokta çevresinde dönen kol",
+  "s": "Eski su pompaları manivelâ ile çalışırdı.",
+  "z": 2
+ },
+ {
+  "w": "mantıkî",
+  "m": "► mantıklı",
+  "s": "Tüm veriler mantıkî bir sonuca ulaşıyor.",
+  "z": 1
+ },
+ {
+  "w": "maşerî",
+  "m": "► toplumsal",
+  "s": "Sanatçı maşerî duyguları şiirlerine taşımış.",
+  "z": 2
+ },
+ {
+  "w": "meblâğ",
+  "m": "► tutar",
+  "s": "Bağış meblâğı hedefin üzerine çıktı.",
+  "z": 1
+ },
+ {
+  "w": "mahallî",
+  "m": "► yöresel",
+  "s": "Mahallî seçimler mart ayında yapılacak.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi محلى‎, o da Arapça مَحَلِي‎."
+ },
+ {
+  "w": "meselâ",
+  "m": "► söz gelişi",
+  "s": "Bir meyve al, meselâ elma.",
+  "z": 1
+ },
+ {
+  "w": "meskûn",
+  "m": "İnsan oturan, şeneltilmiş (yer)",
+  "s": "Dağın güney yamaçları meskûn bölge sayılıyor.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "meslekî",
+  "m": "Mesleğe ilişkin, meslekle ilgili olan; mesleksel",
+  "s": "Meslekî etik ilkeleri her kurumda yazılıdır.",
+  "z": 2
+ },
+ {
+  "w": "mesnevî",
+  "m": "Her beyti ayrı uyaklı bir divan edebiyatı nazım biçimi",
+  "s": "Mesnevî, beyit beyit anlatılan uzun bir masal gibidir.",
+  "z": 1
+ },
+ {
+  "w": "meşkûk",
+  "m": "Şüphe uyandıran, şüpheli",
+  "s": "Rakamlar meşkûk görününce rapor yeniden hazırlandı.",
+  "z": 3
+ },
+ {
+  "w": "metîn",
+  "m": "Bir yazıyı biçim, anlatım ve noktalama özellikleriyle oluşturan kelimelerin bütünü; tekst",
+  "s": "Metnin metîn yapısı, başlıklarla bölümlere ayrılmış.",
+  "z": 2
+ },
+ {
+  "w": "metrûk",
+  "m": "Bırakılmış, terk edilmiş",
+  "s": "Satın alınan arsa metrûk durumdaydı, elektrik bile yoktu.",
+  "z": 3
+ },
+ {
+  "w": "mecazî",
+  "m": "Mecazla ilgili, mecaz niteliğinde olan",
+  "s": "Söz mecazî; gerçekten kalbim kırıldı demiyorum.",
+  "z": 1,
+  "k": "Arapça مَجَازِيّ‎ (mad͡ʒa:zi:)"
+ },
+ {
+  "w": "milâdî",
+  "m": "Milada dayanan, milatla ilgili olan",
+  "s": "Roma İmparatorluğu'nun parçalanışı milâdî 395'tir.",
+  "z": 1
+ },
+ {
+  "w": "millî",
+  "m": "Milletle ilgili; ulusal",
+  "s": "Millî takım maçını hep birlikte izledik.",
+  "z": 1
+ },
+ {
+  "w": "mizahî",
+  "m": "İçinde gülmece bulunan, gülmece niteliği taşıyan (yazı, karikatür vb.)",
+  "s": "Çizerin mizahî dergilerdeki karikatürleri hâlâ güldürür.",
+  "z": 1
+ },
+ {
+  "w": "muallâk",
+  "m": "Sonuca bağlanmamış, sürüncemede kalmış",
+  "s": "Davaya konu arazi, sınırları muallâk kalınca satılamadı.",
+  "z": 3
+ },
+ {
+  "w": "muhafazakâr",
+  "m": "► tutucu",
+  "s": "Muhafazakâr aile, kızının şehir dışına gitmesine ilk başta izin vermemişti.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi محافظه كار‎ (muhafaza + -kâr)"
+ },
+ {
+  "w": "mübalâğa",
+  "m": "► abartı",
+  "s": "Sözlerinde mübalâğa yoktu, tam olarak böyle oldu.",
+  "z": 1
+ },
+ {
+  "w": "medenî",
+  "m": "Kentlileşmiş, kırsallıktan kurtulmuş",
+  "s": "Medenî hukuk dersi, aile hukukunu kapsıyor.",
+  "z": 1
+ },
+ {
+  "w": "mükâfat",
+  "m": "► ödül",
+  "s": "Emek veren herkese bir mükâfat vardır.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi مكافات‎, Arapça مُكَافَأة‎ (mükāfeʾe)."
+ },
+ {
+  "w": "müptelâ",
+  "m": "► bağımlı",
+  "s": "Sigara alışkanlığına müptelâ olanlar, bırakma polikliniğine başvuruyor.",
+  "z": 2
+ },
+ {
+  "w": "müsamahakâr",
+  "m": "► hoşgörülü",
+  "s": "Müsamahakâr yönetim, hataları affetmeyi öğretti.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "müştemilât",
+  "m": "► eklentiler",
+  "s": "Binaların müştemilâtı olan depolar da kiralık listeye eklendi.",
+  "z": 3
+ },
+ {
+  "w": "nispî",
+  "m": "Birbirine göre (olan), önceki duruma göre",
+  "s": "Fiyat artışı nispî kaldı, enflasyon daha yüksek.",
+  "z": 2
+ },
+ {
+  "w": "nizamî",
+  "m": "İstenilen düzende olan, düzene uygun olan, kurallara uygun olan",
+  "s": "Orduda nizamî askerler ile yedekler ayrı eğitim alır.",
+  "z": 2
+ },
+ {
+  "w": "nuranî",
+  "m": "► ışıklı",
+  "s": "Gün batımında deniz nuranî bir görüntüye büründü.",
+  "z": 2
+ },
+ {
+  "w": "havarî",
+  "m": "Hz. İsa'nın öğüt ve inançlarını yayma işiyle görevlendirdiği kimselerden her biri",
+  "s": "Kitabı, havârîlerin yolunu izleyen toplulukları anlatıyor.",
+  "z": 2
+ },
+ {
+  "w": "abanî",
+  "m": "Genellikle sarık, bohça, kundak ve yorgan yüzü yapımında kullanılan, zemini beyaz, üzerinde safran renginde nakışlar bulunan ipek kumaş",
+  "s": "Yorganın yüzü, sağlam bir abanî kumaştan dikilmişti.",
+  "z": 3
+ },
+ {
+  "w": "abdiâciz",
+  "m": "Kişinin alçak gönüllülük göstermek amacıyla kendisini tanımlamak için söylediği bir söz",
+  "s": "Mektubunu 'abdiâciz' imzasıyla bitirerek alçakgönüllülüğünü göstermek istedi.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "adalî",
+  "m": "Kaslı",
+  "s": "Yıllarca kürek çeken gencin kolları tamamen adalî bir görünüme bürünmüştü.",
+  "z": 3
+ },
+ {
+  "w": "alelâcayip",
+  "m": "Çok acayip, şaşılacak nitelikte, pek garip",
+  "s": "Sınav sonuçları alelâcayip bir şekilde açıklandı, kimse böyle bir puan beklemiyordu.",
+  "z": 2
+ },
+ {
+  "w": "alelâcele",
+  "m": "Çabucak",
+  "s": "Kar fırtınası başlayınca tarla işleri alelâcele bitirildi.",
+  "z": 2
+ },
+ {
+  "w": "aleykümselâm",
+  "m": "\"Esenlik, selamet sizin de üzerinize olsun\" anlamında kullanılan bir söz",
+  "s": "Selam veren misafire gülümseyerek 'aleykümselâm' dedi.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "aliyyülâlâ",
+  "m": "En güzel, en iyi, mükemmel olan",
+  "s": "Hocası onun tezini aliyyülâlâ bir çalışma olarak takdim etti.",
+  "z": 3
+ },
+ {
+  "w": "amelî",
+  "m": "Uygulamalı",
+  "s": "Kuramsal bilgiyi amelî beceriyle birleştiren öğrenciler başarılı oldu.",
+  "z": 2,
+  "k": "Osmanlı Türkçesi عملي‎, Arapça عَمَلَي‎ (ʿameley) (amel + -î)."
+ },
+ {
+  "w": "arzuhâl",
+  "m": "Dilekçe",
+  "s": "Köylüler, sıkıntılarını anlatan bir arzuhâl yazıp kaymakamlığa sundu.",
+  "z": 2,
+  "k": "arz + hâl"
+ },
+ {
+  "w": "arşıâlâ",
+  "m": "Göğün dokuzuncu katı",
+  "s": "Eski inanışa göre Tanrı, arşıâlâ denilen en yüce katın efendisidir.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "askerî",
+  "m": "Askerlikle ilgili, askere özgü",
+  "s": "Bölge, hassasiyeti nedeniyle askerî yasak bölge ilan edildi.",
+  "z": 1,
+  "k": "Osmanlı Türkçesi عسكرى‎, Arapça عَسْكَرِي‎ (ʿaskerī) (asker + -î)."
+ },
+ {
+  "w": "avdetî",
+  "m": "Dönme",
+  "s": "Ateşi avdetî gösteriyordu; her akşam yeniden yükseliyordu.",
+  "z": 3
+ },
+ {
+  "w": "bargâh",
+  "m": "Padişah çadırı, padişah sarayı veya yüksek divan",
+  "s": "Elçi, padişahın huzuruna çıkmak üzere bargâha davet edildi.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "bağdadî",
+  "m": "Ağaç direkler üzerine çakılmış çıtalara sıva vurularak yapılan (duvar veya tavan)",
+  "s": "Tarihi konakların tavanları geleneksel bağdadî tekniğiyle sıvanmıştı.",
+  "z": 3
+ },
+ {
+  "w": "başkâtip",
+  "m": "Bir resmî dairede veya kuruluşta çalışan kâtiplerin başı; başyazman",
+  "s": "Daireye gelen tüm evraklar önce başkâtipin masasına düşerdi.",
+  "z": 2
+ },
+ {
+  "w": "başvekâlet",
+  "m": "Başbakanlık",
+  "s": "Cumhuriyet'in ilk yıllarında başvekâlet binası şehrin merkezindeydi.",
+  "z": 2
+ },
+ {
+  "w": "bektaşîkavuğu",
+  "m": "Yuvarlak ve şişkin gövdeli, sarı renkli, büyük ve güzel çiçekler veren, ılık iklimlerde yetişen bir kaktüs (Echinocactus)",
+  "s": "Balkonda yetiştirdiği bektaşîkavuğu bu yıl ilk kez çiçek açtı.",
+  "z": 3
+ },
+ {
+  "w": "bekâret",
+  "m": "Kızlık",
+  "s": "Eski toplumlarda bekâret, kızlar için namusla bir tutulurdu.",
+  "z": 2,
+  "k": "Arapça بكارة‎ (bakāra(t), “genç kızlık”) sözcüğünden. Bu sözcük de بَكَرَ‎ (bakara, ““erken ve taze idi””) sözcüğünden."
+ },
+ {
+  "w": "bekârhane",
+  "m": "Bekâr odası",
+  "s": "Şehre yeni tayin olan memur, bir bekârhaneye yerleşti.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "bestekâr",
+  "m": "Besteci",
+  "s": "Dede Efendi, klasik Türk müziğinin en büyük bestekârlarından biridir.",
+  "z": 2,
+  "k": "Farsça beste-kâr"
+ },
+ {
+  "w": "bezirgân",
+  "m": "Alışverişte çok kâr amacı güden kimse",
+  "s": "O çarşıda bezirgân çoktur, fiyatları düşürmek kimsenin aklına gelmez.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "bezirgânbaşı",
+  "m": "Bir çocuk oyunu",
+  "s": "Mahalle çocuklarının en sevdiği oyun bezirgânbaşıydı.",
+  "z": 3
+ },
+ {
+  "w": "billûrî",
+  "m": "Billurla ilgili",
+  "s": "Avizeden yansıyan billûrî parıltı bütün odayı doldurdu.",
+  "z": 3
+ },
+ {
+  "w": "bismillâh",
+  "m": "Besmele",
+  "s": "İşe başlarken bismillâh deyip ilk kazmayı vurdu.",
+  "z": 1
+ },
+ {
+  "w": "bâtıni",
+  "m": "İçte olan, iç âlemde olan, sırla ilgili",
+  "s": "Divan şiirinde bâtıni anlamlara yer yer rastlanır.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "camekân",
+  "m": "Vitrin",
+  "s": "Bayram öncesi pastanenin camekânı şeker ve tatlıyla dolduruldu.",
+  "z": 1,
+  "k": "Farsça"
+ },
+ {
+  "w": "cehennemî",
+  "m": "Cehennemle ilgili",
+  "s": "Savaşın cehennemî gürültüsünde kimse birbirini duyamıyordu.",
+  "z": 2
+ },
+ {
+  "w": "celâl",
+  "m": "Öfke",
+  "s": "Öğretmenin celâlı, gürültülü sınıfı bir anda sessizliğe gömdü.",
+  "z": 2
+ },
+ {
+  "w": "cevizî",
+  "m": "Ceviz yeşili",
+  "s": "Salonun duvarları cevizî bir tonla boyandı.",
+  "z": 3
+ },
+ {
+  "w": "cilâlamak",
+  "m": "Cila sürerek parlatmak; cila vurmak",
+  "s": "Bayram öncesi ayakkabılarını parlatmak için cilâladı.",
+  "z": 1
+ },
+ {
+  "w": "cülûsiye",
+  "m": "Hükümdarların cülus törenlerinde dağıttığı bahşiş",
+  "s": "Tahta çıkan yeni padişah, cülûsiye olarak halka bahşiş dağıttı.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "davetkâr",
+  "m": "Çekici, cazibeli (bakış, davranış vb.)",
+  "s": "Misafirleri davetkâr bir gülümsemeyle içeri aldı.",
+  "z": 2
+ },
+ {
+  "w": "dergâh",
+  "m": "Huzur",
+  "s": "Dervişler, akşam ezanından sonra dergâhta toplandı.",
+  "z": 2,
+  "k": "Farsça dergāh‎ (fa)"
+ },
+ {
+  "w": "devriâlem",
+  "m": "Dünyayı dolaşma",
+  "s": "Efsaneye göre padişah, dünyayı görmek için devriâleme çıkmıştı.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "devrî",
+  "m": "Devirli",
+  "s": "Matematik öğretmeni devrî kesirleri tahtaya örneklerle anlattı.",
+  "z": 3
+ },
+ {
+  "w": "dâhiliye",
+  "m": "Iç hastalıkları",
+  "s": "Sürekli halsizlik şikâyetiyle dâhiliye poliklinikine yönlendirildi.",
+  "z": 2
+ },
+ {
+  "w": "dükkân",
+  "m": "Esnafın perakende satış yaptığı, küçük zanaat sahiplerinin çalıştıkları yer; işletme, iş yeri",
+  "s": "Çarşıda baba dükkânını oğluna bıraktı.",
+  "z": 1,
+  "k": "Arapça دكان‎ (dukkān, “platform, seki, tezgâh, özellikle çarşı içinde satış yeri”) sözcüğünden. Bu sözcük Aramice-Süryanice דוכנא‎ (dūkanā, “platform, seki”) sözcüğünden alıntıdır. Aramice-Süryanice sözcük Akatça [alfabe"
+ },
+ {
+  "w": "efkârlı",
+  "m": "Herhangi üzüntülü bir olay sebebiyle hüzünlenmiş olan",
+  "s": "Uzaktaki oğlunun mektubunu okuyunca iyice efkârlı oldu.",
+  "z": 3
+ },
+ {
+  "w": "ekselâns",
+  "m": "Bakanlık ve elçilikten başlayarak cumhurbaşkanlığına kadar yükselen, yüksek makam sahibi yabancılara verilen şeref ünvanı",
+  "s": "Protokol kurallarına göre büyükelçiye 'ekselâns' unvanıyla hitap edilir.",
+  "z": 2
+ },
+ {
+  "w": "evlâdiyelik",
+  "m": "Uzun yıllar eskimeden kalacak kadar dayanıklı (eşya)",
+  "s": "Sofradaki gümüş tepsi, evlâdiyelik eşyalardan biriydi.",
+  "z": 3
+ },
+ {
+  "w": "fanilâ",
+  "m": "Genellikle ince pamuk ipliğinden dokunmuş, ten üzerine giyilen iç çamaşırı; atlet",
+  "s": "Soğuk kış günlerinde fanilâ giymeden dışarı çıkmazdı.",
+  "z": 2
+ },
+ {
+  "w": "fağfurî",
+  "m": "Çin’de yapılmış olan (kâse, tabak, vazo vb. porselen eşya)",
+  "s": "Vitrindeki fağfurî vazo, dededen kalma en değerli parçaydı.",
+  "z": 3
+ },
+ {
+  "w": "fedaî",
+  "m": "Bir ülkü uğruna tehlikeli işlere girişerek canını esirgemeyen kimse; serdengeçti",
+  "s": "Vatan için canını esirgemeyen fedaî ruh, şaire ilham verdi.",
+  "z": 2
+ },
+ {
+  "w": "fellâh",
+  "m": "Çiftçi",
+  "s": "Nil kıyısındaki fellâhlar hasat için tarlaya indi.",
+  "z": 3
+ },
+ {
+  "w": "fenafillâh",
+  "m": "Allah'ın varlığı içinde yok olma",
+  "s": "Tasavvufta fenafillâh, benliğin ilahi varlıkta erimesi demektir.",
+  "z": 3
+ },
+ {
+  "w": "filizî",
+  "m": "Filiz rengi",
+  "s": "İlkbaharda asmaların filizî renkte tomurcukları açtı.",
+  "z": 3
+ },
+ {
+  "w": "filotillâ",
+  "m": "Küçük gemiler veya tekneler topluluğu",
+  "s": "Balıkçı teknelerinden oluşan filotillâ, fırtına öncesi limana sığındı.",
+  "z": 3
+ },
+ {
+  "w": "filâman",
+  "m": "Elektrik ampullerinden akım geçtiğinde akkor duruma gelen ince iletken tel",
+  "s": "Ampulün filâmanı kırıldığı için oda karanlık kaldı.",
+  "z": 2
+ },
+ {
+  "w": "filântrop",
+  "m": "İnsansever, insanların iyiliği için çalışan (kimse)",
+  "s": "Yaptığı bağışlarla tanınan filântrop, mahalleye bir kütüphane kurdurdu.",
+  "z": 2
+ },
+ {
+  "w": "filârmoni",
+  "m": "Güçlü müzik sevgisi",
+  "s": "Filârmoni kelimesi Yunancada güçlü müzik sevgisi anlamına gelir.",
+  "z": 3
+ },
+ {
+  "w": "filârmonik",
+  "m": "Müzikseverlerin kurduğu dernek",
+  "s": "Filârmonik dernek, her bahar şehirde ücretsiz konserler veriyor.",
+  "z": 3
+ },
+ {
+  "w": "firarî",
+  "m": "Kaçak, kaçkın, kaçmış olan (kimse)",
+  "s": "Birlik sayımı yapıldığında iki erin firarî olduğu anlaşıldı.",
+  "z": 2
+ },
+ {
+  "w": "flâma",
+  "m": "İşaret olarak veya çeşitli amaçlarla kullanılan küçük bayrak",
+  "s": "Teknenin direğinde renkli bir flâma dalgalanıyordu.",
+  "z": 2
+ },
+ {
+  "w": "flâmingo",
+  "m": "Leyleksilerden, tüyleri beyaz, pembe, kanatlarının ucu kara, bir kuş türü; Flaman kuşu (Phoenicopterus ruber)",
+  "s": "Göl kıyısında yüzlerce flâmingo sığ suda dinleniyordu.",
+  "z": 1
+ },
+ {
+  "w": "flândra",
+  "m": "Genellikle ince bezden yapılmış, uçkurluk bölümü dar, kurdele biçiminde bayrak",
+  "s": "Denizciler, haberleşmek için flândraları direğe astı.",
+  "z": 3
+ },
+ {
+  "w": "flânel",
+  "m": "Keten ve yünden dokunan kumaş",
+  "s": "Kışın en sevdiği gömlek, yumuşak bir flânel kumaştandı.",
+  "z": 2
+ },
+ {
+  "w": "flâvta",
+  "m": "Flüt",
+  "s": "Orkestrada flâvta çalan kız, solo bölümüyle büyük alkış aldı.",
+  "z": 2
+ },
+ {
+  "w": "fulâr",
+  "m": "Genellikle boyna bağlanan, bir tür ince ipek kumaş",
+  "s": "İnce bir fulâr dolayıp boynuna öyle çıktı evden.",
+  "z": 3
+ },
+ {
+  "w": "fındıkî",
+  "m": "Fındıkkabuğu",
+  "s": "Oturma odasının duvarları fındıkî bir renge boyandı.",
+  "z": 3
+ },
+ {
+  "w": "fıstıkî",
+  "m": "Fıstık rengi",
+  "s": "Kadife kumaşın fıstıkî tonu odayı ısıttı.",
+  "z": 3
+ },
+ {
+  "w": "galâksi",
+  "m": "Gök ada",
+  "s": "Samanyolu, içinde güneş sistemimizin bulunduğu bir galâksidir.",
+  "z": 1
+ },
+ {
+  "w": "garpkârî",
+  "m": "Batı örneklerine benzer",
+  "s": "Tablolarında garpkârî bir üslup benimseyerek batı tekniğini kullandı.",
+  "z": 3
+ },
+ {
+  "w": "gayriahlâkî",
+  "m": "Töre dışı",
+  "s": "Gayriahlâkî davranışlar okul yönetmeliğine göre disipline sebeptir.",
+  "z": 1
+ },
+ {
+  "w": "gayritabiî",
+  "m": "Doğa dışı",
+  "s": "Rüyalarındaki gayritabiî manzaralar, resimlerine ilham oldu.",
+  "z": 2
+ },
+ {
+  "w": "gayrişahsî",
+  "m": "Kişilik dışı",
+  "s": "Resmî yazışmalarda gayrişahsî bir dil kullanılır.",
+  "z": 2
+ },
+ {
+  "w": "gerillâ",
+  "m": "Düzenli bir orduya karşı küçük birlikler hâlinde çatışan, hafif silahlarla donatılmış topluluk",
+  "s": "Dağa çekilen gerillâ birlikleri yıllarca direnişi sürdürdü.",
+  "z": 1
+ },
+ {
+  "w": "gilâburu",
+  "m": "İki çeneklilerden, Kuzey ve Orta Anadolu'da yetişen, beyaz renkli çiçekler açan, kırmızı renkli meyvesinden meyve suyu elde edilen, 2-4 metre yüksekliğinde bir ağaççık (Viburnum opulus)",
+  "s": "Orta Anadolu'da yetişen gilâburunun meyvesinden reçel yapılır.",
+  "z": 3
+ },
+ {
+  "w": "glâdyatör",
+  "m": "Eski Roma’da arenada insan veya vahşi hayvanlarla ölümüne dövüştürülen kimse",
+  "s": "Eski Roma'da glâdyatörler arenada canını ortaya koyarak dövüşürdü.",
+  "z": 1
+ },
+ {
+  "w": "glâse",
+  "m": "Yumuşak deri",
+  "s": "Paltonun yaka ve kol ağızları glâse deriyle kaplandı.",
+  "z": 3
+ },
+ {
+  "w": "glâyöl",
+  "m": "Kuzgunkılıcı",
+  "s": "Bahçeye renk renk glâyöl soğanı diktiler.",
+  "z": 2,
+  "k": "Fransızca glaïeul (fr)"
+ },
+ {
+  "w": "gulâş",
+  "m": "Etli, salçalı bir Macar yemeği",
+  "s": "Akşam yemeğine Macar usulü etli bir gulâş pişirdi.",
+  "z": 2
+ },
+ {
+  "w": "güllâç",
+  "m": "Nişastadan yapılan, çok ince kuru yufka",
+  "s": "Ramazan bayramının vazgeçilmez tatlısı güllâç, süt ve nar taneleriyle servis edilir.",
+  "z": 1
+ },
+ {
+  "w": "gümüşî",
+  "m": "Gümüş rengi",
+  "s": "Ay ışığı, denizin üzerine gümüşî bir renk yaydı.",
+  "z": 2
+ },
+ {
+  "w": "günâşık",
+  "m": "Ayçiçeği",
+  "s": "Yolun iki tarafı günâşık tarlalarıyla kaplıydı.",
+  "z": 3
+ },
+ {
+  "w": "hamasî",
+  "m": "Dinleyenleri etkilemek veya heyecanlandırmak için abartılı (anlatım)",
+  "s": "Şairin hamasî beyitleri, dinleyenleri coşturuyordu.",
+  "z": 3
+ },
+ {
+  "w": "harabatî",
+  "m": "Vaktini meyhanelerde veya zevk ve sefada geçiren (kimse)",
+  "s": "Miras kalan servetini harabatî bir hayat sürerek tüketti.",
+  "z": 3
+ },
+ {
+  "w": "harbî",
+  "m": "Ateşli silahların içini temizlemekte kullanılan çubuk; harbe",
+  "s": "Tüfek temizliğinde harbî, namlunun içinde döndürülüyordu.",
+  "z": 3,
+  "k": "Arapça حَرْبِي‎ (ħarbi:)"
+ },
+ {
+  "w": "harekât",
+  "m": "Belli bir amaç gözetilerek bir askerî birliğe yaptırılan manevra, çarpışma, çevirme, kovalama vb. işler",
+  "s": "Kayıp dağcılar için geniş çaplı bir arama harekâtı başlatıldı.",
+  "z": 1
+ },
+ {
+  "w": "havaî",
+  "m": "Hava ile ilgili, havada bulunan",
+  "s": "Bayram gecesi semalar havaî fişeklerle aydınlandı.",
+  "z": 2
+ },
+ {
+  "w": "haydarî",
+  "m": "Süzme yoğurt, sarımsak, nane, dereotu, tereyağı veya zeytinyağı karışımıyla hazırlanan bir meze türü",
+  "s": "Meze tabağına koydukları haydarî sofranın gözdesi oldu.",
+  "z": 3
+ },
+ {
+  "w": "hayvanî",
+  "m": "Hayvansal",
+  "s": "Tehlike anında hayvanî içgüdüler öne çıkar.",
+  "z": 2
+ },
+ {
+  "w": "helezonî",
+  "m": "Sarmal",
+  "s": "Helezonî merdiven, salonun ortasından yukarıya doğru kıvrılıyordu.",
+  "z": 3
+ },
+ {
+  "w": "helâk",
+  "m": "Yok olma",
+  "s": "Payidarsızlık, en sonunda onun kariyerini helâk etti.",
+  "z": 2
+ },
+ {
+  "w": "helâl",
+  "m": "Dinin kurallarına aykırı olmayan, dinî bakımdan yasaklanmamış olan, haram karşıtı",
+  "s": "Ekmek parasının helâl olmasından öte bir şey istemiyordu.",
+  "z": 1
+ },
+ {
+  "w": "helâlleşmek",
+  "m": "Alışverişte veya ayrılma sırasında hakkını birbirine bağışlamak",
+  "s": "Yıllarca küstükleri amcasıyla bayram sabahı helâlleşti.",
+  "z": 2
+ },
+ {
+  "w": "helâlzade",
+  "m": "Doğruluktan ayrılmayan, helal süt emmiş kimse",
+  "s": "Halk, dürüst kadısını helâlzade biri olarak anıyordu.",
+  "z": 3
+ },
+ {
+  "w": "hengâme",
+  "m": "Gürültü patırtı",
+  "s": "Sokaktaki hengâme sesine bütün komşular pencereye koştu.",
+  "z": 2
+ },
+ {
+  "w": "herhâlde",
+  "m": "Büyük bir ihtimalle; yalım, herhâl",
+  "s": "Otobüs saatlerdir gelmedi; herhâlde yolda arızalandı.",
+  "z": 1
+ },
+ {
+  "w": "heyelân",
+  "m": "Toprak kayması",
+  "s": "Şiddetli yağışın ardından köy yolunu heyelân kapladı.",
+  "z": 2
+ },
+ {
+  "w": "hikâye",
+  "m": "Bir olayın sözlü veya yazılı olarak anlatılması; boy (III)",
+  "s": "Çocukluğu, dedesinin anlattığı masal ve hikâyelerle geçti.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "hikâyelemek",
+  "m": "Roman, hikâye, masal vb. edebî türlerde bir olay dizisini anlatmak",
+  "s": "Yazar, göç yıllarını sade bir dille hikâyelemiş.",
+  "z": 2
+ },
+ {
+  "w": "hulûl",
+  "m": "Bir şeyin içine işleme, içine sinme, nüfuz etme",
+  "s": "Aşkın kalbe hulûlüyle insanın tüm dünyası değişir.",
+  "z": 3
+ },
+ {
+  "w": "hulûs",
+  "m": "Dalkavukluk etme",
+  "s": "Yöneticisinin hulûsünü kimse samimi bulmuyordu.",
+  "z": 3
+ },
+ {
+  "w": "hulûskâr",
+  "m": "Dalkavuk",
+  "s": "Hulûskâr tavırlarıyla terfiyi kaptı ama arkadaşlarının saygısını kaybetti.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "husumetkâr",
+  "m": "Düşmanca",
+  "s": "Sorunu husumetkâr bir dille değil, açıklamayla cevapladı.",
+  "z": 3
+ },
+ {
+  "w": "hâdis",
+  "m": "Hz. Muhammed'in sözleri; hadisişerif",
+  "s": "Peygamberin hâdisleri, Müslümanlar için yol gösterici kabul edilir.",
+  "z": 2
+ },
+ {
+  "w": "hünkâr",
+  "m": "Osmanlılarda yalnız padişahlar için kullanılan bir ünvan",
+  "s": "Sofraya hünkâr oturmadan yemeğe başlanmazdı.",
+  "z": 2
+ },
+ {
+  "w": "hünkârbeğendi",
+  "m": "Közlenmiş patlıcanın üzerine salçalı et konularak yapılan bir yemek türü",
+  "s": "Özel konuklara köftenin yanında hünkârbeğendi ikram ettiler.",
+  "z": 2
+ },
+ {
+  "w": "iblâğ",
+  "m": "Bir şeyin miktarını tamamlama",
+  "s": "Zorunlu askerlik süresinin iblâğı, yaşa göre belirlenirdi.",
+  "z": 3
+ },
+ {
+  "w": "ibretiâlem",
+  "m": "Başkalarına örnek olan şey",
+  "s": "Onun başına gelenler, herkese ibretiâlem oldu.",
+  "z": 2
+ },
+ {
+  "w": "iflâh",
+  "m": "Kötü, güç bir durumdan kurtulma, iyi bir duruma gelme; onma",
+  "s": "Borç batağından iflâh etmek yıllarını aldı.",
+  "z": 3
+ },
+ {
+  "w": "ihmalkâr",
+  "m": "İşlerine önem vermeyip onları gelişigüzel yapıveren veya daha sonraya bırakan; savsak, ihmalci",
+  "s": "İhmalkâr davranan bekçi, gece nöbetinde uyuyakalmıştı.",
+  "z": 2,
+  "k": "Farsça"
+ },
+ {
+  "w": "ihtilâs",
+  "m": "Bir malı açıkça sahibinden veya evinden hızla kapıp alma",
+  "s": "Marketten bir malın ihtilâsı, güvenlik kamerasına yansıdı.",
+  "z": 3
+ },
+ {
+  "w": "ihtimalî",
+  "m": "Belkili",
+  "s": "Hava durumu ihtimalî bir değerlendirmeyle paylaşıldı.",
+  "z": 3
+ },
+ {
+  "w": "illâki",
+  "m": "Illa",
+  "s": "Sınavı kazanmalıydı; illâki daha çok çalışması gerektiğini söylediler.",
+  "z": 3
+ },
+ {
+  "w": "illâllah",
+  "m": "Usanç ve bezginlik anlatan bir söz",
+  "s": "Şu komşunun gürültüsüne illâllah dedim artık.",
+  "z": 2
+ },
+ {
+  "w": "ilmihâl",
+  "m": "İslam dininin kurallarını öğretmek için yazılmış kitap",
+  "s": "Büyükanne, genç gelinlere dinin esaslarını ilmihâlden okuyarak anlatırdı.",
+  "z": 3
+ },
+ {
+  "w": "ilâhe",
+  "m": "Tanrıça",
+  "s": "Eski Yunan mitolojisinde her denizin bir ilâhesi vardı.",
+  "z": 2
+ },
+ {
+  "w": "ilâhiyat",
+  "m": "Tanrı bilimi",
+  "s": "Üniversitede ilâhiyat fakültesinde okudu.",
+  "z": 2
+ },
+ {
+  "w": "ilânıaşk",
+  "m": "Karşı cinse aşkını bildirme işi",
+  "s": "Şair, ilânıaşk beyitlerinde sevgilisinin adını saklamadı.",
+  "z": 3
+ },
+ {
+  "w": "ilâçlamak",
+  "m": "İlaç sürmek",
+  "s": "Bahçedeki ağaçları her ilkbahar ilaçlar.",
+  "z": 1
+ },
+ {
+  "w": "imalâthane",
+  "m": "Ham maddeleri işleyerek piyasaya çıkacak duruma getiren iş yeri; yapımevi",
+  "s": "Cumhuriyet'in ilk yıllarında şehirde bir imalâthane kuruldu.",
+  "z": 2
+ },
+ {
+  "w": "indifaî",
+  "m": "Döküntülü (hastalık)",
+  "s": "Doktor, derideki indifaî belirtilere dikkat çekti.",
+  "z": 3
+ },
+ {
+  "w": "inhilâl",
+  "m": "Boşalma",
+  "s": "Bütçedeki açık, kurumların inhilâline yol açtı.",
+  "z": 3
+ },
+ {
+  "w": "intanî",
+  "m": "Mikropla oluşan",
+  "s": "Hastalığın intanî kaynaklı olduğu testlerle anlaşıldı.",
+  "z": 3
+ },
+ {
+  "w": "irticaî",
+  "m": "Gericilikle ilgili, gerici (davranış, tutum)",
+  "s": "Toplum düzenini bozma amacı taşıyan irticaî davranışlar yasaktır.",
+  "z": 3
+ },
+ {
+  "w": "irtikâp",
+  "m": "Yiyicilik",
+  "s": "Memurun irtikâbı, soruşturma sonucu belgelendi.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "iskarpelâ",
+  "m": "Tahta, metal veya taşı işlemeye yarayan çelik araç",
+  "s": "Ustalar, ahşap işlemek için iskarpelayı masaya aldı.",
+  "z": 3
+ },
+ {
+  "w": "iskân",
+  "m": "Yurtlandırma",
+  "s": "Deprem bölgesindeki aileler için iskân kanunu uygulanır.",
+  "z": 2
+ },
+ {
+  "w": "istihkâm",
+  "m": "Düşman saldırısını durdurmak, düşmana karşı savunma yapmak amacıyla düzenlenmiş yer",
+  "s": "Ordu, geçidi korumak için vadide güçlü istihkâmlar kurdu.",
+  "z": 3
+ },
+ {
+  "w": "itikâf",
+  "m": "Genelde ramazan ayının son on gününde ibadet niyetiyle camide kalmak",
+  "s": "Ramazan'ın son on gününde camide itikâfa girdi.",
+  "z": 2
+ },
+ {
+  "w": "itlâf",
+  "m": "Öldürme, yok etme, telef etme",
+  "s": "Savaş, bölgedeki tarım arazilerinin itlâfına yol açtı.",
+  "z": 3
+ },
+ {
+  "w": "izolâsyon",
+  "m": "Yalıtım",
+  "s": "Eski binanın duvarlarına izolâsyon yapıldı.",
+  "z": 2
+ },
+ {
+  "w": "izolâtör",
+  "m": "Yalıtkan",
+  "s": "Elektrik direklerindeki izolâtörler akımın toprağa akmasını önler.",
+  "z": 2
+ },
+ {
+  "w": "jelâtin",
+  "m": "Genellikle hekimlik ve fotoğrafçılıkta kullanılan, hayvanların kemik, kıkırdak vb. dokularından veya bitkisel yosunlardan elde edilen saydam, renksiz, kokusuz bir madde",
+  "s": "Pasta yapımında jelâtin, kremanın kıvamını sağlar.",
+  "z": 2
+ },
+ {
+  "w": "kalemkâr",
+  "m": "Tavan ve duvarlara kabartma gibi görünen resimler yapan sanatçı",
+  "s": "Caminin tavanındaki nakışları kalemkâr ustalar işlemiş.",
+  "z": 3
+ },
+ {
+  "w": "kalenderî",
+  "m": "Bir halk şiiri türü",
+  "s": "Halk şiirinde kalenderî dize yapısı serbesttir.",
+  "z": 3,
+  "k": "Farsça + Arapça"
+ },
+ {
+  "w": "kalubelâ",
+  "m": "İslam inancına göre, ruhlar yaratıldığında Allah'ın \"Ben sizin Tanrı'nız değil miyim?\" sorusuna ruhların verdikleri \"evet\" cevabı",
+  "s": "Kalubelâ sözü, ruhlara sorulan ezelî soruya dayanır.",
+  "z": 3
+ },
+ {
+  "w": "kamuflâj",
+  "m": "Gizleme",
+  "s": "Askerler, ormanda kamuflâj sayesinde fark edilmedi.",
+  "z": 1
+ },
+ {
+  "w": "kandelâ",
+  "m": "Mum",
+  "s": "Elektrik yokken masaya bir kandelâ koyarlardı.",
+  "z": 3
+ },
+ {
+  "w": "kapelâ",
+  "m": "Şapka",
+  "s": "Yağmurdan korunmak için kapelasını başına geçirdi.",
+  "z": 2
+ },
+ {
+  "w": "kapitülâsyon",
+  "m": "Bir ülkede yurttaşların zararına olarak yabancılara verilen ayrıcalık hakları",
+  "s": "Osmanlı tarihinde kapitülâsyonlar, devletin zararına ayrıcalıklardı.",
+  "z": 1
+ },
+ {
+  "w": "karakuşî",
+  "m": "Kanun, kural, mantık ölçülerine dayanmayan",
+  "s": "Bu kararın karakuşî olduğunu herkes konuşuyordu.",
+  "z": 3
+ },
+ {
+  "w": "karalâhana",
+  "m": "Turpgillerden, yaprakları kalınca, koyu yeşil ve kat kat olan, kış sebzesi olarak yetiştirilen bir tür lahana (Brassica oleracea)",
+  "s": "Kış sebzesi olan karalâhanadan sıcak bir yemek pişirdi.",
+  "z": 1
+ },
+ {
+  "w": "karamelâ",
+  "m": "Karamel",
+  "s": "Çocuklar dondurmasına karamelâ sos döktü.",
+  "z": 2
+ },
+ {
+  "w": "karargâh",
+  "m": "Bir birlik veya kurumun, kumandan ile yardımcı şube ve bölümlerinden oluşan kuruluş",
+  "s": "Kurtuluş Savaşı'nda Batı Cephesi karargâhı bu şehirde kuruldu.",
+  "z": 1
+ },
+ {
+  "w": "kavelâ",
+  "m": "Halatların dikişlerinde kullanılan demir veya ağaç kama",
+  "s": "Halat ustası, dikişte kullanmak için bir kavelâ hazırladı.",
+  "z": 3
+ },
+ {
+  "w": "kimyonî",
+  "m": "Kimyon rengi",
+  "s": "Ekmeklerin üstü kimyonî bir renkle parlardı.",
+  "z": 3
+ },
+ {
+  "w": "kitabî",
+  "m": "Kitaba uygun",
+  "s": "Bilgisi yalnızca kitabî kaldığı için uygulamada zorlandı.",
+  "z": 2
+ },
+ {
+  "w": "kloroplâst",
+  "m": "Yeşil bitkilerde hücrelerin içinde bulunan, klorofil moleküllerinden oluşan, karmaşık yapılı kromoplast",
+  "s": "Fotosentez, bitki hücresindeki kloroplâstlarda gerçekleşir.",
+  "z": 2
+ },
+ {
+  "w": "klâkson",
+  "m": "Korna",
+  "s": "Şoför, yayayı görmeyince uzun uzun klâkson çaldı.",
+  "z": 1
+ },
+ {
+  "w": "klâpa",
+  "m": "Yakanın göğse doğru inen devrik bölümü",
+  "s": "Ceketinin klâpası göğsüne doğru kapanmıştı.",
+  "z": 2
+ },
+ {
+  "w": "klâsman",
+  "m": "Bölümleme",
+  "s": "Raporun bölümleri bir klâsman içinde sıralandı.",
+  "z": 3
+ },
+ {
+  "w": "klâsör",
+  "m": "Yazılı kâğıtları düzenli ve sıralı bir biçimde korumak için kullanılan mukavva veya plastikten telli kap; sıralaç",
+  "s": "Tüm faturaları ayrı bir klâsörde saklıyor.",
+  "z": 1
+ },
+ {
+  "w": "klâvsen",
+  "m": "Klavyeli ve telli bir çalgı; çembalo, çimbali",
+  "s": "Klasik konserde klâvsen sesi salona yayıldı.",
+  "z": 3
+ },
+ {
+  "w": "klâvye",
+  "m": "Parmaklarla hareket ettirilen piyano, org vb. çalgılarda veya yazı ve hesap makinelerinde değişmez bir eksen çevresinde inip kalkabilen, istenilen işe göre düzenlenmiş bazı mekanizmaları çalıştıran kaldıraç kollarının, tuş sıralarının bütünü",
+  "s": "Piyano çalmayı öğrenen çocuk, klâvyede ilk parçasını çaldı.",
+  "z": 1
+ },
+ {
+  "w": "kolâj",
+  "m": "Kesyap",
+  "s": "Sanatçı, eski gazetelerden kestiği parçalarla bir kolâj çalışması yaptı.",
+  "z": 2
+ },
+ {
+  "w": "kompilâsyon",
+  "m": "Derleyip toparlama",
+  "s": "Kitap özgün bir eser değil, derlemeden oluşan bir kompilâsyondu.",
+  "z": 3
+ },
+ {
+  "w": "kontrgerillâ",
+  "m": "Gerilla güçlerine karşı oluşturulmuş güç; gladyo",
+  "s": "Soğuk savaş döneminde birçok ülkede kontrgerillâ örgütleri kuruldu.",
+  "z": 3
+ },
+ {
+  "w": "kontrplâk",
+  "m": "Genellikle mobilya işlerinde kullanılan, en az üç kaplamanın üst üste tutkallanmasından oluşan, ince, esnek tahta; kontra",
+  "s": "Rafların hepsi kontrplâk kaplama yapılmıştı.",
+  "z": 2
+ },
+ {
+  "w": "korelâsyon",
+  "m": "Bağıntı",
+  "s": "Araştırma, uyku düzeni ile başarı arasında korelâsyon buldu.",
+  "z": 2
+ },
+ {
+  "w": "kurşunî",
+  "m": "Kurşun rengi",
+  "s": "Kış gökyüzü kurşunî bir renge bürünmüştü.",
+  "z": 2
+ },
+ {
+  "w": "kutsî",
+  "m": "Kutsal",
+  "s": "Evi, komşuların kutsî gördüğü bir yerdi.",
+  "z": 2
+ },
+ {
+  "w": "kuzgunî",
+  "m": "Çok koyu, kara",
+  "s": "Deniz, kış sabahı kuzgunî dalgalara büründü.",
+  "z": 3
+ },
+ {
+  "w": "kâfir",
+  "m": "Tanrı'nın varlığını ve birliğini inkâr eden kimse",
+  "s": "Onun bu nankörlüğü, eski dostlarını bile kâfir saydırdı.",
+  "z": 3
+ },
+ {
+  "w": "kâfur",
+  "m": "Kâfur ağacından elde edilen, hekimlikte kullanılan, beyaz ve yarı saydam, kolaylıkla parçalanan, güzel kokulu bir madde; kâfuru",
+  "s": "Buhurdana atılan kâfurun kokusu bütün odayı sardı.",
+  "z": 3
+ },
+ {
+  "w": "kâhin",
+  "m": "Doğaüstü yollardan gizli, bilinmeyen şeyleri, geleceği bilme iddiasında bulunan kimse",
+  "s": "Efsaneye göre kâhin, gelecekten haber veriyormuş.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "kâkül",
+  "m": "Alna düşen kısa kesilmiş saç; perçem",
+  "s": "Alnına düşen kâkülünü omzuna atıp güldü.",
+  "z": 2,
+  "k": "Farsça"
+ },
+ {
+  "w": "kâküllü",
+  "m": "Kâkülü olan",
+  "s": "Fotoğrafta kâküllü bir çocuk gülümsüyordu.",
+  "z": 2
+ },
+ {
+  "w": "kâmil",
+  "m": "Olgun",
+  "s": "Ustası, onun artık kâmil bir zanaatkâr olduğunu söyledi.",
+  "z": 3
+ },
+ {
+  "w": "kârgir",
+  "m": "Kâgir",
+  "s": "Köydeki tüm evler kârgir yapıldı.",
+  "z": 3
+ },
+ {
+  "w": "kâğıt",
+  "m": "Hamur durumuna getirilmiş türlü bitkisel maddelerden yapılan, yazı yazmaya, baskı yapmaya, bir şey sarmaya yarayan kuru, ince yaprak",
+  "s": "Defterin ilk kâğıdı buruşmuştu.",
+  "z": 1
+ },
+ {
+  "w": "kâğıtlamak",
+  "m": "Kâğıtla kaplamak, kâğıt yapıştırmak",
+  "s": "Kırık pencereyi eski bir gazeteyle kâğıtladılar.",
+  "z": 3
+ },
+ {
+  "w": "küheylân",
+  "m": "Soylu Arap atı",
+  "s": "Çölde yetişen küheylân, rüzgâr gibi koşuyordu.",
+  "z": 2
+ },
+ {
+  "w": "külâh",
+  "m": "İçine bazı şeyler koymak için huni biçiminde bükülmüş kâğıt kap",
+  "s": "Şekerleri külâh biçiminde kıvırıp çocuklara dağıttı.",
+  "z": 3
+ },
+ {
+  "w": "kündekâri",
+  "m": "Genellikle kürsü, minber, kapı, dolap vb. yerlerde kullanılan, sekizgen, beşgen, yıldız gibi geometrik biçimde kesilmiş küçük parçacıkların bir desen oluşturacak biçimde açılan yuvalara çivisiz ve yapışkansız geçirilmesi yoluyla yapılan bezeme tekniği",
+  "s": "Caminin kapısındaki kündekâri işçiliği yüzyıllardır sağlam kalmış.",
+  "z": 3
+ },
+ {
+  "w": "kılâde",
+  "m": "Gerdanlık",
+  "s": "Boyundan sarkan kılâde, annesinden kalmaydı.",
+  "z": 3
+ },
+ {
+  "w": "kılâptan",
+  "m": "Pirinç, bakır, kalay vb. madenlerden çekilerek gümüş ve altın yaldız vurulmuş ince metal iplik",
+  "s": "Nakışların kenarları kılâptan iplikle çevriliydi.",
+  "z": 3
+ },
+ {
+  "w": "kırmızılâhana",
+  "m": "Rengi kırmızı olan bir tür lahana",
+  "s": "Salatayı turşu yerine kırmızılâhanayla hazırladı.",
+  "z": 1
+ },
+ {
+  "w": "kıyasî",
+  "m": "Uygulama ve benzetme ile elde edilen",
+  "s": "Bu sonuç kıyasî bir çıkarımdan öteye gitmiyor.",
+  "z": 3
+ },
+ {
+  "w": "laciverdî",
+  "m": "Lacivert renkli",
+  "s": "Gece yarısı deniz laciverdî bir düzlük gibi uzanıyordu.",
+  "z": 2
+ },
+ {
+  "w": "lahurî",
+  "m": "Lahuraki",
+  "s": "Dedesinin sandığından lahurî işlemeli bir yelek çıktı.",
+  "z": 3
+ },
+ {
+  "w": "leylâk",
+  "m": "Zeytingillerden, yaprakları karşılıklı bir ağaççık (Syringa vulgaris)",
+  "s": "Bahçedeki leylâklar mayıs ayında bütün sokağı kokuttu.",
+  "z": 1
+ },
+ {
+  "w": "leylî",
+  "m": "Geceye özgü",
+  "s": "Baykuş, leylî hayata en uygun kuşlardan biridir.",
+  "z": 3
+ },
+ {
+  "w": "limonî",
+  "m": "Limon rengi",
+  "s": "Mutfak duvarları limonî bir boya ile aydınlandı.",
+  "z": 2
+ },
+ {
+  "w": "lisanıhâl",
+  "m": "Hâl diliyle, davranışla düşünce ve istenileni anlatma",
+  "s": "Onun lisanıhâli, sözlerinden daha çok şey anlatıyordu.",
+  "z": 3
+ },
+ {
+  "w": "mahkûmiyet",
+  "m": "Hükümlülük",
+  "s": "Duruşma sonunda mahkûmiyet kararı açıklandı.",
+  "z": 2
+ },
+ {
+  "w": "mahlûl",
+  "m": "Mirasçısı olmayan bir kimseden hükûmete kalan (mülk)",
+  "s": "Mirasçısı olmayan arazi mahlûl sayılıp hazineye geçti.",
+  "z": 3
+ },
+ {
+  "w": "mahlût",
+  "m": "Karışım",
+  "s": "Beton, kum ve çimentonun mahlût hâlidir.",
+  "z": 3
+ },
+ {
+  "w": "mahşerî",
+  "m": "Mahşeri andıran",
+  "s": "Kalabalık, mahşerî bir izdihamla stadyuma aktı.",
+  "z": 3
+ },
+ {
+  "w": "makaskâr",
+  "m": "Kesme ve oyma sanatı ile uğraşan kimse",
+  "s": "Ahşap oymacılığında maharetiyle tanınan bir makaskârdı.",
+  "z": 3,
+  "k": "Osmanlı Türkçesi"
+ },
+ {
+  "w": "makferlân",
+  "m": "Omuzdan yarı bele kadar inen pelerini olan palto",
+  "s": "Babasının dolabından eski bir makferlân palto çıktı.",
+  "z": 3
+ },
+ {
+  "w": "makûs",
+  "m": "Ters çevrilmiş, baş aşağı getirilmiş",
+  "s": "Bahtı makûs gencin şansı bir türlü yaver gitmedi.",
+  "z": 2
+ },
+ {
+  "w": "malikâne",
+  "m": "Geniş bir alana kurulmuş, büyük ve gösterişli ev; yurtluk",
+  "s": "Tepedeki malikâne, şehrin en gösterişli binasıydı.",
+  "z": 2,
+  "k": "Arapça: malik (sahip) + Farsça: hane (ev)"
+ },
+ {
+  "w": "mamulât",
+  "m": "Yapılmış şeyler",
+  "s": "Fuar standsında fabrikanın mamulâtı sergileniyordu.",
+  "z": 3
+ },
+ {
+  "w": "manipülâsyon",
+  "m": "Yönlendirme",
+  "s": "Reklamlarda manipülâsyon tehlikesine karşı okuryazarlık gerekir.",
+  "z": 1
+ },
+ {
+  "w": "manipülâtör",
+  "m": "Telgraf işaretlerini göndermek için bir devredeki akımı kesmekte veya yeniden vermekte kullanılan araç",
+  "s": "Eski telgrafın manipülâtörü ustasından kalmaydı.",
+  "z": 3
+ },
+ {
+  "w": "marazî",
+  "m": "Hastalıkla ilgili; sayrıl",
+  "s": "Hastanın marazî hâli doktoru düşündürdü.",
+  "z": 3
+ },
+ {
+  "w": "marmelât",
+  "m": "Rendelenen veya ezilen meyvelerin şekerle kaynatılıp püre kıvamına getirilmesiyle yapılan, genellikle kahvaltılarda yenilen bir tatlı",
+  "s": "Kahvaltıda ev yapımı portakal marmelâtı sürdü.",
+  "z": 1
+ },
+ {
+  "w": "medlûl",
+  "m": "Gösterilen, işaret edilen",
+  "s": "Cümledeki medlûl, işaret edenin ötesine geçer.",
+  "z": 3
+ },
+ {
+  "w": "mehdî",
+  "m": "Doğru yolda olan, hidayete ermiş olan",
+  "s": "Hikâyedeki yolcu, doğru yolu bulmuş bir mehdî gibi anlatıldı.",
+  "z": 3
+ },
+ {
+  "w": "mekkâre",
+  "m": "Osmanlı ordusunda taşıma işlerinde kullanılan at, deve, katır vb. hayvanlar",
+  "s": "Sefer için mekkâreler yola çıkarıldı.",
+  "z": 3
+ },
+ {
+  "w": "mekân",
+  "m": "Bulunulan yer",
+  "s": "Bu şehir, yazı yazmak için en sevdiği mekândı.",
+  "z": 1
+ },
+ {
+  "w": "melekût",
+  "m": "Çok büyük, uçsuz bucaksız mülk",
+  "s": "Efsanede sultanın melekûtü uzayıp giderdi.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "melâs",
+  "m": "Şeker üretiminde, billurlaşan şeker alındıktan sonra kalan şekerli posa",
+  "s": "Şeker fabrikasından çıkan melâs, hayvan yemine karıştırılır.",
+  "z": 3
+ },
+ {
+  "w": "merkezî",
+  "m": "Merkezde olan, merkezi oluşturan",
+  "s": "Isıtma sistemi binanın merkezî noktasından dağıtılıyor.",
+  "z": 1,
+  "k": "merkez + -î"
+ },
+ {
+  "w": "metrûkât",
+  "m": "Ölen birinin bıraktığı şeyler",
+  "s": "Tereke defterine, merhumun bıraktığı metrûkât tek tek yazıldı.",
+  "z": 3
+ },
+ {
+  "w": "mevlâ",
+  "m": "Allah",
+  "s": "Yoksulun duası, mevlâ katına yükselirdi.",
+  "z": 2
+ },
+ {
+  "w": "mevziî",
+  "m": "Yerel",
+  "s": "Yangın mevziî bir şekilde kontrol altına alındı.",
+  "z": 2
+ },
+ {
+  "w": "midevî",
+  "m": "Mideye uygun olan, mideye iyi gelen",
+  "s": "Ekşi ve baharatlı yemeklerden kaçınıyor; doktor midevî bir beslenme önerdi.",
+  "z": 3
+ },
+ {
+  "w": "milât",
+  "m": "Hz. İsa'nın doğduğu gün",
+  "s": "Milât takvimine göre bu yıl iki bin yirmi altıdır.",
+  "z": 2
+ },
+ {
+  "w": "mimarî",
+  "m": "Mimarlık",
+  "s": "Şehrin mimarî dokusu koruma altına alındı.",
+  "z": 1
+ },
+ {
+  "w": "modelâj",
+  "m": "Oylumlama",
+  "s": "Heykeltıraş, kil üzerinde modelâj tekniğini kullandı.",
+  "z": 3
+ },
+ {
+  "w": "modülâsyon",
+  "m": "Bir sesin yayılmasında ortaya çıkan yeğinlik, vurgu, ton değişimlerinden her biri",
+  "s": "Radyocu, sesinin modülâsyonuyla dinleyiciyi ekrana değil kulaklığa bağladı.",
+  "z": 3
+ },
+ {
+  "w": "muamelât",
+  "m": "Davranışlar",
+  "s": "Ticarette muamelât, sözden önce güvenle yürür.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "mugalâta",
+  "m": "Bu biçimde söylenen söz",
+  "s": "Bu laf, halk arasında mugalâta olarak dolaşıyor.",
+  "z": 3
+ },
+ {
+  "w": "mulâj",
+  "m": "Bir şeyin bal mumu, alçı vb. bir madde ile kalıbını çıkarmak için yapılan işlemlerin bütünü",
+  "s": "Heykeltıraş, eserinin mulâjını alçıdan çıkardı.",
+  "z": 3
+ },
+ {
+  "w": "musikâr",
+  "m": "Mıskal",
+  "s": "Eski çalgılardan musikâr, düğünlerde çalınırdı.",
+  "z": 3
+ },
+ {
+  "w": "mülkî",
+  "m": "Bir ülkeyle ilgili olan",
+  "s": "Valilik, mülkî idare amirlerinin yetkilerini düzenledi.",
+  "z": 2
+ },
+ {
+  "w": "nabekâr",
+  "m": "Serseri, haylaz, avare, işsiz",
+  "s": "Mahallenin nabekâr çocukları akşam olunca bulaşık çıkarıyordu.",
+  "z": 3
+ },
+ {
+  "w": "naklî",
+  "m": "Nakle dayanan, anlatılan, söylenen (gerçek)",
+  "s": "Bilgi, naklî kaynaklardan da teyit edilmeli.",
+  "z": 3
+ },
+ {
+  "w": "namazgâh",
+  "m": "Açıkta namaz kılmak için hazırlanmış olan ve kıble yönüne doğru dikili bir taşı bulunan yer; musalla",
+  "s": "Tepe üzerindeki namazgâh, yüzyıllardır ayakta duruyordu.",
+  "z": 3
+ },
+ {
+  "w": "nazikâne",
+  "m": "Nazikçe",
+  "s": "Sorunu nazikâne bir dille hatırlattı.",
+  "z": 3
+ },
+ {
+  "w": "nebevî",
+  "m": "Peygamberle ilgili, peygambere ilişkin",
+  "s": "Peygamberin nebevî sözleri kitaplarda toplandı.",
+  "z": 2
+ },
+ {
+  "w": "neftî",
+  "m": "Siyaha yakın koyu yeşil renk",
+  "s": "Deniz, fırtına öncesi neftî bir renge döndü.",
+  "z": 3
+ },
+ {
+  "w": "neharî",
+  "m": "Gündüzlü olarak",
+  "s": "İşçiye neharî ücret ödendi.",
+  "z": 3
+ },
+ {
+  "w": "neuzübillâh",
+  "m": "\"Tanrı'ya sığındık, Tanrı korusun\" anlamlarında, tehlikeli bir durumla karşılaşıldığında kullanılan bir söz",
+  "s": "O hastalığa neuzübillâh, kimse uğramasın.",
+  "z": 2
+ },
+ {
+  "w": "nikelâj",
+  "m": "Metal bir yüzeyi nikelle kaplama işi",
+  "s": "Kapı kollarına parlak bir nikelâj uygulandı.",
+  "z": 3
+ },
+ {
+  "w": "nikâh",
+  "m": "Bir erkekle bir kadının evlilik birliği kurmasını sağlayacak yasal işlem; evlilik akdi, akit",
+  "s": "Nikâh töreni, ailenin bahçesinde yapıldı.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "nikâhlamak",
+  "m": "Nikâh kıymak",
+  "s": "Yaşlı imam, yıllar boyu yüzlerce çifti nikâhlamış.",
+  "z": 2
+ },
+ {
+  "w": "nisaî",
+  "m": "Kadın hastalıkları ile ilgili",
+  "s": "Doğum sonrası kontrole nisaî bölümünde girdi.",
+  "z": 3
+ },
+ {
+  "w": "nişangâh",
+  "m": "Ateşli silahlarda hedefin uzaklığına ve bulunduğu yerin yüksekliğine göre namluya gereken yükseliş açısını veren, silahı bu hedefe doğrultmaya yarayan alet; bakıncak, nişane",
+  "s": "Usta, tüfekleri atışmadan önce nişangâh ayarına aldı.",
+  "z": 3,
+  "k": "Osmanlı Türkçesi نشانگاه‎ sözcüğünden devralındı."
+ },
+ {
+  "w": "nohudî",
+  "m": "Nohut rengi",
+  "s": "Salon halısı nohudî tonlarda seçildi.",
+  "z": 3
+ },
+ {
+  "w": "nâzım",
+  "m": "Şiir",
+  "s": "O beyit, divan nâzımının en güzel örneklerinden.",
+  "z": 2
+ },
+ {
+  "w": "ordugâh",
+  "m": "Ordunun konakladığı yer",
+  "s": "Padişah sefere çıkmadan önce ordugâh kuruldu.",
+  "z": 2
+ },
+ {
+  "w": "otoklâv",
+  "m": "Vida ve cıvatalarla tutturulmuş basit bir kapağı olan, iç basınca dayanıklı kap",
+  "s": "Laboratuvarda cam kaplar otoklâvda steril edildi.",
+  "z": 3
+ },
+ {
+  "w": "palûze",
+  "m": "Pelte",
+  "s": "Tatlı sofrasına bir kâse palûze geldi.",
+  "z": 3
+ },
+ {
+  "w": "paralâks",
+  "m": "Farklı iki yerden çok uzaktaki bir noktaya yönelmiş iki doğru arasındaki açı",
+  "s": "Teleskobun okuması paralâks hatasından etkilendi.",
+  "z": 3
+ },
+ {
+  "w": "parlâmentarizm",
+  "m": "Parlamenter sistem",
+  "s": "Avrupa'da parlâmentarizm, krallıklardan sonra yaygınlaştı.",
+  "z": 3
+ },
+ {
+  "w": "parlâmenter",
+  "m": "Milletvekili",
+  "s": "Ülkede parlâmenter rejim tartışmaları sürüyordu.",
+  "z": 2
+ },
+ {
+  "w": "parlâmento",
+  "m": "Başlıca görevi yasama, devlet bütçesini çıkarma, hükûmeti denetleme olan ve üyeleri halkoyu ile belirli bir süre için seçilen meclis veya meclisler; yasama kurulu, yasama meclisi, yasama organı",
+  "s": "Yeni yasa tasarsı parlâmentoda görüşülecek.",
+  "z": 1
+ },
+ {
+  "w": "parselâsyon",
+  "m": "Parselleme",
+  "s": "Belediye, yeni imar bölgesinde parselâsyon çalışması başlattı.",
+  "z": 3
+ },
+ {
+  "w": "patlıcanî",
+  "m": "Patlıcan rengi",
+  "s": "Yağlı boya tabloda patlıcanî bir fon kullandı.",
+  "z": 3
+ },
+ {
+  "w": "pekâlâ",
+  "m": "Benzerlerinden aşağı olmayan",
+  "s": "Bu işin üstesinden pekâlâ gelebilirsin.",
+  "z": 2
+ },
+ {
+  "w": "perestişkâr",
+  "m": "Delicesine, taparcasına seven",
+  "s": "Hayranları, sanatçıyı perestişkâr bir sevgiyle karşıladı.",
+  "z": 3
+ },
+ {
+  "w": "perhizkâr",
+  "m": "Sürekli olarak perhiz yapan (kimse)",
+  "s": "Doktorun önerisiyle perhizkâr bir yaşamaya başladı.",
+  "z": 2,
+  "k": "Osmanlı Türkçesi پرهيزکار‏‎ (perhizkâr, “perhizkâr”), Farsça"
+ },
+ {
+  "w": "pilâki",
+  "m": "İçine soğan, sarımsak, maydanoz, havuç vb. katılarak zeytinyağıyla pişirilen ve soğuk olarak yenen yemek",
+  "s": "Soğuk tabak olarak pilâki ikram ettiler.",
+  "z": 3
+ },
+ {
+  "w": "pilâv",
+  "m": "Pirinçten, bulgurdan veya kuskustan yapılan bir yemek",
+  "s": "Bayram yemeğinin baştacı tereyağlı pilâvdu.",
+  "z": 1
+ },
+ {
+  "w": "pişekâr",
+  "m": "Orta oyununda Kavuklu ve diğer tipler ile karşılıklı konuşarak oyunu yürüten ve oyuncuları yöneten kimse",
+  "s": "Orta oyununun en bilinen tipi Pişekâr'dır.",
+  "z": 2
+ },
+ {
+  "w": "protoplâzma",
+  "m": "Yapı bakımından çekirdek ve sitoplazmadan oluşan, yarı sıvı, saydam ve canlı hücrenin metabolizma olaylarının oluştuğu yer",
+  "s": "Hücrenin yaşamsal olayları protoplâzmada gerçekleşir.",
+  "z": 2
+ },
+ {
+  "w": "pürmelâl",
+  "m": "Çok üzüntülü",
+  "s": "Oğlunun borçları yüzünden pürmelâl bir insana dönüştü.",
+  "z": 3
+ },
+ {
+  "w": "pürtelâş",
+  "m": "Telaşlı olarak",
+  "s": "Valizini gümrükte pürtelâş bekleyen yolcular açtı.",
+  "z": 3
+ },
+ {
+  "w": "rabbanî",
+  "m": "Allah ile ilgili, Allah'a bağlı, ilahi, Allah'tan gelen",
+  "s": "Bu ilham, rabbanî bir kaynaktan geliyordu.",
+  "z": 3
+ },
+ {
+  "w": "âcizane",
+  "m": "Söz söyleyen kimsenin, kendi yaptıklarını abartmamak için kullandığı \"âcizlere yakışacak bir biçimde\" anlamında kullanılan bir nezaket sözü",
+  "s": "Konuşmasını 'âcizane' sözleriyle bitirdi.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "âlimane",
+  "m": "Âlime yakışan",
+  "s": "Soruya âlimane bir cevap verdi, herkesi susturdu.",
+  "z": 3
+ },
+ {
+  "w": "âşıktaş",
+  "m": "Aralarında ciddi bir sevgi olmadan birbirleriyle gönül eğlendiren erkek ve kadından her biri",
+  "s": "O roman, âşıktaş geçinen kibarları alaya alıyordu.",
+  "z": 3
+ },
+ {
+  "w": "ömrübillâh",
+  "m": "Şimdiye değin, hiçbir vakit",
+  "s": "Ömrübillâh böyle bir nankörlük görmedi.",
+  "z": 2,
+  "k": "Arapça."
+ },
+ {
+  "w": "abidevî",
+  "m": "Anıtsal",
+  "s": "Meydandaki abidevî heykel, şehrin simgesi hâline geldi.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "azimkârane",
+  "m": "Kararlılıkla, kararlı olarak",
+  "s": "Sınav hazırlığına azimkârane bir tempoyla başladı.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "bedenî",
+  "m": "Bedensel",
+  "s": "Spor, bedenî sağlığın yanı sıra zihni de dinç tutar.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "cilvekâr",
+  "m": "Cilveli, cilve yapan",
+  "s": "Sahnedeki cilvekâr hâlden kimseyi şaşırtamadı.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "efsunkâr",
+  "m": "Büyülü, sihirli",
+  "s": "Şairin efsunkâr dili okuyanları sarmaladı.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "ferdî",
+  "m": "Fertle ilgili, bireysel",
+  "s": "Toplumsal kuralların yanında ferdî haklar da korunur.",
+  "z": 1
+ },
+ {
+  "w": "fikrî",
+  "m": "Fikirle ilgili",
+  "s": "Yapıtın fikrî yönü, üslubundan daha çok tartışıldı.",
+  "z": 2,
+  "k": "Osmanlı Türkçesi فكری‎, Arapça فِكْرِي‎ (fikrī)."
+ },
+ {
+  "w": "füsunkâr",
+  "m": "Büyülü, etkileyici",
+  "s": "Konserin füsunkâr havası salona yayıldı.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "garazkâr",
+  "m": "Garaz bağlayan, kinli",
+  "s": "Garazkâr sözler yerine somut eleştirileri dinledi.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "gayrimeskûn",
+  "m": "Boş, ıssız, şenliksiz",
+  "s": "Köy, kışın tamamen gayrimeskûn kalıyordu.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "hodkâm",
+  "m": "Bencil",
+  "s": "Hodkâm davranışları yüzünden arkadaşlarını kaybetti.",
+  "z": 3,
+  "k": "Farsça"
+ },
+ {
+  "w": "hâkimane",
+  "m": "Buyururcasına, hükmedercesine",
+  "s": "Toplantıyı hâkimane bir sesle yönetti.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "hürmetkâr",
+  "m": "Hürmetli, saygılı",
+  "s": "Hürmetkâr tavrıyla herkesin gönlünü kazandı.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "hürmetkârane",
+  "m": "Hürmetlice, saygıyla",
+  "s": "Hocasına hürmetkârane bir dille itiraz etti.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "iltifatkâr",
+  "m": "İltifat eden, öven",
+  "s": "Jüri, iltifatkâr sözlerle genç sanatçıyı uğurladı.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "ilânen",
+  "m": "Duyuru yoluyla, ilan ederek",
+  "s": "Kurul, kararı ilânen açıkladı.",
+  "z": 3
+ },
+ {
+  "w": "kâffe",
+  "m": "Bütün, tamam, hep",
+  "s": "Kâffe âlem bayram sevincine ortak oldu.",
+  "z": 3
+ },
+ {
+  "w": "ladinî",
+  "m": "Din dışı",
+  "s": "Laik düzende eğitim ladinî bir nitelik taşır.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "lütufkâr",
+  "m": "İyiliksever, kibar",
+  "s": "Lütufkâr bir dille red cevabı aldı.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "lütufkârane",
+  "m": "İyilikle davranarak",
+  "s": "Sorunu lütufkârane çözüme kavuşturdular.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "mahkûk",
+  "m": "Kazınmış, hakkedilmiş",
+  "s": "Kapıdaki mahkûk desenler yüzyıllara meydan okuyor.",
+  "z": 3
+ },
+ {
+  "w": "mağribî",
+  "m": "Batılı",
+  "s": "Tabloda mağribî bir üslup göze çarpıyordu.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "merkûp",
+  "m": "Üzerine binilmiş olan",
+  "s": "Duvardaki yazıda merkûp olan hayvan atıydı.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "meskût",
+  "m": "Söylenmemiş, susulan",
+  "s": "Meskût kalan gerçekler yıllar sonra ortaya çıktı.",
+  "z": 3
+ },
+ {
+  "w": "mezkûr",
+  "m": "Adı geçen",
+  "s": "Mezkûr madde, yönetmeliğin üçüncü paragrafında açıklanıyor.",
+  "z": 2
+ },
+ {
+  "w": "mükâfaten",
+  "m": "Ödül olarak",
+  "s": "Yıllarca süren emeğini mükâfaten bir madalyayla taçlandırdılar.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "namuskâr",
+  "m": "Namuslu, namusuna düşkün",
+  "s": "Namuskâr tüccarın dükkânına güvenilirdi.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "nazarî",
+  "m": "Kuramsal, teorik",
+  "s": "Nazarî bilgi sahadaki uygulamayla beslenmeli.",
+  "z": 2
+ },
+ {
+  "w": "rengârenk",
+  "m": "Çeşitli renkleri olan, renk renk",
+  "s": "Pencereye rengârenk çiçekler dizdiler.",
+  "z": 1
+ },
+ {
+  "w": "resmî",
+  "m": "Devlete ait, devletle ilgili",
+  "s": "Okullar resmî tatil gününde kapalıdır.",
+  "z": 1,
+  "k": "Arapça رَسْمِي‎ (rasmī)"
+ },
+ {
+  "w": "riayetkâr",
+  "m": "Uyan, saygı gösteren",
+  "s": "Riayetkâr bir sürücü, yayaya ilk o yol verdi.",
+  "z": 2
+ },
+ {
+  "w": "sanatkârane",
+  "m": "Sanatkârca, usta işi",
+  "s": "Kapının üzerinde sanatkârane bir oyma vardı.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "sellemehüsselâm",
+  "m": "Ulu orta, çekinmeden",
+  "s": "Sellemehüsselâm toplantıya girip söz aldı.",
+  "z": 3
+ },
+ {
+  "w": "skolâstik",
+  "m": "İnanç ve bilgiyi uyumlu biçimde birleştiren felsefe akımı",
+  "s": "Ortaçağda skolâstik düşünce okullarda hâkimdi.",
+  "z": 3
+ },
+ {
+  "w": "tahlilî",
+  "m": "Çözümlemeli, analizle ilgili",
+  "s": "Raporun tahlilî bölümü olayı parça parça inceledi.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "takdirkâr",
+  "m": "Takdir eden, beğenen",
+  "s": "Takdirkâr bakışlarla performansını izlediler.",
+  "z": 2
+ },
+ {
+  "w": "taklidî",
+  "m": "Taklit yoluyla yapılan",
+  "s": "Üründeki taklidî markayı hemen ayırt etti.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "tavizkâr",
+  "m": "Ödün veren",
+  "s": "Tavizkâr tutumu sanatını da sulandırdı.",
+  "z": 2,
+  "k": "Arapça"
+ },
+ {
+  "w": "tehditkâr",
+  "m": "Tehdit dolu, tehdit edici",
+  "s": "Tehditkâr mektup polise teslim edildi.",
+  "z": 2
+ },
+ {
+  "w": "terkibî",
+  "m": "Tamlama ile ilgili",
+  "s": "Dilbilgisinde terkibî yapılar cümleye derinlik katar.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "tezyifkâr",
+  "m": "Aşağılayıcı, küçümseyici",
+  "s": "Tezyifkâr bir üslupla yazılan eleştiri tartışma yarattı.",
+  "z": 3
+ },
+ {
+  "w": "topyekûn",
+  "m": "Eksiksiz, toplu olarak",
+  "s": "Deprem bölgesine topyekûn yardım seferberliği başladı.",
+  "z": 2,
+  "k": "Türkçe top + -yekûn"
+ },
+ {
+  "w": "vefakâr",
+  "m": "Vefalı, sevgisi süreklilik taşıyan",
+  "s": "Vefakâr dostu her zor gününde yanındaydı.",
+  "z": 1,
+  "k": "Arapça"
+ },
+ {
+  "w": "yegâne",
+  "m": "Biricik, tek",
+  "s": "Bu mezuniyet belgesi, elindeki yegâne kanıttı.",
+  "z": 1,
+  "k": "Farsça"
+ },
+ {
+  "w": "zecrî",
+  "m": "Zorlayıcı, yasaklayıcı",
+  "s": "Yasa, zecrî tedbirlerle uygulanmaya başlandı.",
+  "z": 3,
+  "k": "Arapça"
+ },
+ {
+  "w": "zifirî",
+  "m": "Zifiri gibi kara, çok kara",
+  "s": "Zifirî bulutlar köyün üzerine çöktü.",
+  "z": 2
+ },
+ {
+  "w": "şeklî",
+  "m": "Biçimsel",
+  "s": "İki ülke arasındaki görüşme şeklî bir ziyaretti.",
+  "z": 2
+ },
+ {
+  "w": "şemsî",
+  "m": "Güneşle ilgili",
+  "s": "Takvimdeki şemsî aylar güneş yılını esas alır.",
+  "z": 2
+ }
+]

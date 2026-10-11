@@ -1,0 +1,2189 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+<meta name="theme-color" content="#150826" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Kelimşek" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+<link rel="icon" href="icons/icon-192.png" />
+<title>Kelimşek — YKS · KPSS · YDS Kelime Ezberi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#150826; --bg2:#1e0f34; --card:#251241; --card2:#2d1650; --line:#3a2160;
+    --ink:#f7f2ff; --ink2:#b7abda; --ink3:#7a6ea0;
+    --spark1:#ffb23e; --spark2:#ff5470; --cool:#8b7cff; --mint:#39e29a; --miss:#ff5470;
+    --disp:"Space Grotesk",-apple-system,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;height:100%;width:100%;max-width:100%;overflow-x:hidden}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    color:var(--ink); overflow:hidden; user-select:none;
+    display:flex; justify-content:center;
+    background:
+      radial-gradient(900px 520px at 80% -10%, #3a1d5e 0%, transparent 55%),
+      radial-gradient(700px 500px at 0% 110%, #4a1442 0%, transparent 50%),
+      var(--bg);
+  }
+  @media (prefers-reduced-motion: reduce){ *{animation:none!important;transition:none!important} }
+
+  .app{position:relative;width:100%;max-width:480px;min-width:0;height:100%;overflow:hidden}
+  .scroll,.top,.modes,.packs,.seg,.mode,.pack,.pack .t,.logo{min-width:0}
+  .screen{position:absolute;inset:0;display:none;flex-direction:column;
+    padding:calc(18px + env(safe-area-inset-top)) 20px calc(18px + env(safe-area-inset-bottom))}
+  .screen.on{display:flex;animation:rise .3s cubic-bezier(.2,.7,.3,1)}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+  .disp{font-family:var(--disp)}
+  .spark-text{background:linear-gradient(92deg,var(--spark1),var(--spark2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .muted{color:var(--ink2)} .faint{color:var(--ink3)}
+  .eyebrow{font-family:var(--disp);font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--ink3)}
+
+  /* ---------- top bar ---------- */
+  .top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .ring{position:relative;width:52px;height:52px;flex:0 0 auto}
+  .ring svg{transform:rotate(-90deg)}
+  .ring .n{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--disp);font-weight:700;font-size:16px;line-height:.9}
+  .ring .n small{font-size:8px;letter-spacing:1px;color:var(--ink3);font-weight:600}
+  .logo{display:flex;align-items:center;gap:7px;font-family:var(--disp);font-weight:700;letter-spacing:2px;font-size:19px}
+  .logo .b{font-size:19px;filter:drop-shadow(0 0 10px rgba(255,150,70,.6))}
+  .gear{width:44px;height:44px;border-radius:13px;border:1px solid var(--line);background:var(--card);display:flex;align-items:center;justify-content:center;font-size:19px;cursor:pointer}
+
+  /* level bar */
+  .lvl{margin-top:16px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:13px 15px}
+  .lvl .row{display:flex;justify-content:space-between;align-items:baseline;font-size:12px;color:var(--ink2)}
+  .lvl .row b{font-family:var(--disp);color:var(--ink);font-size:14px}
+  .lvl .track{height:8px;border-radius:5px;background:#170a2b;margin-top:9px;overflow:hidden}
+  .lvl .track > i{display:block;height:100%;width:0;border-radius:5px;background:linear-gradient(90deg,var(--cool),var(--spark2));transition:width .6s cubic-bezier(.2,.7,.3,1)}
+
+  /* section label */
+  .lbl{font-family:var(--disp);font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);margin:20px 3px 10px;display:flex;justify-content:space-between}
+
+  /* modes — v6: 5 kart, yatay kaydırma */
+  .modes{display:flex;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding:2px 2px 6px;margin:0 -2px;scrollbar-width:none}
+  .modes::-webkit-scrollbar{display:none}
+  .mode{flex:0 0 116px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:13px 11px;cursor:pointer;transition:.15s;position:relative;overflow:hidden}
+  .mode.sel{border-color:transparent;box-shadow:0 0 0 1.5px var(--spark2),0 12px 30px -14px rgba(255,84,112,.6)}
+  .mode.sel::before{content:"";position:absolute;inset:0;background:linear-gradient(160deg,rgba(255,178,62,.14),rgba(255,84,112,.06));pointer-events:none}
+  .mode .e{font-size:21px}
+  .mode .t{font-family:var(--disp);font-weight:600;font-size:13px;margin-top:8px}
+  .mode .d{font-size:10.5px;color:var(--ink3);margin-top:2px;line-height:1.3}
+
+  /* packs */
+  .packs{display:flex;flex-direction:column;gap:9px}
+  .pack{display:flex;align-items:center;gap:13px;background:var(--card);border:1px solid var(--line);border-radius:15px;padding:13px 15px;cursor:pointer;transition:.15s}
+  .pack.sel{border-color:var(--spark1);box-shadow:0 0 0 1px var(--spark1)}
+  .pack .emo{font-size:21px;width:30px;text-align:center}
+  .pack .t{flex:1}
+  .pack .t b{font-size:15px;font-weight:600}
+  .pack .t .d{font-size:11px;color:var(--ink3);margin-top:1px}
+  .pack .badge{font-family:var(--disp);font-size:10px;font-weight:600;letter-spacing:.5px;padding:3px 8px;border-radius:99px;background:rgba(139,124,255,.16);color:#b9aeff}
+  .pack .lock{color:var(--ink3);font-size:16px}
+
+  /* segmented */
+  .seg{display:flex;gap:8px}
+  .seg button{flex:1;background:var(--card);border:1px solid var(--line);color:var(--ink2);border-radius:12px;padding:12px 0;font-family:var(--disp);font-size:13px;font-weight:600;cursor:pointer;transition:.15s}
+  .seg button.sel{background:linear-gradient(180deg,var(--spark1),var(--spark2));color:#2a0a10;border-color:transparent}
+
+  .scroll{overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;margin:0 -4px;padding:0 4px}
+  .scroll::-webkit-scrollbar{display:none}
+
+  .cta{padding-top:14px}
+  .btn{width:100%;border:none;border-radius:16px;padding:18px;font-family:var(--disp);font-size:16px;font-weight:700;cursor:pointer}
+  .btn.primary{background:linear-gradient(180deg,var(--spark1),var(--spark2));color:#2a0a10;box-shadow:0 14px 34px -12px rgba(255,84,112,.7)}
+  .btn.ghost{background:transparent;color:var(--ink2);border:1px solid var(--line)}
+  .btn.cool{background:linear-gradient(180deg,#9a8cff,#6f5cff);color:#0e0724}
+  .btn:active{transform:translateY(1px) scale(.995)}
+  .goalchip{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--ink2);background:var(--card);border:1px solid var(--line);border-radius:99px;padding:6px 12px;align-self:center;margin-top:2px}
+  .goalchip b{font-family:var(--disp);color:var(--spark1)}
+
+  /* ---------- flash ---------- */
+  .ftop{display:flex;align-items:center;justify-content:space-between;font-size:13px;color:var(--ink3);font-family:var(--disp)}
+  .fbar{height:5px;border-radius:4px;background:#170a2b;margin-top:12px;overflow:hidden}
+  .fbar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--spark1),var(--cool));transition:width .09s linear}
+  .stage{flex:1;position:relative;display:flex;align-items:center;justify-content:center}
+  .word{position:absolute;font-family:var(--disp);font-weight:700;font-size:min(14vw,60px);letter-spacing:.5px;text-align:center;line-height:1}
+  .word .piv{color:var(--spark1)}
+  .word .wm{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14px;font-weight:500;letter-spacing:0;color:var(--ink2);margin-top:14px;line-height:1.3}
+  .word.cur{animation:pop .12s ease}
+  .word.cdown{font-size:min(30vw,140px);color:var(--spark1);animation:cdpop .5s ease}
+  @keyframes cdpop{0%{transform:scale(.5);opacity:0}40%{opacity:1}100%{transform:scale(1)}}
+  .word.ghost{opacity:.16;filter:blur(1px);animation:trail .42s ease forwards}
+  @keyframes pop{from{transform:scale(.92)}to{transform:scale(1)}}
+  @keyframes trail{to{opacity:0;transform:translateY(-16px) scale(1.04)}}
+  .fhint{text-align:center;font-size:13px;color:var(--ink3);margin-top:12px}
+  .fhint b{color:var(--ink2)}
+
+  /* ---------- recall / recog ---------- */
+  .rhead{text-align:center;margin-top:4px}
+  .rhead h2{font-family:var(--disp);font-size:21px;margin:0}
+  .rhead p{font-size:13px;color:var(--ink3);margin:5px 0 0}
+  .slots{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin:16px 0 12px;min-height:32px}
+  .slot{min-width:30px;height:32px;padding:0 10px;border-radius:9px;border:1px dashed var(--line);display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--ink3);font-family:var(--disp)}
+  .slot.f{border-style:solid;border-color:var(--cool);background:rgba(139,124,255,.14);color:var(--ink)}
+  .tiles{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-content:flex-start;overflow-y:auto}
+  .tile{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:13px 17px;font-size:16px;font-weight:600;cursor:pointer;transition:.12s}
+  .tile:active{transform:scale(.94)}
+  .tile.used{opacity:.22;pointer-events:none}
+
+  /* recognition */
+  .recogword{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .recogword .w{font-family:var(--disp);font-weight:700;font-size:min(13vw,52px)}
+  .rmean{min-height:22px;margin-top:12px;font-size:14px;color:var(--ink2);opacity:0;transition:opacity .15s;text-align:center;padding:0 16px}
+  .rmean.on{opacity:1}
+  .rmean.good{color:var(--mint)} .rmean.bad{color:#ffb3c0}
+  .recogrow{display:flex;gap:12px}
+  .recogrow button{flex:1;border:none;border-radius:16px;padding:20px;font-family:var(--disp);font-weight:700;font-size:17px;cursor:pointer}
+  .yes{background:linear-gradient(180deg,#3df5a0,#20c47c);color:#052616}
+  .no{background:linear-gradient(180deg,#ff7d92,#ff4d6b);color:#2a0810}
+  .recogprog{text-align:center;font-family:var(--disp);color:var(--ink3);font-size:13px;margin-bottom:10px}
+
+  /* anlamı seç */
+  .meanword{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:80px}
+  .meanword .w{font-family:var(--disp);font-weight:700;font-size:min(11vw,44px);text-align:center}
+  .meanword p{font-size:13px;color:var(--ink3);margin:12px 0 0}
+  .opts{display:flex;flex-direction:column;gap:10px;padding-bottom:4px}
+  .mopt{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 16px;color:var(--ink);font-size:15px;text-align:left;cursor:pointer;font-family:inherit;transition:.12s;width:100%}
+  .mopt:active{transform:scale(.985)}
+  .mopt.ok{border-color:var(--mint);box-shadow:0 0 0 1px var(--mint);background:rgba(57,226,154,.1)}
+  .mopt.bad{border-color:var(--miss);box-shadow:0 0 0 1px var(--miss);background:rgba(255,84,112,.12)}
+
+  /* ---------- v6: emoji katmanı ---------- */
+  .wemo{font-size:.48em;margin-left:10px;opacity:.85;vertical-align:2px;filter:none;letter-spacing:0}
+  .remo{font-size:13px;margin-right:4px;opacity:.9}
+
+  /* ---------- v6: yaz bakalım ✍️ ---------- */
+  .wmean{font-size:19px;line-height:1.45;text-align:center;padding:0 10px;font-weight:600}
+  .wletters{font-family:var(--disp);font-weight:700;font-size:22px;letter-spacing:4px;color:var(--spark1);min-height:30px;margin-top:14px;text-align:center}
+  .wreveal{color:var(--mint)}
+  .writerow{display:flex;gap:10px;padding-top:10px}
+  .writerow input{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:15px 16px;color:var(--ink);font-size:17px;font-family:var(--disp);font-weight:600;outline:none}
+  .writerow input:focus{border-color:var(--cool);box-shadow:0 0 0 1px var(--cool)}
+  .writerow button{flex:0 0 64px;border:none;border-radius:14px;font-size:22px;cursor:pointer;
+    background:linear-gradient(180deg,var(--spark1),var(--spark2));color:#2a0a10}
+  .sentbtn{align-self:center;background:transparent;border:1px dashed var(--line);color:var(--ink2);
+    border-radius:99px;padding:7px 14px;font-size:12px;cursor:pointer;margin-top:12px;font-family:inherit}
+  .writetries{font-size:11px;color:var(--ink3);text-align:center;min-height:15px;margin-top:6px}
+
+  /* ---------- v6: zamana karşı ⏱ ---------- */
+  .tbar{height:12px;border-radius:7px;background:#170a2b;margin-top:12px;overflow:hidden}
+  .tbar > i{display:block;height:100%;width:100%;border-radius:7px;background:linear-gradient(90deg,var(--mint),var(--cool));transition:width .1s linear,background .3s}
+  .tbar.urgent > i{background:linear-gradient(90deg,var(--miss),var(--spark1))}
+  .tclock{font-family:var(--disp);font-weight:700;font-size:15px;color:var(--mint)}
+  .tclock.urgent{color:var(--miss);animation:cpulse .5s ease infinite}
+  .tscore{font-family:var(--disp);font-weight:700;color:var(--spark1)}
+
+  /* ---------- v5: örnek cümle katmanı ---------- */
+  .msent{font-size:12px;color:var(--ink3);font-style:italic;line-height:1.4;margin:8px 14px 0!important;min-height:17px;opacity:0;transition:opacity .15s;text-align:center}
+  .msent.on{opacity:1}
+  .rmean .rs{font-size:12px;color:var(--ink3);font-style:italic;font-weight:400;line-height:1.4;margin-top:5px}
+  .rrow .w .rsent{font-size:10.5px;color:var(--ink3);font-style:italic;margin-top:2px;line-height:1.35}
+
+  /* ---------- juice: combo, spark, glow, shake, celebration ---------- */
+  .combobadge{position:absolute;top:calc(64px + env(safe-area-inset-top));left:50%;transform:translateX(-50%);z-index:45;
+    font-family:var(--disp);font-weight:700;font-size:16px;color:var(--spark1);
+    text-shadow:0 0 14px rgba(255,178,62,.65);opacity:0;pointer-events:none;transition:opacity .15s,font-size .15s}
+  .combobadge.on{opacity:1}
+  .combobadge.hot{color:var(--spark2);text-shadow:0 0 18px rgba(255,84,112,.8)}
+  .combobadge.pulse{animation:cpulse .25s ease}
+  @keyframes cpulse{50%{transform:translateX(-50%) scale(1.3)}}
+  .fx{position:absolute;left:0;top:0;z-index:60;pointer-events:none;font-size:15px;
+    filter:drop-shadow(0 0 6px rgba(255,178,62,.8));animation:fly .55s ease-out forwards}
+  @keyframes fly{
+    from{transform:translate(var(--x),var(--y)) scale(1);opacity:1}
+    to{transform:translate(calc(var(--x) + var(--dx)),calc(var(--y) + var(--dy))) scale(.35);opacity:0}}
+  .app.hitglow::before{content:"";position:absolute;inset:0;z-index:44;pointer-events:none;
+    box-shadow:inset 0 0 70px -8px rgba(255,178,62,.55);animation:glowout .38s ease forwards}
+  @keyframes glowout{from{opacity:1}to{opacity:0}}
+  .screen.shake{animation:shakex .3s ease}
+  @keyframes shakex{20%{transform:translateX(-8px)}45%{transform:translateX(6px)}70%{transform:translateX(-4px)}90%{transform:translateX(2px)}}
+  .bolt{position:absolute;top:-50px;z-index:70;pointer-events:none;
+    filter:drop-shadow(0 0 10px rgba(255,178,62,.9));animation:boltfall 1s linear forwards}
+  @keyframes boltfall{to{transform:translateY(115vh) rotate(12deg)}}
+  .rrow{animation:rise .32s cubic-bezier(.2,.7,.3,1) both}
+
+  /* ---------- result / share card ---------- */
+  .result-scroll{flex:1;overflow-y:auto}
+  .card-share{position:relative;border-radius:22px;padding:26px 22px 24px;overflow:hidden;
+    background:linear-gradient(160deg,#2a1350,#3a1550 60%,#4a1442);border:1px solid var(--line)}
+  .card-share .halo{position:absolute;top:-70px;right:-40px;width:220px;height:220px;border-radius:50%;
+    background:radial-gradient(circle,rgba(255,178,62,.32),transparent 65%);pointer-events:none}
+  .card-share .cap{display:flex;align-items:center;justify-content:space-between}
+  .card-share .cap .lg{font-family:var(--disp);font-weight:700;letter-spacing:2px;font-size:15px}
+  .card-share .pct{font-family:var(--disp);font-weight:700;font-size:84px;line-height:.95;margin:14px 0 0}
+  .card-share .pct.good{color:var(--mint)} .card-share .pct.mid{color:var(--spark1)} .card-share .pct.low{color:var(--miss)}
+  .card-share .sub{color:var(--ink2);font-size:14px;margin-top:2px}
+  .card-share .chips{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}
+  .card-share .chip{font-family:var(--disp);font-size:12px;font-weight:600;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:99px;padding:6px 12px}
+  .card-share .chip .hl{color:var(--spark1)}
+  .xpline{text-align:center;margin-top:14px;font-family:var(--disp);color:var(--cool);font-size:14px}
+  .review{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:4px 14px;margin-top:14px}
+  .rrow{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14px}
+  .rrow:last-child{border-bottom:none}
+  .rrow .i{font-family:var(--disp);color:var(--ink3);font-size:12px;width:20px}
+  .rrow .w{flex:1}
+  .rrow .w .rm{font-size:11.5px;color:var(--ink3);margin-top:2px;line-height:1.3}
+  .rrow .ok{color:var(--mint);font-family:var(--disp)} .rrow .no{color:var(--miss);font-size:13px}
+
+  /* ---------- onboarding ---------- */
+  .ob{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px}
+  .ob .big{font-size:72px;filter:drop-shadow(0 0 22px rgba(255,150,70,.5))}
+  .ob h1{font-family:var(--disp);font-size:30px;margin:6px 20px 0;line-height:1.1}
+  .ob p{color:var(--ink2);font-size:15px;line-height:1.55;margin:0 12px;max-width:340px}
+  .dots{display:flex;gap:7px;justify-content:center;margin-top:6px}
+  .dots i{width:7px;height:7px;border-radius:50%;background:var(--line)}
+  .dots i.on{background:var(--spark1);width:20px;border-radius:4px}
+
+  /* stats */
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+  .mcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:15px}
+  .mcard .k{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--ink3)}
+  .mcard .v{font-family:var(--disp);font-weight:700;font-size:30px;margin-top:5px}
+  .quit{position:absolute;top:calc(12px + env(safe-area-inset-top));right:14px;width:36px;height:36px;border-radius:12px;border:1px solid var(--line);background:var(--card);display:flex;align-items:center;justify-content:center;font-size:15px;color:var(--ink2);cursor:pointer;z-index:5}
+  #flash .ftop{padding-right:44px}
+  .backrow{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  .backrow .bk{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--card);display:flex;align-items:center;justify-content:center;font-size:18px;cursor:pointer}
+  .backrow h2{font-family:var(--disp);font-size:20px;margin:0}
+  .setrow{display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;margin-top:10px;font-size:14px}
+  .sw{width:48px;height:28px;border-radius:99px;background:#170a2b;border:1px solid var(--line);position:relative;cursor:pointer;transition:.2s;flex:0 0 auto}
+  .sw.on{background:linear-gradient(90deg,var(--spark1),var(--spark2))}
+  .sw i{position:absolute;top:2px;left:2px;width:22px;height:22px;border-radius:50%;background:#fff;transition:.2s}
+  .sw.on i{left:22px}
+
+  /* locked packs */
+  .pack.locked{opacity:.82}
+  .pack.locked .emo{filter:grayscale(.4)}
+  .lockbadge{background:rgba(255,84,112,.14)!important;color:#ff92a5!important}
+
+  /* ---------- v4: ambient orbs (piyasa hissi) ---------- */
+  .orbs{position:absolute;inset:0;pointer-events:none;overflow:hidden;transition:opacity .45s}
+  .orbs i{position:absolute;border-radius:50%;filter:blur(46px);opacity:.5}
+  .orbs .o1{width:260px;height:260px;left:-70px;top:6%;background:radial-gradient(circle,rgba(139,124,255,.45),transparent 70%);animation:drift1 22s ease-in-out infinite alternate}
+  .orbs .o2{width:300px;height:300px;right:-90px;top:38%;background:radial-gradient(circle,rgba(255,84,112,.32),transparent 70%);animation:drift2 27s ease-in-out infinite alternate}
+  .orbs .o3{width:220px;height:220px;left:22%;bottom:-60px;background:radial-gradient(circle,rgba(255,178,62,.28),transparent 70%);animation:drift3 19s ease-in-out infinite alternate}
+  @keyframes drift1{to{transform:translate(50px,60px)}}
+  @keyframes drift2{to{transform:translate(-60px,-50px)}}
+  @keyframes drift3{to{transform:translate(40px,-40px)}}
+  body.ingame .orbs{opacity:0}
+
+  /* ---------- v4: günlük kelimşek kartı ---------- */
+  .daily{position:relative;display:flex;align-items:center;gap:13px;margin-top:16px;
+    background:linear-gradient(140deg,#2c1552,#3a1550 60%,#43163f);border:1px solid var(--line);
+    border-radius:16px;padding:15px;cursor:pointer;overflow:hidden;transition:.15s}
+  .daily::after{content:"";position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.07) 45%,transparent 60%);
+    transform:translateX(-100%);animation:shimmer 3.6s ease-in-out infinite}
+  @keyframes shimmer{55%,100%{transform:translateX(100%)}}
+  .daily .emo{font-size:24px;width:30px;text-align:center}
+  .daily .t{flex:1;min-width:0}
+  .daily .t b{font-size:15px;font-weight:600}
+  .daily .t .d{font-size:11px;color:var(--ink3);margin-top:2px}
+  .daily .badge{font-family:var(--disp);font-size:10px;font-weight:600;letter-spacing:.5px;padding:4px 9px;border-radius:99px;background:rgba(255,178,62,.16);color:var(--spark1)}
+  .daily .badge.done{background:rgba(57,226,154,.16);color:#7ff0bd}
+
+  /* ---------- v4: swipe kart (Tanıdın mı?) ---------- */
+  .swipecard{position:relative;background:var(--card2);border:1px solid var(--line);border-radius:22px;
+    padding:52px 22px;width:100%;max-width:340px;display:flex;align-items:center;justify-content:center;
+    touch-action:none;cursor:grab;box-shadow:0 20px 44px -20px rgba(0,0,0,.65);will-change:transform}
+  .swipecard .hintL,.swipecard .hintR{position:absolute;top:12px;font-family:var(--disp);font-weight:700;
+    font-size:14px;padding:4px 11px;border-radius:10px;opacity:0;pointer-events:none;transition:opacity .08s}
+  .swipecard .hintR{right:12px;color:var(--mint);border:2px solid var(--mint);transform:rotate(8deg)}
+  .swipecard .hintL{left:12px;color:var(--miss);border:2px solid var(--miss);transform:rotate(-8deg)}
+
+  /* ---------- v4: düello ---------- */
+  .duelcmp{margin-top:14px;background:var(--card);border:1px solid var(--line);border-radius:15px;
+    padding:14px;text-align:center;font-family:var(--disp);font-weight:600;font-size:16px;display:none}
+  .duelcmp .win{color:var(--mint)} .duelcmp .lose{color:var(--miss)}
+
+  /* ---------- v4: sonuç yüzdesi glow ---------- */
+  .card-share .pct.done{animation:pctpulse .55s ease}
+  @keyframes pctpulse{45%{text-shadow:0 0 34px currentColor;transform:scale(1.05)}}
+
+  /* ---------- v4: onboarding kelime demosu ---------- */
+  .obdemo{font-family:var(--disp);font-weight:700;font-size:34px;min-height:44px;letter-spacing:.5px;margin-top:4px}
+  .obdemo span{display:inline-block;animation:pop .12s ease}
+  .obdemo .piv{color:var(--spark1)}
+
+  /* ---------- v4: buton mikro etkileşimleri (tek dil) ---------- */
+  .mode:active,.pack:active,.daily:active,.seg button:active,.gear:active,.bk:active,.sw:active{transform:scale(.965)}
+  .btn:active{transform:translateY(1px) scale(.985)}
+  .btn.primary:active{box-shadow:0 8px 22px -10px rgba(255,84,112,.85)}
+
+  /* ---------- v4: rozetler ---------- */
+  .bgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+  .btile{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 8px;text-align:center;
+    display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;min-height:110px}
+  .btile .e{font-size:30px;line-height:1}
+  .btile .n{font-family:var(--disp);font-weight:600;font-size:11.5px}
+  .btile .h{font-size:9.5px;color:var(--ink3);line-height:1.3}
+  .btile.got{border-color:rgba(255,178,62,.5);box-shadow:0 0 16px -6px rgba(255,178,62,.5);
+    background:linear-gradient(160deg,rgba(255,178,62,.10),rgba(255,84,112,.05) 60%,var(--card))}
+  .btile.got .e{filter:drop-shadow(0 0 8px rgba(255,178,62,.6))}
+  .btile.miss{opacity:.72}
+  .btile.miss .e{filter:grayscale(1) brightness(.38)}
+  .btile.miss .n{color:var(--ink3)}
+  .btile .q{position:absolute;font-family:var(--disp);font-weight:700;font-size:15px;color:var(--ink3);
+    transform:translate(20px,-16px)}
+  .btile{position:relative}
+  #badgePop{align-items:center}
+  .bpop{background:linear-gradient(160deg,#2c1552,#3a1550);border:1px solid var(--line);border-radius:24px;
+    padding:30px 34px;text-align:center;display:flex;flex-direction:column;gap:8px;align-items:center;
+    max-width:300px;margin:0 24px;animation:bspring .45s cubic-bezier(.34,1.56,.64,1)}
+  .bpop .be{font-size:64px;line-height:1;filter:drop-shadow(0 0 18px rgba(255,178,62,.7));animation:bspring .6s cubic-bezier(.34,1.56,.64,1)}
+  .bpop .bn{font-size:22px;font-weight:700}
+  .bpop .bd{font-size:13px;color:var(--ink2)}
+  @keyframes bspring{from{transform:scale(.35);opacity:0}}
+
+  /* ---------- v4: arayüz animasyon cilası ---------- */
+  #home.stag .daily{animation:rise .34s both}
+  #home.stag .mode,#home.stag .pack{animation:rise .34s both;animation-delay:calc(var(--i,0)*38ms)}
+  @keyframes breatheM{50%{box-shadow:0 0 0 1.5px var(--spark2),0 0 24px -4px rgba(255,84,112,.55)}}
+  .mode.sel{animation:breatheM 2.8s ease-in-out infinite}
+  @keyframes breatheP{50%{box-shadow:0 0 0 1px var(--spark1),0 0 20px -4px rgba(255,178,62,.55)}}
+  .pack.sel{animation:breatheP 2.8s ease-in-out infinite}
+  .lvl .track{position:relative}
+  .lvl .track.xppulse::after{content:"";position:absolute;inset:0;border-radius:5px;
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);
+    transform:translateX(-100%);animation:xpsweep .9s ease .15s both}
+  @keyframes xpsweep{to{transform:translateX(100%)}}
+  .lvlbounce{display:inline-block;animation:lvbounce .55s cubic-bezier(.34,1.56,.64,1)}
+  @keyframes lvbounce{35%{transform:scale(1.55)}}
+  .ring.lit #ringArc{animation:ringflick 3.2s ease-in-out infinite}
+  @keyframes ringflick{0%,100%{filter:drop-shadow(0 0 2px rgba(255,150,70,.3))}50%{filter:drop-shadow(0 0 7px rgba(255,120,80,.75))}}
+
+  /* unlock modal */
+  .modal{position:absolute;inset:0;z-index:50;display:none;align-items:flex-end;justify-content:center;
+    background:rgba(8,4,16,.66);backdrop-filter:blur(3px)}
+  .modal.on{display:flex;animation:fade .2s ease}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .sheet{width:100%;background:linear-gradient(180deg,#241240,#1a0c30);border:1px solid var(--line);
+    border-bottom:none;border-radius:24px 24px 0 0;padding:12px 20px calc(22px + env(safe-area-inset-bottom));
+    display:flex;flex-direction:column;gap:11px;animation:up .28s cubic-bezier(.2,.7,.3,1)}
+  @keyframes up{from{transform:translateY(30px);opacity:.6}to{transform:none;opacity:1}}
+  .grab{width:40px;height:4px;border-radius:2px;background:var(--line);align-self:center;margin-bottom:4px}
+  .uHead{display:flex;align-items:center;gap:13px}
+  .uEmo{font-size:34px}
+  .uName{font-size:19px;font-weight:700}
+  .uDesc{font-size:12px;color:var(--ink3);margin-top:2px}
+  .uLead{font-size:13px;color:var(--ink2);margin:2px 2px 4px}
+  .opt{display:flex;align-items:center;gap:13px;width:100%;text-align:left;cursor:pointer;
+    background:var(--card);border:1px solid var(--line);border-radius:15px;padding:14px;color:var(--ink);font-family:inherit}
+  .opt:active{transform:scale(.99)}
+  .opt.best{border-color:transparent;box-shadow:0 0 0 1.5px var(--spark1);background:linear-gradient(160deg,rgba(255,178,62,.12),rgba(255,84,112,.05))}
+  .opt .oi{font-size:22px;width:28px;text-align:center}
+  .opt .ot{flex:1;display:flex;flex-direction:column}
+  .opt .ot b{font-size:15px}
+  .opt .ot span{font-size:12px;color:var(--ink3)}
+  .opt .op{font-family:var(--disp);font-weight:700;font-size:15px;color:var(--spark1)}
+
+  /* ---------- v7: sözlük & ilerleme 📖 ---------- */
+  .dsearch{width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:var(--ink);font-size:14px;outline:none;margin:10px 0;font-family:inherit}
+  .dsearch::placeholder{color:var(--ink3)}
+  .dsearch:focus{border-color:var(--cool)}
+  .dprog{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-top:10px;font-size:12.5px;color:var(--ink2)}
+  .dprog b{font-family:var(--disp);color:var(--ink)}
+  .dprog .track{height:7px;border-radius:4px;background:#170a2b;margin-top:8px;overflow:hidden}
+  .dprog .track i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--cool),var(--mint));transition:width .4s ease}
+  .drow{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:11px 13px;margin-bottom:8px;cursor:pointer}
+  .drow .dt{display:flex;align-items:center;gap:8px}
+  .drow .dt b{font-family:var(--disp);font-size:15px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .drow .dm{font-size:12.5px;color:var(--ink2);margin-top:3px}
+  .drow .ds{display:none;font-size:12px;color:var(--ink3);font-style:italic;margin-top:6px;line-height:1.4}
+  .drow.open .ds{display:block}
+  .stb{font-family:var(--disp);font-size:9.5px;font-weight:600;letter-spacing:.4px;padding:3px 8px;border-radius:99px;flex:0 0 auto}
+  .stb.new{background:rgba(122,110,160,.18);color:var(--ink3)}
+  .stb.study{background:rgba(139,124,255,.16);color:#b9aeff}
+  .stb.weak{background:rgba(255,84,112,.16);color:#ff92a5}
+  .stb.learned{background:rgba(57,226,154,.16);color:#7ff0bd}
+  .fstar{font-size:17px;flex:0 0 auto;opacity:.35;filter:grayscale(1);padding:2px 0 2px 6px;cursor:pointer}
+  .fstar.on{opacity:1;filter:none}
+
+  /* ---------- v7: mini deneme 📝 + karne ---------- */
+  .daily.exam{background:linear-gradient(140deg,#16244e,#20305e 60%,#2a1650)}
+  .daily.exam .badge{background:rgba(139,124,255,.18);color:#b9aeff}
+  .brk{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:12px 14px;margin-top:14px}
+  .brk .k{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--ink3);margin-bottom:4px}
+  .brow{display:flex;align-items:center;gap:10px;padding:7px 0;font-size:13px}
+  .brow span:first-child{flex:0 0 96px}
+  .brow b{font-family:var(--disp);font-size:12px;flex:0 0 auto;min-width:70px;text-align:right}
+  .brow .btrack{flex:1;height:7px;border-radius:4px;background:#170a2b;overflow:hidden}
+  .brow .btrack i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--spark1),var(--spark2))}
+  #examOpts .mopt.dispw{font-family:var(--disp);font-weight:600}
+
+  /* ---------- v7: hedef 🎯 ---------- */
+  .goalopts{display:flex;flex-direction:column;gap:9px;width:100%;max-width:320px}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="orbs"><i class="o1"></i><i class="o2"></i><i class="o3"></i></div>
+  <div id="combo" class="combobadge"></div>
+
+  <!-- ONBOARDING -->
+  <section id="onb" class="screen">
+    <div class="ob" id="obBody"></div>
+    <div class="dots" id="obDots"></div>
+    <div class="cta"><button class="btn primary" id="obBtn" onclick="obNext()">Devam</button></div>
+  </section>
+
+  <!-- HOME -->
+  <section id="home" class="screen">
+    <div class="top">
+      <div class="ring" title="Seri">
+        <svg width="52" height="52"><circle cx="26" cy="26" r="22" stroke="#170a2b" stroke-width="5" fill="none"/>
+          <circle id="ringArc" cx="26" cy="26" r="22" stroke="url(#g1)" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="138" stroke-dashoffset="138"/>
+          <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb23e"/><stop offset="1" stop-color="#ff5470"/></linearGradient></defs>
+        </svg>
+        <div class="n"><span id="streakN">0</span><small>SERİ</small></div>
+      </div>
+      <div class="logo"><span class="b">⚡</span><span>KELİM<span class="spark-text">ŞEK</span></span></div>
+      <div style="display:flex;gap:8px">
+        <div class="gear" onclick="go('dict')" title="Sözlük">📖</div>
+        <div class="gear" onclick="go('badges')" title="Rozetler">🏅</div>
+        <div class="gear" onclick="go('settings')">⚙</div>
+      </div>
+    </div>
+
+    <div class="lvl">
+      <div class="row"><span>Seviye <b id="lvN">1</b></span><span><b id="xpN">0</b> / <span id="xpNext">200</span> XP</span></div>
+      <div class="track"><i id="xpBar"></i></div>
+    </div>
+
+    <div class="scroll">
+      <div class="daily" id="dailyCard" onclick="startDaily()"></div>
+
+      <div class="lbl"><span>Mod</span></div>
+      <div class="modes" id="modes"></div>
+
+      <div class="lbl"><span>Deneme</span></div>
+      <div class="daily exam" id="examCard" onclick="startExam()"></div>
+
+      <div class="lbl"><span>Kelime Paketi</span></div>
+      <div class="packs" id="packs"></div>
+
+      <div class="lbl" id="diffLbl" style="display:none"><span>Seviye</span></div>
+      <div class="seg" id="segDiff" style="display:none">
+        <button data-z="0" class="sel">Hepsi</button><button data-z="1">Temel</button><button data-z="2">Orta</button><button data-z="3">İleri</button>
+      </div>
+
+      <div class="lbl"><span>Kelime Sayısı</span></div>
+      <div class="seg" id="segCount">
+        <button data-n="8">8</button><button data-n="12" class="sel">12</button><button data-n="16">16</button>
+      </div>
+
+      <div class="lbl"><span>Hız</span></div>
+      <div class="seg" id="segSpeed">
+        <button data-ms="1200">Rahat</button><button data-ms="900" class="sel">Normal</button><button data-ms="650">Şimşek</button>
+      </div>
+    </div>
+
+    <div class="cta" style="display:flex;flex-direction:column;gap:8px">
+      <div style="display:flex;gap:6px;justify-content:center;flex-wrap:wrap">
+        <span class="goalchip" id="goalChip" style="display:none;cursor:pointer" onclick="go('settings')"></span>
+        <span class="goalchip">Bugünkü hedef <b><span id="goalNow">0</span>/<span id="goalMax">3</span></b> tur</span>
+      </div>
+      <button class="btn primary" onclick="start()">Başla ⚡</button>
+    </div>
+  </section>
+
+  <!-- FLASH -->
+  <section id="flash" class="screen">
+    <div class="quit" onclick="quitRun()">✕</div>
+    <div class="ftop"><span id="fMode"></span><span id="fCount"></span></div>
+    <div class="fbar"><i id="fBar"></i></div>
+    <div class="stage" id="stage"></div>
+    <div class="fhint" id="fHint">Kelimeleri <b>sırayla</b> aklında tut</div>
+  </section>
+
+  <!-- RECALL (order) -->
+  <section id="recall" class="screen">
+    <div class="quit" onclick="quitRun()">✕</div>
+    <div class="rhead"><h2>Sırayı Hatırla</h2><p>Gördüğün <b>sıraya göre</b> dokun</p></div>
+    <div class="slots" id="slots"></div>
+    <div class="tiles" id="tiles"></div>
+    <div class="cta"><button class="btn ghost" id="undoBtn" onclick="undo()">Geri Al</button></div>
+  </section>
+
+  <!-- RECOGNITION -->
+  <section id="recog" class="screen">
+    <div class="quit" onclick="quitRun()">✕</div>
+    <div class="recogprog" id="recogProg"></div>
+    <div class="recogword">
+      <div class="swipecard" id="recogCard">
+        <span class="hintL">✗ Yoktu</span><span class="hintR">✓ Vardı</span>
+        <div class="w" id="recogWord"></div>
+      </div>
+      <div class="rmean" id="recogMean"></div>
+      <p class="faint" style="margin-top:10px;font-size:13px">Sağa kaydır = <b>vardı</b> · sola = <b>yoktu</b></p>
+    </div>
+    <div class="recogrow">
+      <button class="no" onclick="recogAns(false,this)">Yoktu</button>
+      <button class="yes" onclick="recogAns(true,this)">Vardı</button>
+    </div>
+  </section>
+
+  <!-- ANLAMI SEÇ -->
+  <section id="mean" class="screen">
+    <div class="quit" onclick="quitRun()">✕</div>
+    <div class="recogprog" id="meanProg" style="margin-top:4px"></div>
+    <div class="meanword">
+      <div class="w" id="meanWord"></div>
+      <p>Bu kelimenin <b class="muted">anlamı</b> hangisi?</p>
+      <p class="msent" id="meanSent"></p>
+    </div>
+    <div class="opts" id="meanOpts"></div>
+  </section>
+
+  <!-- YAZ BAKALIM (v6) -->
+  <section id="write" class="screen">
+    <div class="quit" onclick="quitRun()">✕</div>
+    <div class="recogprog" id="writeProg" style="margin-top:4px"></div>
+    <div class="meanword">
+      <p class="eyebrow" style="margin:0 0 10px">Anlamı bu — kelime ne?</p>
+      <div class="wmean" id="writeMean"></div>
+      <div class="wletters" id="writeLetters"></div>
+      <p class="msent" id="writeSent"></p>
+      <button class="sentbtn" id="writeSentBtn" onclick="writeShowSent()">💡 cümle ipucu</button>
+      <div class="writetries" id="writeTries"></div>
+    </div>
+    <div class="writerow">
+      <input id="writeInp" type="text" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="go" placeholder="kelimeyi yaz…" />
+      <button onclick="writeSubmit()">⚡</button>
+    </div>
+  </section>
+
+  <!-- ZAMANA KARŞI (v6) -->
+  <section id="time" class="screen">
+    <div class="quit" onclick="quitRun()">✕</div>
+    <div class="ftop" style="padding-right:44px"><span class="tscore" id="timeScore">0 doğru</span><span class="tclock" id="timeClock">60</span></div>
+    <div class="tbar" id="timeBar"><i></i></div>
+    <div class="meanword">
+      <div class="w" id="timeWord"></div>
+      <p>Anlamı hangisi? <b class="muted">Doğru +1sn · yanlış −2sn</b></p>
+    </div>
+    <div class="opts" id="timeOpts"></div>
+  </section>
+
+  <!-- RESULT -->
+  <section id="result" class="screen">
+    <div class="result-scroll">
+      <div class="card-share" id="shareCard">
+        <div class="halo"></div>
+        <div class="cap"><span class="lg">KELİM<span class="spark-text">ŞEK</span></span><span class="eyebrow" id="scMode"></span></div>
+        <div class="pct" id="scPct">0%</div>
+        <div class="sub" id="scSub"></div>
+        <div class="chips" id="scChips"></div>
+      </div>
+      <div class="duelcmp" id="duelCmp"></div>
+      <div class="xpline" id="xpGain"></div>
+      <div class="brk" id="examBreak" style="display:none"></div>
+      <div class="review" id="review"></div>
+    </div>
+    <div class="cta" style="display:flex;gap:10px">
+      <button class="btn cool" style="flex:1" onclick="share()">Paylaş 📤</button>
+      <button class="btn cool" style="flex:1" id="duelBtn" onclick="duelShare()">Düello ⚔️</button>
+    </div>
+    <button class="btn primary" style="margin-top:8px" onclick="start()">Tekrar ⚡</button>
+    <button class="btn ghost" style="margin-top:8px" onclick="go('home')">Ana Sayfa</button>
+  </section>
+
+  <!-- SÖZLÜK & İLERLEME (v7) -->
+  <section id="dict" class="screen">
+    <div class="backrow"><div class="bk" onclick="go('home')">‹</div><h2>📖 Sözlük</h2></div>
+    <div class="seg" id="dictSeg" style="margin-top:8px"></div>
+    <div class="dprog" id="dictProg"></div>
+    <input id="dictSearch" class="dsearch" type="text" autocapitalize="off" autocomplete="off" placeholder="kelime ya da anlam ara…" oninput="dictSearch(this.value)" />
+    <div class="scroll">
+      <div id="dictList"></div>
+      <button class="btn ghost" id="dictMoreBtn" onclick="dictMore()" style="margin:4px 0 14px">Daha fazla</button>
+    </div>
+  </section>
+
+  <!-- MİNİ DENEME (v7) -->
+  <section id="exam" class="screen">
+    <div class="quit" onclick="quitRun()">✕</div>
+    <div class="recogprog" id="examProg" style="margin-top:4px"></div>
+    <div class="meanword" style="flex:0 1 auto;min-height:130px;padding:12px 0">
+      <p class="eyebrow" id="examKind" style="margin:0 0 10px"></p>
+      <div class="wmean" id="examQ"></div>
+      <div class="wletters" id="examReveal"></div>
+    </div>
+    <div class="opts" id="examOpts" style="flex:1;overflow-y:auto"></div>
+    <div class="writerow" id="examWriteRow" style="display:none">
+      <input id="examInp" type="text" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="go" placeholder="kelimeyi yaz…" />
+      <button onclick="examWriteSubmit()">⚡</button>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats" class="screen">
+    <div class="backrow"><div class="bk" onclick="go('home')">‹</div><h2>İstatistik</h2></div>
+    <div class="grid2" style="margin-top:8px">
+      <div class="mcard"><div class="k">Seri</div><div class="v spark-text" id="stStreak">0</div></div>
+      <div class="mcard"><div class="k">En iyi %</div><div class="v" id="stBest">0</div></div>
+      <div class="mcard"><div class="k">Toplam tur</div><div class="v" id="stRuns">0</div></div>
+      <div class="mcard"><div class="k">Seviye</div><div class="v" id="stLvl">1</div></div>
+      <div class="mcard"><div class="k">Ortalama %</div><div class="v" id="stAvg">0</div></div>
+      <div class="mcard"><div class="k">Toplam XP</div><div class="v" id="stXp">0</div></div>
+    </div>
+    <div class="dprog" id="stDict" style="cursor:pointer" onclick="go('dict')"></div>
+    <div class="cta" style="margin-top:auto"><button class="btn primary" onclick="go('home')">Kapat</button></div>
+  </section>
+
+  <!-- BADGES -->
+  <section id="badges" class="screen">
+    <div class="backrow"><div class="bk" onclick="go('home')">‹</div><h2>Rozetler</h2>
+      <span class="faint disp" id="bCount" style="margin-left:auto;font-size:14px;font-weight:600"></span></div>
+    <div class="scroll"><div class="bgrid" id="bGrid"></div></div>
+    <div class="cta"><button class="btn primary" onclick="go('home')">Kapat</button></div>
+  </section>
+
+  <!-- SETTINGS -->
+  <section id="settings" class="screen">
+    <div class="backrow"><div class="bk" onclick="go('home')">‹</div><h2>Ayarlar</h2></div>
+    <div class="setrow">Titreşim <div class="sw" id="swHaptic" onclick="toggleHaptic()"><i></i></div></div>
+    <div class="setrow">Ses <div class="sw" id="swSound" onclick="toggleSound()"><i></i></div></div>
+    <div class="setrow">Anlamları göster <div class="sw" id="swMean" onclick="toggleMean()"><i></i></div></div>
+    <div class="setrow" onclick="cycleGoal()" style="cursor:pointer">Hedef sınav 🎯 <span class="faint"><span id="setGoal">—</span> ›</span></div>
+    <div class="setrow" onclick="go('dict')" style="cursor:pointer">Sözlük & İlerleme <span class="faint">📖 ›</span></div>
+    <div class="setrow" onclick="go('badges')" style="cursor:pointer">Rozetlerim <span class="faint"><span id="setBadgeN"></span> ›</span></div>
+    <div class="setrow" onclick="go('stats')" style="cursor:pointer">İstatistiklerim <span class="faint">›</span></div>
+    <div class="setrow" onclick="resetAll()" style="cursor:pointer;color:var(--miss)">Verileri sıfırla <span class="faint">›</span></div>
+    <div style="text-align:center;color:var(--ink3);font-size:12px;margin-top:20px">Kelimşek · offline çalışır · v7</div>
+    <div class="cta" style="margin-top:auto"><button class="btn primary" onclick="go('home')">Kapat</button></div>
+  </section>
+
+  <!-- UNLOCK MODAL -->
+  <div id="unlock" class="modal">
+    <div class="sheet">
+      <div class="grab"></div>
+      <div class="uHead">
+        <div class="uEmo" id="uEmo">🎓</div>
+        <div><div class="uName disp" id="uName">Paket</div><div class="uDesc" id="uDesc"></div></div>
+      </div>
+      <p class="uLead">Bu paketi açmak için birini seç:</p>
+
+      <button class="opt" onclick="watchAd()">
+        <span class="oi">📺</span>
+        <span class="ot"><b>Reklam izle</b><span>Bu paketi bugünlük ücretsiz aç</span></span>
+        <span class="op">Bedava</span>
+      </button>
+      <button class="opt" onclick="buyPack()">
+        <span class="oi">🔓</span>
+        <span class="ot"><b>Tek seferlik aç</b><span>Bu paket kalıcı senin olsun</span></span>
+        <span class="op" id="uPrice">₺39</span>
+      </button>
+      <button class="opt best" onclick="buyPro()">
+        <span class="oi">⚡</span>
+        <span class="ot"><b>Kelimşek Pro</b><span>Tüm paketler + reklamsız, kalıcı</span></span>
+        <span class="op">₺99</span>
+      </button>
+
+      <button class="btn ghost" style="margin-top:6px" onclick="closeUnlock()">Vazgeç</button>
+    </div>
+  </div>
+
+  <!-- ROZET KUTLAMA -->
+  <div id="badgePop" class="modal" onclick="popBadge()">
+    <div class="bpop">
+      <div class="be" id="bpEmo">🏅</div>
+      <div class="eyebrow">Yeni Rozet!</div>
+      <div class="bn disp" id="bpName"></div>
+      <div class="bd" id="bpDesc"></div>
+      <div class="faint" style="font-size:12px;margin-top:4px">dokun → devam</div>
+    </div>
+  </div>
+
+  <!-- DÜELLO INTRO -->
+  <div id="duelIntro" class="modal">
+    <div class="sheet">
+      <div class="grab"></div>
+      <div class="uHead">
+        <div class="uEmo">⚔️</div>
+        <div><div class="uName disp">Düello!</div><div class="uDesc" id="dlDesc"></div></div>
+      </div>
+      <p class="uLead" id="dlLead"></p>
+      <button class="btn primary" onclick="acceptDuel()">Kabul et ⚡</button>
+      <button class="btn ghost" onclick="closeDuelIntro()">Sonra</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+/* ============ Kelime paketleri (offline) — {w:kelime, m:anlam} ============ */
+const W=s=>s.trim().split("\n").map(l=>{const i=l.indexOf("=");return {w:l.slice(0,i).trim(), m:l.slice(i+1).trim()};});
+const PACKS = {
+  tr: { emo:"🇹🇷", name:"Türkçe Genel", desc:"Günlük kelimeler", free:true, price:29, words:W(`
+deniz=geniş tuzlu su kütlesi
+rüzgar=hava akımı, yel
+kitap=basılı yazılı yapıt
+zaman=süre, vakit
+ışık=aydınlatan enerji
+gölge=ışığın engellenince oluşan iz
+umut=beklenti, ümit duygusu
+yol=geçilen güzergâh
+kapı=giriş çıkış açıklığı
+ateş=yanma, alev
+kar=yağan beyaz kristal
+bulut=gökteki su buharı kümesi
+orman=sık ağaç topluluğu
+nehir=büyük akarsu
+taş=sert doğal kütle
+kuş=uçan kanatlı hayvan
+cam=saydam kırılgan madde
+mühür=resmi damga
+defter=yazı için ciltli kâğıt
+kalem=yazma aracı
+ayna=görüntü yansıtan yüzey
+saat=zaman ölçen alet
+anahtar=kilit açma aracı
+perde=pencere örtüsü
+lamba=aydınlatma aracı
+masa=üzerinde iş yapılan mobilya
+bardak=içecek kabı
+çiçek=bitkinin renkli kısmı
+yaprak=bitkinin yeşil organı
+tohum=bitkinin üreme tanesi
+meyve=bitkinin yenen ürünü
+bal=arıların yaptığı tatlı besin
+süt=beyaz besleyici içecek
+tuz=beyaz tat verici mineral
+ekmek=temel unlu gıda
+zeytin=yağı çıkarılan meyve
+çay=demlenerek içilen bitki
+kahve=kavrulmuş çekirdek içeceği
+köprü=iki yakayı bağlayan yapı
+fener=taşınabilir ışık kaynağı`) },
+  mix: { emo:"⚡", name:"Kelimşek Karışık", desc:"Hepsinden rastgele", free:true, price:29, words:[] }, // aşağıda dolduruluyor
+  yks: { emo:"🎓", name:"YKS Edebiyat", desc:"Soyut & edebi terimler", free:false, price:39, words:W(`
+muğlak=belirsiz, kapalı
+izafi=göreceli
+tahakküm=baskı, zorbalık
+tefekkür=derin düşünme
+muhayyile=hayal gücü
+tevazu=alçakgönüllülük
+ihtiras=aşırı güçlü tutku
+sükunet=durgunluk, sessizlik
+feraset=çabuk seziş, anlayış keskinliği
+basiret=öngörü, sağgörü
+tahayyül=hayalde canlandırma
+teenni=acele etmeden düşünerek davranma
+münzevi=köşesine çekilmiş, yalnız yaşayan
+tenakuz=çelişki
+tereddüt=kararsızlık
+mefhum=kavram
+meşakkat=sıkıntı, güçlük
+tecelli=belirme, ortaya çıkma
+teşbih=benzetme sanatı
+mecaz=sözcüğü gerçek dışı anlamda kullanma
+telmih=bilinen olaya gönderme
+tezat=karşıtlık, zıtlık
+kinaye=üstü kapalı iğneleyici söz
+istiare=eğretileme sanatı
+betimleme=sözle resim çizme, tasvir
+imge=zihinde canlanan görüntü
+izlek=ana konu, tema
+ironi=alaycı ters anlatım
+yergi=kusurları alaya alma, hiciv
+uyak=dize sonu ses benzerliği, kafiye
+dize=şiirin her bir satırı, mısra
+redif=uyaktan sonra tekrarlanan ek/söz
+aliterasyon=ünsüz tekrarıyla ahenk
+nida=coşkulu seslenme sanatı
+tevriye=uzak anlamı kastetme sanatı
+cinas=sesteş sözcüklerle söz oyunu
+mazmun=kalıplaşmış klişe imge
+teşhis=kişileştirme sanatı
+intak=konuşturma sanatı`) },
+  kpss: { emo:"📚", name:"KPSS Kelime", desc:"Kavram & terim", free:false, price:39, words:W(`
+yasama=kanun yapma erki
+yürütme=kanunları uygulama erki
+yargı=hukuki denetim erki
+içtihat=yerleşik yargı görüşü
+teamül=yerleşik uygulama, gelenek
+ahenk=uyum, düzen
+erozyon=toprak aşınması
+enflasyon=fiyatların genel artışı
+arz=piyasaya sunulan mal miktarı
+talep=alınmak istenen mal miktarı
+tekel=tek elden piyasa hâkimiyeti
+iştira=satın alma
+maliye=devlet gelir-gider yönetimi
+mevzuat=yürürlükteki hukuk kuralları
+teşrii=yasamayla ilgili
+idari=yönetimle ilgili
+icrai=yürütmeyle ilgili, uygulayıcı
+velayet=ana-babanın çocuk üzerindeki yetkisi
+vesayet=koruyucu gözetim yetkisi
+muvazaa=danışıklı işlem
+müeccel=vadeye bağlanmış, ertelenmiş
+muaccel=vadesi gelmiş, istenebilir
+zilyet=malı fiilen elinde bulunduran
+tapu=taşınmaz mülkiyet belgesi
+ipotek=taşınmaz rehni
+rehin=borca karşılık güvence
+mükellef=vergi yükümlüsü
+tebligat=resmî bildirim
+istinaf=ilk üst yargı yolu
+temyiz=Yargıtay denetim yolu
+beraat=suçsuz bulunma
+tahliye=serbest bırakma, boşaltma
+müzayede=açık artırma
+irtifak=sınırlı yararlanma hakkı
+intifa=kullanma ve yararlanma hakkı
+şüyu=paylı ortaklık durumu`) },
+  yds: { emo:"🌍", name:"YDS İngilizce", desc:"Akademik kelime", free:false, price:39, words:W(`
+abundant=bol, çok
+coherent=tutarlı
+deliberate=kasıtlı, bilinçli
+feasible=yapılabilir, uygulanabilir
+inherent=doğasında olan
+notion=kavram, fikir
+prevalent=yaygın
+scrutiny=dikkatli inceleme
+tangible=somut, elle tutulur
+viable=yaşayabilir, sürdürülebilir
+ambiguous=belirsiz, iki anlamlı
+concise=kısa ve öz
+diverse=çeşitli
+eloquent=etkileyici konuşan
+fluctuate=dalgalanmak
+hinder=engellemek
+impartial=tarafsız
+lucid=açık, anlaşılır
+meticulous=titiz
+nurture=beslemek, yetiştirmek
+obsolete=kullanımdan kalkmış
+plausible=akla yatkın
+reluctant=isteksiz
+subtle=ince, güç fark edilen
+tedious=sıkıcı, bıktırıcı
+utmost=en üst düzey, azami
+vivid=canlı, parlak
+wary=temkinli
+yield=ürün vermek; boyun eğmek
+adverse=olumsuz, ters
+candid=açık sözlü, içten
+diligent=çalışkan, gayretli
+explicit=açık, net
+gauge=ölçmek; ölçü aleti
+intricate=karmaşık, girift
+profound=derin
+resilient=çabuk toparlanan, dirençli
+turmoil=kargaşa
+vast=çok geniş, uçsuz bucaksız`) },
+};
+/* mix: diğer paketlerden seçme — anlamlar kaynak paketlerle aynı */
+(function(){
+  const all={}; ["tr","yks","kpss","yds"].forEach(k=>PACKS[k].words.forEach(o=>all[o.w]=o));
+  PACKS.mix.words = "deniz muğlak yasama abundant rüzgar tecelli enflasyon coherent umut basiret içtihat resilient ateş imge tekel vivid nehir tezat maliye subtle kuş kinaye velayet profound defter mecaz mükellef gauge saat ironi rehin candid çiçek uyak tapu vast".split(" ").map(w=>all[w]);
+})();
+/*__END_PACKS__*/
+
+/* ============ v6: emoji katmanı 🎨 ============
+   Yalnız SOMUT günlük kelimeler emoji alır — sınav paketlerinin soyut kelimelerine
+   zorlama metafor YOK. Harita sadece "tr" kaynaklı kelimelerde devreye girer
+   (ör. "kalem" YKS'de soyut "yazarlık" anlamında → orada emoji gösterilmez).
+   Pakette açık e alanı varsa (o.e) her zaman o kazanır. */
+/*__EMOJI__*/
+const EMOJI={
+  deniz:"🌊", rüzgar:"💨", kitap:"📖", "ışık":"💡", yol:"🛣️", kapı:"🚪", ateş:"🔥",
+  kar:"❄️", bulut:"☁️", orman:"🌲", nehir:"🏞️", taş:"🪨", kuş:"🐦", cam:"🪟",
+  defter:"📓", kalem:"✏️", ayna:"🪞", saat:"⏰", anahtar:"🔑", lamba:"🪔",
+  bardak:"🥤", "çiçek":"🌸", yaprak:"🍃", tohum:"🌱", meyve:"🍎", bal:"🍯",
+  "süt":"🥛", tuz:"🧂", ekmek:"🍞", zeytin:"🫒", "çay":"🍵", kahve:"☕",
+  "köprü":"🌉", fener:"🏮",
+  // gelecekteki somut kelimeler için hazır eşlemeler
+  "güneş":"☀️", ay:"🌙", "yıldız":"⭐", "dağ":"⛰️", "ağaç":"🌳", ev:"🏠",
+  araba:"🚗", tren:"🚆", "uçak":"✈️", gemi:"🚢", "balık":"🐟", kedi:"🐱",
+  "köpek":"🐶", at:"🐴", "arı":"🐝", elma:"🍎", "üzüm":"🍇", limon:"🍋",
+  karpuz:"🍉", yumurta:"🥚", peynir:"🧀", su:"💧", "yağmur":"🌧️",
+  "şimşek":"⚡", kalp:"❤️", "göz":"👁️", "diş":"🦷", "müzik":"🎵",
+  telefon:"📱", mektup:"✉️", makas:"✂️", "çekiç":"🔨", "şemsiye":"☂️", bayrak:"🏁",
+};
+/*__END_EMOJI__*/
+function emo(o){
+  if(!o) return "";
+  if(o.e) return o.e; // paket açıkça belirtmişse
+  return ((o.p||rPack)==="tr") ? (EMOJI[o.w]||"") : "";
+}
+
+/* ============ v5: JSON içerik paketleri — packs/*.json, şema {w,m,s,z} ============
+   s = örnek cümle, z = zorluk (1 temel / 2 orta / 3 ileri).
+   Offline stratejisi: üç JSON sw.js ASSETS precache'inde (simsek-v8) — SW kurulduktan
+   sonra fetch her zaman cache'ten döner. Bu yüzden ayrıca localStorage yedeği tutmuyoruz:
+   ~300KB JSON'u LS'e kopyalamak kotayı şişirir, SW zaten aynı garantiyi veriyor.
+   Yukarıdaki inline listeler yalnızca fetch sonuçlanana kadarki ilk milisaniyeler ve
+   SW'siz uç durumlar için anlık fallback olarak kalır. */
+const PACK_URLS={yds:"packs/yds.json", yks:"packs/yks.json", kpss:"packs/kpss.json"};
+async function loadPacks(){
+  const keys=Object.keys(PACK_URLS);
+  const res=await Promise.allSettled(keys.map(k=>fetch(PACK_URLS[k]).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })));
+  let any=false;
+  res.forEach((r,i)=>{
+    if(r.status==="fulfilled" && Array.isArray(r.value) && r.value.length){ PACKS[keys[i]].words=r.value; any=true; }
+  });
+  if(any){ rebuildMix(); refreshHome(); if($("#dict").classList.contains("on")) renderDict(); } // kart sayıları + sözlük tazelensin
+}
+/* mix'i paketler yüklenince yeniden üret: SABİT tohumlu deterministik seçim.
+   Günlük Kelimşek mix'ten dağıttığı için liste her cihazda AYNI olmalı —
+   JSON'lar statik olduğundan sabit tohum bunu garanti eder. */
+function rebuildMix(){
+  const r2=mulberry32(hashStr("kelimsek-mix-v5"));
+  const src=[];
+  ["tr","yks","kpss","yds"].forEach(k=>PACKS[k].words.forEach(o=>src.push(Object.assign({p:k},o)))); // p: kaynak paket (SRS anahtarı için)
+  for(let i=src.length-1;i>0;i--){ const j=(r2()*(i+1))|0; [src[i],src[j]]=[src[j],src[i]]; }
+  PACKS.mix.words=src.slice(0,80);
+}
+
+/* ============ durum (localStorage) ============ */
+const LS = {
+  get(k,d){ try{ const v=localStorage.getItem("smsk_"+k); return v===null?d:JSON.parse(v); }catch(e){ return d; } },
+  set(k,v){ localStorage.setItem("smsk_"+k, JSON.stringify(v)); },
+};
+let S = {
+  xp:LS.get("xp",0), streak:LS.get("streak",0), best:LS.get("best",0),
+  runs:LS.get("runs",0), scoreSum:LS.get("scoreSum",0),
+  lastDay:LS.get("lastDay",""), dailyDate:LS.get("dailyDate",""), daily:LS.get("daily",0),
+  dailyDone:LS.get("dailyDone",""), dailyPct:LS.get("dailyPct",0),
+  wordsSeen:LS.get("wordsSeen",0), dailyRuns:LS.get("dailyRuns",0),
+  haptic:LS.get("haptic",true), seenOnb:LS.get("seenOnb",false),
+  pro:LS.get("pro",false), owned:LS.get("owned",[]),
+  sound:LS.get("sound",true), showMean:LS.get("showMean",null), // null = pakete göre otomatik
+  goal:LS.get("goal",null), examRuns:LS.get("examRuns",0), // v7: hedef sınav + deneme sayacı
+};
+if(!Array.isArray(S.owned)) S.owned=[];
+function save(){ ["xp","streak","best","runs","scoreSum","lastDay","dailyDate","daily","dailyDone","dailyPct","wordsSeen","dailyRuns","haptic","seenOnb","pro","owned","sound","showMean","goal","examRuns"].forEach(k=>LS.set(k,S[k])); }
+/* v7: hedef sınav (smsk_goal) — günlük tur hedefi hedefe göre: sınav=3, merak=1 */
+const GOALS={
+  yks:  {e:"🎓", name:"YKS",   chip:"YKS · Haziran'a hazırlık", goal:3},
+  kpss: {e:"📚", name:"KPSS",  chip:"KPSS · Eylül'e hazırlık",  goal:3},
+  yds:  {e:"🌍", name:"YDS",   chip:"YDS · sınava hazırlık",    goal:3},
+  merak:{e:"⚡", name:"Merak", chip:"kelime merakı",            goal:1},
+};
+function goalMax(){ return (GOALS[S.goal]||{}).goal||3; }
+function setGoal(g,onb){
+  S.goal=g;
+  if(onb){
+    // showMean varsayılanı: sınav hedefi → null (pakete göre otomatik: sınav paketlerinde açık),
+    // merak → true (tr paketinde anlamlar kapalı kalmasın, meraklı kullanıcı anlam görmek ister)
+    S.showMean = (g==="merak") ? true : null;
+    // varsayılan paket: hedef paket kilitliyse tr'de başla (kilit sistemine DOKUNMA) —
+    // hedef paket, renderPacks'te liste başına alınıp 🎯 rozetiyle vitrine çıkar
+    pack = (PACKS[g] && isUnlocked(g)) ? g : "tr";
+  } else if(PACKS[g] && isUnlocked(g)){ pack=g; }
+  save();
+}
+function cycleGoal(){ // Ayarlar: YKS → KPSS → YDS → Merak döngüsü
+  const order=["yks","kpss","yds","merak"];
+  setGoal(order[(order.indexOf(S.goal)+1)%order.length],false);
+  fillStats(); renderPacks(); buzz(6);
+}
+let adUnlock=LS.get("adUnlock",{}); // reklamla açılanlar: {pack:"YYYY-MM-DD"} — sadece o gün geçerli
+function isUnlocked(k){ return PACKS[k].free || S.pro || S.owned.includes(k) || adUnlock[k]===today(); }
+function effShowMean(k){ k=k||pack; if(S.showMean!==null) return S.showMean; return k==="weak" ? true : !PACKS[k].free; } // sınav paketleri + zayıf destede varsayılan AÇIK
+
+/* ============ oturum ayarları ============ */
+let mode="order", pack="tr", n=12, speed=900;                 // ana ekran seçimleri
+let rMode="order", rPack="tr", rN=12, rSpeed=430;             // aktif TURUN ayarları (düello/günlük farklı olabilir)
+let sequence=[], answer=[], recog=[], recogIdx=0, recogScore=0;
+let session=0, recallLocked=false; // session: aktif tur token'ı — artınca eski timer zincirleri ölür
+function quitRun(){ session++; combo=0; updCombo(); buzz(6); go("home"); refreshHome(); }
+let diff=0; // v5: zorluk filtresi — 0=hepsi, 1=temel, 2=orta, 3=ileri (yalnız z alanı olan paketlerde görünür)
+
+/* ============ v5: SRS-lite — zayıf kelime takibi (smsk_srs) ============
+   Anahtar "paket:kelime" → {seen, wrong, last}. Her görünüm seen++, her yanlış wrong++.
+   Kelime nesnesinde p varsa (mix / zayıf destesi) kaynak paketin anahtarı kullanılır. */
+let SRS=LS.get("srs",{}); if(typeof SRS!=="object"||!SRS) SRS={};
+function srsTouch(o,correct){
+  const k=(o.p||rPack)+":"+o.w;
+  const st=SRS[k]||(SRS[k]={seen:0,wrong:0,last:""});
+  st.seen++; if(!correct){ st.wrong++; st.cs=0; } else { st.cs=(st.cs||0)+1; } st.last=today();
+  // v7: cs = ardışık doğru sayısı (yanlışta sıfırlanır) — "öğrenildi" kuralının temeli
+}
+/* v7: "ÖĞRENİLDİ" KURALI (pragmatik):
+   SRS geçmiş tutmaz ({seen,wrong,last}), bu yüzden "son 2 görüşte yanlışsız" şartını
+   cs (ardışık doğru serisi) ile ölçüyoruz: seen>=4 VE cs>=2 → öğrenildi.
+   Eski v6 SRS kayıtlarında cs yok → 0 sayılır; 2 doğru görüş sonrası öğrenildi olur (geriye uyumlu).
+   Öncelik sırası: yeni (hiç görülmedi) > öğrenildi > zayıf (wrong>=1) > çalışılıyor. */
+function wordStatus(st){
+  if(!st || !(st.seen>0)) return "new";
+  if(st.seen>=4 && (st.cs||0)>=2) return "learned";
+  if((st.wrong||0)>=1) return "weak";
+  return "study";
+}
+const ST_TR={new:"Yeni", study:"Çalışılıyor", weak:"Zayıf", learned:"Öğrenildi"};
+/* Paket ilerlemesi — sözlük kartı + istatistik satırı için */
+function packProgress(pk){
+  const r={total:0,studied:0,learned:0,weak:0};
+  (PACKS[pk]?PACKS[pk].words:[]).forEach(o=>{
+    r.total++;
+    const s=wordStatus(SRS[pk+":"+o.w]);
+    if(s!=="new") r.studied++;
+    if(s==="learned") r.learned++;
+    if(s==="weak") r.weak++;
+  });
+  return r;
+}
+/* ---- v7: favoriler ⭐ (smsk_fav) — "paket:kelime" → 1 ---- */
+let FAV=LS.get("fav",{}); if(typeof FAV!=="object"||!FAV) FAV={};
+function favTog(pk,w){
+  const k=pk+":"+w;
+  if(FAV[k]) delete FAV[k]; else FAV[k]=1;
+  LS.set("fav",FAV); buzz(6);
+}
+function favList(){ // zayıf deste kalıbının aynısı: kaynaktan anlam+cümle çözülür
+  const out=[];
+  for(const k in FAV){
+    const i=k.indexOf(":"), pk=k.slice(0,i), w=k.slice(i+1);
+    const src=PACKS[pk] && PACKS[pk].words.find(o=>o.w===w);
+    if(src) out.push(Object.assign({p:pk},src));
+  }
+  return out;
+}
+function syncFavPack(){
+  const list=favList();
+  if(list.length>=8){
+    PACKS.fav={emo:"⭐", name:"Favorilerim", desc:"Yıldızladığın kelimeler", free:true, price:0, words:list};
+  } else {
+    delete PACKS.fav;
+    if(pack==="fav") pack="tr";
+  }
+}
+function srsWeight(o,pk){
+  const st=SRS[(o.p||pk)+":"+o.w];
+  if(!st) return 1.5; // hiç görülmemiş kelimeye hafif öncelik
+  const days=Math.max(0,(Date.parse(today())-Date.parse(st.last||today()))/864e5);
+  return Math.min(1 + st.wrong*2 + days/7, 6); // yanlış ağır basar, unutulmuşluk yavaş biner; tavan 6
+}
+/* Ağırlıklı, tekrarsız seçim — tohumlu rng ile (aynı seed + aynı SRS = aynı deste) */
+function weightedPick(pool,count){
+  const it=pool.map(o=>({o,wt:srsWeight(o,rPack)}));
+  let tot=it.reduce((a,b)=>a+b.wt,0);
+  const out=[];
+  while(out.length<count && it.length){
+    let r=rng()*tot, i=0;
+    for(;i<it.length-1;i++){ r-=it[i].wt; if(r<0) break; }
+    out.push(it[i].o); tot-=it[i].wt; it.splice(i,1);
+  }
+  return out;
+}
+/* Tüm paketlerdeki wrong≥1 kelimeler → sanal "Zayıf Kelimeler" destesi */
+function weakList(){
+  const out=[];
+  for(const k in SRS){
+    if(!SRS[k] || (SRS[k].wrong||0)<1) continue;
+    const i=k.indexOf(":"), pk=k.slice(0,i), w=k.slice(i+1);
+    const src=PACKS[pk] && PACKS[pk].words.find(o=>o.w===w);
+    if(src) out.push(Object.assign({p:pk},src)); // anlam + örnek cümle kaynaktan gelir
+  }
+  return out;
+}
+function syncWeakPack(){
+  const list=weakList();
+  if(list.length>=8){
+    PACKS.weak={emo:"🔁", name:"Zayıf Kelimeler", desc:"Yanlış yaptıkların, tüm paketlerden", free:true, price:0, words:list};
+  } else {
+    delete PACKS.weak;
+    if(pack==="weak") pack="tr";
+  }
+}
+
+/* ============ tohumlu rastgelelik (düello & günlük için deterministik deste) ============ */
+function mulberry32(a){ return function(){ a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+function hashStr(s){ let h=2166136261; for(let i=0;i<s.length;i++){ h^=s.charCodeAt(i); h=Math.imul(h,16777619); } return h>>>0; }
+let rng=Math.random, runSeed=0, runDaily=false, runDuel=null, duelPending=null, lastResult=null;
+function dailySeed(d){ return hashStr("kelimsek-"+(d||today())); }
+function dailyMode(){ return ["order","recog","mean","write","time"][new Date().getDay()%5]; } // v6: 5 mod rotasyonu
+
+/* ============ yardımcı ============ */
+const $=s=>document.querySelector(s);
+const $$=s=>document.querySelectorAll(s);
+const RM = typeof matchMedia==="function" && matchMedia("(prefers-reduced-motion: reduce)").matches;
+const INGAME=["flash","recall","recog","mean","write","time","exam"];
+function go(id){$$(".screen").forEach(s=>s.classList.remove("on"));$("#"+id).classList.add("on");document.body.classList.toggle("ingame",INGAME.includes(id));}
+/* shuffle tüm tur-içi karışımlarda kullanılır; rng, tur başında tohumlanır → aynı seed = aynı deste + aynı çeldiriciler */
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=(rng()*(i+1))|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+function buzz(p){ if(S.haptic){try{navigator.vibrate&&navigator.vibrate(p)}catch(e){}} }
+function today(){ return new Date().toISOString().slice(0,10); }
+function yesterdayOf(d){ const t=new Date(d+"T00:00:00Z"); t.setUTCDate(t.getUTCDate()-1); return t.toISOString().slice(0,10); }
+function pivot(w){ const i=Math.max(0,Math.floor((w.length-1)/2)); return w.slice(0,i)+'<span class="piv">'+w[i]+'</span>'+w.slice(i+1); }
+let countUpT=null;
+function countUp(el,to){ if(countUpT){clearInterval(countUpT);countUpT=null;} el.classList.remove("done"); let v=0; const step=Math.max(1,Math.ceil(to/22)); countUpT=setInterval(()=>{ v+=step; if(v>=to){v=to;clearInterval(countUpT);countUpT=null; if(!RM){void el.offsetWidth; el.classList.add("done");}} el.textContent=v+"%"; },26); }
+function effStreak(){ const t=today(); return (S.lastDay===t||S.lastDay===yesterdayOf(t)) ? S.streak : 0; }
+function levelInfo(){ const per=200; const lvl=Math.floor(S.xp/per)+1; const inLvl=S.xp%per; return {lvl,inLvl,per,next:lvl*per}; }
+
+/* ============ SES (WebAudio — dosyasız sentetik) ============ */
+let AC=null;
+function ac(){
+  if(!S.sound) return null;
+  if(!AC){ try{ AC=new (window.AudioContext||window.webkitAudioContext)(); }catch(e){ return null; } }
+  if(AC.state==="suspended"){ try{AC.resume();}catch(e){} }
+  return AC;
+}
+function tone(f,dur,type,vol,when,slide){
+  const a=ac(); if(!a) return;
+  type=type||"sine"; vol=vol||.15; when=when||0;
+  const t=a.currentTime+when, o=a.createOscillator(), g=a.createGain();
+  o.type=type; o.frequency.setValueAtTime(f,t);
+  if(slide) o.frequency.exponentialRampToValueAtTime(slide,t+dur);
+  g.gain.setValueAtTime(vol,t); g.gain.exponentialRampToValueAtTime(.0001,t+dur);
+  o.connect(g); g.connect(a.destination); o.start(t); o.stop(t+dur+.03);
+}
+function sBlip(c){ const b=Math.min(c||0,10)*35; tone(620+b,.09,"triangle",.16,0,860+b); }   // doğru: kombo ile tizleşir
+function sBuzz(){ tone(150,.2,"sawtooth",.11,0,85); }                                        // yanlış
+function sTick(){ tone(880,.05,"square",.07); }                                              // geri sayım
+function sGo(){ tone(1046,.12,"triangle",.15); }
+function sFanfare(){ [523,659,784].forEach((f,i)=>tone(f,.17,"triangle",.15,i*.12)); }        // sonuç arpeji
+function sMeh(){ tone(392,.18,"sine",.1); }
+
+/* ============ EFEKT (şimşek partikülleri, glow, shake) ============ */
+function burstXY(x,y,cnt){
+  if(RM) return;
+  const app=$(".app");
+  for(let i=0;i<(cnt||6);i++){
+    const s=document.createElement("span"); s.className="fx"; s.textContent="⚡";
+    const a=Math.random()*Math.PI*2, d=28+Math.random()*46;
+    s.style.setProperty("--x",x+"px"); s.style.setProperty("--y",y+"px");
+    s.style.setProperty("--dx",(Math.cos(a)*d)+"px"); s.style.setProperty("--dy",(Math.sin(a)*d-22)+"px");
+    app.appendChild(s); setTimeout(()=>s.remove(),620);
+  }
+}
+function burstEl(el){
+  if(!el||RM) return;
+  const ar=$(".app").getBoundingClientRect(), r=el.getBoundingClientRect();
+  burstXY(r.left-ar.left+r.width/2, r.top-ar.top+r.height/2, 6);
+}
+let glowT=null;
+function glow(){
+  if(RM) return;
+  const app=$(".app");
+  app.classList.remove("hitglow"); void app.offsetWidth; app.classList.add("hitglow");
+  if(glowT) clearTimeout(glowT);
+  glowT=setTimeout(()=>app.classList.remove("hitglow"),400);
+}
+function shake(scrId){
+  const el=$("#"+scrId); if(!el) return;
+  el.classList.remove("shake"); void el.offsetWidth; el.classList.add("shake");
+  setTimeout(()=>el.classList.remove("shake"),320);
+}
+function rainBolts(){
+  if(RM) return;
+  const app=$(".app"), sid=session;
+  for(let i=0;i<16;i++){
+    setTimeout(()=>{
+      if(sid!==session) return;
+      const s=document.createElement("span"); s.className="bolt"; s.textContent="⚡";
+      s.style.left=(4+Math.random()*88)+"%";
+      s.style.fontSize=(15+Math.random()*24)+"px";
+      s.style.animationDuration=(0.75+Math.random()*0.6)+"s";
+      app.appendChild(s); setTimeout(()=>s.remove(),1600);
+    }, i*85);
+  }
+}
+
+/* ============ KOMBO ============ */
+let combo=0, bestCombo=0, comboXP=0;
+function comboBonus(c){ return c>=2 ? Math.min(c*2,20) : 0; } // +2×kombo, vuruş başı 20 XP tavan
+const COMBO_XP_CAP=60; // tur başına kombo bonus tavanı
+function updCombo(){
+  const el=$("#combo"); if(!el) return;
+  if(combo>=2){
+    el.textContent=combo+"x ⚡";
+    el.style.fontSize=Math.min(15+combo*1.6,30)+"px";
+    el.classList.add("on"); el.classList.toggle("hot",combo>=5);
+    el.classList.remove("pulse"); void el.offsetWidth; el.classList.add("pulse");
+  } else { el.classList.remove("on","hot"); }
+}
+function onCorrect(el){
+  combo++; if(combo>bestCombo) bestCombo=combo;
+  comboXP=Math.min(comboXP+comboBonus(combo),COMBO_XP_CAP);
+  updCombo(); sBlip(combo); burstEl(el); glow();
+  if(combo>=5 && !RM) shakePulse();
+}
+function shakePulse(){ /* 5x+ küçük ekran nabzı: glow'u güçlendir */ glow(); }
+function onWrong(scrId){ combo=0; updCombo(); sBuzz(); shake(scrId); }
+
+/* ============ ROZETLER 🏅 ============ */
+let badges=LS.get("badges",{}); if(typeof badges!=="object"||!badges) badges={};
+/*__BADGES__*/
+const BADGES=[
+  {id:"first",   e:"⚡", n:"İlk Şimşek",  d:"İlk turunu tamamla",            c:s=>s.runs>=1},
+  {id:"perfect", e:"💯", n:"Kusursuz",    d:"Bir turda %100 yap",            c:s=>s.pct===100},
+  {id:"combo5",  e:"🔗", n:"5x Kombo",    d:"Bir turda 5 seri doğru",        c:s=>s.bestCombo>=5},
+  {id:"combo10", e:"⛓️", n:"10x Kombo",   d:"Bir turda 10 seri doğru",       c:s=>s.bestCombo>=10},
+  {id:"streak3", e:"🔥", n:"Ateşli",      d:"3 gün seri yap",                c:s=>s.streak>=3},
+  {id:"streak7", e:"🌋", n:"Alev Alev",   d:"7 gün seri yap",                c:s=>s.streak>=7},
+  {id:"words100",e:"🐛", n:"Kelime Kurdu",d:"Toplam 100 kelime gör",         c:s=>s.wordsSeen>=100},
+  {id:"words250",e:"📖", n:"Sözlük",      d:"Toplam 250 kelime gör",         c:s=>s.wordsSeen>=250},
+  {id:"duel",    e:"⚔️", n:"Düellocu",    d:"İlk düellonu oyna",             c:s=>s.duel},
+  {id:"daily5",  e:"🗓️", n:"Günlükçü",    d:"5 günlük tur tamamla",          c:s=>s.dailyRuns>=5},
+  {id:"night",   e:"🦉", n:"Gece Kuşu",   d:"23:00'ten sonra tur oyna",      c:s=>s.hour>=23},
+  {id:"dawn",    e:"🌅", n:"Şafak",       d:"07:00'den önce tur oyna",       c:s=>s.hour<7},
+  {id:"weak80",  e:"🔁", n:"Toparlayıcı", d:"Zayıf kelimelerden %80+ al",    c:s=>s.weakPct>=80},
+  {id:"speed20", e:"😈", n:"Hız Şeytanı", d:"Zamana Karşı'da 20+ doğru",     c:s=>(s.timeOk||0)>=20},
+  {id:"exam1",   e:"📝", n:"İlk Deneme",  d:"İlk mini denemeni bitir",       c:s=>(s.examRuns||0)>=1},
+  {id:"exam90",  e:"🎖️", n:"Deneme Ustası",d:"Denemede %90+ yap",            c:s=>(s.examPct||0)>=90},
+];
+/*__END_BADGES__*/
+function checkBadges(ctx){
+  const news=[];
+  for(const b of BADGES){ if(!badges[b.id] && b.c(ctx)){ badges[b.id]=today(); news.push(b); } }
+  if(news.length) LS.set("badges",badges);
+  return news;
+}
+let badgeQ=[];
+function queueBadges(list){ if(!list.length) return; badgeQ=badgeQ.concat(list); popBadge(); }
+function popBadge(){ // dokununca sıradakini göster, sıra bitince kapan
+  const b=badgeQ.shift();
+  const m=$("#badgePop");
+  if(!b){ m.classList.remove("on"); return; }
+  $("#bpEmo").textContent=b.e; $("#bpName").textContent=b.n; $("#bpDesc").textContent=b.d;
+  m.classList.remove("on"); void m.offsetWidth; m.classList.add("on");
+  sFanfare(); buzz([10,40,10]);
+  setTimeout(()=>{ const a=$(".app").getBoundingClientRect(); burstXY(a.width/2,a.height/2-60,10); },140);
+}
+function fillBadges(){
+  const got=Object.keys(badges).filter(id=>BADGES.some(b=>b.id===id)).length;
+  $("#bCount").textContent=got+"/"+BADGES.length;
+  const n=$("#setBadgeN"); if(n) n.textContent=got+"/"+BADGES.length;
+  $("#bGrid").innerHTML=BADGES.map(b=>{
+    const has=!!badges[b.id];
+    return `<div class="btile ${has?'got':'miss'}">
+      ${has?"":'<span class="q">?</span>'}
+      <span class="e">${b.e}</span><span class="n">${b.n}</span><span class="h">${has?("kazanıldı · "+badges[b.id].slice(8,10)+"."+badges[b.id].slice(5,7)):b.d}</span>
+    </div>`;
+  }).join("");
+}
+
+/* ============ MODLAR ============ */
+const MODES=[
+  {id:"order", emo:"⚡", t:"Sıralı Hatırlama", d:"Gördüğün sırayla diz"},
+  {id:"recog", emo:"🎯", t:"Tanıdın mı?", d:"Vardı / yoktu seç"},
+  {id:"mean",  emo:"🧠", t:"Anlamı Seç", d:"4 şıktan anlamı bul"},
+  {id:"write", emo:"✍️", t:"Yaz Bakalım", d:"Anlamdan kelimeyi yaz"},
+  {id:"cloze", emo:"🧩", t:"Boşluk Doldurma", d:"Cümledeki boşluğu doldur"},
+  {id:"time",  emo:"⏱", t:"Zamana Karşı", d:"60 sn'de kaç doğru?"},
+];
+function renderModes(){
+  $("#modes").innerHTML=MODES.map((m,i)=>`
+    <div class="mode ${m.id===mode?'sel':''}" style="--i:${i}" onclick="pickMode('${m.id}')">
+      <div class="e">${m.emo}</div><div class="t">${m.t}</div><div class="d">${m.d}</div>
+    </div>`).join("");
+}
+function pickMode(id){ mode=id; renderModes(); buzz(6); }
+
+function renderPacks(){
+  syncWeakPack(); // v5: zayıf deste ≥8 kelimeyse listenin sonunda görünür
+  syncFavPack();  // v7: favori deste ≥8 kelimeyse görünür (zayıf kalıbının aynısı)
+  let ents=Object.entries(PACKS);
+  // v7 vitrin: hedef sınav paketi kilitliyse bile listenin BAŞINA alınır (kilit sistemine dokunmadan)
+  if(S.goal && PACKS[S.goal]) ents.sort((a,b)=>((b[0]===S.goal)-(a[0]===S.goal)));
+  $("#packs").innerHTML=ents.map(([k,p],i)=>{
+    const open=isUnlocked(k);
+    const right = open
+      ? `<span class="badge">${k===S.goal?'🎯 Hedefin':(p.free?'Ücretsiz':'Açık')}</span>`
+      : `<span class="badge lockbadge">🔒 ${k===S.goal?'Hedefin':'Sınav'}</span>`;
+    const cnt = k==="weak" ? p.words.length+" zayıf kelime" : p.words.length+" kelime";
+    return `<div class="pack ${k===pack?'sel':''} ${open?'':'locked'}" style="--i:${i}" onclick="pickPack('${k}')">
+      <span class="emo">${p.emo}</span>
+      <span class="t"><b>${p.name}</b><div class="d">${p.desc} · ${cnt}</div></span>
+      ${right}
+    </div>`;
+  }).join("");
+  // v5: seviye seçici — yalnız z (zorluk) alanı taşıyan sınav paketlerinde
+  const showDiff = pack!=="weak" && pack!=="fav" && pack!=="mix" && (PACKS[pack].words||[]).some(o=>o.z);
+  $("#diffLbl").style.display=showDiff?"":"none";
+  $("#segDiff").style.display=showDiff?"":"none";
+}
+function pickPack(k){
+  if(!isUnlocked(k)){ openUnlock(k); return; }
+  pack=k; renderPacks(); renderExamCard(); buzz(6);
+}
+
+/* ---- kilit açma (para modeli — şimdilik stub, gerçek ödeme mağaza sürümünde) ---- */
+let pending=null;
+function openUnlock(k){
+  pending=k; const p=PACKS[k];
+  $("#uEmo").textContent=p.emo; $("#uName").textContent=p.name;
+  $("#uDesc").textContent=p.words.length+" kelime · sınav paketi";
+  $("#uPrice").textContent="₺"+p.price;
+  $("#unlock").classList.add("on"); buzz(6);
+}
+function closeUnlock(){ $("#unlock").classList.remove("on"); pending=null; }
+function afterUnlock(){ pack=pending; closeUnlock(); renderPacks(); refreshHome(); buzz([12,40,12]); }
+function watchAd(){
+  const k=pending;
+  // gerçek sürümde AdMob ödüllü video; şimdilik simülasyon
+  const b=event&&event.currentTarget; if(b){ b.style.pointerEvents="none"; b.querySelector("b").textContent="Reklam oynatılıyor…"; }
+  setTimeout(()=>{ if(b){b.style.pointerEvents="";b.querySelector("b").textContent="Reklam izle";} if(pending!==k) return; adUnlock[k]=today(); LS.set("adUnlock",adUnlock); afterUnlock(); }, 1200);
+}
+function buyPack(){ const k=pending; if(!S.owned.includes(k)) S.owned.push(k); save(); afterUnlock(); }
+function buyPro(){ S.pro=true; save(); afterUnlock(); }
+
+$("#segCount").addEventListener("click",e=>{ if(e.target.dataset.n){ n=+e.target.dataset.n; segSel("#segCount",e.target); buzz(6);} });
+$("#segSpeed").addEventListener("click",e=>{ if(e.target.dataset.ms){ speed=+e.target.dataset.ms; segSel("#segSpeed",e.target); buzz(6);} });
+$("#segDiff").addEventListener("click",e=>{ if(e.target.dataset.z!==undefined){ diff=+e.target.dataset.z; segSel("#segDiff",e.target); buzz(6);} });
+function segSel(w,el){ $$(w+" button").forEach(b=>b.classList.remove("sel")); el.classList.add("sel"); }
+
+function refreshHome(){
+  $("#streakN").textContent=effStreak();
+  $(".ring").classList.toggle("lit",effStreak()>0);
+  const arc=138, off=arc-(Math.min(S.daily,goalMax())/goalMax())*arc;
+  $("#ringArc").style.strokeDashoffset = (S.dailyDate===today()?off:arc);
+  const li=levelInfo();
+  $("#lvN").textContent=li.lvl; $("#xpN").textContent=S.xp; $("#xpNext").textContent=li.next;
+  $("#xpBar").style.width=(li.inLvl/li.per*100)+"%";
+  $("#goalNow").textContent=(S.dailyDate===today()?S.daily:0); $("#goalMax").textContent=goalMax();
+  // v7: hedef çipi
+  const gc=$("#goalChip"), gm=GOALS[S.goal];
+  if(gc){ if(gm){ gc.style.display=""; gc.innerHTML="🎯 <b>"+gm.chip+"</b>"; } else gc.style.display="none"; }
+  renderModes(); renderPacks(); renderDaily(); renderExamCard();
+}
+/* v7: mini deneme kartı — modlardan AYRI giriş, seçili paketten 20 soruluk karışık sınav */
+function renderExamCard(){
+  const el=$("#examCard"); if(!el) return;
+  el.innerHTML=`<span class="emo">📝</span>
+    <span class="t"><b>Mini Deneme</b><div class="d">20 soru · anlam + tanıma + yazma · ${PACKS[pack].name}</div></span>
+    <span class="badge">Başla</span>`;
+}
+/* günlük kelimşek kartı */
+const DAILY_MODE_TR={order:"Sıralı", recog:"Tanıma", mean:"Anlam", write:"Yazma", time:"Zamana Karşı"};
+function renderDaily(){
+  const el=$("#dailyCard"); if(!el) return;
+  const t=today(), dt=t.slice(8,10)+"."+t.slice(5,7);
+  const played=(S.dailyDone===t);
+  el.innerHTML=`<span class="emo">🗓️</span>
+    <span class="t"><b>Günlük Kelimşek</b><div class="d">${dt} · ${DAILY_MODE_TR[dailyMode()]} · herkese aynı deste</div></span>
+    <span class="badge ${played?'done':''}">${played?('oynandı ✓ %'+(S.dailyPct||0)):'Oyna ⚡'}</span>`;
+}
+
+/* ============ BAŞLA / FLASH ============ */
+const MODE_LABEL={order:"SIRALI", recog:"TANIMA", mean:"ANLAM", write:"YAZMA", cloze:"BOŞLUK", time:"ZAMANA KARŞI", exam:"DENEME"};
+const MODE_HINT={
+  order:'Kelimeleri <b>sırayla</b> aklında tut',
+  recog:'Kelimeleri <b>aklında</b> tut',
+  mean:'Kelimenin <b>anlamını</b> seçeceksin',
+  write:'Anlamı görüp kelimeyi <b>yazacaksın</b>',
+  cloze:'Cümledeki <b>boşluğu</b> kelimeyle dolduracaksın',
+  time:'60 saniyede <b>olabildiğince</b> doğru',
+  exam:'20 soru · <b>karışık tipler</b> · süre yok',
+};
+function start(){ startRun({}); }
+function startExam(){ startRun({mode:"exam", n:20}); } // v7: seçili paketten 20 soruluk deneme
+function startDaily(){
+  // Günlük Kelimşek: herkese aynı deterministik deste (tarih hash'i), sabit ayarlar, mod haftanın gününe göre döner
+  startRun({seed:dailySeed(), pack:"mix", mode:dailyMode(), n:12, daily:true});
+}
+function acceptDuel(){
+  const d=duelPending; if(!d) return; closeDuelIntro();
+  // Büyüme döngüsü: düello linki kilitli bir paketi işaret ediyorsa bu TEK tur ücretsiz oynanır (kilit açılmaz)
+  startRun({seed:d.seed, pack:d.pack, mode:d.mode, n:d.n, speed:d.speed, duel:d});
+}
+function startRun(o){
+  if(pending) closeUnlock();
+  ac(); // ilk kullanıcı dokunuşunda AudioContext (iOS)
+  const sid=++session; // yeni tur: eski timer zincirleri ölür (çift tık dahil)
+  runDaily=!!o.daily; runDuel=o.duel||null;
+  rMode=o.mode||mode; rPack=o.pack||pack; rN=o.n||n; rSpeed=o.speed||speed;
+  runSeed=(o.seed!==undefined) ? (o.seed>>>0) : ((Math.random()*4294967296)>>>0);
+  rng=mulberry32(runSeed); // aynı seed → aynı deste, aynı çeldiriciler, aynı şık sırası
+  /* v5 deste seçimi:
+     - Düello/Günlük (o.seed verildi): SALT seed'ten uniform shuffle. SRS ağırlıkları kişiye
+       özel olduğundan karışsaydı iki oyuncu aynı seed'le FARKLI deste görürdü — determinizm
+       bozulmasın diye seed'li turlarda SRS ve zorluk filtresi ATLANIR.
+     - Normal tur: zorluk filtresi + SRS ağırlıklı seçim (çok yanlış yapılan ve uzun süredir
+       görülmeyen kelimeler daha yüksek olasılıkla gelir). */
+  const seeded = o.seed!==undefined;
+  let pool = PACKS[rPack].words;
+  if(!seeded && diff && rPack!=="weak" && rPack!=="mix"){
+    const f=pool.filter(w=>w.z===diff);
+    if(f.length>=rN) pool=f; // filtrelenmiş havuz n'den küçükse sessizce tam havuza dön
+  }
+  /* v6: Zamana Karşı akış modu — tur boyu kelime bitmesin diye TÜM havuz karıştırılır
+     (aynı seed = aynı akış; oyuncular farklı hızda ilerlese de sıra birebir aynı kalır) */
+  sequence = rMode==="time" ? shuffle(pool)
+           : seeded ? shuffle(pool).slice(0,rN) : weightedPick(pool,rN);
+  answer=[]; recogIdx=0; recogScore=0; recogRows=[]; recallLocked=false; recogLock=false;
+  combo=0; bestCombo=0; comboXP=0; updCombo();
+  $("#fMode").textContent=MODE_LABEL[rMode];
+  $("#fHint").innerHTML=MODE_HINT[rMode];
+  go("flash");
+  const stage=$("#stage"); stage.innerHTML=""; $("#fCount").textContent=""; $("#fBar").style.width="0%";
+  // 3-2-1 geri sayım
+  let c=3;
+  const cd=()=>{
+    if(sid!==session) return;
+    stage.innerHTML='<div class="word cur cdown">'+(c>0?c:'⚡')+'</div>';
+    buzz(c>0?12:[12,50]);
+    if(c>0){ sTick(); c--; setTimeout(cd,620); }
+    else { sGo(); setTimeout(()=>{ if(sid!==session) return; stage.innerHTML="";
+      if(rMode==="mean") startMean();
+      else if(rMode==="write"||rMode==="cloze") startWrite();   // v6 + v8 boşluk doldurma
+      else if(rMode==="time") startTime();     // v6
+      else if(rMode==="exam") startExamRun();  // v7
+      else runFlash(sid); }, 520); }
+  };
+  cd();
+}
+function runFlash(sid){
+  const stage=$("#stage"); let i=0, prev=null;
+  const showM=effShowMean(rPack);
+  const tick=()=>{
+    if(sid!==session) return;
+    if(i>=sequence.length){ setTimeout(()=>{ if(sid!==session) return; (rMode==="order"?startRecall:startRecog)(); },200); return; }
+    if(prev){ prev.className="word ghost"; const g=prev; setTimeout(()=>g.remove(),420); }
+    const el=document.createElement("div"); el.className="word cur";
+    const fe=emo(sequence[i]); // v6: somut kelimede küçük emoji
+    el.innerHTML=pivot(sequence[i].w)+(fe?'<span class="wemo">'+fe+'</span>':"")+(showM?'<div class="wm">'+sequence[i].m+'</div>':"");
+    stage.appendChild(el); prev=el;
+    $("#fCount").textContent=(i+1)+" / "+sequence.length;
+    $("#fBar").style.width=((i+1)/sequence.length*100)+"%";
+    buzz(7); i++; setTimeout(tick,rSpeed);
+  };
+  tick();
+}
+
+/* ============ SIRALI HATIRLAMA ============ */
+let tilesArr=[];
+function startRecall(){
+  go("recall"); drawSlots();
+  tilesArr=shuffle(sequence);
+  $("#tiles").innerHTML=tilesArr.map((o,idx)=>`<div class="tile" data-i="${idx}" onclick="tap(${idx})">${o.w}</div>`).join("");
+  updUndo();
+}
+function drawSlots(){
+  $("#slots").innerHTML=sequence.map((_,i)=>{ const a=answer[i]; return `<div class="slot ${a?'f':''}">${a?a.w:(i+1)}</div>`; }).join("");
+}
+function tap(idx){
+  if(recallLocked || answer.length>=sequence.length) return;
+  const t=$('.tile[data-i="'+idx+'"]'); if(!t||t.classList.contains("used")) return;
+  const w=tilesArr[idx].w;
+  const target=sequence[answer.length];
+  const correct = target.w===w;
+  srsTouch(target,correct); // v5: SRS — sıradaki hedef kelime doğru yerine kondu mu?
+  t.classList.add("used"); answer.push({w,idx});
+  if(correct) onCorrect(t); else onWrong("recall");
+  buzz(9); drawSlots(); updUndo();
+  if(answer.length===sequence.length){ recallLocked=true; const sid=session; setTimeout(()=>{ if(sid===session) finish(gradeOrder()); },280); }
+}
+function undo(){ if(recallLocked)return; const l=answer.pop(); if(!l)return; const t=$('.tile[data-i="'+l.idx+'"]'); if(t)t.classList.remove("used"); combo=0; updCombo(); drawSlots(); updUndo(); }
+function updUndo(){ $("#undoBtn").style.opacity=answer.length?1:.4; }
+function gradeOrder(){
+  let ok=0; const rows=sequence.map((o,i)=>{ const a=answer[i]?answer[i].w:"—"; const c=a===o.w; if(c)ok++; return {w:o.w,m:o.m,s:o.s,e:o.e,p:o.p,a,c}; });
+  return {ok,total:sequence.length,rows};
+}
+
+/* ============ TANIDIN MI? (recognition) ============ */
+let recogLock=false;
+function startRecog(){
+  const shown=sequence.map(o=>({w:o.w,m:o.m,s:o.s,e:o.e,p:o.p,was:true}));
+  const pool=PACKS[rPack].words.filter(o=>!sequence.some(s=>s.w===o.w));
+  const distract=shuffle(pool).slice(0,sequence.length).map(o=>({w:o.w,m:o.m,s:o.s,e:o.e,p:o.p,was:false}));
+  recog=shuffle(shown.concat(distract)); recogIdx=0; recogScore=0; recogLock=false;
+  $("#recogMean").className="rmean"; $("#recogMean").textContent="";
+  resetRecogCard();
+  go("recog"); nextRecog();
+}
+function nextRecog(){
+  if(recogIdx>=recog.length){ finish(gradeRecog()); return; }
+  resetRecogCard();
+  $("#recogProg").textContent=(recogIdx+1)+" / "+recog.length;
+  $("#recogWord").innerHTML=pivot(recog[recogIdx].w);
+}
+/* --- swipe kart: sağa=vardı, sola=yoktu (pointer events → dokunma + fare) --- */
+function resetRecogCard(){
+  const c=$("#recogCard"); if(!c) return;
+  c.style.transition="none"; c.style.transform=""; c.style.opacity="1";
+  c.querySelectorAll(".hintL,.hintR").forEach(h=>h.style.opacity=0);
+}
+(function(){
+  const card=$("#recogCard"); if(!card) return;
+  let drag=false, sx=0, dx=0, pid=null;
+  const TH=90; // fırlatma eşiği (px)
+  card.addEventListener("pointerdown",e=>{
+    if(recogLock || !$("#recog").classList.contains("on")) return;
+    drag=true; pid=e.pointerId; sx=e.clientX; dx=0;
+    try{card.setPointerCapture(pid);}catch(_){}
+    card.style.transition="none";
+  });
+  card.addEventListener("pointermove",e=>{
+    if(!drag) return;
+    dx=e.clientX-sx;
+    card.style.transform=`translateX(${dx}px) rotate(${(dx*0.07).toFixed(2)}deg)`;
+    const p=Math.min(Math.abs(dx)/TH,1);
+    card.querySelector(dx>0?".hintR":".hintL").style.opacity=p;
+    card.querySelector(dx>0?".hintL":".hintR").style.opacity=0;
+  });
+  const end=()=>{
+    if(!drag) return; drag=false;
+    try{card.releasePointerCapture(pid);}catch(_){}
+    if(Math.abs(dx)>TH && !recogLock && recogIdx<recog.length){
+      const said=dx>0;
+      if(RM){ card.style.opacity="0"; }
+      else{
+        card.style.transition="transform .28s ease, opacity .28s ease";
+        card.style.transform=`translateX(${said?460:-460}px) rotate(${said?28:-28}deg)`;
+        card.style.opacity="0";
+      }
+      recogAns(said,card);
+    } else {
+      card.style.transition=RM?"none":"transform .25s cubic-bezier(.2,.7,.3,1)"; // yay geri dönüşü
+      card.style.transform="";
+      card.querySelectorAll(".hintL,.hintR").forEach(h=>h.style.opacity=0);
+    }
+    dx=0;
+  };
+  card.addEventListener("pointerup",end);
+  card.addEventListener("pointercancel",end);
+})();
+let recogRows=[];
+function recogAns(said,btn){
+  if(recogLock || recogIdx>=recog.length) return;
+  recogLock=true;
+  const item=recog[recogIdx]; const correct=(said===item.was); if(correct)recogScore++;
+  srsTouch(item,correct); // v5: SRS (çeldiriciler de "görüldü" sayılır)
+  recogRows.push({w:item.w, m:item.m, s:item.s, e:item.e, p:item.p, c:correct, a:item.was?"vardı":"yoktu"});
+  // anlam flaşı — örnek cümle varsa altında gösterilir, süre ~900ms'e uzar
+  const rm=$("#recogMean"); rm.innerHTML=item.m+(item.s?'<div class="rs">'+item.s+'</div>':""); rm.className="rmean on "+(correct?"good":"bad");
+  if(correct) onCorrect(btn); else onWrong("recog");
+  buzz(correct?9:[6,30]); recogIdx++;
+  const sid=session;
+  setTimeout(()=>{ if(sid!==session) return; rm.className="rmean"; rm.textContent=""; recogLock=false; nextRecog(); },item.s?900:700);
+}
+function gradeRecog(){ const rows=recogRows; recogRows=[]; return {ok:recogScore,total:recog.length,rows}; }
+
+/* ============ ANLAMI SEÇ 🧠 ============ */
+let meanIdx=0, meanScore=0, meanRows=[], meanLock=false;
+function meanDistractors(q){
+  const seen={}; seen[q.m]=1; const out=[];
+  for(const o of shuffle(PACKS[rPack].words)){
+    if(o.w===q.w || seen[o.m]) continue;
+    seen[o.m]=1; out.push(o.m);
+    if(out.length===3) break;
+  }
+  // v5: küçük havuzlarda (ör. zayıf deste) 3 çeldirici çıkmazsa mix'ten tamamla
+  if(out.length<3){
+    for(const o of shuffle(PACKS.mix.words)){
+      if(o.w===q.w || seen[o.m]) continue;
+      seen[o.m]=1; out.push(o.m);
+      if(out.length===3) break;
+    }
+  }
+  return out;
+}
+function startMean(){
+  meanIdx=0; meanScore=0; meanRows=[]; meanLock=false;
+  go("mean"); nextMean();
+}
+function nextMean(){
+  if(meanIdx>=sequence.length){ finish(gradeMean()); return; }
+  meanLock=false;
+  const q=sequence[meanIdx];
+  const ms=$("#meanSent"); ms.classList.remove("on"); ms.textContent="";
+  $("#meanProg").textContent=(meanIdx+1)+" / "+sequence.length;
+  const qe=emo(q); $("#meanWord").innerHTML=pivot(q.w)+(qe?'<span class="wemo">'+qe+'</span>':"");
+  const opts=shuffle(meanDistractors(q).concat([q.m]));
+  $("#meanOpts").innerHTML=opts.map((m,i)=>`<button class="mopt" data-o="${i}" onclick="meanAns(this)">${m}</button>`).join("");
+}
+function meanAns(btn){
+  if(meanLock) return; meanLock=true;
+  const q=sequence[meanIdx];
+  const picked=btn.textContent, c=(picked===q.m);
+  $$("#meanOpts .mopt").forEach(b=>{ if(b.textContent===q.m) b.classList.add("ok"); });
+  if(!c) btn.classList.add("bad");
+  if(c){ meanScore++; onCorrect(btn); } else onWrong("mean");
+  srsTouch(q,c); // v5: SRS
+  if(q.s){ const ms=$("#meanSent"); ms.textContent=q.s; ms.classList.add("on"); } // örnek cümle flaşı
+  meanRows.push({w:q.w, m:q.m, s:q.s, e:q.e, p:q.p, c, a:c?"doğru":"✗"});
+  buzz(c?9:[6,30]); meanIdx++;
+  const sid=session;
+  setTimeout(()=>{ if(sid!==session) return; nextMean(); },q.s?900:700); // cümle varsa ~900ms göster
+}
+function gradeMean(){ const rows=meanRows; meanRows=[]; return {ok:meanScore,total:sequence.length,rows}; }
+
+/* ============ v6: YAZ BAKALIM ✍️ — anlamdan kelimeyi YAZ (en zor recall) ============ */
+let writeIdx=0, writeScore=0, writeRows=[], writeTries=0, writeLock=false, writeCloze=null;
+/* v8: BOŞLUK DOLDURMA 🧩 — cümledeki çekimli kelimeyi tümüyle boşa çevir */
+function clozeBlank(q){
+  if(!q.s) return null;
+  const stem=q.w.slice(0,Math.max(3,q.w.length-2));
+  const re=new RegExp(stem+"[\\p{L}]*","iu");
+  if(!re.test(q.s)) return null;
+  return q.s.replace(new RegExp(re.source,"gi"),"＿＿＿＿＿");
+}
+/* Türkçe-duyarlı karşılaştırma: İ→i, I→ı önce (JS toLowerCase "İ"yi i+nokta yapar) */
+function trLower(s){ return s.replace(/İ/g,"i").replace(/I/g,"ı").toLowerCase().trim(); }
+/* Aksansız katman: muğlak ≈ muglak ≈ MUGLAK kabul */
+function trFold(s){ return trLower(s).replace(/ğ/g,"g").replace(/ü/g,"u").replace(/ş/g,"s").replace(/ı/g,"i").replace(/ö/g,"o").replace(/ç/g,"c").replace(/[âá]/g,"a").replace(/[îí]/g,"i").replace(/[ûú]/g,"u"); }
+function writeMatch(inp,ans){ return trLower(inp)===trLower(ans) || trFold(inp)===trFold(ans); }
+function startWrite(){
+  writeIdx=0; writeScore=0; writeRows=[]; writeLock=false;
+  go("write"); nextWrite();
+}
+function nextWrite(){
+  if(writeIdx>=sequence.length){ finish(gradeWrite()); return; }
+  writeLock=false; writeTries=0;
+  const q=sequence[writeIdx];
+  $("#writeProg").textContent=(writeIdx+1)+" / "+sequence.length;
+  $("#writeLetters").textContent="";
+  const ws=$("#writeSent"); ws.classList.remove("on"); ws.textContent="";
+  const inp=$("#writeInp"); inp.value=""; inp.disabled=false;
+  writeCloze=(rMode==="cloze") ? clozeBlank(q) : null;
+  if(writeCloze){
+    // v8: cümle + boşluk asıl soru, anlam ipucu altta
+    $("#writeMean").textContent="Anlam ipucu: "+q.m;
+    ws.textContent=writeCloze; ws.classList.add("on");
+    $("#writeSentBtn").style.display="none";
+    inp.placeholder="Boşluğa kelimeyi yaz";
+  } else {
+    $("#writeMean").textContent=q.m;
+    $("#writeSentBtn").style.display=q.s?"":"none";
+    inp.placeholder="Kelimeyi yaz";
+  }
+  $("#writeTries").textContent="";
+  if(!("ontouchstart" in window)) inp.focus();
+}
+function writeShowSent(){
+  const q=sequence[writeIdx]; if(!q||!q.s) return;
+  const ws=$("#writeSent");
+  // ipucu cümlesinde cevabın kendisini maskele (baş harfleri değil kelimeyi gizle)
+  ws.textContent=q.s.replace(new RegExp(q.w.slice(0,Math.max(3,q.w.length-3)),"gi"),"◼︎◼︎◼︎");
+  ws.classList.add("on"); $("#writeSentBtn").style.display="none"; buzz(6);
+}
+function writeHintText(t,w){ // t=1 → ilk harf, t=2 → ilk iki harf
+  return w.slice(0,t)+" "+w.slice(t).replace(/./g,"· ").trim();
+}
+function writeSubmit(){
+  if(writeLock || writeIdx>=sequence.length) return;
+  const q=sequence[writeIdx], inp=$("#writeInp"), val=inp.value;
+  if(!val.trim()) return;
+  if(writeMatch(val,q.w)){ writeDone(true,val); return; }
+  writeTries++;
+  onWrong("write"); buzz([6,30]);
+  if(writeTries>=3){ writeDone(false,val); return; }
+  $("#writeLetters").textContent=writeHintText(writeTries,q.w); // 1. yanlış: ilk harf, 2. yanlış: ilk iki harf
+  $("#writeTries").textContent=(3-writeTries)+" hak kaldı";
+  inp.value=""; if(!("ontouchstart" in window)) inp.focus();
+}
+function writeDone(c,typed){
+  writeLock=true;
+  const q=sequence[writeIdx], inp=$("#writeInp");
+  inp.disabled=true;
+  srsTouch(q,c); // 3. yanlışta SRS'e yanlış işlenir
+  const wl=$("#writeLetters");
+  wl.innerHTML=c?('<span class="wreveal">'+q.w+' ✓</span>'):q.w; // açığa çıkar
+  $("#writeTries").textContent="";
+  if(c){ writeScore++; onCorrect(inp); buzz(9); }
+  else { combo=0; updCombo(); sBuzz(); shake("write"); buzz([6,40]); }
+  writeRows.push({w:q.w, m:q.m, s:q.s, e:q.e, p:q.p, c, a:c?"doğru":(typed.trim()||"—")});
+  const sid=session;
+  setTimeout(()=>{ if(sid!==session) return; writeIdx++; nextWrite(); }, c?700:1400);
+}
+$("#writeInp").addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); writeSubmit(); } });
+function gradeWrite(){ const rows=writeRows; writeRows=[]; return {ok:writeScore,total:sequence.length,rows}; }
+
+/* ============ v6: ZAMANA KARŞI ⏱ — 60 sn, Anlamı Seç mekaniği ============ */
+const TIME_START=60, TIME_CAP=75, TIME_BONUS=1, TIME_PENALTY=2;
+let timeLeft=0, timeIdx=0, timeOk=0, timeWrong=0, timeRows=[], timeT=null, timeLock=false, timeLastTick=99;
+function startTime(){
+  timeLeft=TIME_START; timeIdx=0; timeOk=0; timeWrong=0; timeRows=[]; timeLock=false; timeLastTick=TIME_START;
+  go("time"); updTimeHud(); nextTimeQ();
+  if(timeT) clearInterval(timeT);
+  const sid=session;
+  timeT=setInterval(()=>{
+    if(sid!==session){ clearInterval(timeT); timeT=null; return; } // session guard: quit/arka plan turu öldürür
+    timeLeft-=0.1; updTimeHud();
+    const c=Math.ceil(timeLeft);
+    if(c<timeLastTick){ timeLastTick=c;
+      if(c>0 && (c<=10 || c%5===0)) sTick();          // son 10 sn: her saniye tik
+    } else if(c<=5 && c>0 && Math.round(timeLeft*10)%5===0){ sTick(); } // son 5 sn: yarım saniyede bir — hızlanan tik
+    if(timeLeft<=0){
+      clearInterval(timeT); timeT=null; timeLeft=0; updTimeHud();
+      const g=gradeTime(); setTimeout(()=>{ if(sid===session) finish(g); },250);
+    }
+  },100);
+}
+function updTimeHud(){
+  const bar=$("#timeBar"), clk=$("#timeClock");
+  const urgent=timeLeft<10;
+  bar.classList.toggle("urgent",urgent); clk.classList.toggle("urgent",urgent);
+  bar.querySelector("i").style.width=Math.max(0,timeLeft/TIME_CAP*100)+"%";
+  clk.textContent=Math.max(0,Math.ceil(timeLeft));
+  $("#timeScore").textContent=timeOk+" doğru";
+}
+function nextTimeQ(){
+  timeLock=false;
+  const q=sequence[timeIdx%sequence.length];
+  const qe=emo(q); $("#timeWord").innerHTML=pivot(q.w)+(qe?'<span class="wemo">'+qe+'</span>':"");
+  const opts=shuffle(meanDistractors(q).concat([q.m])); // seeded rng → aynı seed = aynı şıklar
+  $("#timeOpts").innerHTML=opts.map(m=>`<button class="mopt" onclick="timeAns(this)">${m}</button>`).join("");
+}
+function timeAns(btn){
+  if(timeLock || timeLeft<=0) return; timeLock=true;
+  const q=sequence[timeIdx%sequence.length];
+  const c=(btn.textContent===q.m);
+  srsTouch(q,c);
+  if(c){ timeOk++; timeLeft=Math.min(timeLeft+TIME_BONUS,TIME_CAP); btn.classList.add("ok"); onCorrect(btn); }
+  else { timeWrong++; timeLeft-=TIME_PENALTY; btn.classList.add("bad");
+         $$("#timeOpts .mopt").forEach(b=>{ if(b.textContent===q.m) b.classList.add("ok"); });
+         onWrong("time"); }
+  timeRows.push({w:q.w, m:q.m, s:q.s, e:q.e, p:q.p, c, a:c?"doğru":"✗"});
+  buzz(c?9:[6,30]); timeIdx++; updTimeHud();
+  const sid=session;
+  setTimeout(()=>{ if(sid!==session || timeLeft<=0) return; nextTimeQ(); }, c?220:520); // tempo yüksek
+}
+function gradeTime(){
+  const rows=timeRows; timeRows=[];
+  return {ok:timeOk, total:Math.max(timeOk+timeWrong,1), rows, timed:true}; // pct = doğru/(doğru+yanlış)
+}
+
+/* ============ v7: MİNİ DENEME 📝 — 20 soruluk karışık sınav (mod DEĞİL, ayrı giriş) ============
+   Soru dağılımı: 7 anlam-seç (kelime→anlam) + 7 tanıma (anlam→kelime, kartsız 4 buton) + 6 yazma.
+   Sıra seed'li karışık (aynı seed = aynı soru tipleri sırası) → düello linki desteklenir.
+   Süre yok (sınav sakinliği). Her cevap SRS'e işlenir; karne kırılımı için satırlara qt alanı yazılır. */
+const EXAM_DIST=[["mean",7],["recog",7],["write",6]];
+function examTypes(total){
+  let t=[]; EXAM_DIST.forEach(([k,c])=>{ for(let i=0;i<c;i++) t.push(k); });
+  return shuffle(t).slice(0,total); // rng tur başında tohumlu → deterministik sıra
+}
+let exIdx=0, exOk=0, exRows=[], exTypes=[], exLock=false;
+/* tanıma sorusu çeldiricileri: aynı paketten 3 FARKLI kelime (anlamları da farklı olsun) */
+function wordDistractors(q){
+  const seen={}; seen[q.w]=1; const seenM={}; seenM[q.m]=1; const out=[];
+  const pools=[PACKS[rPack].words, PACKS.mix.words];
+  for(const pool of pools){
+    for(const o of shuffle(pool)){
+      if(seen[o.w] || seenM[o.m]) continue;
+      seen[o.w]=1; seenM[o.m]=1; out.push(o.w);
+      if(out.length===3) return out;
+    }
+  }
+  return out;
+}
+function startExamRun(){
+  exIdx=0; exOk=0; exRows=[]; exLock=false;
+  exTypes=examTypes(sequence.length);
+  go("exam"); nextExam();
+}
+function nextExam(){
+  if(exIdx>=sequence.length){ finish(gradeExam()); return; }
+  exLock=false;
+  const q=sequence[exIdx], qt=exTypes[exIdx];
+  $("#examProg").textContent="Soru "+(exIdx+1)+" / "+sequence.length;
+  $("#examReveal").innerHTML="";
+  const opts=$("#examOpts"), wr=$("#examWriteRow"), inp=$("#examInp");
+  if(qt==="mean"){
+    $("#examKind").textContent="🧠 Anlamı seç";
+    const qe=emo(q);
+    $("#examQ").innerHTML='<span class="disp" style="font-size:min(9vw,36px);font-weight:700">'+pivot(q.w)+(qe?'<span class="wemo">'+qe+'</span>':"")+'</span>';
+    opts.innerHTML=shuffle(meanDistractors(q).concat([q.m])).map(m=>`<button class="mopt" onclick="examPick(this)">${m}</button>`).join("");
+    wr.style.display="none";
+  } else if(qt==="recog"){
+    $("#examKind").textContent="🔍 Kelimeyi tanı";
+    $("#examQ").textContent=q.m;
+    opts.innerHTML=shuffle(wordDistractors(q).concat([q.w])).map(w=>`<button class="mopt dispw" onclick="examPick(this)">${w}</button>`).join("");
+    wr.style.display="none";
+  } else { // write — tek deneme (sınav), ipuçsuz
+    $("#examKind").textContent="✍️ Kelimeyi yaz";
+    $("#examQ").textContent=q.m;
+    opts.innerHTML="";
+    wr.style.display="";
+    inp.value=""; inp.disabled=false;
+    if(!("ontouchstart" in window)) inp.focus();
+  }
+}
+function examPick(btn){
+  if(exLock || exIdx>=sequence.length) return; exLock=true;
+  const q=sequence[exIdx], qt=exTypes[exIdx];
+  const key=qt==="mean"?q.m:q.w, c=(btn.textContent===key);
+  $$("#examOpts .mopt").forEach(b=>{ if(b.textContent===key) b.classList.add("ok"); });
+  if(!c) btn.classList.add("bad");
+  examDone(c, btn, c?"doğru":"✗");
+}
+function examWriteSubmit(){
+  if(exLock || exIdx>=sequence.length) return;
+  const q=sequence[exIdx], inp=$("#examInp"), val=inp.value;
+  if(!val.trim()) return;
+  exLock=true; inp.disabled=true;
+  const c=writeMatch(val,q.w);
+  $("#examReveal").innerHTML=c?('<span class="wreveal">'+q.w+' ✓</span>'):q.w;
+  examDone(c, inp, c?"doğru":(val.trim()||"—"));
+}
+function examDone(c,el,ansTxt){
+  const q=sequence[exIdx], qt=exTypes[exIdx];
+  srsTouch(q,c); // deneme de SRS'e işlenir → zayıf düşen kelimeler zayıf desteye akar
+  if(c){ exOk++; onCorrect(el); } else onWrong("exam");
+  exRows.push({w:q.w, m:q.m, s:q.s, e:q.e, p:q.p, c, a:ansTxt, qt}); // qt: karne kırılımı için soru tipi
+  buzz(c?9:[6,30]); exIdx++;
+  const sid=session;
+  setTimeout(()=>{ if(sid!==session) return; nextExam(); }, c?650:1250);
+}
+$("#examInp").addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); examWriteSubmit(); } });
+function gradeExam(){ const rows=exRows; exRows=[]; return {ok:exOk, total:sequence.length, rows, exam:true}; }
+
+/* ============ SONUÇ ============ */
+const MODE_TITLE={order:"SIRALI HATIRLAMA", recog:"TANIDIN MI?", mean:"ANLAMI SEÇ", write:"YAZ BAKALIM", cloze:"BOŞLUK DOLDURMA", time:"ZAMANA KARŞI", exam:"MİNİ DENEME"};
+function finish(g){
+  const pct=Math.round(g.ok/g.total*100);
+  // XP + kombo bonusu + seri + günlük
+  const base = g.ok*10 + (pct>=80?25:0) + (pct===100?25:0);
+  const gained = base + comboXP;
+  S.xp+=gained; S.runs++; S.scoreSum+=pct;
+  if(pct>S.best) S.best=pct;
+  const t=today();
+  if(S.dailyDate!==t){ S.dailyDate=t; S.daily=0; }
+  S.daily++;
+  // Seri kuralı: yalnızca %80+ tur günü sayar; %80 altı seriyi ne artırır ne bozar (seriyi sadece kaçırılan GÜN bozar)
+  if(pct>=80 && S.lastDay!==t){ S.streak = (S.lastDay===yesterdayOf(t))? S.streak+1 : 1; S.lastDay=t; }
+  if(runDaily){ S.dailyPct=(S.dailyDone===t)?Math.max(S.dailyPct||0,pct):pct; S.dailyDone=t; S.dailyRuns=(S.dailyRuns||0)+1; } // günün en iyi skoru tutulur
+  if(g.exam) S.examRuns=(S.examRuns||0)+1; // v7
+  S.wordsSeen=(S.wordsSeen||0)+(g.timed?g.rows.length:sequence.length); // v6: zamana karşı → cevaplanan kadar
+  save();
+  LS.set("srs",SRS); // v5: tur boyunca biriken SRS dokunuşlarını tek seferde yaz
+  buzz(pct>=80?[15,50,15]:20);
+  combo=0; updCombo();
+  lastResult={pct, ok:g.ok, total:g.total, seed:runSeed, pack:rPack, mode:rMode, n:rN, speed:rSpeed, daily:runDaily, duel:runDuel, streak:effStreak(), lvl:levelInfo().lvl, bestCombo};
+  // rozet kontrolü
+  const newBadges=checkBadges({runs:S.runs, pct, bestCombo, streak:effStreak(), wordsSeen:S.wordsSeen, duel:!!runDuel, dailyRuns:S.dailyRuns, hour:new Date().getHours(), weakPct:(rPack==="weak"?pct:0), timeOk:(rMode==="time"?g.ok:0), examRuns:S.examRuns, examPct:(g.exam?pct:0)});
+
+  const cls=pct>=80?"good":pct>=50?"mid":"low";
+  $("#scMode").textContent=(runDaily?"GÜNLÜK · ":"")+MODE_TITLE[rMode];
+  $("#scPct").className="pct "+cls; countUp($("#scPct"),pct);
+  $("#scSub").textContent=g.ok+" / "+g.total+" doğru · "+PACKS[rPack].name;
+
+  // Düello karşılaştırması (varsa) — zayıf/favori desteler kişiye özel olduğundan düelloya kapalı
+  $("#duelBtn").style.display=((rPack==="weak"||rPack==="fav")?"none":"");
+  const dc=$("#duelCmp");
+  if(runDuel){
+    const opp=runDuel.score, win=pct>opp, tie=pct===opp;
+    dc.style.display="block";
+    dc.innerHTML=`⚔️ Sen <span class="${win?'win':(tie?'':'lose')}">%${pct}${win?' 🏆':''}</span> — Rakip${runDuel.name?' '+runDuel.name:''} %${opp}${(!win&&!tie)?' 🏆':''}${tie?' · Berabere!':''}`;
+    $("#duelBtn").textContent="Rövanş ⚔️";
+  } else { dc.style.display="none"; dc.innerHTML=""; $("#duelBtn").textContent="Düello ⚔️"; }
+  $("#scChips").innerHTML=`
+    ${rMode==="time"?`<span class="chip">⏱ <span class="hl">${g.ok}</span> kelime</span>`:""}
+    <span class="chip">🔥 <span class="hl">${effStreak()}</span> seri</span>
+    <span class="chip">⚡ Lv <span class="hl">${levelInfo().lvl}</span></span>
+    ${bestCombo>=2?`<span class="chip">🔗 <span class="hl">${bestCombo}x</span> kombo</span>`:""}
+    <span class="chip">+<span class="hl">${gained}</span> XP</span>
+    ${newBadges.map(b=>`<span class="chip">🏅 <span class="hl">${b.e} ${b.n}</span></span>`).join("")}`;
+  $("#xpGain").textContent = (pct>=80 ? `Harika! +${gained} XP kazandın` : `+${gained} XP · %80 üstü günlük seri sayılır`)
+    + (comboXP>0 ? ` (${comboXP} kombo bonusu)` : "");
+  // v7: Deneme Karnesi — soru tipi bazlı kırılım (rows[].qt üzerinden)
+  const eb=$("#examBreak");
+  if(g.exam){
+    const NM={mean:"🧠 Anlam", recog:"🔍 Tanıma", write:"✍️ Yazma"};
+    const agg={}; g.rows.forEach(r=>{ const a=agg[r.qt]||(agg[r.qt]={ok:0,t:0}); a.t++; if(r.c) a.ok++; });
+    eb.style.display="";
+    eb.innerHTML='<div class="k">Deneme Karnesi</div>'+["mean","recog","write"].map(k=>{
+      const a=agg[k]; if(!a) return "";
+      const p=Math.round(a.ok/a.t*100);
+      return `<div class="brow"><span>${NM[k]}</span><span class="btrack"><i style="width:${p}%"></i></span><b>%${p} · ${a.ok}/${a.t}</b></div>`;
+    }).join("");
+  } else { eb.style.display="none"; eb.innerHTML=""; }
+  $("#review").innerHTML = g.rows.map((r,i)=>{
+    const re=emo(r); // v6: emoji katmanı — inceleme satırında da
+    const wrongTxt = rMode==='order' ? r.a
+                   : rMode==='write' ? (r.a||'—')           // yazdığı vs doğru
+                   : rMode==='exam' ? (r.qt==='write' ? (r.a||'—') : '✗')
+                   : (rMode==='mean'||rMode==='time') ? '✗' : 'yanlış';
+    return `<div class="rrow" style="animation-delay:${Math.min(i*45,600)}ms"><span class="i">${i+1}</span>
+    <span class="w">${re?`<span class="remo">${re}</span>`:""}${r.w}${r.m?`<div class="rm">${r.m}</div>`:""}${r.s?`<div class="rsent">${r.s}</div>`:""}</span>
+    <span class="${r.c?'ok':'no'}">${r.c?'✓':wrongTxt}</span></div>`;
+  }).join("");
+  go("result");
+  refreshHome(); // günlük kart "oynandı ✓" durumu tazelensin
+
+  // kutlama katmanları
+  if(pct>=80) sFanfare(); else sMeh();
+  const sid=session;
+  if(pct===100){ setTimeout(()=>{ if(sid===session) rainBolts(); },250); }
+  else if(pct>=80){
+    setTimeout(()=>{
+      if(sid!==session) return;
+      const ar=$(".app").getBoundingClientRect(), r=$("#shareCard").getBoundingClientRect();
+      burstXY(r.left-ar.left+r.width/2, r.top-ar.top+r.height/2, 14);
+    },250);
+  }
+  // yeni rozet kutlaması (kutlama efektlerinden sonra, sırayla)
+  if(newBadges.length){ setTimeout(()=>{ if(sid===session) queueBadges(newBadges); }, 1000); }
+}
+
+/* ============ DÜELLO LİNKİ (backend-siz) ============ */
+/* payload: seed|pack|mode|n|speed|score|name — base64url, Türkçe karakter güvenli */
+function encB64(s){ return btoa(unescape(encodeURIComponent(s))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,""); }
+function decB64(s){ return decodeURIComponent(escape(atob(s.replace(/-/g,"+").replace(/_/g,"/")))); }
+function duelLink(r){
+  const payload=[r.seed,r.pack,r.mode,r.n,r.speed,r.pct,r.name||""].join("|");
+  return location.origin+location.pathname+"?d="+encB64(payload);
+}
+function parseDuel(q){
+  try{
+    const p=decB64(q).split("|");
+    const d={seed:(+p[0])>>>0, pack:p[1], mode:p[2], n:+p[3], speed:+p[4], score:+p[5], name:p[6]||""};
+    if(!PACKS[d.pack] || d.pack==="weak" || d.pack==="fav" || !MODE_TITLE[d.mode] || !(d.n>0) || !(d.speed>0) || isNaN(d.score)) return null;
+    return d;
+  }catch(e){ return null; }
+}
+/* Not: "Rövanş" da aynı desteyi (aynı seed) paylaşır — hafıza antrenmanında desteyi iki tarafın da görmüş olması adil */
+async function duelShare(){
+  const r=lastResult; if(!r) return;
+  const url=duelLink(r);
+  const txt=`Beni geç ⚡ Kelimşek'te %${r.pct} yaptım`;
+  buzz(8);
+  try{
+    if(navigator.share){ await navigator.share({title:"Kelimşek Düello ⚔️", text:txt, url}); }
+    else { await navigator.clipboard.writeText(txt+" "+url); alert("Düello linki kopyalandı ⚔️ — rakibine gönder"); }
+  }catch(e){}
+}
+function openDuelIntro(){
+  const d=duelPending; if(!d) return;
+  $("#dlDesc").textContent=PACKS[d.pack].name+" · "+MODE_TITLE[d.mode]+" · "+d.n+" kelime";
+  $("#dlLead").textContent=`Rakibin${d.name?" "+d.name:""}: %${d.score} — aynı desteyle sen kaç yaparsın?`;
+  $("#duelIntro").classList.add("on"); buzz([8,30,8]);
+}
+function closeDuelIntro(){
+  $("#duelIntro").classList.remove("on"); duelPending=null;
+  try{ history.replaceState(null,"",location.pathname); }catch(e){}
+}
+
+/* ============ GÖRSEL SKOR KARTI (canvas, 1080×1350) ============ */
+function roundRect(ctx,px,py,w,h,r){ ctx.beginPath(); ctx.moveTo(px+r,py); ctx.arcTo(px+w,py,px+w,py+h,r); ctx.arcTo(px+w,py+h,px,py+h,r); ctx.arcTo(px,py+h,px,py,r); ctx.arcTo(px,py,px+w,py,r); ctx.closePath(); }
+async function scoreCardBlob(){
+  const r=lastResult; if(!r) return null;
+  const F='"Space Grotesk",-apple-system,system-ui,sans-serif';
+  try{ await document.fonts.load('700 300px "Space Grotesk"'); }catch(e){}
+  const c=document.createElement("canvas"); c.width=1080; c.height=1350;
+  const x=c.getContext("2d"); if(!x) return null;
+  // koyu mor degrade zemin
+  const g=x.createLinearGradient(0,0,1080,1350);
+  g.addColorStop(0,"#1e0b38"); g.addColorStop(.55,"#2a1150"); g.addColorStop(1,"#421344");
+  x.fillStyle=g; x.fillRect(0,0,1080,1350);
+  const halo=x.createRadialGradient(900,140,0,900,140,520);
+  halo.addColorStop(0,"rgba(255,178,62,.30)"); halo.addColorStop(1,"rgba(255,178,62,0)");
+  x.fillStyle=halo; x.fillRect(0,0,1080,1350);
+  const halo2=x.createRadialGradient(80,1250,0,80,1250,460);
+  halo2.addColorStop(0,"rgba(139,124,255,.22)"); halo2.addColorStop(1,"rgba(139,124,255,0)");
+  x.fillStyle=halo2; x.fillRect(0,0,1080,1350);
+  // şimşek
+  x.save(); x.translate(96,110); x.scale(1.7,1.7);
+  x.beginPath(); x.moveTo(62,0); x.lineTo(8,98); x.lineTo(46,98); x.lineTo(16,182); x.lineTo(96,72); x.lineTo(54,72); x.closePath();
+  const bg=x.createLinearGradient(0,0,96,182); bg.addColorStop(0,"#ffb23e"); bg.addColorStop(1,"#ff5470");
+  x.fillStyle=bg; x.shadowColor="rgba(255,150,70,.85)"; x.shadowBlur=46; x.fill(); x.restore();
+  x.shadowBlur=0; x.textAlign="left"; x.textBaseline="alphabetic";
+  // üst etiket
+  x.fillStyle="rgba(183,171,218,.9)"; x.font="600 40px "+F;
+  const lbl=(r.daily?"GÜNLÜK · ":"")+MODE_TITLE[r.mode];
+  x.fillText(lbl,96,560);
+  // dev yüzde
+  x.fillStyle = r.pct>=80 ? "#39e29a" : r.pct>=50 ? "#ffb23e" : "#ff5470";
+  x.font="700 320px "+F;
+  x.fillText("%"+r.pct,80,880);
+  // alt bilgi
+  x.fillStyle="#f7f2ff"; x.font="600 48px "+F;
+  x.fillText(r.ok+" / "+r.total+" doğru · "+PACKS[r.pack].name,96,960);
+  // çipler
+  const chips=["🔥 "+r.streak+" seri","⚡ Lv "+r.lvl].concat(r.bestCombo>=2?["🔗 "+r.bestCombo+"x kombo"]:[]);
+  let cx=96; const cy=1030;
+  x.font="600 38px "+F;
+  chips.forEach(t=>{
+    const w=x.measureText(t).width+64;
+    x.fillStyle="rgba(255,255,255,.08)"; roundRect(x,cx,cy,w,84,42); x.fill();
+    x.strokeStyle="rgba(255,255,255,.14)"; x.lineWidth=2; roundRect(x,cx,cy,w,84,42); x.stroke();
+    x.fillStyle="#f7f2ff"; x.fillText(t,cx+32,cy+56);
+    cx+=w+22;
+  });
+  // wordmark: kelim + ŞEK (degrade)
+  x.font="700 64px "+F;
+  x.fillStyle="#f7f2ff"; x.fillText("KELİM",96,1260);
+  const kw=x.measureText("KELİM").width;
+  const wg=x.createLinearGradient(96+kw,1200,96+kw+220,1260); wg.addColorStop(0,"#ffb23e"); wg.addColorStop(1,"#ff5470");
+  x.fillStyle=wg; x.fillText("ŞEK",96+kw,1260);
+  x.fillStyle="rgba(150,138,190,.95)"; x.font="500 34px "+F; x.textAlign="right";
+  x.fillText("kelime ezberi, şimşek hızında ⚡",984,1256);
+  x.textAlign="left";
+  return new Promise(res=>c.toBlob(res,"image/png"));
+}
+
+/* ============ PAYLAŞ ============ */
+function shareText(){
+  const r=lastResult||{pct:0};
+  if(r.daily){
+    const t=today(); const dt=t.slice(8,10)+"."+t.slice(5,7);
+    return {txt:`Kelimşek Günlük ${dt} ⚡ %${r.pct} 🔥${effStreak()} gün`, url:duelLink(r)};
+  }
+  return {txt:`Kelimşek ⚡ ile %${r.pct} yaptım! 🔥 ${effStreak()} günlük seri, Seviye ${levelInfo().lvl}. Sen de dene:`, url:null};
+}
+async function share(){
+  const {txt,url}=shareText();
+  // 1) canvas skor kartını PNG olarak paylaş (destek varsa)
+  try{
+    if(navigator.share && navigator.canShare){
+      const blob=await scoreCardBlob();
+      if(blob){
+        const file=new File([blob],"kelimsek-skor.png",{type:"image/png"});
+        if(navigator.canShare({files:[file]})){
+          const data={files:[file], text:txt+(url?" "+url:"")};
+          await navigator.share(data); return;
+        }
+      }
+    }
+  }catch(e){ if(e && e.name==="AbortError") return; }
+  // 2) metin paylaşımı / pano
+  try{
+    if(navigator.share){ await navigator.share(Object.assign({title:"Kelimşek ⚡", text:txt}, url?{url}:{})); }
+    else { await navigator.clipboard.writeText(txt+(url?" "+url:"")); alert("Skorun kopyalandı — story'ne yapıştır ⚡"); }
+  }catch(e){}
+}
+
+/* ============ v7: SÖZLÜK & İLERLEME 📖 ============
+   Performans: 1080 kelimelik paket tek DOM'a basılmaz — 50'şer sayfalama ("Daha fazla"). */
+const DICT_PACKS=["tr","yks","kpss","yds"];
+let dPk="tr", dLimit=50, dQ="";
+function openDict(){ if(DICT_PACKS.indexOf(dPk)<0) dPk="tr"; dLimit=50; renderDict(); }
+function dictPick(k){ dPk=k; dLimit=50; renderDict(); buzz(6); }
+function dictSearch(v){ dQ=trFold(v||""); dLimit=50; renderDictList(); }
+function dictMore(){ dLimit+=50; renderDictList(); buzz(6); }
+function renderDict(){
+  $("#dictSeg").innerHTML=DICT_PACKS.map(k=>`<button class="${k===dPk?'sel':''}" onclick="dictPick('${k}')">${GOALS[k]?GOALS[k].name:'Genel'}</button>`).join("");
+  const pr=packProgress(dPk);
+  const pctW=pr.total?Math.round(pr.studied/pr.total*100):0;
+  $("#dictProg").innerHTML=`${PACKS[dPk].emo} <b>${PACKS[dPk].name}</b>: <b>${pr.studied}</b>/${pr.total} çalışıldı · <b>${pr.learned}</b> öğrenildi · <b>${pr.weak}</b> zayıf
+    <div class="track"><i style="width:${pctW}%"></i></div>`;
+  renderDictList();
+}
+function speakWord(t){
+  try{ const u=new SpeechSynthesisUtterance(t); u.lang="tr-TR"; u.rate=.9; speechSynthesis.cancel(); speechSynthesis.speak(u); }catch(e){}
+}
+function renderDictList(){
+  const list=PACKS[dPk].words.filter(o=>!dQ || trFold(o.w).indexOf(dQ)>=0 || trFold(o.m).indexOf(dQ)>=0);
+  const fe=k=>(dPk==="tr")?(EMOJI[k]||""):""; // emoji yalnız somut tr kelimelerinde (emo() kuralıyla aynı)
+  $("#dictList").innerHTML=list.slice(0,dLimit).map(o=>{
+    const st=wordStatus(SRS[dPk+":"+o.w]), fav=!!FAV[dPk+":"+o.w], e=fe(o.w);
+    return `<div class="drow" onclick="this.classList.toggle('open')">
+      <div class="dt"><b>${e?e+" ":""}${o.w}</b><span class="stb ${st}">${ST_TR[st]}</span>
+        <span class="fstar ${fav?'on':''}" onclick="event.stopPropagation();favTog('${dPk}','${o.w.replace(/'/g,"\\'")}');this.classList.toggle('on')">⭐</span>
+        <span style="opacity:.6;cursor:pointer" onclick="event.stopPropagation();speakWord('${o.w.replace(/'/g,"\\'")}')">🔊</span></div>
+      <div class="dm">${o.m}</div>${o.k?`<div class="ds" style="color:#f0b429">📖 ${o.k}</div>`:""}${o.s?`<div class="ds">${o.s}</div>`:""}
+    </div>`;
+  }).join("") || '<div class="faint" style="text-align:center;padding:20px 0;font-size:13px">Sonuç yok</div>';
+  $("#dictMoreBtn").style.display = list.length>dLimit ? "" : "none";
+}
+
+/* ============ ONBOARDING ============ */
+const OB=[
+  {e:"⚡",h:"Kelime ezberi, şimşek hızında",p:"YKS · KPSS · YDS kelimeleri şimşek gibi akar, sen yakalarsın. Tek elle, internetsiz, 60 saniyelik turlar.",demo:true},
+  {e:"🧠",h:"Gördüğünü hatırla",p:"Kelimeler hızla geçer; sırala, tanı ya da anlamını bul. Hafızan ve kelime dağarcığın birlikte keskinleşir."},
+  {e:"⚔️",h:"Seri yap, arkadaşını geç",p:"Günlük Kelimşek'te herkes aynı desteyi çözer. Skorunu paylaş, düello linki gönder, komboyla seviye atla."},
+  {e:"🎯",h:"Hangi sınava hazırlanıyorsun?",p:"Sana uygun paketi öne çıkarıp günlük hedefini ayarlayalım.",goal:true}, // v7
+];
+let obI=0, obDemoT=null;
+const OB_DEMO=["muğlak","resilient","tefekkür"];
+function obDemoStart(){
+  if(obDemoT){ clearInterval(obDemoT); obDemoT=null; }
+  const el=$("#obDemo"); if(!el) return;
+  let i=0;
+  const show=()=>{ const e2=$("#obDemo"); if(!e2){ clearInterval(obDemoT); obDemoT=null; return; } e2.innerHTML="<span>"+pivot(OB_DEMO[i%OB_DEMO.length])+"</span>"; i++; };
+  show();
+  if(!RM) obDemoT=setInterval(show,720);
+}
+function renderOb(){
+  const o=OB[obI];
+  const goalHtml = o.goal ? `<div class="goalopts">
+    <button class="opt" onclick="obGoal('yks')"><span class="oi">🎓</span><span class="ot"><b>YKS</b><span>Edebiyat & soyut kelimeler</span></span></button>
+    <button class="opt" onclick="obGoal('kpss')"><span class="oi">📚</span><span class="ot"><b>KPSS</b><span>Kavram & terimler</span></span></button>
+    <button class="opt" onclick="obGoal('yds')"><span class="oi">🌍</span><span class="ot"><b>YDS</b><span>Akademik İngilizce</span></span></button>
+    <button class="opt" onclick="obGoal('merak')"><span class="oi">⚡</span><span class="ot"><b>Sadece kelime merakı</b><span>Sınavsız, keyfine</span></span></button>
+  </div>` : "";
+  $("#obBody").innerHTML=`<div class="big">${o.e}</div><h1>${o.h}</h1><p>${o.p}</p>${o.demo?'<div class="obdemo" id="obDemo"></div>':''}${goalHtml}`;
+  $("#obDots").innerHTML=OB.map((_,i)=>`<i class="${i===obI?'on':''}"></i>`).join("");
+  $("#obBtn").textContent = obI===OB.length-1 ? "Atla" : "Devam"; // hedef adımı: seçim butonları asıl yol
+  if(o.demo) obDemoStart(); else if(obDemoT){ clearInterval(obDemoT); obDemoT=null; }
+}
+function obFinish(){ if(obDemoT){clearInterval(obDemoT);obDemoT=null;} S.seenOnb=true; save(); refreshHome(); go("home"); }
+function obGoal(g){ setGoal(g,true); buzz([8,30,8]); obFinish(); } // v7: hedef seç → paketi/vitrini + günlük hedefi ayarla
+function obNext(){ if(obI<OB.length-1){ obI++; renderOb(); buzz(6);} else obFinish(); }
+
+/* ============ AYARLAR ============ */
+function toggleHaptic(){ S.haptic=!S.haptic; save(); $("#swHaptic").classList.toggle("on",S.haptic); buzz(10); }
+function toggleSound(){ S.sound=!S.sound; save(); $("#swSound").classList.toggle("on",S.sound); if(S.sound){ ac(); sBlip(1); } buzz(6); }
+function toggleMean(){ S.showMean=!effShowMean(); save(); $("#swMean").classList.toggle("on",effShowMean()); buzz(6); }
+function resetAll(){ if(confirm("Tüm ilerlemen (seri, seviye, XP) silinsin mi?")){ Object.keys(localStorage).filter(k=>k.startsWith("smsk_")).forEach(k=>localStorage.removeItem(k)); location.reload(); } }
+function fillStats(){
+  $("#stStreak").textContent=effStreak(); $("#stBest").textContent=S.best+"%";
+  $("#stRuns").textContent=S.runs; $("#stLvl").textContent=levelInfo().lvl;
+  $("#stAvg").textContent=(S.runs?Math.round(S.scoreSum/S.runs):0)+"%"; $("#stXp").textContent=S.xp;
+  $("#swHaptic").classList.toggle("on",S.haptic);
+  $("#swSound").classList.toggle("on",S.sound);
+  $("#swMean").classList.toggle("on",effShowMean());
+  const bn=$("#setBadgeN"); if(bn) bn.textContent=Object.keys(badges).filter(id=>BADGES.some(b=>b.id===id)).length+"/"+BADGES.length;
+  // v7: toplam ilerleme satırı ("2.211 kelimeden 312'si çalışıldı" karşılığı) + hedef sınav
+  let tot=0, stu=0; DICT_PACKS.forEach(k=>{ const p=packProgress(k); tot+=p.total; stu+=p.studied; });
+  const sd=$("#stDict");
+  if(sd) sd.innerHTML=`📖 <b>${stu.toLocaleString("tr-TR")}</b> / ${tot.toLocaleString("tr-TR")} kelime çalışıldı — Sözlük ›
+    <div class="track"><i style="width:${tot?Math.round(stu/tot*100):0}%"></i></div>`;
+  const sg=$("#setGoal"); if(sg) sg.textContent = GOALS[S.goal] ? (GOALS[S.goal].e+" "+GOALS[S.goal].name) : "—";
+}
+
+/* ============ init ============ */
+(function init(){
+  $("#swHaptic").classList.toggle("on",S.haptic);
+  $("#swSound").classList.toggle("on",S.sound);
+  $("#swMean").classList.toggle("on",effShowMean());
+  refreshHome();
+  // XP/seviye görsel geri bildirimi: ana ekrana dönüşte artış varsa parla
+  let uiXp=S.xp, uiLvl=levelInfo().lvl, stagT=null;
+  function homeFx(){
+    const li=levelInfo();
+    if(S.xp>uiXp && !RM){ const tr=$(".lvl .track"); tr.classList.remove("xppulse"); void tr.offsetWidth; tr.classList.add("xppulse"); }
+    if(li.lvl>uiLvl){ // seviye atlama mini kutlaması
+      const el=$("#lvN"); el.classList.remove("lvlbounce"); void el.offsetWidth; el.classList.add("lvlbounce");
+      burstEl($(".lvl")); buzz([12,60,12]);
+    }
+    uiXp=S.xp; uiLvl=li.lvl;
+  }
+  const _go=go; window.go=function(id){
+    _go(id);
+    if(id==="stats"||id==="settings") fillStats();
+    if(id==="badges") fillBadges();
+    if(id==="dict") openDict(); // v7
+    if(id==="home"){
+      refreshHome(); homeFx();
+      const h=$("#home"); h.classList.add("stag");
+      if(stagT) clearTimeout(stagT);
+      stagT=setTimeout(()=>h.classList.remove("stag"),900);
+    }
+  };
+  // ?d= düello linki ile açıldıysa: meydan okuma kartı (onboarding'i atla — hızlı büyüme döngüsü)
+  const dm=location.search.match(/[?&]d=([^&]+)/);
+  if(dm){ duelPending=parseDuel(dm[1]); }
+  if(duelPending){ go("home"); openDuelIntro(); }
+  else if(S.seenOnb || location.hash.indexOf("home")>=0){ go("home"); } else { renderOb(); go("onb"); }
+  // iOS: AudioContext ilk kullanıcı dokunuşunda oluşmalı
+  document.addEventListener("pointerdown",()=>{ if(S.sound) ac(); },{once:true});
+  document.addEventListener("visibilitychange",()=>{
+    if(document.hidden){
+      // Arka plana geçince aktif turu iptal et — iOS timer donması turu bozar
+      const running=INGAME.some(id=>$("#"+id).classList.contains("on"));
+      if(running){ session++; combo=0; updCombo(); go("home"); }
+    } else { refreshHome(); }
+  });
+  loadPacks(); // v5: JSON paketleri (SW precache → offline'da da başarılı); inline listeler anlık fallback
+  if("serviceWorker" in navigator){ navigator.serviceWorker.register("sw.js").catch(()=>{}); }
+})();
+</script>
+<script src="native-bridge.js"></script>
+</body>
+</html>
