@@ -1,0 +1,14 @@
+## OS
+.DS_Store
+Thumbs.db
+
+## Deploy
+.vercel
+.vercel/
+
+## Node
+node_modules/
+
+## Env
+.env
+.env.*
